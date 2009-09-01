@@ -1,0 +1,4148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Abakt [eo]\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-18 16:16+0200\n"
+"PO-Revision-Date: 2007-01-20 22:03+0100\n"
+"Last-Translator: Cyril Castelbou <cyril@tedehur.net>\n"
+"Language-Team: Cyril Castelbou <abakt@tedehur.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+"X-Poedit-Language: Esperanto\n"
+
+#. f_About..Caption
+#: abakt/About.dfm:7
+msgid "About"
+msgstr "Pri la programo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_About..Font.Name
+#. f_About..Panel1..pnl_MakeDonation..Font.Name
+#. f_About..Panel3..lbl_ZipBuilder..Font.Name
+#. f_About..Panel3..lbl_ZipBuilderLink..Font.Name
+#. f_About..Panel4..Label10..Font.Name
+#. f_About..Panel4..lbl_User..Font.Name
+#. f_About..Panel5..Label9..Font.Name
+#. f_About..Panel5..Label12..Font.Name
+#. f_About..Panel5..lbl_Language..Font.Name
+#. f_About..Panel7..pnl_Email..Font.Name
+#. f_About..Panel7..pnl_Internet..Font.Name
+#. f_About..Panel7..pnl_License..Font.Name
+#. f_About..Panel8..lbl_AppName..Font.Name
+#. f_Action..Font.Name
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Font.Name
+#. f_Action..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Font.Name
+#. f_Action..gbx_Progress..Panel3..lbl_FilePerc..Font.Name
+#. f_Action..Panel2..pnl_ElapsedTime..Font.Name
+#. f_Action..Panel2..pnl_GroupElapsedTime..Font.Name
+#. f_Action..Panel2..pnl_GroupCount..Font.Name
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..lbl_ZipInfo_SplitCustomSize..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..lbl_ZipInfo_Compression..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..lbl_7zInfo_Template..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_Overwrite..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseRecycleBin..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_PathInformation..Font.Name
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Font.Name
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Font.Name
+#. f_FileSizeEditor..Font.Name
+#. f_FileSizeEditor..Label1..Font.Name
+#. f_FilterPreview..Font.Name
+#. f_FilterPreview..pnl_Descr..Label15..Font.Name
+#. f_FilterPreview..gbx_FileLists..pnl_Included..lbl_IncludedFilesInfo..Font.Name
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..lbl_ExcludedFilesInfo..Font.Name
+#. f_FilterSetEditor..Font.Name
+#. f_FilterSetEditor..gbx_Conditions..Label2..Font.Name
+#. FrameFilters..pnl_Descr_Filters..Label4..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..Panel1..lbl_TestArchiveInfo..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..Panel10..lbl_RemoveEmptyDirsInfo..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..pnl_Descr_Finalize..Label9..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..lbl_FileList_Enabled_Info..Font.Name
+#. f_Group..Font.Name
+#. f_Group..PageControl..tab_Profiles..pnl_Descr_Profiles..Label1..Font.Name
+#. f_Group..PageControl..tab_CustomFilterSets..pnl_Descr_CustomFilterSets..Label3..Font.Name
+#. f_Group..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label2..Font.Name
+#. f_History..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MinBackups..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxBackups..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxDays..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistoryInfo..Font.Name
+#. f_Main..Font.Name
+#. f_Prefs..PageControl..tab_Startup..Label4..Font.Name
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Font.Name
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label14..Font.Name
+#. f_Prefs..PageControl..tab_Backup..Label7..Font.Name
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..bt_DefDestDir..Font.Name
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..lbl_Get7Zip..Font.Name
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label3..Font.Name
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label10..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label9..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label5..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label1..Font.Name
+#. f_RestoreBackup..Font.Name
+#. f_RestoreBackup..pnl_Top..lbl_ArchiveDetails..Font.Name
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..bt_DestDir..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..lbl_ProgressInfo..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..lbl_FilePerc..Font.Name
+#. FrameSource..pnl_Descr_Source..Label15..Font.Name
+#. f_TemplateEditor..Font.Name
+#. f_TemplateEditor..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label15..Font.Name
+#: abakt/About.dfm:14
+#: abakt/About.dfm:134
+#: abakt/About.dfm:160
+#: abakt/About.dfm:175
+#: abakt/About.dfm:202
+#: abakt/About.dfm:217
+#: abakt/About.dfm:232
+#: abakt/About.dfm:381
+#: abakt/About.dfm:402
+#: abakt/About.dfm:423
+#: abakt/About.dfm:449
+#: abakt/Action.dfm:13
+#: abakt/Action.dfm:136
+#: abakt/Action.dfm:180
+#: abakt/Action.dfm:224
+#: abakt/Action.dfm:330
+#: abakt/Action.dfm:347
+#: abakt/Action.dfm:364
+#: abakt/ActionTypeFrame.dfm:36
+#: abakt/ActionTypeFrame.dfm:58
+#: abakt/ActionTypeFrame.dfm:71
+#: abakt/ActionTypeFrame.dfm:113
+#: abakt/ActionTypeFrame.dfm:146
+#: abakt/ActionTypeFrame.dfm:159
+#: abakt/ActionTypeFrame.dfm:172
+#: abakt/ActionTypeFrame.dfm:185
+#: abakt/ActionTypeFrame.dfm:198
+#: abakt/ActionTypeFrame.dfm:211
+#: abakt/ActionTypeFrame.dfm:224
+#: abakt/ActionTypeSettingsFrame.dfm:52
+#: abakt/ActionTypeSettingsFrame.dfm:67
+#: abakt/ActionTypeSettingsFrame.dfm:80
+#: abakt/ActionTypeSettingsFrame.dfm:95
+#: abakt/ActionTypeSettingsFrame.dfm:175
+#: abakt/ActionTypeSettingsFrame.dfm:219
+#: abakt/ActionTypeSettingsFrame.dfm:297
+#: abakt/ActionTypeSettingsFrame.dfm:357
+#: abakt/ActionTypeSettingsFrame.dfm:405
+#: abakt/ActionTypeSettingsFrame.dfm:435
+#: abakt/ActionTypeSettingsFrame.dfm:485
+#: abakt/ActionTypeSettingsFrame.dfm:576
+#: abakt/ActionTypeSettingsFrame.dfm:596
+#: abakt/ActionTypeSettingsFrame.dfm:609
+#: abakt/ActionTypeSettingsFrame.dfm:629
+#: abakt/ActionTypeSettingsFrame.dfm:642
+#: abakt/ActionTypeSettingsFrame.dfm:657
+#: abakt/ActionTypeSettingsFrame.dfm:717
+#: abakt/ActionTypeSettingsFrame.dfm:745
+#: abakt/ActionTypeSettingsFrame.dfm:771
+#: abakt/ActionTypeSettingsFrame.dfm:784
+#: abakt/ActionTypeSettingsFrame.dfm:807
+#: abakt/ActionTypeSettingsFrame.dfm:878
+#: abakt/ConfigEditFrame.dfm:17
+#: abakt/ConfigEditFrame.dfm:30
+#: abakt/ConfigEditFrame.dfm:69
+#: abakt/ConfigEditFrame.dfm:95
+#: abakt/DestinationFrame.dfm:52
+#: abakt/DestinationFrame.dfm:65
+#: abakt/DestinationFrame.dfm:146
+#: abakt/FileSizeEditor.dfm:13
+#: abakt/FileSizeEditor.dfm:61
+#: abakt/FilterPreview.dfm:13
+#: abakt/FilterPreview.dfm:77
+#: abakt/FilterPreview.dfm:213
+#: abakt/FilterPreview.dfm:250
+#: abakt/FilterSetEditor.dfm:15
+#: abakt/FilterSetEditor.dfm:147
+#: abakt/FiltersFrame.dfm:27
+#: abakt/FinalizeFrame.dfm:38
+#: abakt/FinalizeFrame.dfm:74
+#: abakt/FinalizeFrame.dfm:132
+#: abakt/FinalizeFrame.dfm:157
+#: abakt/Group.dfm:13
+#: abakt/Group.dfm:60
+#: abakt/Group.dfm:220
+#: abakt/Group.dfm:267
+#: abakt/History.dfm:13
+#: abakt/History.dfm:110
+#: abakt/History.dfm:124
+#: abakt/History.dfm:138
+#: abakt/History.dfm:154
+#: abakt/Main.dfm:14
+#: abakt/Preferences.dfm:49
+#: abakt/Preferences.dfm:135
+#: abakt/Preferences.dfm:164
+#: abakt/Preferences.dfm:304
+#: abakt/Preferences.dfm:353
+#: abakt/Preferences.dfm:423
+#: abakt/Preferences.dfm:489
+#: abakt/Preferences.dfm:508
+#: abakt/Preferences.dfm:637
+#: abakt/Preferences.dfm:656
+#: abakt/Preferences.dfm:675
+#: abakt/RestoreBackup.dfm:13
+#: abakt/RestoreBackup.dfm:57
+#: abakt/RestoreBackup.dfm:167
+#: abakt/RestoreBackup.dfm:284
+#: abakt/RestoreBackup.dfm:326
+#: abakt/RestoreBackup.dfm:371
+#: abakt/SourceFrame.dfm:274
+#: abakt/TemplateEditor.dfm:13
+#: abakt/TemplateEditor.dfm:81
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. f_About..Panel1..Label11..Caption
+#: abakt/About.dfm:44
+msgid "&Support Abakt by making a small donation:"
+msgstr "&Subtenu Abakt-on per donaceto:"
+
+#. f_About..Panel1..pnl_MakeDonation..Caption
+#: abakt/About.dfm:55
+msgid "Visit the website to read more."
+msgstr "Vizitu la ttt-ejon por pli da informo."
+
+#. f_About..Panel2..bt_Close..Caption
+#. f_Action..Panel1..bt_Close..Caption
+#. f_FilterPreview..Panel1..bt_Close..Caption
+#. f_Group..MainMenu..mu_File..mi_Close..Caption
+#. f_RestoreBackup..ActionList..act_Close..Caption
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileClose..Caption
+#: abakt/About.dfm:86
+#: abakt/Group.dfm:521
+#: abakt/RestoreBackup.dfm:428
+#: abakt/TemplateEditor.dfm:301
+msgid "&Close"
+msgstr "&Fermi"
+
+#. f_About..Panel3..lbl_ZipBuilder..Caption
+#: abakt/About.dfm:112
+msgid "Abakt uses ZipBuilder %s."
+msgstr "Abakt uzas ZipBuilder-on %s."
+
+#. f_About..Panel3..lbl_ZipBuilderLink..Caption
+#: abakt/About.dfm:130
+msgid "See http://www.drehoeksw.net/"
+msgstr "Vizitu http://www.drehoeksw.net/"
+
+#. f_About..Panel4..Label10..Caption
+#. f_About..Panel4..lbl_User..Caption
+#: abakt/About.dfm:156
+msgid "User"
+msgstr "Uzulo"
+
+#. f_About..Panel5..Label9..Caption
+#. f_About..Panel5..lbl_Language..Caption
+#: abakt/About.dfm:198
+msgid "Language"
+msgstr "Lingvo"
+
+#. f_About..Panel5..Label12..Caption
+#. f_About..Panel5..ed_Translator..Text
+#: abakt/About.dfm:213
+msgid "Translator"
+msgstr "Tradukisto"
+
+#. f_About..Panel6..lbl_Released..Caption
+#. f_About..Panel6..Label6..Caption
+#. FrameFilterSetList..lv......Caption
+#: abakt/About.dfm:270
+msgid "Date"
+msgstr "Dato"
+
+#. f_About..Panel6..lbl_Version..Caption
+#. f_About..Panel6..Label5..Caption
+#: abakt/About.dfm:278
+msgid "Version"
+msgstr "Versio"
+
+#. f_About..Panel6..Label8..Caption
+#. f_About..Panel6..lbl_EccVersion..Caption
+#: abakt/About.dfm:302
+msgid "Using ecc"
+msgstr "ecc-a modulo"
+
+#. f_About..Panel7..lbl_Author..Caption
+#: abakt/About.dfm:331
+msgid "Author"
+msgstr "Auxtoro"
+
+#. f_About..Panel7..Label2..Caption
+#: abakt/About.dfm:339
+msgid "&License"
+msgstr "&Permesilo"
+
+#. f_About..Panel7..Label3..Caption
+#: abakt/About.dfm:347
+msgid "&E-mail"
+msgstr "Ret&posxto"
+
+#. f_About..Panel7..Label4..Caption
+#: abakt/About.dfm:356
+msgid "&Internet"
+msgstr "&TTT-ejo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_About..Panel7..Label7..Caption
+#: abakt/About.dfm:365
+msgid "Erik Dienske"
+msgstr "Erik Dienske"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_About..Panel7..pnl_Email..Caption
+#: abakt/About.dfm:377
+msgid "abakt@xs4all.nl"
+msgstr "abakt@xs4all.nl"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_About..Panel7..pnl_Internet..Caption
+#: abakt/About.dfm:398
+msgid "http://www.xs4all.nl/~edienske/abakt/"
+msgstr "http://www.xs4all.nl/~edienske/abakt/"
+
+#. f_About..Panel7..pnl_License..Caption
+#: abakt/About.dfm:419
+msgid "GNU General Public License"
+msgstr "Gxenerala Publika GNU Permesilo"
+
+#. f_About..Panel8..lbl_AppName..Caption
+#: abakt/About.dfm:445
+msgid "Abakt - A Backup Tool"
+msgstr "Abakt - Restauxrkopiilo"
+
+#. f_About..Panel8..Label1..Caption
+#: abakt/About.dfm:460
+msgid "Copyright (C) 2003-2006 - Erik Dienske"
+msgstr "Kopirajto (C) 2003-2006 - Erik Dienske"
+
+# 'Ado' signifas daŭranta, sed ne la originala angla vorto 'Action'.
+# Do, mi preferas la vorton 'tasko'. (Cyril Castelbou, 2007-01-07)
+#. f_Action..Caption
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Caption
+#: abakt/Action.dfm:6
+msgid "Action"
+msgstr "Tasko"
+
+#. f_Action..Panel1..bt_SaveLog..Caption
+#. f_RestoreBackup..ActionList..act_SaveLog..Caption
+#: abakt/Action.dfm:53
+msgid "&Save Log"
+msgstr "&Konservi protokolon"
+
+#. f_Action..gbx_Log..Caption
+#: abakt/Action.dfm:64
+msgid "&Log"
+msgstr "&Protokolo"
+
+# La unuan tradukon 'Progreso' mi anstataŭigis per 'Plenumskalo'. Ĝi estas konfirminda per plutestado. (Cyril Castelbou, 2007-01-15)
+#. f_Action..gbx_Progress..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Caption
+#: abakt/Action.dfm:86
+msgid "Progress"
+msgstr "Plenumskalo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..gbx_Progress..lbl_ProgressInfo..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..lbl_ProgressInfo..Caption
+#: abakt/Action.dfm:96
+msgid "lbl_ProgressInfo"
+msgstr "lbl_ProgressInfo"
+
+#. f_Action..gbx_Progress..bt_Abort..Caption
+#. f_FilterPreview..gbx_BuildFileLists..bt_Abort..Caption
+#. f_RestoreBackup..ActionList..act_Abort..Caption
+#: abakt/Action.dfm:104
+#: abakt/RestoreBackup.dfm:424
+msgid "&Abort"
+msgstr "Cxesigi"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..Label5..Caption
+#. f_Action..Panel2..Label3..Caption
+#: abakt/Action.dfm:123
+msgid "Group"
+msgstr "Grupo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Caption
+#. f_Action..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Caption
+#. f_Action..gbx_Progress..Panel3..lbl_FilePerc..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..lbl_FilePerc..Caption
+#: abakt/Action.dfm:132
+#: abakt/RestoreBackup.dfm:322
+#: abakt/RestoreBackup.dfm:367
+msgid "100%"
+msgstr "100%"
+
+#. f_Action..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#. f_Action..Panel2..Label1..Caption
+#: abakt/Action.dfm:167
+msgid "Profile"
+msgstr "Profilo"
+
+#. f_Action..gbx_Progress..Panel3..lbl_File..Caption
+#. f_Group..ActionList..act_FileNew..Category
+#. f_Group..ActionList..act_FileOpen..Category
+#. f_Group..ActionList..act_FileSave..Category
+#. f_Group..ActionList..act_FileSaveAs..Category
+#. f_Main..ActionList..act_FileNew..Category
+#. f_Main..ActionList..act_FileOpen..Category
+#. f_Main..ActionList..act_FileSave..Category
+#. f_Main..ActionList..act_FileSaveAs..Category
+#. f_Main..ActionList..act_FileClose..Category
+#. f_Main..ActionList..act_StatusSaveAs..Category
+#. f_Main..ActionList..act_Exit..Category
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..Label1..Caption
+#: abakt/Action.dfm:211
+#: abakt/Group.dfm:591
+#: abakt/Group.dfm:605
+#: abakt/Main.dfm:694
+#: abakt/Main.dfm:717
+#: abakt/Main.dfm:723
+#: abakt/Main.dfm:729
+#: abakt/Main.dfm:753
+#: abakt/Main.dfm:789
+#: abakt/Main.dfm:795
+#: abakt/RestoreBackup.dfm:358
+msgid "File"
+msgstr "Dosiero"
+
+#. f_Action..Panel2..Label2..Caption
+#: abakt/Action.dfm:264
+msgid "Destination"
+msgstr "Celarkivo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..Panel2..ed_ProfilePath..Text
+#: abakt/Action.dfm:286
+msgid "ed_ProfilePath"
+msgstr "ed_ProfilePath"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..Panel2..ed_Destination..Text
+#: abakt/Action.dfm:301
+msgid "ed_Destination"
+msgstr "ed_Destination"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..Panel2..ed_Group..Text
+#: abakt/Action.dfm:316
+msgid "ed_Group"
+msgstr "ed_Group"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..Panel2..pnl_ElapsedTime..Caption
+#. f_Action..Panel2..pnl_GroupElapsedTime..Caption
+#: abakt/Action.dfm:326
+msgid "9:59:59"
+msgstr "9:59:59"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..Panel2..pnl_GroupCount..Caption
+#: abakt/Action.dfm:360
+msgid "100/100"
+msgstr "100/100"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..sdlg_Log..DefaultExt
+#. f_Main..sdlg_Status..DefaultExt
+#. f_RestoreBackup..sdlg_Log..DefaultExt
+#: abakt/Action.dfm:371
+msgid "log"
+msgstr "log"
+
+#. f_Action..sdlg_Log..Filter
+#. f_RestoreBackup..sdlg_Log..Filter
+#: abakt/Action.dfm:372
+msgid "Log File (*.log)|*.log|Any File (*.*)|*.*"
+msgstr "Protokola dosiero (*.log)|*.log|Iu ajn dosiero (*.*)|*.*"
+
+#. f_Action..sdlg_Log..Title
+#. f_RestoreBackup..sdlg_Log..Title
+#: abakt/Action.dfm:374
+msgid "Save log file"
+msgstr "Konservi protokolon"
+
+#. f_Action..ZipBuilder..SFXCaption
+#. f_RestoreBackup..ZipBuilder..SFXCaption
+#: abakt/Action.dfm:389
+msgid "Self-extracting Archive"
+msgstr "Auxtomate elarkiviganta arkivo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Action..ZipBuilder..SFXLanguage
+#. f_RestoreBackup..ZipBuilder..SFXLanguage
+#: abakt/Action.dfm:390
+msgid "US"
+msgstr "US"
+
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Caption
+#: abakt/ActionTypeFrame.dfm:32
+msgid "Select the Action Type and specify the Archive Mode."
+msgstr "Elektu taskotipon kaj specifu arkivoregximon."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Caption
+#: abakt/ActionTypeFrame.dfm:47
+msgid "Action Type"
+msgstr "Taskotipo"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Caption
+#: abakt/ActionTypeFrame.dfm:54
+msgid "Create Archive"
+msgstr "Krei arkivon"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Caption
+#: abakt/ActionTypeFrame.dfm:67
+msgid "File Operation"
+msgstr "Dosieroperacio"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Copy..Caption
+#: abakt/ActionTypeFrame.dfm:80
+msgid "&Copy"
+msgstr "&Kopii"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_Zip..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..Caption
+#: abakt/ActionTypeFrame.dfm:89
+msgid "&Zip"
+msgstr "&Zip-a"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_7Zip..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Caption
+#: abakt/ActionTypeFrame.dfm:100
+msgid "&7-Zip"
+msgstr "&7-Zip-a"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Caption
+#: abakt/ActionTypeFrame.dfm:109
+msgid "&Delete"
+msgstr "&Forigi"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Move..Caption
+#: abakt/ActionTypeFrame.dfm:124
+msgid "&Move"
+msgstr "&Movi"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Caption
+#: abakt/ActionTypeFrame.dfm:135
+msgid "&Archive Mode"
+msgstr "&Arkivoregximo"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Caption
+#: abakt/ActionTypeFrame.dfm:142
+msgid "Use all selected files (ignoring A). Don't modify A."
+msgstr "Uzi cxiujn markitajn dosierojn (malatante A-atributon). Ne sxangxi A-atributon."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Caption
+#: abakt/ActionTypeFrame.dfm:155
+msgid "Use all selected files (ignoring A). Clear A after Action."
+msgstr "Uzi cxiujn markitajn dosierojn (malatente A-atribuon). Vakigi A-atribuon post plenumo."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Caption
+#: abakt/ActionTypeFrame.dfm:168
+msgid "Use A-files only. Don't modify A."
+msgstr "Uzi nur A-dosierojn. Ne sxangxi A-atributon."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Caption
+#: abakt/ActionTypeFrame.dfm:181
+msgid "Use A-files only. Clear A after Action."
+msgstr "Uzi nur A-dosierojn. Vakigi A-atributon post plenumo."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Caption
+#: abakt/ActionTypeFrame.dfm:194
+msgid "Use non A-files only. Don't modify A."
+msgstr "Uzi nur ne-A-dosierojn. Ne sxangxi A-atributon."
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..lbl_ZipInfo_SplitCustomSize..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..lbl_ZipInfo_Compression..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..lbl_7zInfo_Template..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_Overwrite..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseRecycleBin..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_PathInformation..Caption
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Caption
+#. FrameFinalize..ScrollBox_Finalize..Panel1..lbl_TestArchiveInfo..Caption
+#. FrameFinalize..ScrollBox_Finalize..Panel10..lbl_RemoveEmptyDirsInfo..Caption
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..lbl_FileList_Enabled_Info..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MinBackups..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxBackups..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxDays..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistoryInfo..Caption
+#. f_RestoreBackup..pnl_Top..lbl_ArchiveDetails..Caption
+#: abakt/ActionTypeFrame.dfm:207
+#: abakt/ActionTypeSettingsFrame.dfm:353
+#: abakt/ActionTypeSettingsFrame.dfm:401
+#: abakt/ActionTypeSettingsFrame.dfm:481
+#: abakt/ActionTypeSettingsFrame.dfm:605
+#: abakt/ActionTypeSettingsFrame.dfm:653
+#: abakt/ActionTypeSettingsFrame.dfm:767
+#: abakt/ActionTypeSettingsFrame.dfm:780
+#: abakt/ActionTypeSettingsFrame.dfm:803
+#: abakt/ConfigEditFrame.dfm:65
+#: abakt/DestinationFrame.dfm:61
+#: abakt/FinalizeFrame.dfm:34
+#: abakt/FinalizeFrame.dfm:70
+#: abakt/FinalizeFrame.dfm:153
+#: abakt/History.dfm:106
+#: abakt/History.dfm:120
+#: abakt/History.dfm:134
+#: abakt/History.dfm:150
+#: abakt/RestoreBackup.dfm:53
+msgid "AUTO_TRANSLATED"
+msgstr "AUTO_TRANSLATED"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Caption
+#: abakt/ActionTypeFrame.dfm:220
+msgid "How to deal with the Archive attribute (A)?"
+msgstr "Traktometodo pri la arkivan (A) atributon."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Default..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..bt_7z_Default..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..bt_DefaultTempDir..Caption
+#: abakt/ActionTypeFrame.dfm:233
+#: abakt/Preferences.dfm:398
+msgid "Default"
+msgstr "Defauxlta"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Full..Caption
+#: abakt/ActionTypeFrame.dfm:244
+msgid "Full"
+msgstr "Plena"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Differential..Caption
+#: abakt/ActionTypeFrame.dfm:253
+msgid "Differential"
+msgstr "Diferenciala"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Incremental..Caption
+#: abakt/ActionTypeFrame.dfm:262
+msgid "Incremental"
+msgstr "Alkrementa"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Inverse..Caption
+#: abakt/ActionTypeFrame.dfm:271
+msgid "Inverse"
+msgstr "Inversa"
+
+#. FrameActionType..ScrollBox_ActionType..Panel2..cb_IncludeEmptySourceDirectories..Caption
+#: abakt/ActionTypeFrame.dfm:294
+msgid "&Include Empty Source Directories"
+msgstr "&Anigi malplenajn fontajn dosierujojn"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:41
+msgid "&Method"
+msgstr "&Metodo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:48
+msgid "Existing backup with the same filename will be replaced."
+msgstr "Ekzistanta restauxrkopio kun sama dosiernomo estos anstatauxigita."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:63
+msgid "Add new files and update files already present in existing backup with the same filename."
+msgstr "Anigi novajn dosierojn kaj gxisdatigi ekzistantajn dosierojn en restauxrkopion kun sama dosiernomo."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:76
+msgid "Never overwrite existing backup with the same filename."
+msgstr "Neniam anstatauxigi ekzistantan restauxrkopion kun la sama dosiernomo."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:91
+msgid "Update files already present, don't add new files to existing backup with the same filename."
+msgstr "Gxisdatigi ekzistantajn dosierojn, sed ne anigi novajn dosierojn en la restauxrkopion kun sama dosiernomo."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodReplace..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:104
+msgid "Replace"
+msgstr "Anstatauxigi"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodUpdate..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:113
+msgid "Update"
+msgstr "Gxisdatigi"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodNew..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:122
+msgid "New"
+msgstr "Nova arkivo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodFreshen..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:133
+msgid "Freshen"
+msgstr "Aktualigi"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label11..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:155
+msgid "Vo&lume Size"
+msgstr "&Portilgrando"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label12..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:163
+msgid "Custom &Size (B)"
+msgstr "Uzula &grando (B)"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..cb_Zip_Split..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:184
+msgid "Spl&it Archive"
+msgstr "&Dividi arkivon"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Caption
+#. f_Prefs..PageControl..tab_Application..GroupBox2..bt_DefDataDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..bt_DefDestDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..bt_TempDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..bt_7ZipExe..Caption
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..bt_DestDir..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:215
+#: abakt/Preferences.dfm:349
+#: abakt/Preferences.dfm:388
+#: abakt/Preferences.dfm:434
+#: abakt/RestoreBackup.dfm:163
+msgid "..."
+msgstr "..."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..Label6..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:243
+msgid "Template"
+msgstr "Sxablono"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..cb_Zip_AddComment..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:252
+msgid "Add Comment"
+msgstr "Aldoni komenton"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..ed_Zip_CommentTemplate..Text
+#: abakt/ActionTypeSettingsFrame.dfm:265
+msgid "'Created with Abakt $V on 'yyyy'-'mm'-'dd'@'hh.nn"
+msgstr "'Kreita kun Abakt $V je 'yyyy'-'mm'-'dd'@'hh.nn"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..bt_Zip_CommentPreview..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label29..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label32..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:274
+#: abakt/ActionTypeSettingsFrame.dfm:473
+#: abakt/DestinationFrame.dfm:40
+msgid "Preview"
+msgstr "Aspekto"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:293
+msgid "Copy the selected files to a Zip archive."
+msgstr "Kopiu la markitajn dosierojn en Zip-arkivon."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..Label26..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:316
+msgid "Pass&word"
+msgstr "Pas&vorto"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..ed_Zip_Password..PasswordChar
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Password..PasswordChar
+#: abakt/ActionTypeSettingsFrame.dfm:326
+#: abakt/ActionTypeSettingsFrame.dfm:682
+msgid "*"
+msgstr "*"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..Label1..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:345
+msgid "&Compression"
+msgstr "&Densigo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..Label8..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_File_PathInformation..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:414
+#: abakt/ActionTypeSettingsFrame.dfm:793
+msgid "&Path Information"
+msgstr "&Vojprefikso"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:455
+msgid "Command Line"
+msgstr "Komanda linio"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label22..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label29..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:465
+msgid "Te&mplate"
+msgstr "Sxa&blono"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..ed_7z_Template..Text
+#: abakt/ActionTypeSettingsFrame.dfm:496
+msgid "$C $T $N -mx=5 $P $W $L"
+msgstr "$C $T $N -mx=5 $P $W $L"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:531
+msgid "Variables"
+msgstr "Variabloj"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label18..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:541
+msgid "$T - &Archive Type"
+msgstr "$T - &Arkivotipo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label19..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:549
+msgid "$P - &Password"
+msgstr "$P - &Pasvorto"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label5..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:557
+msgid "$C - &Command"
+msgstr "$C - &Komando"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label27..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:565
+msgid "$N - Archive Name"
+msgstr "$N - Arkivonomo"
+
+# Ĉu estas tradukenda? (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:572
+msgid "Destination.Directory + Destination.Name"
+msgstr "Celdosierujo + Celdosiero"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label30..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:585
+msgid "$W - Working Directory"
+msgstr "$W - Labora dosierujo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:592
+msgid "-w<Preferences.TemporaryDirectory>"
+msgstr "-w <Preferoj.LaboraDosierujo>"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label32..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:618
+msgid "$L - Listfile"
+msgstr "$L - Listdosiero"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:625
+msgid "@<Destination.Directory + Destination.Name>~.txt"
+msgstr "@<Celdosierujo + Celdosiero>~.txt"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:638
+msgid "Required. Instructs 7-Zip which files to use."
+msgstr "Postulata. Instruas 7-Zip-on pri la uzendaj dosieroj."
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#: abakt/ActionTypeSettingsFrame.dfm:672
+msgid "7z"
+msgstr "7z"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#. f_History..odlg_HistoryFiles..DefaultExt
+#. f_RestoreBackup..odlg_Backup..DefaultExt
+#: abakt/ActionTypeSettingsFrame.dfm:673
+#: abakt/RestoreBackup.dfm:457
+msgid "zip"
+msgstr "zip"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#: abakt/ActionTypeSettingsFrame.dfm:674
+msgid "tar"
+msgstr "tar"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Command..Text
+#: abakt/ActionTypeSettingsFrame.dfm:693
+msgid "a"
+msgstr "a"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:713
+msgid "Use 7-Zip to create a backup.  You should set the path to 7-Zip on the Preferences window first."
+msgstr "Uzu 7-Zip-on por krei restauxrkopion. Vi devus unue agordi la vojprefikson al 7-Zip-on en la fenestro de 'Preferoj'."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:725
+msgid "File &Operation"
+msgstr "Dosier&operacio"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:741
+msgid "Settings for the File Operations Copy, Move or Delete."
+msgstr "Agordaro por la dosieroperacioj 'Kopii', 'Movi' aux 'Forigi'."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_Overwrite..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:819
+msgid "O&verwrite Existing Files"
+msgstr "Anstatauxigi &ekzistantajn dosierojn"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseRecycleBin..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:831
+msgid "Use &Recycle Bin If Possible"
+msgstr "Uzi rubujon lauxeble"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_OverwriteReadOnly..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:843
+msgid "&Also Overwrite Existing Read Only Files"
+msgstr "Ankaux anstatauxigi ekzistantajn &nurlegajn dosierojn"
+
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:874
+msgid "Specify the settings for the selected Action Type."
+msgstr "Specifu agordaron por la elektita taskotipo."
+
+#. FrameCheckListBox..tbar..tb_Add..Caption
+#. FrameFilterSetList..tbar..tb_Add..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileAdd..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryAdd..Caption
+#: abakt/CheckListBoxFrame.dfm:26
+#: abakt/Group.dfm:87
+#: abakt/SourceFrame.dfm:220
+msgid "&Add"
+msgstr "&Aldoni"
+
+#. FrameCheckListBox..tbar..tb_Remove..Caption
+#. FrameFilterSetList..tbar..tb_Remove..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileRemove..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryRemove..Caption
+#: abakt/CheckListBoxFrame.dfm:33
+#: abakt/Group.dfm:95
+#: abakt/SourceFrame.dfm:229
+msgid "&Remove"
+msgstr "&Forigi"
+
+#. FrameCheckListBox..tbar..tb_Edit..Caption
+#. FrameFilterSetList..tbar..tb_Edit..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileEdit..Caption
+#: abakt/CheckListBoxFrame.dfm:40
+#: abakt/Group.dfm:103
+msgid "E&dit"
+msgstr "&Redakti"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameCheckListBox..tbar..ToolButton4..Caption
+#. FrameFilterSetList..tbar..ToolButton4..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton4..Caption
+#: abakt/CheckListBoxFrame.dfm:47
+#: abakt/Group.dfm:111
+msgid "ToolButton4"
+msgstr "ToolButton4"
+
+#. FrameCheckListBox..tbar..tb_All..Caption
+#. FrameConfigEdit..Panel1..tbar..tb_CheckAll..Caption
+#. FrameFilterSetList..tbar..tb_CheckAll..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileAll..Caption
+#: abakt/CheckListBoxFrame.dfm:55
+#: abakt/FilterSetListFrame.dfm:76
+#: abakt/Group.dfm:119
+msgid "A&ll"
+msgstr "Cxi&o"
+
+#. FrameCheckListBox..tbar..tb_None..Caption
+#. FrameConfigEdit..Panel1..tbar..tb_CheckNone..Caption
+#. FrameFilterSetList..tbar..tb_CheckNone..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileNone..Caption
+#: abakt/CheckListBoxFrame.dfm:62
+#: abakt/FilterSetListFrame.dfm:87
+#: abakt/Group.dfm:127
+msgid "&None"
+msgstr "&Neniu"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameCheckListBox..tbar..ToolButton7..Caption
+#. FrameFilterSetList..tbar..ToolButton7..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton7..Caption
+#: abakt/CheckListBoxFrame.dfm:69
+#: abakt/Group.dfm:135
+msgid "ToolButton7"
+msgstr "ToolButton7"
+
+#. FrameCheckListBox..tbar..tb_Up..Hint
+#: abakt/CheckListBoxFrame.dfm:76
+msgid "Ctrl+Up"
+msgstr "Stir+Supren"
+
+#. FrameCheckListBox..tbar..tb_Up..Caption
+#. FrameFilterSetList..tbar..tb_MoveUp..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileUp..Hint
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileUp..Caption
+#: abakt/CheckListBoxFrame.dfm:78
+#: abakt/Group.dfm:143
+#: abakt/Group.dfm:145
+msgid "Up"
+msgstr "Supren"
+
+#. FrameCheckListBox..tbar..tb_Down..Hint
+#: abakt/CheckListBoxFrame.dfm:86
+msgid "Ctrl+Down"
+msgstr "Stir+Suben"
+
+#. FrameCheckListBox..tbar..tb_Down..Caption
+#. FrameFilterSetList..tbar..tb_MoveDown..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileDown..Hint
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileDown..Caption
+#: abakt/CheckListBoxFrame.dfm:88
+#: abakt/Group.dfm:152
+#: abakt/Group.dfm:154
+msgid "Down"
+msgstr "Suben"
+
+#. FrameCheckListBox..tbar..tb_Sort..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileSort..Caption
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterIcons..tb_FileSort..Caption
+#: abakt/CheckListBoxFrame.dfm:97
+#: abakt/SourceFrame.dfm:123
+msgid "Sort"
+msgstr "Ordigo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameCheckListBox..tbar..ToolButton12..Caption
+#. FrameFilterSetList..tbar..ToolButton12..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton12..Caption
+#: abakt/CheckListBoxFrame.dfm:104
+#: abakt/Group.dfm:170
+msgid "ToolButton12"
+msgstr "ToolButton12"
+
+#. FrameCheckListBox..tbar..tb_Clear..Caption
+#. FrameFilterSetList..tbar..tb_Clear..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileClear..Caption
+#: abakt/CheckListBoxFrame.dfm:112
+#: abakt/Group.dfm:178
+msgid "Clear"
+msgstr "Vakigi"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Caption
+#: abakt/ConfigEditFrame.dfm:26
+msgid "lbl_ItemCaption"
+msgstr "lbl_ItemCaption"
+
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Caption
+#: abakt/ConfigEditFrame.dfm:91
+msgid "Internal Name=Value"
+msgstr "Interna nomo=Valoro"
+
+#. FrameConfigEdit..Panel1..Caption
+#: abakt/ConfigEditFrame.dfm:120
+msgid "Panel1"
+msgstr "Panelo1"
+
+# La aldonado de la vorto 'Dosier-' plibonigis la fenestron 'F10 - Celo' en '3 - Tasko'. (Cyril Castelbou, 2007-01-15)
+#. FrameConfigEdit..Panel1..lv......Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/ConfigEditFrame.dfm:163
+#: abakt/FilterPreview.dfm:115
+#: abakt/FilterPreview.dfm:160
+#: abakt/FilterSetListFrame.dfm:149
+#: abakt/RestoreBackup.dfm:191
+#: abakt/SourceFrame.dfm:35
+msgid "Name"
+msgstr "Dosiernomo"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#: abakt/ConfigEditFrame.dfm:167
+msgid "Value"
+msgstr "Valoro"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#: abakt/ConfigEditFrame.dfm:171
+msgid "Type"
+msgstr "Tipo"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Caption
+#: abakt/DestinationFrame.dfm:48
+msgid "Examples"
+msgstr "Ekzemplo"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cb_AppendExtension..Caption
+#: abakt/DestinationFrame.dfm:102
+msgid "Append Exten&sion"
+msgstr "Aldoni &sufikson"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:119
+msgid "Choose..."
+msgstr "Elekti..."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:120
+msgid "<Name>"
+msgstr "<Nomo>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:121
+msgid "<Name>-MyText"
+msgstr "<Nomo>-MiaTeksto"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:122
+msgid "<Name>-BAK-<Date>"
+msgstr "<Nomo>-BAK-<Dato>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:123
+msgid "<Name>-<Date>-<ArchiveMode>"
+msgstr "<Nomo>-<Dato>-<ArkivaRegximo>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:124
+msgid "<Name>-<Date@Time>"
+msgstr "<Nomo>-<Dato@Tempo>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:125
+msgid "Backup of Profile <Name>, made on <Day, Date>"
+msgstr "Restauxrkopio de profilo <Nomo>, farita je <Tago, Dato>"
+
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Caption
+#: abakt/DestinationFrame.dfm:142
+msgid "Specify the Destination directory and (file)name."
+msgstr "Specifu la celdosierujon kaj la celdosiernomon."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..Caption
+#: abakt/DestinationFrame.dfm:157
+msgid "Directory"
+msgstr "Dosierujo"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..bt_BrowseDir..Caption
+#. f_Prefs..PageControl..tab_Startup..bt_SelectCustomInitialProfile..Caption
+#: abakt/DestinationFrame.dfm:167
+msgid "&Browse"
+msgstr "&Foliumi"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..cb_AutoCreateDir..Caption
+#: abakt/DestinationFrame.dfm:188
+msgid "Automatically &Create Directory"
+msgstr "Auxtomate &krei dosierujon"
+
+#. f_FileSizeEditor..Caption
+#: abakt/FileSizeEditor.dfm:6
+msgid "Enter File Size"
+msgstr "Entapji dosieran grandon"
+
+#. f_FileSizeEditor..lbl_B..Caption
+#: abakt/FileSizeEditor.dfm:31
+msgid "&Bytes"
+msgstr "&Bajtoj"
+
+#. f_FileSizeEditor..lbl_kB..Caption
+#: abakt/FileSizeEditor.dfm:39
+msgid "&kB (rounded)"
+msgstr "&KiB (rondigita)"
+
+#. f_FileSizeEditor..lbl_MB..Caption
+#: abakt/FileSizeEditor.dfm:47
+msgid "&MB (rounded)"
+msgstr "&MiB (rondigita)"
+
+#. f_FileSizeEditor..Label1..Caption
+#: abakt/FileSizeEditor.dfm:57
+msgid "Use Up/Down keys to modify values."
+msgstr "Uzi supren/suben klavoj por modifi valorojn."
+
+#. f_FileSizeEditor..Panel1..bt_Ok..Caption
+#. f_FilterSetEditor..pnl_Bottom..bt_Ok..Caption
+#. f_History..Panel1..bt_Ok..Caption
+#. f_Prefs..pnl_Bottom..bt_Ok..Caption
+#: abakt/FileSizeEditor.dfm:114
+#: abakt/History.dfm:39
+#: abakt/Preferences.dfm:762
+msgid "OK"
+msgstr "Bone"
+
+#. f_FileSizeEditor..Panel1..bt_Cancel..Caption
+#. f_FilterSetEditor..pnl_Bottom..bt_Cancel..Caption
+#. f_Prefs..pnl_Bottom..bt_Cancel..Caption
+#: abakt/FileSizeEditor.dfm:126
+#: abakt/Preferences.dfm:775
+msgid "Cancel"
+msgstr "Nuligi"
+
+#. f_FilterPreview..Caption
+#: abakt/FilterPreview.dfm:6
+msgid "Filter Preview"
+msgstr "Simuli filtriladon"
+
+#. f_FilterPreview..Panel1..bt_SaveActiveList..Caption
+#: abakt/FilterPreview.dfm:52
+msgid "&Save list of selected files"
+msgstr "&Konservi liston de markitaj dosieroj"
+
+#. f_FilterPreview..pnl_Descr..Label15....Caption
+#: abakt/FilterPreview.dfm:73
+msgid "Show the files that will be included and excluded, according to the current FilterSets. "
+msgstr "Vidigi tiujn dosierojn, kiuj estos anigataj aux eksigataj laux la aktuala filtrilaroj."
+
+#. f_FilterPreview..gbx_FileLists..Caption
+#: abakt/FilterPreview.dfm:89
+msgid "FileLists"
+msgstr "Dosierlistoj"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..Hint
+#: abakt/FilterPreview.dfm:96
+msgid "Tip: Right-click mouse button for more features."
+msgstr "Konsileto: klaku la dekstran musbutonon por pli da funkcioj."
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..Caption
+#: abakt/FilterPreview.dfm:105
+msgid "&Included"
+msgstr "&Anigitaj"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:121
+#: abakt/FilterSetListFrame.dfm:157
+#: abakt/RestoreBackup.dfm:202
+#: abakt/SourceFrame.dfm:41
+msgid "Size"
+msgstr "Grando"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:126
+#: abakt/FilterSetListFrame.dfm:166
+#: abakt/RestoreBackup.dfm:207
+#: abakt/SourceFrame.dfm:46
+msgid "Attributes"
+msgstr "Atributoj"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:131
+#: abakt/RestoreBackup.dfm:212
+#: abakt/SourceFrame.dfm:52
+msgid "Modified"
+msgstr "Lasta sxangxita je"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:136
+#: abakt/SourceFrame.dfm:61
+msgid "Filter"
+msgstr "Filtrilo"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..Caption
+#: abakt/FilterPreview.dfm:151
+msgid "&Excluded"
+msgstr "&Eksigitaj"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_FilterPreview..gbx_FileLists..pnl_Included..lbl_IncludedFilesInfo..Caption
+#: abakt/FilterPreview.dfm:209
+msgid "lbl_IncludedFilesInfo"
+msgstr "lbl_IncludedFilesInfo"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Included..Label2..Caption
+#: abakt/FilterPreview.dfm:223
+msgid "Included Files:"
+msgstr "Anigitaj dosieroj:"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..Label4..Caption
+#: abakt/FilterPreview.dfm:239
+msgid "Excluded Files:"
+msgstr "Eksigitaj dosieroj:"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..lbl_ExcludedFilesInfo..Caption
+#: abakt/FilterPreview.dfm:246
+msgid "lbl_ExcludedFilesInfo"
+msgstr "lbl_ExcludedFilesInfo"
+
+#. f_FilterPreview..gbx_BuildFileLists..Caption
+#: abakt/FilterPreview.dfm:263
+msgid "Build FileLists"
+msgstr "Konstruado de dosierlistojn"
+
+#. f_FilterPreview..gbx_BuildFileLists..bt_Build..Caption
+#: abakt/FilterPreview.dfm:273
+msgid "&Build"
+msgstr "&Konstrui"
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_ScanFullTree..Caption
+#: abakt/FilterPreview.dfm:284
+msgid "Scan exluded directories"
+msgstr "Skani eksigitajn dosierujojn."
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_StripDrive..Caption
+#: abakt/FilterPreview.dfm:292
+msgid "Strip &drive"
+msgstr "&Bendolegilo"
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_AddQuotes..Caption
+#: abakt/FilterPreview.dfm:301
+msgid "&Quotes"
+msgstr "&Citiloj"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_FilterPreview..sdlg_FileList..DefaultExt
+#: abakt/FilterPreview.dfm:317
+msgid "txt"
+msgstr "txt"
+
+#. f_FilterPreview..sdlg_FileList..Filter
+#: abakt/FilterPreview.dfm:318
+msgid "Text File (*.txt)|*.txt|Any File (*.*)|*.*"
+msgstr "Teksta dosiero (*.txt)|*.txt|Iu ajn dosiero (*.*)|*.*"
+
+#. f_FilterPreview..sdlg_FileList..Title
+#: abakt/FilterPreview.dfm:320
+msgid "Save File List"
+msgstr "Konservi dosierliston"
+
+#. f_FilterPreview..pop_Files..pmi_ClearFileList..Caption
+#: abakt/FilterPreview.dfm:328
+msgid "&Clear List"
+msgstr "&Vakigi liston"
+
+#. f_FilterPreview..pop_Files..pmi_SelectAllFiles..Caption
+#. f_RestoreBackup..ActionList..act_SelectAllFiles..Caption
+#: abakt/FilterPreview.dfm:332
+msgid "Select &All"
+msgstr "Marki cxi&on"
+
+#. f_FilterSetEditor..Caption
+#: abakt/FilterSetEditor.dfm:8
+msgid "Edit FilterSet"
+msgstr "Redakti filtrilaron"
+
+# Aŭ 'nomizi' se temas pri la ado. (Cyril Castelbou, 2007-01-15)
+#. f_FilterSetEditor..pnl_Properties..lbl_Name..Caption
+#: abakt/FilterSetEditor.dfm:43
+msgid "&Name"
+msgstr "&Nomo"
+
+#. f_FilterSetEditor..pnl_Properties..lbl_Action..Caption
+#. f_Prefs..PageControl..tab_Backup..Caption
+#: abakt/FilterSetEditor.dfm:51
+msgid "A&ction"
+msgstr "&Tasko"
+
+#. f_FilterSetEditor..pnl_Properties..cb_Enabled..Caption
+#: abakt/FilterSetEditor.dfm:68
+msgid "&Enabled"
+msgstr "Sxal&tita"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_PathMask..Caption
+#: abakt/FilterSetEditor.dfm:103
+msgid "&Path (Mask)"
+msgstr "&Masko de dosierindiko"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Size..Caption
+#: abakt/FilterSetEditor.dfm:111
+msgid "&Size (Bytes)"
+msgstr "&Grando (bajtoj)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Age..Caption
+#: abakt/FilterSetEditor.dfm:119
+msgid "&Age (Days)"
+msgstr "&Agxo (tagoj)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Date..Caption
+#: abakt/FilterSetEditor.dfm:127
+msgid "&Date (yyyy-mm-dd)"
+msgstr "&Dato (jjjj-mm-tt)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Attributes..Caption
+#: abakt/FilterSetEditor.dfm:135
+msgid "A&ttributes"
+msgstr "A&tributoj"
+
+#. f_FilterSetEditor..gbx_Conditions..Label2..Caption
+#: abakt/FilterSetEditor.dfm:143
+msgid "File Property Conditions:"
+msgstr "Kondicxoj sur dosieratributoj:"
+
+#. f_FilterSetEditor..pnl_Bottom..bt_Reset..Caption
+#: abakt/FilterSetEditor.dfm:233
+msgid "&Reset"
+msgstr "&Defauxltigi"
+
+#. f_FilterSetEditor..pnl_Bottom..bt_Help..Caption
+#. f_Group..MainMenu..mu_Help..Caption
+#. f_Main..MainMenu..mu_Help..Caption
+#: abakt/FilterSetEditor.dfm:242
+msgid "&Help"
+msgstr "&Helpo"
+
+#. FrameFilterSetList..tbar..tb_Add..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryAdd..Hint
+#: abakt/FilterSetListFrame.dfm:25
+msgid "[Insert]"
+msgstr "[Dissxovu]"
+
+#. FrameFilterSetList..tbar..tb_Remove..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryRemove..Hint
+#: abakt/FilterSetListFrame.dfm:36
+msgid "[Delete]"
+msgstr "[Forvisxu]"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameFilterSetList..tbar..tb_Edit..Hint
+#: abakt/FilterSetListFrame.dfm:47
+msgid "[F2]"
+msgstr "[F2]"
+
+#. FrameFilterSetList..tbar..tb_Duplicate..Caption
+#: abakt/FilterSetListFrame.dfm:59
+msgid "Dupli&cate"
+msgstr "&Duobligi"
+
+#. FrameFilterSetList..tbar..tb_CheckAll..Hint
+#: abakt/FilterSetListFrame.dfm:74
+msgid "[Ctrl+Shift+A]"
+msgstr "[Stir+Supra+A]"
+
+#. FrameFilterSetList..tbar..tb_CheckNone..Hint
+#: abakt/FilterSetListFrame.dfm:85
+msgid "[Ctrl+Shift+N]"
+msgstr "[Stir+Supra+N]"
+
+#. FrameFilterSetList..tbar..tb_MoveUp..Hint
+#: abakt/FilterSetListFrame.dfm:104
+msgid "[Ctrl+Up]"
+msgstr "[Stir+Supren]"
+
+#. FrameFilterSetList..tbar..tb_MoveDown..Hint
+#: abakt/FilterSetListFrame.dfm:115
+msgid "[Ctrl+Down]"
+msgstr "[Stir+Suben]"
+
+#. FrameFilterSetList..lv......Caption
+#: abakt/FilterSetListFrame.dfm:153
+msgid "Path Mask"
+msgstr "Masko de dosierindiko"
+
+#. FrameFilterSetList..lv......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterSetListFrame.dfm:163
+msgid "Age"
+msgstr "Agxo (tagoj)"
+
+#. FrameFilters..pnl_Descr_Filters..Label4....Caption
+#: abakt/FiltersFrame.dfm:23
+msgid "Filters will be tested against files in -selected- Source directories only."
+msgstr "Filtriloj estos uzitaj nur kun dosieroj en la markitaj fontaj dosierujoj."
+
+#. FrameFilters..gbx_FilterSetList..Caption
+#: abakt/FiltersFrame.dfm:38
+msgid "F&ilterSet List"
+msgstr "Listo de &filtrilaroj"
+
+#. FrameFinalize..ScrollBox_Finalize..Panel1..cb_TestArchive..Caption
+#: abakt/FinalizeFrame.dfm:48
+msgid "Te&st Archive"
+msgstr "Testi arkivon"
+
+#. FrameFinalize..ScrollBox_Finalize..Panel10..cb_RemoveEmptyDirs..Caption
+#: abakt/FinalizeFrame.dfm:84
+msgid "Re&move Emptied Source Directories"
+msgstr "&Forigi malplenitajn fontajn dosierujojn"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..Caption
+#: abakt/FinalizeFrame.dfm:95
+msgid "H&istory"
+msgstr "H&istorio"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..lbl_HistoryEnabled..Caption
+#: abakt/FinalizeFrame.dfm:102
+msgid "lbl_HistoryEnabled"
+msgstr "lbl_HistoryEnabled"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..bt_History..Caption
+#: abakt/FinalizeFrame.dfm:109
+msgid "Manage History"
+msgstr "Historia agordaro"
+
+#. FrameFinalize..ScrollBox_Finalize..pnl_Descr_Finalize..Label9..Caption
+#: abakt/FinalizeFrame.dfm:128
+msgid "Things to do when an Action has finished without errors."
+msgstr "Farendajxoj post senerare taskoplenumado."
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..Caption
+#: abakt/FinalizeFrame.dfm:143
+msgid "File&List"
+msgstr "Dosier&listo"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..cb_FileList_Enabled..Caption
+#: abakt/FinalizeFrame.dfm:167
+msgid "Enabled"
+msgstr "Sxaltita"
+
+#. f_Group..Caption
+#: abakt/Group.dfm:6
+msgid "Group of Profiles"
+msgstr "Grupo de profiloj"
+
+#. f_Group..PageControl..tab_Profiles..pnl_Descr_Profiles..Label1..Caption
+#: abakt/Group.dfm:56
+msgid "Select the Profiles to be executed in the order displayed below."
+msgstr "Elekti la profilojn plenumitendajn laux la sube vidigita ordo."
+
+#. f_Group..PageControl..tab_CustomFilterSets..pnl_Descr_CustomFilterSets..Label3....Caption
+#: abakt/Group.dfm:216
+msgid "FilterSets that will be added to the FilterSet list in every executed Profile. They can also be used to adjust existing FilterSets."
+msgstr "Filtrilaroj aldonotaj al la filtrilaroliston en cxiu plenumita profilo. Ili estas ankaux uzebla por algxustigi ekzistantajn filtrilarojn."
+
+#. f_Group..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label2....Caption
+#: abakt/Group.dfm:263
+msgid "Select and modify the configuration settings to adjust in every executed Profile."
+msgstr "Elekti kaj sxangxi la agordaron de konfigurado por reagordi cxiun plenumitan profilon."
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..pnl_ToolBars..Panel4..ToolBar1..Caption
+#. f_Main..pnl_Toolbars..pnl_FileToolBar..tbar_File..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_FileToolBar..tbar_File..Caption
+#: abakt/Group.dfm:350
+msgid "tbar_File"
+msgstr "tbar_File"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..pnl_ToolBars..Panel4..ToolBar1..ToolButton5..Caption
+#. f_Group..pnl_ToolBars..pnl_TabsToolbar..ToolBar2..ToolButton1..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..ToolButton3..Caption
+#. f_Main..pnl_Toolbars..pnl_FileToolBar..tbar_File..ToolButton1..Caption
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..ToolButton3..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..ToolButton1..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_FileToolBar..tbar_File..ToolButton1..Caption
+#: abakt/Group.dfm:379
+#: abakt/Main.dfm:406
+#: abakt/SourceFrame.dfm:162
+#: abakt/SourceFrame.dfm:237
+#: abakt/TemplateEditor.dfm:202
+msgid "ToolButton1"
+msgstr "ToolButton1"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..pnl_ToolBars..pnl_TabsToolbar..ToolBar2..Caption
+#. f_Main..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..Caption
+#: abakt/Group.dfm:402
+msgid "tbar_ProfileTabs"
+msgstr "tbar_ProfileTabs"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..pnl_ToolBars..pnl_ExecuteButton..tbar_ExecuteButton..ToolButton3..Caption
+#. f_Main..pnl_Toolbars..pnl_ExecuteButton..tbar_ExecuteButton..ToolButton4..Caption
+#: abakt/Group.dfm:481
+msgid "ToolButton3"
+msgstr "ToolButton3"
+
+#. f_Group..MainMenu..mu_File..Caption
+#. f_Main..MainMenu..mu_File..Caption
+#. f_TemplateEditor..MainMenu..mu_File..Caption
+#: abakt/Group.dfm:493
+msgid "&File"
+msgstr "&Dosiero"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..MainMenu..mu_File..N3..Caption
+#. f_Group..MainMenu..mu_File..N1..Caption
+#. f_Group..MainMenu..mu_File..N4..Caption
+#. f_Main..MainMenu..mu_File..N3..Caption
+#. f_Main..MainMenu..mu_File..N8..Caption
+#. f_Main..MainMenu..mu_File..N9..Caption
+#. f_Main..MainMenu..mu_File..N2..Caption
+#. f_Main..MainMenu..mu_Edit..N10..Caption
+#. f_Main..MainMenu..mu_View..N14..Caption
+#. f_Main..MainMenu..mu_View..N12..Caption
+#. f_Main..MainMenu..mu_Tools..N13..Caption
+#. f_Main..MainMenu..mu_Tools..N6..Caption
+#. f_Main..MainMenu..mu_Tools..N4..Caption
+#. f_Main..MainMenu..mu_Help..N1..Caption
+#. f_Main..MainMenu..mu_Help..N5..Caption
+#. f_Main..MainMenu..mu_Help..N7..Caption
+#. FrameSource..pop_Dirs..N2..Caption
+#. FrameSource..pop_Dirs..N1..Caption
+#. FrameSource..pop_FilterSet..N3..Caption
+#. FrameSource..pop_FilterSet..N4..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N1..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N3..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N2..Caption
+#: abakt/Group.dfm:501
+#: abakt/Main.dfm:540
+#: abakt/Main.dfm:549
+#: abakt/Main.dfm:555
+#: abakt/Main.dfm:563
+#: abakt/Main.dfm:596
+#: abakt/Main.dfm:609
+#: abakt/Main.dfm:627
+#: abakt/Main.dfm:642
+#: abakt/Main.dfm:648
+#: abakt/Main.dfm:654
+#: abakt/Main.dfm:670
+#: abakt/Main.dfm:676
+#: abakt/Main.dfm:683
+#: abakt/SourceFrame.dfm:332
+#: abakt/SourceFrame.dfm:341
+#: abakt/SourceFrame.dfm:390
+#: abakt/SourceFrame.dfm:397
+#: abakt/TemplateEditor.dfm:277
+#: abakt/TemplateEditor.dfm:290
+#: abakt/TemplateEditor.dfm:298
+msgid "-"
+msgstr "-"
+
+#. f_Group..MainMenu..mu_File..mi_RecentFiles..Caption
+#. f_Main..MainMenu..mu_File..mi_RecentFiles..Caption
+#. f_TemplateEditor..MainMenu..mu_File..mi_RecentFiles..Caption
+#: abakt/Group.dfm:513
+msgid "&Recent Files"
+msgstr "&Lastaj dosieroj"
+
+#. f_Group..MainMenu..mu_Edit..Caption
+#. f_Main..MainMenu..mu_Edit..Caption
+#: abakt/Group.dfm:527
+msgid "&Edit"
+msgstr "&Redakto"
+
+#. f_Group..MainMenu..mu_View..Caption
+#. f_Main..MainMenu..mu_View..Caption
+#. f_TemplateEditor..MainMenu..mu_View..Caption
+#: abakt/Group.dfm:539
+msgid "&View"
+msgstr "&Vido"
+
+#. f_Group..MainMenu..mu_Tools..Caption
+#. f_Main..MainMenu..mu_Tools..Caption
+#. f_TemplateEditor..MainMenu..mu_Tools..Caption
+#: abakt/Group.dfm:545
+msgid "&Tools"
+msgstr "&Iloj"
+
+#. f_Group..ActionList..act_EditProfiles..Category
+#. f_Group..ActionList..act_EditCustomFilterSets..Category
+#. f_Group..ActionList..act_EditCustomConfiguration..Category
+#. f_Main..ActionList..act_EditSource..Category
+#. f_Main..ActionList..act_EditFilters..Category
+#. f_Main..ActionList..act_EditAction..Category
+#. f_Main..ActionList..act_EditActionType..Category
+#. f_Main..ActionList..act_EditActionTypeSettings..Category
+#. f_Main..ActionList..act_EditDestination..Category
+#. f_Main..ActionList..act_EditFinalize..Category
+#. f_Main..ActionList..act_EditHistory..Category
+#. f_Main..ActionList..act_Preferences..Category
+#: abakt/Group.dfm:561
+#: abakt/Main.dfm:700
+#: abakt/Main.dfm:706
+#: abakt/Main.dfm:712
+#: abakt/Main.dfm:783
+#: abakt/Main.dfm:800
+#: abakt/Main.dfm:806
+#: abakt/Main.dfm:812
+#: abakt/Main.dfm:829
+#: abakt/Main.dfm:835
+msgid "Edit"
+msgstr "Redakti"
+
+#. f_Group..ActionList..act_EditProfiles..Caption
+#: abakt/Group.dfm:562
+msgid "Profiles"
+msgstr "Profiloj"
+
+#. f_Group..ActionList..act_EditCustomFilterSets..Caption
+#. f_TemplateEditor..ActionList..act_ViewPageCustomFilterSets..Caption
+#: abakt/Group.dfm:568
+msgid "Custom FilterSets"
+msgstr "Uzulaj filtrilaroj"
+
+#. f_Group..ActionList..act_EditCustomConfiguration..Caption
+#. f_TemplateEditor..ActionList..act_ViewPageCustomConfiguration..Caption
+#: abakt/Group.dfm:574
+msgid "Custom Configuration"
+msgstr "Uzula konfiguro"
+
+#. f_Group..ActionList..act_FileNew..Caption
+#: abakt/Group.dfm:580
+msgid "&New Group"
+msgstr "&Nova grupo"
+
+#. f_Group..ActionList..act_FileOpen..Caption
+#: abakt/Group.dfm:586
+msgid "&Open Group"
+msgstr "&Malfermi grupon"
+
+#. f_Group..ActionList..act_FileSave..Caption
+#: abakt/Group.dfm:592
+msgid "&Save Group"
+msgstr "&Konservi grupon"
+
+#. f_Group..ActionList..act_ViewActionLog..Category
+#. f_Main..ActionList..act_ViewActionLog..Category
+#. f_Main..ActionList..act_ClearStatus..Category
+#. f_TemplateEditor..ActionList..act_ViewPageCustomFilterSets..Category
+#. f_TemplateEditor..ActionList..act_ViewPageCustomConfiguration..Category
+#: abakt/Group.dfm:597
+#: abakt/TemplateEditor.dfm:348
+#: abakt/TemplateEditor.dfm:354
+msgid "View"
+msgstr "Vido"
+
+#. f_Group..ActionList..act_ViewActionLog..Caption
+#. f_Main..ActionList..act_ViewActionLog..Caption
+#: abakt/Group.dfm:598
+msgid "Action &Log"
+msgstr "Tasko&protokolo"
+
+#. f_Group..ActionList..act_FileSaveAs..Caption
+#: abakt/Group.dfm:606
+msgid "Save Group &As..."
+msgstr "Kon&servi grupon kiel..."
+
+#. f_Group..ActionList..act_ExecuteGroup..Category
+#. f_Main..ActionList..act_ExecuteProfile..Category
+#. f_Main..ActionList..act_Group..Category
+#. f_Main..ActionList..act_FilterPreview..Category
+#. f_Main..ActionList..act_TemplateEditor..Category
+#. f_Main..ActionList..act_RestoreZipArchive..Category
+#: abakt/Group.dfm:611
+#: abakt/Main.dfm:747
+#: abakt/Main.dfm:759
+#: abakt/Main.dfm:777
+msgid "Tools"
+msgstr "Iloj"
+
+#. f_Group..ActionList..act_ExecuteGroup..Caption
+#: abakt/Group.dfm:612
+msgid "E&xecute Group"
+msgstr "&Plenumi grupon"
+
+#. f_Group..ActionList..act_ExecuteGroup....SecondaryShortCuts.Strings
+#: abakt/Group.dfm:615
+msgid "Ctrl+B"
+msgstr "Stir+B"
+
+#. f_Group..ActionList..act_Manual..Category
+#. f_Main..ActionList..act_Manual..Category
+#. f_Main..ActionList..act_About..Category
+#. f_Main..ActionList..act_ToggleDescriptionBoxes..Category
+#. f_Prefs..pnl_Bottom..bt_Help..Caption
+#: abakt/Group.dfm:619
+#: abakt/Main.dfm:841
+#: abakt/Preferences.dfm:752
+msgid "Help"
+msgstr "Helpo"
+
+#. f_Group..ActionList..act_Manual..Caption
+#. f_Main..ActionList..act_Manual..Caption
+#: abakt/Group.dfm:620
+msgid "&Manual"
+msgstr "&Manlibro"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..odlg_Group..DefaultExt
+#. f_Group..sdlg_Group..DefaultExt
+#: abakt/Group.dfm:626
+msgid "abg"
+msgstr "abg"
+
+#. f_Group..odlg_Group..Filter
+#. f_Group..sdlg_Group..Filter
+#: abakt/Group.dfm:627
+msgid "Abakt Group (*.abg)|*.abg|All files (*.*)|*.*"
+msgstr "Abakt-a grupo (*.abg)|*.abg|Iu ajn dosiero (*.*)|*.*"
+
+#. f_Group..odlg_Group..Title
+#: abakt/Group.dfm:629
+msgid "Open Group"
+msgstr "Malfermi grupon"
+
+#. f_Group..sdlg_Group..Title
+#: abakt/Group.dfm:637
+msgid "Save Group"
+msgstr "Konservi grupon"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Group..odlg_Profiles..DefaultExt
+#. f_Main..sdlg_Profile..DefaultExt
+#. f_Main..odlg_Profile..DefaultExt
+#. f_Prefs..odlg_InitialProfile..DefaultExt
+#: abakt/Group.dfm:642
+#: abakt/Preferences.dfm:791
+msgid "abp"
+msgstr "abp"
+
+#. f_Group..odlg_Profiles..Filter
+#. f_Main..sdlg_Profile..Filter
+#. f_Main..odlg_Profile..Filter
+#. f_Prefs..odlg_InitialProfile..Filter
+#: abakt/Group.dfm:643
+#: abakt/Preferences.dfm:792
+msgid "Abakt Profile (*.abp)|*.abp|All files (*.*)|*.*"
+msgstr "Abakt-a profilo (*.abp)|*.abp|Iu ajn dosiero (*.*)|*.*"
+
+#. f_Group..odlg_Profiles..Title
+#: abakt/Group.dfm:645
+msgid "Choose a Profile to add to the Group"
+msgstr "Elekti profilon aldonendan al la grupon"
+
+#. f_History..Caption
+#: abakt/History.dfm:6
+msgid "History"
+msgstr "Historio"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..Caption
+#: abakt/History.dfm:55
+msgid "&Archive Catalogue"
+msgstr "&Katalogo de arkivo"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Caption
+#: abakt/History.dfm:72
+msgid "Settings"
+msgstr "Agordaro"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label3..Caption
+#: abakt/History.dfm:82
+msgid "&Remove backups older than (days)"
+msgstr "&Forigi restauxrkopiojn pli agxaj ol (tagoj)"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label4..Caption
+#: abakt/History.dfm:90
+msgid "&Keep a minimum of backups"
+msgstr "Mi&nimume konservindaj restauxrkopioj"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label5..Caption
+#: abakt/History.dfm:98
+msgid "Keep a &maximum of backups"
+msgstr "&Maksimume konservindaj restauxrkopioj"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..cb_UseRecycleBin..Caption
+#: abakt/History.dfm:234
+msgid "&Use Recycle Bin if possible"
+msgstr "&Uzi rubujon lauxeble"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..cb_MaintainHistory..Caption
+#: abakt/History.dfm:243
+msgid "Ena&bled"
+msgstr "Sxal&tita"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..Caption
+#: abakt/History.dfm:257
+msgid "pnl_ToolBar"
+msgstr "pnl_ToolBar"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_ShowFileList..Caption
+#: abakt/History.dfm:277
+msgid "Show &List of Files"
+msgstr "Vidigi dosier&liston"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_AddFiles..Caption
+#: abakt/History.dfm:292
+msgid "Add F&iles to List..."
+msgstr "Anigi &restauxrkopiojn..."
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..ToolButton5..Caption
+#. f_Main..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..ToolButton2..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..ToolButton2..Caption
+#: abakt/History.dfm:299
+msgid "ToolButton2"
+msgstr "ToolButton2"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_ApplySettings..Caption
+#: abakt/History.dfm:307
+msgid "Apply Settings &Now"
+msgstr "&Nun apliki agordaron"
+
+#. f_History..odlg_HistoryFiles..Filter
+#: abakt/History.dfm:316
+msgid "Backups (*.zip;*.7z)|*.zip;*.7z|All Files (*.*)|*.*"
+msgstr "Restauxrkopio (*.zip;*.7z)|*.zip;*.7z|Iu ajn dosiero (*.*)|*.*"
+
+#. f_History..odlg_HistoryFiles..Title
+#: abakt/History.dfm:318
+msgid "Add Backup Files to History"
+msgstr "Anigi restauxrkopiojn en historion"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Main..Caption
+#: abakt/Main.dfm:6
+msgid "Abakt"
+msgstr "Abakt"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionType..Caption
+#: abakt/Main.dfm:145
+msgid "F8 - Action Type"
+msgstr "F8 - Taskotipo"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionTypeSettings..Caption
+#: abakt/Main.dfm:209
+msgid "F9 - Action Type Settings"
+msgstr "F9 - Taskotipa agordaro"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_Destination..Caption
+#: abakt/Main.dfm:250
+msgid "F10 - Destination"
+msgstr "F10 - Celarkivo"
+
+# Videbla kiel titolo de la statofenestro sub la ĉeffenestro (Cyril Castelbou 2007-01-15)
+#. f_Main..gbx_Status..Caption
+#: abakt/Main.dfm:334
+msgid "Status"
+msgstr "Statofenestro"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshDirectoryList..Caption
+#: abakt/Main.dfm:612
+msgid "&Refresh Directory List"
+msgstr "Aktualigi dosier&ujliston"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshFileList..Caption
+#: abakt/Main.dfm:617
+msgid "R&efresh File List"
+msgstr "Aktualigi &dosierliston"
+
+#. f_Main..MainMenu..mu_View..mi_Source_ScanTreeBelowDir..Caption
+#: abakt/Main.dfm:622
+msgid "Sca&n Tree Below Directory"
+msgstr "&Skani tutan brancxon"
+
+#. f_Main..MainMenu..mu_Help..mi_SelectManual..Caption
+#: abakt/Main.dfm:666
+msgid "&Select Manual..."
+msgstr "&Elekti manlibron..."
+
+#. f_Main..MainMenu..mu_Help..mi_AbaktWebsite..Caption
+#: abakt/Main.dfm:679
+msgid "Abakt &Homepage"
+msgstr "Abakt-a &hejmpagxo"
+
+#. f_Main..ActionList..act_FileNew..Caption
+#: abakt/Main.dfm:695
+msgid "&New Profile"
+msgstr "&Nova profilo"
+
+#. f_Main..ActionList..act_EditSource..Caption
+#: abakt/Main.dfm:701
+msgid "&1 - Source"
+msgstr "&1 - Fontaro"
+
+#. f_Main..ActionList..act_EditFilters..Caption
+#: abakt/Main.dfm:707
+msgid "&2 - Filters"
+msgstr "&2 - Filtriloj"
+
+#. f_Main..ActionList..act_EditAction..Caption
+#: abakt/Main.dfm:713
+msgid "&3 - Action"
+msgstr "&3 - Tasko"
+
+#. f_Main..ActionList..act_FileOpen..Caption
+#: abakt/Main.dfm:718
+msgid "&Open Profile..."
+msgstr "&Malfermi profilon..."
+
+#. f_Main..ActionList..act_FileSave..Caption
+#: abakt/Main.dfm:724
+msgid "&Save Profile"
+msgstr "&Konservi profilon"
+
+#. f_Main..ActionList..act_FileSaveAs..Caption
+#: abakt/Main.dfm:730
+msgid "Save Profile &As..."
+msgstr "Kon&servi profilon kiel..."
+
+#. f_Main..ActionList..act_ExecuteProfile..Caption
+#: abakt/Main.dfm:736
+msgid "E&xecute Profile"
+msgstr "&Plenumi profilon"
+
+#. f_Main..ActionList..act_Group..Caption
+#: abakt/Main.dfm:742
+msgid "&Group of Profiles..."
+msgstr "&Grupo de profiloj..."
+
+#. f_Main..ActionList..act_FilterPreview..Caption
+#: abakt/Main.dfm:748
+msgid "&Filter Preview..."
+msgstr "&Simuli filtriladon..."
+
+#. f_Main..ActionList..act_FileClose..Caption
+#: abakt/Main.dfm:754
+msgid "&Close Profile"
+msgstr "&Fermi profilon"
+
+#. f_Main..ActionList..act_TemplateEditor..Caption
+#: abakt/Main.dfm:760
+msgid "&Template Editor..."
+msgstr "Sxa&blonoredaktilo..."
+
+#. f_Main..ActionList..act_About..Caption
+#: abakt/Main.dfm:772
+msgid "&About"
+msgstr "&Pri la programo"
+
+#. f_Main..ActionList..act_RestoreZipArchive..Caption
+#: abakt/Main.dfm:778
+msgid "&Restore Zip Archive..."
+msgstr "&Restauxri Zip-arkivon..."
+
+#. f_Main..ActionList..act_EditActionType..Caption
+#: abakt/Main.dfm:784
+msgid "3&a - Action Type"
+msgstr "3&a - Taskotipo"
+
+#. f_Main..ActionList..act_StatusSaveAs..Caption
+#: abakt/Main.dfm:790
+msgid "Save S&tatus As..."
+msgstr "Konservi staton kiel..."
+
+#. f_Main..ActionList..act_Exit..Caption
+#: abakt/Main.dfm:796
+msgid "E&xit"
+msgstr "&Eliri"
+
+#. f_Main..ActionList..act_EditActionTypeSettings..Caption
+#: abakt/Main.dfm:801
+msgid "3&b - Action Type Settings"
+msgstr "3&b - Taskotipa agordaro"
+
+#. f_Main..ActionList..act_EditDestination..Caption
+#: abakt/Main.dfm:807
+msgid "3&c - Destination"
+msgstr "3&c - Celarkivo"
+
+#. f_Main..ActionList..act_EditFinalize..Caption
+#: abakt/Main.dfm:813
+msgid "&4 - Finalize"
+msgstr "&4 - Finigado"
+
+#. f_Main..ActionList..act_ClearStatus..Caption
+#: abakt/Main.dfm:825
+msgid "Clear &Status Window"
+msgstr "Vakigi statofenestron"
+
+#. f_Main..ActionList..act_EditHistory..Caption
+#: abakt/Main.dfm:830
+msgid "4a - &History..."
+msgstr "4a - &Historio..."
+
+#. f_Main..ActionList..act_Preferences..Caption
+#: abakt/Main.dfm:836
+msgid "&Preferences..."
+msgstr "&Preferoj..."
+
+#. f_Main..ActionList..act_ToggleDescriptionBoxes..Caption
+#: abakt/Main.dfm:842
+msgid "Show &Description Boxes"
+msgstr "Vidigi priskrib&ujojn"
+
+#. f_Main..sdlg_Profile..Title
+#: abakt/Main.dfm:852
+msgid "Save Profile"
+msgstr "Konservi profilon kiel..."
+
+#. f_Main..odlg_Profile..Title
+#: abakt/Main.dfm:860
+msgid "Open Profile"
+msgstr "Malfermi profilon..."
+
+#. f_Main..sdlg_Status....Filter
+#: abakt/Main.dfm:868
+msgid "Log files (*.log)|*.log|Text files (*.txt)|*.txt|All files (*.*)|*.*"
+msgstr "Protokola dosiero (*.log)|*.log|Teksta dosiero (*.txt)|*.txt|Iu ajn dosiero (*.*)|*.*"
+
+#. f_Main..sdlg_Status..Title
+#: abakt/Main.dfm:870
+msgid "Save Status As..."
+msgstr "Konservi staton kiel..."
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Main..odlg_Manual..DefaultExt
+#: abakt/Main.dfm:885
+msgid "chm"
+msgstr "chm"
+
+#. f_Main..odlg_Manual..Filter
+#: abakt/Main.dfm:886
+msgid "Compiled HTML Help (*.chm)|*.chm|All files (*.*)|*.*"
+msgstr "Densigita HTML-Helpo (*.chm)|*.chm|Iu ajn dosiero (*.*)|*.*"
+
+#. f_Main..odlg_Manual..Title
+#: abakt/Main.dfm:889
+msgid "Select Manual"
+msgstr "Elekti manlibron"
+
+#. f_Prefs..Caption
+#: abakt/Preferences.dfm:7
+msgid "Preferences"
+msgstr "Preferoj"
+
+#. f_Prefs..PageControl..tab_Startup..Caption
+#: abakt/Preferences.dfm:32
+msgid "On &Startup"
+msgstr "Al &startigo"
+
+#. f_Prefs..PageControl..tab_Startup..Label4....Caption
+#: abakt/Preferences.dfm:45
+msgid "Applies to '.abp', '.abg', '.abt' and '.abh' files. Will be performed once, at the next startup."
+msgstr "Aplikas al '.abp', '.abg', '.abt' kaj '.abh' dosieroj. Estos plenumita unufoje, al la sekvanta startigo de Abakt."
+
+#. f_Prefs..PageControl..tab_Startup..cb_CreateFileAssociations..Caption
+#: abakt/Preferences.dfm:60
+msgid "&Restore File Associations at Next Startup"
+msgstr "&Restauxri dosierajn asociojn al sekvanta startigo"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType..Caption
+#: abakt/Preferences.dfm:71
+msgid "Use This Profile"
+msgstr "Uzenda profilo"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:74
+msgid "&New"
+msgstr "&Nova"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:75
+msgid "&Previously Opened/Saved"
+msgstr "&Lasta malfermita/konservita"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:76
+msgid "C&ustom"
+msgstr "&Uzula"
+
+#. f_Prefs..PageControl..tab_Application..Caption
+#: abakt/Preferences.dfm:100
+msgid "&Application"
+msgstr "&Aplikajxo"
+
+#. f_Prefs..PageControl..tab_Application..cb_ShowDescriptionBoxes..Caption
+#: abakt/Preferences.dfm:110
+msgid "Show Description &Boxes"
+msgstr "Vidigi priskrib&ujojn"
+
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Caption
+#: abakt/Preferences.dfm:131
+msgid "This is a Description Box."
+msgstr "Tiu estas ekzemplo de priskribujo."
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Caption
+#: abakt/Preferences.dfm:148
+msgid "Lang&uage"
+msgstr "Ling&vo"
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label14..Caption
+#: abakt/Preferences.dfm:160
+msgid "Requires application restart."
+msgstr "Postulas restarton de Abakt."
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..Caption
+#: abakt/Preferences.dfm:187
+msgid "Preferences File"
+msgstr "Dosiero de preferoj"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Prefs..PageControl..tab_Application..GroupBox1..ed_PrefsFile..Text
+#: abakt/Preferences.dfm:205
+msgid "ed_PrefsFile"
+msgstr "ed_PrefsFile"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Caption
+#: abakt/Preferences.dfm:214
+msgid "Recent Files Menu"
+msgstr "Menuo de lastaj dosieroj"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Label2..Caption
+#: abakt/Preferences.dfm:221
+msgid "Numbe&r of Listed Files"
+msgstr "Nomb&ro de listitaj dosieroj"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..cb_RecentFilesShowPath..Caption
+#: abakt/Preferences.dfm:230
+msgid "Show &Path Information"
+msgstr "Vidigi &vojprefiksojn"
+
+#. f_Prefs..PageControl..tab_Application..GroupBox2..Caption
+#: abakt/Preferences.dfm:260
+msgid "&Data Directory"
+msgstr "&Datumdosierujo"
+
+#. f_Prefs..PageControl..tab_Backup..Label7..Caption
+#: abakt/Preferences.dfm:300
+msgid "Not used when Abakt is started with command line parameters."
+msgstr "Maluzenda kiam Abakt estas startigita kun komandliniaj parametroj."
+
+#. f_Prefs..PageControl..tab_Backup..cb_ActFile_ConfirmDelete..Caption
+#: abakt/Preferences.dfm:316
+msgid "&Confirm 'File Operation | Delete'"
+msgstr "&Konfirmi 'Dosieroperacio | Forigado'"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..Caption
+#: abakt/Preferences.dfm:327
+msgid "Default &Destination Directory"
+msgstr "Defauxlta &celdosierujo"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..Caption
+#: abakt/Preferences.dfm:366
+msgid "&Temporary Directory"
+msgstr "&Labora dosierujo"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..Caption
+#: abakt/Preferences.dfm:409
+msgid "&7-Zip Executable"
+msgstr "&7-Zip-a plenumebla dosiero"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..lbl_Get7Zip..Caption
+#: abakt/Preferences.dfm:419
+msgid "Get 7-Zip from http://sourceforge.net/projects/sevenzip/"
+msgstr "Elsxuti 7-zip-on el http://sourceforge.net/projects/sevenzip/"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..cb_OEMlistfile7Zip..Caption
+#: abakt/Preferences.dfm:454
+msgid "Convert filenames in @listfile to OEM"
+msgstr "Konverti dosiernomojn en @listdosiero al OEM"
+
+#. f_Prefs..PageControl..tab_Logging..Caption
+#: abakt/Preferences.dfm:462
+msgid "&Logging"
+msgstr "&Protokolo"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label3..Caption
+#: abakt/Preferences.dfm:485
+msgid "For every file: show IF and WHY it is included or excluded."
+msgstr "Por cxiuj dosieroj: vidigi SE kaj KIAL gxi estas anigita aux eksigita."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label10....Caption
+#: abakt/Preferences.dfm:504
+msgid "Show detailed progress for every file. If unchecked, only the failures are reported."
+msgstr "Vidigi detalan progreson por cxiuj dosieroj. Se malmarkita, nur fiaskoj estas raportitaj."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_LogBuildingFileLists..Caption
+#: abakt/Preferences.dfm:520
+msgid "Detailed &Building File Lists"
+msgstr "Detala &konstruado de dosierlistoj"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_LogFullAction..Caption
+#: abakt/Preferences.dfm:529
+msgid "Detailed &Progress"
+msgstr "Detala &protokolo"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..bt_ActionLogDir..Caption
+#: abakt/Preferences.dfm:539
+msgid "&Directory"
+msgstr "Dosier&ujo"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_AutoSaveActionLog..Caption
+#: abakt/Preferences.dfm:560
+msgid "Save Log &to \"<ProfileName>.log\""
+msgstr "Konservi protokolon &en \"<ProfiloNomo>.log|\""
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..Caption
+#: abakt/Preferences.dfm:572
+msgid "Application"
+msgstr "Aplikajxo"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..Label8..Caption
+#: abakt/Preferences.dfm:582
+msgid "Maximum Size (kB):"
+msgstr "Maksimuma grando (KiB):"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..cb_SaveAppStatus..Caption
+#: abakt/Preferences.dfm:590
+msgid "Save Status &Messages"
+msgstr "Konservi statajn &mesagxojn"
+
+#. f_Prefs..PageControl..tab_Advanced..Caption
+#: abakt/Preferences.dfm:619
+msgid "Ad&vanced"
+msgstr "Alt&nivela"
+
+#. f_Prefs..PageControl..tab_Advanced..Label9....Caption
+#: abakt/Preferences.dfm:633
+msgid "Make sure that only 100% successful backups are made. Applies to Zip Actions only."
+msgstr "Certigi ke nur 100% sukcesaj restauxrkopioj estas plenumita. Aplikas nur al Zip-taskoj."
+
+#. f_Prefs..PageControl..tab_Advanced..Label5....Caption
+#: abakt/Preferences.dfm:652
+msgid "Applies to Zip Method 'Replace'. Always disabled for removable drives."
+msgstr "Aplikita al Zip-metodo 'Anstatauxigi'. Cxiam malsxaltita por demeteblaj diskingoj."
+
+#. f_Prefs..PageControl..tab_Advanced..Label1....Caption
+#: abakt/Preferences.dfm:671
+msgid "Instructs ZipBuilder to work on a temporary copy of existing zip archive."
+msgstr "Instruas ZipBuilder labori sur labora kopio de ekzistanta Zip-arkivo."
+
+#. f_Prefs..PageControl..tab_Advanced..cb_RemoveNonExistingSourceDirs..Caption
+#: abakt/Preferences.dfm:687
+msgid "&Remove Non-Existing Source Directories from Profile"
+msgstr "&Forigi malekzistantajn fontajn dosierujojn el profilo"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_UseNewUIOnBFD..Caption
+#: abakt/Preferences.dfm:698
+msgid "Use New UI BrowseFor&Folder"
+msgstr "Uzi novan uzulinterfacon '&foliumi por dosiero'"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_CreateTempZipCopy..Caption
+#: abakt/Preferences.dfm:709
+msgid "Create &Temporary Copy if Zip Archive Exists"
+msgstr "Krei &laboran kopion se Zip-arkivo ekzistas"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_TreatWarningsAsErrors..Caption
+#: abakt/Preferences.dfm:720
+msgid "Treat &Warnings as Errors"
+msgstr "Trakti &avertoj kiel eraroj"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_UseZipBuilderAddSafe..Caption
+#: abakt/Preferences.dfm:729
+msgid "&Perform Safe ZipBuilder Operations"
+msgstr "&Plenumi sekurajn ZipBuilder-operacioj"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Prefs..odlg_7ZipExe..DefaultExt
+#: abakt/Preferences.dfm:782
+msgid "exe"
+msgstr "exe"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_Prefs..odlg_7ZipExe..FileName
+#: abakt/Preferences.dfm:783
+msgid "7z.exe"
+msgstr "7z.exe"
+
+#. f_Prefs..odlg_7ZipExe..Filter
+#: abakt/Preferences.dfm:784
+msgid "Application (*.exe)|*.exe|Any File (*.*)|*.*"
+msgstr "Plenumebla dosiero (*.exe)|*.exe|Iu ajn dosiero (*.*)|*.*"
+
+#. f_Prefs..odlg_7ZipExe..Title
+#: abakt/Preferences.dfm:786
+msgid "7-Zip Commandline Executable"
+msgstr "7-Zip-a komandlinia plenumebla dosiero"
+
+#. f_RestoreBackup..Caption
+#: abakt/RestoreBackup.dfm:6
+msgid "Restore Zip Archive"
+msgstr "Restauxri Zip-arkivon"
+
+#. f_RestoreBackup..pnl_Top..lbl_Password..Caption
+#: abakt/RestoreBackup.dfm:77
+msgid "&Password:"
+msgstr "&Pasvorto:"
+
+#. f_RestoreBackup..pnl_Top..cb_Overwrite..Caption
+#: abakt/RestoreBackup.dfm:86
+msgid "O&verwrite Existing Files and Directories"
+msgstr "Anstatauxigi ekzistantajn dosierojn kaj dosierujojn"
+
+#. f_RestoreBackup..pnl_Top..bt_ZipArchive..Caption
+#: abakt/RestoreBackup.dfm:102
+msgid "&Zip Archive"
+msgstr "&Zip-arkivo"
+
+#. f_RestoreBackup..pnl_Top..bt_ListFiles..Caption
+#: abakt/RestoreBackup.dfm:120
+msgid "&Open"
+msgstr "&Malfermi"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_RestoreBackup..pnl_Top..cmbx_ZipArchiveFilename..Text
+#: abakt/RestoreBackup.dfm:132
+msgid "cmbx_ZipArchiveFilename"
+msgstr "cmbx_ZipArchiveFilename"
+
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..Caption
+#: abakt/RestoreBackup.dfm:141
+msgid "&Destination Directory"
+msgstr "&Celdosierujo"
+
+#. f_RestoreBackup..gbx_ZipFiles..Caption
+#. FrameSource..gbx_Files..Caption
+#: abakt/RestoreBackup.dfm:181
+msgid "Fi&les"
+msgstr "D&osieroj"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:196
+msgid "Path"
+msgstr "Vojprefikso"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:218
+msgid "Rate (%)"
+msgstr "Rejsxo (%)"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:222
+msgid "Compressed"
+msgstr "Densigita"
+
+#. f_RestoreBackup..pnl_Bottom..gbx_Log..Caption
+#: abakt/RestoreBackup.dfm:249
+msgid "Log"
+msgstr "Protokolo"
+
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#: abakt/RestoreBackup.dfm:313
+msgid "Archive"
+msgstr "Arkivo"
+
+#. f_RestoreBackup..ActionList..act_RestoreFiles..Caption
+#: abakt/RestoreBackup.dfm:438
+msgid "&Restore Selected Files"
+msgstr "&Restauxri markitajn dosierojn"
+
+#. f_RestoreBackup..odlg_Backup..Filter
+#: abakt/RestoreBackup.dfm:458
+msgid "Zip Files (*.zip)|*.zip|Any File (*.*)|*.*"
+msgstr "Zip-dosiero (*.zip)|*.zip|Iu ajn dosiero (*.*)|*.*"
+
+#. f_RestoreBackup..odlg_Backup..Title
+#: abakt/RestoreBackup.dfm:460
+msgid "Select an Archive to Restore"
+msgstr "Elekti restauxrendan arkivon"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameSource..gbx_Files..pnl_FilesSummary..lbl_FilesSummary..Caption
+#: abakt/SourceFrame.dfm:88
+msgid "lbl_FilesSummary"
+msgstr "lbl_FilesSummary"
+
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..tb_FilterSetFunctions..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoriesMoreFunctions..Hint
+#: abakt/SourceFrame.dfm:149
+msgid "[Right Mousebutton]"
+msgstr "[Dekstra musbutono]"
+
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..tb_FilterSetFunctions..Caption
+#: abakt/SourceFrame.dfm:152
+msgid "Filter&Set"
+msgstr "F&iltrilaro"
+
+#. FrameSource..gbx_Dirs..Caption
+#: abakt/SourceFrame.dfm:174
+msgid "&Directories"
+msgstr "Dosier&ujoj"
+
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoriesMoreFunctions..Caption
+#: abakt/SourceFrame.dfm:246
+msgid "&More"
+msgstr "P&li"
+
+#. FrameSource..pnl_Descr_Source..Label15....Caption
+#: abakt/SourceFrame.dfm:270
+msgid "Select the directories to include. Unselected directories are always excluded."
+msgstr "Marku la anigendajn dosierujojn. Malmarkitaj dosierujoj estos cxiam eksigataj."
+
+#. FrameSource..ActionList..act_RefreshDirList..Caption
+#: abakt/SourceFrame.dfm:283
+msgid "Refresh &Directory List"
+msgstr "Aktualigi &dosierujan liston"
+
+#. FrameSource..ActionList..act_RefreshFileList..Caption
+#: abakt/SourceFrame.dfm:288
+msgid "Refresh &File List"
+msgstr "Aktualigi dosieran &liston"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. FrameSource..ActionList..act_SelectAllChildren..Category
+#. FrameSource..ActionList..act_UnSelectAllChildren..Category
+#. FrameSource..ActionList..act_CollapseAllChildren..Category
+#. FrameSource..ActionList..act_ExpandAllChildren..Category
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Category
+#: abakt/SourceFrame.dfm:293
+#: abakt/SourceFrame.dfm:305
+#: abakt/SourceFrame.dfm:310
+#: abakt/SourceFrame.dfm:315
+msgid "Popup_Dirs"
+msgstr "Popup_Dirs"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Caption
+#: abakt/SourceFrame.dfm:294
+msgid "&Select + All Children"
+msgstr "&Marki tutan brancxon"
+
+#. FrameSource..ActionList..act_UnSelectAllChildren..Caption
+#: abakt/SourceFrame.dfm:300
+msgid "&UnSelect + All Children"
+msgstr "M&almarki tutan brancxon"
+
+#. FrameSource..ActionList..act_CollapseAllChildren..Caption
+#: abakt/SourceFrame.dfm:306
+msgid "&Collapse + All Children"
+msgstr "&Kasxi tutan brancxon"
+
+#. FrameSource..ActionList..act_ExpandAllChildren..Caption
+#: abakt/SourceFrame.dfm:311
+msgid "&Expand + All Children"
+msgstr "&Vidigi tutan brancxon"
+
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Caption
+#: abakt/SourceFrame.dfm:316
+msgid "Scan &Tree Below Directory"
+msgstr "Denove &skani tutan brancxon"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..Caption
+#: abakt/SourceFrame.dfm:353
+msgid "&Exclude"
+msgstr "&Eksigi"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_ThisFile..Caption
+#: abakt/SourceFrame.dfm:356
+msgid "This &File"
+msgstr "Tiun &dosieron"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeAllDirs..Caption
+#: abakt/SourceFrame.dfm:360
+msgid "Filetype In All &Directories"
+msgstr "Dosier&tipon en cxiuj &dosierujoj"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeThisDir..Caption
+#: abakt/SourceFrame.dfm:364
+msgid "Filetype In &This Directory Only"
+msgstr "Dosiertipon nur en tiu dosier&ujo"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeDirAndSubdirs..Caption
+#: abakt/SourceFrame.dfm:368
+msgid "Filetype In This Directory And &Below"
+msgstr "Dosiertipon en tiu tuta &brancxo"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_AllFilesThisDir..Caption
+#: abakt/SourceFrame.dfm:372
+msgid "&All Files In This Dir"
+msgstr "&Cxiujn dosierojn en tiu dosierujo"
+
+#. FrameSource..pop_FilterSet..pmi_Include..Caption
+#: abakt/SourceFrame.dfm:377
+msgid "&Include (Always)"
+msgstr "&Anigi (cxiam)"
+
+#. FrameSource..pop_FilterSet..pmi_NoCompression..Caption
+#: abakt/SourceFrame.dfm:381
+msgid "No &Compression"
+msgstr "Ne &densigi"
+
+#. FrameSource..pop_FilterSet..pmi_AlwaysShowEditor..Caption
+#: abakt/SourceFrame.dfm:385
+msgid "&Always Show Editor"
+msgstr "Cxiam &vidigi redaktilon"
+
+#. FrameSource..pop_FilterSet..pmi_NewFilterSetBasedOnFile..Caption
+#: abakt/SourceFrame.dfm:393
+msgid "&New FilterSet"
+msgstr "&Nova filtrilaro"
+
+#. FrameSource..pop_FilterSet..pmi_EditActiveFilterSet..Caption
+#: abakt/SourceFrame.dfm:400
+msgid "E&dit Active FilterSet"
+msgstr "&Redakti aktualan filtrilaron"
+
+#. FrameSource..pop_FileSort..pmi_None..Caption
+#: abakt/SourceFrame.dfm:410
+msgid "None"
+msgstr "Nenio"
+
+#. FrameSource..pop_FileSort..pmi_Excluded..Caption
+#: abakt/SourceFrame.dfm:414
+msgid "Excluded"
+msgstr "Eksigitaj"
+
+#. FrameSource..pop_FileSort..pmi_Included..Caption
+#: abakt/SourceFrame.dfm:419
+msgid "Included"
+msgstr "Anigitaj"
+
+#. FrameSource..pop_FileSort..pmi_NotCompressed..Caption
+#: abakt/SourceFrame.dfm:424
+msgid "Not Compressed"
+msgstr "Ne densigitaj"
+
+#. f_TemplateEditor..Caption
+#: abakt/TemplateEditor.dfm:6
+msgid "Template Editor"
+msgstr "Sxablonoredaktilo"
+
+#. f_TemplateEditor..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label15....Caption
+#: abakt/TemplateEditor.dfm:77
+msgid "Only the selected (checked) settings will be written to the template."
+msgstr "Nur markita agordaro estos skribata en sxablonon."
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileNew..Caption
+#: abakt/TemplateEditor.dfm:267
+msgid "&New Template"
+msgstr "&Nova sxablono"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileOpen..Caption
+#: abakt/TemplateEditor.dfm:272
+msgid "&Open Template"
+msgstr "&Malfermi sxablonon"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileSave..Caption
+#: abakt/TemplateEditor.dfm:280
+msgid "&Save Template"
+msgstr "&Konservi sxablonon"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileSaveAs..Caption
+#: abakt/TemplateEditor.dfm:285
+msgid "Save Template &As..."
+msgstr "Kon&servi sxablonon kiel..."
+
+#. f_TemplateEditor..MainMenu..mu_Tools..mi_ToolsPopulateWithCurrentProfile..Caption
+#: abakt/TemplateEditor.dfm:318
+msgid "Current Profile --> This Template"
+msgstr "Aktuala profilo --> Tiu sxablono"
+
+#. f_TemplateEditor..MainMenu..mu_Tools..mi_ToolsApplyToCurrentProfile..Caption
+#: abakt/TemplateEditor.dfm:322
+msgid "This Template --> Current Profile"
+msgstr "Tiu sxablono --> Aktuala profilo"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+#. f_TemplateEditor..odlg_Template..DefaultExt
+#. f_TemplateEditor..sdlg_Template..DefaultExt
+#: abakt/TemplateEditor.dfm:328
+msgid "abt"
+msgstr "abt"
+
+#. f_TemplateEditor..odlg_Template....Filter
+#: abakt/TemplateEditor.dfm:331
+msgid "Abakt Template (*.abt)|*.abt|Import Abakt Profile or Group (*.abp;*.abg)|*.abp;*.abg|All files (*.*)|*.*"
+msgstr "Abakt-a sxablono (*.abt)|*.abt|Importi Abakt-an profilon aux grupon (*.abp;*.abg)|*.abp;*.abg|Iu ajn dosiero (*.*)|*.*"
+
+#. f_TemplateEditor..odlg_Template..Title
+#: abakt/TemplateEditor.dfm:333
+msgid "Open/Import Template"
+msgstr "Malfermi/Importi sxablonon"
+
+#. f_TemplateEditor..sdlg_Template..Filter
+#: abakt/TemplateEditor.dfm:339
+msgid "Abakt Template (*.abt)|*.abt|All files (*.*)|*.*"
+msgstr "Abakt-a sxablono (*.abt)|*.abt|Iu ajn dosiero (*.*)|*.*"
+
+msgid "Build"
+msgstr "Muntajxo"
+
+msgid "Destination Directory can not be empty."
+msgstr "Celdosierujo ne eblas esti malplena."
+
+#, c-format
+msgid "Destination Directory does not exist: %s"
+msgstr "Celdosierujo ne ekzistas: %s"
+
+#, c-format
+msgid "Creating Destination Directory %s..."
+msgstr "Kreas celdosierujon %s..."
+
+msgid "Failed."
+msgstr "Fiaskita."
+
+msgid "Ok."
+msgstr "Bone."
+
+msgid "Destination Directory will not be automatically created."
+msgstr "Celdosierujo ne estos auxtomate kreita."
+
+#, c-format
+msgid "Action Log Directory does not exist: %s"
+msgstr "Dosierujo de taskoprotokolo ne ekzistas: %s"
+
+msgid "Logging to file is disabled for the current Action."
+msgstr "Konservi protokolon al dosiero estas malsxaltita por la aktuala tasko."
+
+#, c-format
+msgid "[ Starting Action %s ]"
+msgstr "[ Komenco de tasko %s ]"
+
+#, c-format
+msgid "Abakt Version: %s"
+msgstr "Abakt-a versio: %s"
+
+#, c-format
+msgid "Profile: %s"
+msgstr "Profilo: %s"
+
+#, c-format
+msgid "Log File: %s"
+msgstr "Protokola dosiero: %s"
+
+msgid "Disabled"
+msgstr "Malsxaltita"
+
+msgid "Archive Mode"
+msgstr "Arkivoregximo"
+
+msgid "Method"
+msgstr "Metodo"
+
+msgid "Path Information"
+msgstr "Dosierindiko"
+
+#, c-format
+msgid "Elapsed Time (Profile): %s"
+msgstr "Pasinta tempo (profilo): %s"
+
+# Videbla en la taskoprotokolo, post taskoplenumado (Cyril Castelbou 2007-01-15)
+#, c-format
+msgid "Finished Action %s"
+msgstr "Tasko plenumita %s"
+
+msgid "ZipBuilder automatically renamed the last part of the Split Archive to '*.zip'."
+msgstr "ZipBuilder auxtomate renomizis la lastan partan de la dividita arkivo al '*.zip'."
+
+msgid "Zip Archive Details:"
+msgstr "Detaloj de Zip-arkivo:"
+
+#, c-format
+msgid "Files in Zip Archive: %d"
+msgstr "Dosieroj en Zip-arkivo: %d"
+
+#, c-format
+msgid "Files Acted On: %d"
+msgstr "Dosieroj plenumitaj: %d"
+
+#, c-format
+msgid "Split Zip Archive Parts: %d"
+msgstr "Partoj de dividita Zip-arkivo: %d"
+
+#, c-format
+msgid "Compressed Size: %s (%s B) of %s (%s B) = %i%% of original size."
+msgstr "Densigita grando: %s (%s B) el %s (%s B)= %i%% de originala grando."
+
+msgid "The following files or directories could not be archived:"
+msgstr "Ne eblas enarkivi la sekvantajn dosierojn aux dosierujojn:"
+
+msgid "FileList:"
+msgstr "Dosierlisto:"
+
+#, c-format
+msgid "Saving FileList to: %s"
+msgstr "Konservas dosierliston al: %s"
+
+msgid "No Source directories."
+msgstr "Neniu fonta dosierujo."
+
+#, c-format
+msgid "Compression Level: %d"
+msgstr "Nivelo de densigo: %d"
+
+#, c-format
+msgid "Using Password: %s"
+msgstr "Uzado de pasvorto: %s"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "Yes"
+msgstr "Jes"
+
+msgid "Perform Safe ZipBuilder Operations"
+msgstr "Plenumado de sekuraj ZipBuilder-operacioj"
+
+#, c-format
+msgid "Destination Drive: %s"
+msgstr "Celdiskingo: %s"
+
+#, c-format
+msgid "Removable: %s"
+msgstr "Demetebla: %s"
+
+msgid "Type: CD/DVD"
+msgstr "Tipo: lumdisko/lumdiskego"
+
+#, c-format
+msgid "Free Space: %s (%s Bytes)"
+msgstr "Libera spaco: %s (%s bajtoj)"
+
+#, c-format
+msgid "Temporary Directory: %s"
+msgstr "Labora dosierujo: %s"
+
+msgid "Zip Archive's Destination is empty."
+msgstr "Celo de Zip-arkivo estas malplena."
+
+#, c-format
+msgid "Destination Zip Archive exists. New name: %s"
+msgstr "Cela Zip-arkivo jam ekzistas. Gxia nomo sxangxita al: %s"
+
+#, c-format
+msgid "You chose to Freshen a non-existing Zip Archive: %s."
+msgstr "Vi elektis aktualigi neekzistantan Zip-arkivon: %s."
+
+msgid "A new Zip Archive will be created."
+msgstr "Nova Zip-arkivo estos kreata."
+
+msgid "Action failed."
+msgstr "Tasko fiaskis."
+
+msgid "You can not add more than 65535 files to a Zip archive."
+msgstr "Ne eblas anigi pli ol 65536 dosieroj en Zip-arkivon."
+
+#, c-format
+msgid "Could not open file: %s"
+msgstr "Ne eblis malfermi dosieron: %s"
+
+msgid "No existing Zip Archive found. Creating new archive."
+msgstr "Neniu Zip-arkivo trovita. Kreado de nova arkivo."
+
+msgid "Creating New Zip Archive:"
+msgstr "Kreado de nova Zip-arkivo:"
+
+msgid "Replacing Existing Zip Archive:"
+msgstr "Anstatauxigas ekzistantan Zip-arkivon:"
+
+msgid "Creating a temporary copy on a removable drive is always disabled."
+msgstr "Kreado de labora kopio sur demetebla disko estas cxiam malsxaltita."
+
+#, c-format
+msgid "Creating temporary copy of existing Zip Archive: %s..."
+msgstr "Kreas laboran kopion de ekzistanta Zip-arkivo: %s..."
+
+msgid "Adding files to existing Zip Archive instead."
+msgstr "Anstatauxe anigas dosierojn en ekzistantan Zip-arkivon."
+
+msgid "Adding files. Please wait."
+msgstr "Aldonado de dosieroj. Bonvolu atendi."
+
+#, c-format
+msgid "Deleting temporary copy of Zip Archive: %s..."
+msgstr "Forigas laboran kopion de Zip-arkivo: %s"
+
+msgid "Updating Existing Zip Archive:"
+msgstr "Gxisdatigas ekzistantan Zip-arkivon:"
+
+#, c-format
+msgid "Testing Zip Archive %s:"
+msgstr "Testado de Zip-arkivo: %s"
+
+msgid "Disabled."
+msgstr "Malsxaltita."
+
+#, c-format
+msgid "All %d files tested Ok."
+msgstr "Cxiuj %d dosieroj estas sukcese testita."
+
+#, c-format
+msgid "Error: %d files tested BAD, or skipped!"
+msgstr "Eraro: %d dosieroj estas MALBONAJ aux malatentitaj!"
+
+msgid "Detecting Empty Directories:"
+msgstr "Detektado de malplenaj dosierujoj:"
+
+msgid "Disabled if 'Path Information' is 'None'."
+msgstr "Malsxaltita se 'Vojprefikso' estas agordita al 'Neniu'."
+
+msgid "None found."
+msgstr "Neniu trovita."
+
+#, c-format
+msgid "Empty directories to include: %d"
+msgstr "Anigendaj malplenaj dosierujoj: %d"
+
+msgid "Split Zip Archive: Enabled"
+msgstr "Dividita Zip-arkivo: Sxaltita"
+
+msgid "Type: Spanning (using removable disks)"
+msgstr "Tipo: etendigxado (uzado de demeteblaj diskoj)."
+
+msgid "You should label every disk."
+msgstr "Vi devus etikedi cxiun diskon."
+
+msgid "Type: Splitting (using a fixed drive)."
+msgstr "Tipo: dividado (uzado de fiksita diskingo)."
+
+msgid "Files will be named '*.z01', '*.z02', etc., and finally '*.zip'."
+msgstr "Dosieroj estos nomataj '*.z01', '*.z02', ktp., kaj finfine '*.zip'."
+
+#, c-format
+msgid "Each part will have a maximum size of %s (%s Bytes)"
+msgstr "Cxiu parto havos maksimuman grandon je %s (%s bajtoj)"
+
+#, c-format
+msgid "Deleting unfinished Zip Archive %s..."
+msgstr "Forigas neplenumitan Zip-arkivon %s..."
+
+#, c-format
+msgid "Deleting %s..."
+msgstr "Forigas dosieron %s..."
+
+#, c-format
+msgid "File does not exist: %s"
+msgstr "Dosiero ne ekzistas: %s"
+
+#, c-format
+msgid "Elapsed Time (Group): %s"
+msgstr "Pasinta tempo (grupo): %s"
+
+msgid "Action not completed"
+msgstr "Tasko ne plenumita"
+
+msgid "Action aborted by user."
+msgstr "Tasko cxesigita per uzulo."
+
+msgid "An error occured."
+msgstr "Eraro okazis."
+
+#, c-format
+msgid "Restoring temporary copy %s..."
+msgstr "Restauxras laboran kopion %s..."
+
+msgid "You should manually restore the temporary copy."
+msgstr "Vi devus mane restauxri la laboran kopion."
+
+#, c-format
+msgid "Destination: %s"
+msgstr "Celarkivo: %s"
+
+msgid "Building File Lists"
+msgstr "Kreado de dosierlistoj"
+
+#, c-format
+msgid "Saving List of Files to Include to %s."
+msgstr "Konservas liston de anigendaj dosieroj al %s."
+
+#, c-format
+msgid "Saving List of Files to Exclude to %s."
+msgstr "Konservas liston de eksigendaj dosieroj al %s."
+
+#, c-format
+msgid "Included Files: %d. Total Size: %s (%s Bytes)"
+msgstr "Anigitaj dosieroj: %d. Totala grando: %s (%s bajtoj)"
+
+#, c-format
+msgid "Excluded Files: %d. Total Size: %s (%s Bytes)"
+msgstr "Eksigitaj dosieroj: %d. Totala grando: %s (%s bajtoj)"
+
+#, c-format
+msgid "Elapsed Time: %s"
+msgstr "Pasinta tempo: %s"
+
+msgid "Nothing to do! No files selected."
+msgstr "Nenio farenda! Neniu dosiero estas markita."
+
+#, c-format
+msgid "Files: %d (%s) - File: %s"
+msgstr "Dosieroj: %d (%s) - Dosiero: %s"
+
+#, c-format
+msgid "+ Included %s: %s"
+msgstr "+ anigas %s: %s"
+
+#, c-format
+msgid "- Excluded %s: %s"
+msgstr "- eksigas %s: %s"
+
+msgid "Clearing Archive Attributes..."
+msgstr "Vakigas arkivajn atributojn..."
+
+#, c-format
+msgid "Could not read attributes of file: %s"
+msgstr "Ne eblas legi atributojn de dosiero: %s"
+
+#, c-format
+msgid "Could not clear Archive attribute of file: %s"
+msgstr "Ne eblas vakigi A-atributon de dosiero: %s"
+
+msgid "Nothing done."
+msgstr "Nenio farita."
+
+msgid "Removing Emptied Source Directories:"
+msgstr "Forigas malplenigitajn fontajn dosieruojn:"
+
+#, c-format
+msgid "Successfully deleted: %s"
+msgstr "Sukcese forigita: %s"
+
+msgid "Abort Action?"
+msgstr "Cxesigi taskon?"
+
+msgid "Aborting Action"
+msgstr "Cxesigado de tasko"
+
+msgid "Please wait"
+msgstr "Bonvolu atendi"
+
+#, c-format
+msgid "Aborting - (%d/%d) - Please wait..."
+msgstr "Cxesigado - (%d/%d) - Bonvolu atendi..."
+
+#, c-format
+msgid "File [%d/%d]: %s..."
+msgstr "dosieron [%d/%d]: %s..."
+
+msgid "Treat Warnings As Errors"
+msgstr "Trakti avertojn kiel erarojn"
+
+msgid "option is enabled: Action failed with Exit Code: ERROR."
+msgstr "opcio estas sxaltita: tasko fiaskis kun elira kodo: ERARO."
+
+#, c-format
+msgid "Files to Process: %d. Total Size: %s (%s B)."
+msgstr "Dosieroj plenumendaj: %d. Totala grando: %s (%s bajtoj)."
+
+#, c-format
+msgid "Testing File [%d/%d]: %s..."
+msgstr "Testas dosieron [%d/%d]: %s..."
+
+#, c-format
+msgid "File [%d/%d]: %s --> %s..."
+msgstr "dosieron [%d/%d]: %s --> %s..."
+
+msgid "Adding"
+msgstr "Enarkivigas"
+
+#, c-format
+msgid "Empty Directory [%d/%d]: %s..."
+msgstr "Malplena dosierujo [%d/%d]: %s..."
+
+msgid "File Size Changed While Zipping"
+msgstr "Dosiera grando sxangxis dum densigado"
+
+msgid "Updating"
+msgstr "Gxisdatigado"
+
+msgid "Keeping"
+msgstr "Konservado"
+
+msgid "Copying"
+msgstr "Kopiado"
+
+msgid "(for testing)"
+msgstr "(por testado)"
+
+#, c-format
+msgid "File: %s"
+msgstr "Dosiero: %s"
+
+#, c-format
+msgid "ZipBuilder Message [Code=%d]: %s"
+msgstr "ZipBuilder-a mesagxo [kodo=%d]: %s"
+
+#, c-format
+msgid "Writing Zip Comment: %s..."
+msgstr "Skribas Zip-komenton: %s..."
+
+msgid "Detecting Duplicate Filenames Inside Archive:"
+msgstr "Detektado de duoblaj dosiernomoj en arkivo:"
+
+#, c-format
+msgid "Filename %s exists! - File %s will not be included in archive"
+msgstr "Dosiernomo %s jam ekzistas! - Dosiero %s ne estos enarkivigata."
+
+msgid "Done."
+msgstr "Sukcese farita."
+
+#, c-format
+msgid "Copying Files to Zip Archive Part %d - (%s):"
+msgstr "Kopias dosierojn al Zip-arkivan parton %d - (%s):"
+
+msgid "Destination disk does not have enough free space."
+msgstr "Celdisko ne enhavas suficxe da libera spaco."
+
+msgid "Destination disk is not empty."
+msgstr "Celdisko ne malplenas."
+
+msgid "Use this disk anyway?"
+msgstr "Tamen uzi tiun diskon?"
+
+msgid "You can insert another disk now, then press Retry."
+msgstr "Vi povas nu enmeti alian diskon, poste klaki sur Re-provi."
+
+msgid "Insert a (formatted) disk in the drive."
+msgstr "Enmetu (formatitan) diskon en la legilo."
+
+#, c-format
+msgid "Insert a (formatted) disk in drive %s."
+msgstr "Enmetu (formatitan) diskon en legilo %s."
+
+#, c-format
+msgid "Label this disk '%d'."
+msgstr "Etikedu tiun diskon '%d'."
+
+#, c-format
+msgid "Saving Zip Archive part %d to drive %s."
+msgstr "Konservas Zip-arkivan parton %d al diskingon %s."
+
+msgid "Copying Files:"
+msgstr "Kopiado de dosieroj:"
+
+msgid "Moving Files:"
+msgstr "Movado de dosieroj:"
+
+msgid "Files."
+msgstr "dosieroj."
+
+msgid "Using Recycle Bin if possible."
+msgstr "Uzado de rubujo lauxeble."
+
+#, c-format
+msgid "Method: Delete %s"
+msgstr "Metodo: forigado de %s"
+
+#, c-format
+msgid "Deleting %s"
+msgstr "Forigado de %s"
+
+#, c-format
+msgid "Destination Directory: %s"
+msgstr "Celdosierujo: %s"
+
+msgid "Existing files will be overwritten."
+msgstr "Ekzistantaj dosieroj estos anstatauxigataj."
+
+msgid "Confirming Action Type Delete is disabled when performing an AutoExecute backup using the command line."
+msgstr "Konfirmado de taskotipo 'Forigi' estas malsxaltita dum plenumado de auxtomata plenumita restauxrkopio per komanda linio."
+
+msgid "You chose to Delete files."
+msgstr "Vi elektis forigon de dosieroj."
+
+msgid "Are you sure?"
+msgstr "Cxu vi konfirmas?"
+
+msgid "Performing File-By-File Operation."
+msgstr "Plenumado de dosier-post-dosiera operacio."
+
+msgid "Aborted."
+msgstr "Cxesigita."
+
+#, c-format
+msgid "Copying [%d/%d]: %s --> %s"
+msgstr "Kopiado de [%d/%d]: %s --> %s"
+
+#, c-format
+msgid "Moving [%d/%d]: %s --> %s"
+msgstr "Movado de [%d/%d]: %s --> %s"
+
+msgid "Destination file exists."
+msgstr "Celdosiero jam ekzistas."
+
+#, c-format
+msgid "Deleting [%d/%d]: %s"
+msgstr "Forigas [%d/%d]: %s"
+
+msgid "Is destination file Read-Only/Hidden?"
+msgstr "Cxu celdosiero estas nurlega aux kasxita?"
+
+msgid "Is source or destination file in use by another application?"
+msgstr "Cxu font- aux celdosiero estas uzita per alia programo?"
+
+#, c-format
+msgid "Operation performed successfully on %d/%d files."
+msgstr "Operacio sukcese plenumita por %d/%d dosieroj."
+
+msgid "Empty Directories:"
+msgstr "Malplenaj dosierujoj:"
+
+#, c-format
+msgid "Creating Empty Directory [%d/%d]: '%s'..."
+msgstr "Kreas malplenan dosierujon [%d/%d]: '%s'..."
+
+msgid "Exists."
+msgstr "Ekzistas."
+
+#, c-format
+msgid "Deleting Empty Directory [%d/%d]: '%s'..."
+msgstr "Forigas malplenan dosierujon [%d/%d]: '%s'..."
+
+msgid "Could not clear R attribute"
+msgstr "Ne eblis vakigi R-atributon"
+
+msgid "Could not re-set R attribute"
+msgstr "Ne eblis reagordi R-atributon"
+
+msgid "Could not delete existing destination file: "
+msgstr "Ne eblis forigi ekzistantan celdosieron:"
+
+#, c-format
+msgid "Could not create directory: %s"
+msgstr "Ne eblis krei dosierujon: %s"
+
+msgid "Could not find 7-Zip executable."
+msgstr "Ne eblis trovi 7-Zip-an plenumeblan dosieron."
+
+msgid "Destination archive has no name."
+msgstr "Celarkivo ne havas nomon."
+
+msgid "Calling 7-Zip with command line:"
+msgstr "Vokas 7-Zip-on per komanda linio:"
+
+msgid "Note:"
+msgstr "Noto:"
+
+msgid "7-Zip requires the source files to be on one drive."
+msgstr "7-Zip postulas cxeeston de cxuij fontaj dosieroj sur la sama diskingo."
+
+msgid "The 7-Zip executable will be called for every drive."
+msgstr "La 7-Zip-a plenumebla dosiero estos do vokata por cxiu diskingo."
+
+msgid "7-Zip Archive Details:"
+msgstr "Detaloj de 7-Zip-arkivo:"
+
+#, c-format
+msgid "Compressed Size: %s (%s Bytes)"
+msgstr "Densigita grando: %s (%s bajtoj)"
+
+#, c-format
+msgid "Could not find temporary filelist: %s"
+msgstr "Ne eblis trovi laboran dosierliston: %s"
+
+#, c-format
+msgid "Calling 7-Zip executable for drive: %s"
+msgstr "Vokado de 7-Zip-a plenumebla dosiero por diskingo: %s"
+
+#, c-format
+msgid "Using temporary filelist (%s): %s"
+msgstr "Uzas laboran dosierliston (%s): %s"
+
+msgid "Terminating 7-Zip process..."
+msgstr "Finigxas 7-Zip-procezon..."
+
+#, c-format
+msgid "File %d/%d [%s]"
+msgstr "Dosiero %d/%d [%s]"
+
+msgid "COMMAND:"
+msgstr "KOMANDO:"
+
+msgid "Reading Output"
+msgstr "Legado de eligaĵo"
+
+msgid "Finished Reading Output"
+msgstr "Legado de eligaĵo plenumita"
+
+#, c-format
+msgid "Could not delete temporary filelist file: %s"
+msgstr "Ne eblis forigi laboran dosierliston: %s"
+
+msgid "Browse"
+msgstr "Foliumi"
+
+msgid "Choose directory:"
+msgstr "Elekti dosierujon:"
+
+msgid "true"
+msgstr "vera"
+
+msgid "false"
+msgstr "malvera"
+
+msgid "Confirm"
+msgstr "Konfirmado"
+
+msgid "&Yes"
+msgstr "&Jes"
+
+msgid "&No"
+msgstr "&Ne"
+
+msgid "&Retry"
+msgstr "&Re-provi"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:81
+msgid "&Ignore"
+msgstr "&Malatenti"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:94
+msgid "Ignore"
+msgstr "Malatenti"
+
+msgid "Exclude"
+msgstr "Eksigi"
+
+msgid "OnlyInclude"
+msgstr "NurAnigi"
+
+msgid "Zip"
+msgstr "Zip-a"
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+msgid "SevenZip"
+msgstr "SevenZip"
+
+msgid "Relative"
+msgstr "Relativa"
+
+msgid "Always"
+msgstr "Cxiam"
+
+msgid "Automatic"
+msgstr "Auxtomate"
+
+msgid "Custom..."
+msgstr "Uzula..."
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:356
+msgid "1.44 MB (3.5\" floppy disk)"
+msgstr "1.44 MiB (3.5\" disketo)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:357
+msgid "94.6 MB (100 MB IOMEGA disk)"
+msgstr "94.6 MiB (100 MiB IOMEGA-disko)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:358
+msgid "200 MB (MO disk)"
+msgstr "200 MiB (MO-disko)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:359
+msgid "250 MB (MO disk)"
+msgstr "250 MiB (MO-disko)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:360
+msgid "600 MB (MO disk)"
+msgstr "600 MiB (MO-disko)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:361
+msgid "650 MB (74 min. CD)"
+msgstr "650 MiB (74 min. KD)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:362
+msgid "700 MB (80 min. CD)"
+msgstr "700 MiB (80 min. KD)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:363
+msgid "750 MB (750 MB IOMEGA disk)"
+msgstr "750 MiB (750 MiB IOMEGA-disko)"
+
+msgid "Copy"
+msgstr "Kopii"
+
+msgid "Move"
+msgstr "Movi"
+
+msgid "Delete"
+msgstr "Forigo"
+
+msgid "File Properties Filter"
+msgstr "Filtrilo de dosieraj atributoj"
+
+msgid "H Filter Method"
+msgstr "Filtrometodo laux H-atributo"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:94
+msgid "H = Hidden"
+msgstr "H = kasxita"
+
+msgid "R Filter Method"
+msgstr "Filtrometodo laux R-atributo"
+
+msgid "R = Read Only"
+msgstr "R = nurlega"
+
+msgid "S Filter Method"
+msgstr "Filtrometodo laux S-atributo"
+
+msgid "S = System"
+msgstr "S = sistema"
+
+msgid "Exclude files smaller than N Bytes"
+msgstr "Eksigi dosierojn pli malgrandaj ol N bajtoj"
+
+msgid "Ignored if 0."
+msgstr "Malatentota se nula."
+
+msgid "Exclude files greater than N Bytes"
+msgstr "Eksigi dosierojn pli grandaj ol N bajtoj"
+
+msgid "Exclude files modified between Date1 and Date2"
+msgstr "Eksigi dosierojn sxangxitajn inter Dato1 kaj Dato2"
+
+msgid "File modification date 1"
+msgstr "Dosiersxangxa dato 1"
+
+msgid "Format: 'yyyy-mm-dd'."
+msgstr "Formato: 'jjjj-mm-tt'."
+
+msgid "File modification date 2"
+msgstr "Dosiersxangxa dato 2"
+
+msgid "Only Include files with an age between Age1 and Age2 days."
+msgstr "Anigi nur dosierojn kun agxo inter Agxo1 kaj Agxo2 tagoj."
+
+msgid "File age 1"
+msgstr "Dosiera agxo 1"
+
+msgid "Should be less than or equal to Age2."
+msgstr "Estenda pli malgranda ol aux egala al Agxo2."
+
+msgid "File age 2"
+msgstr "Dosiera agxo 2"
+
+msgid "Should be greater than or equal to Age2."
+msgstr "Estenda pli granda ol aux egala al Agxo2."
+
+msgid "Archive Method"
+msgstr "Arkiva metodo"
+
+msgid "Choosing Update or Freshen possibly has no effect on a dynamic Archive Filename (date/time)."
+msgstr "Elektado de gxisdatigi aux aktualigi eble ne influas sur la dosiernomo de dinamika arkivo (dato/tempo)."
+
+msgid "The path information to store for every file."
+msgstr "La memorenda vojprefikso por cxiu dosiero."
+
+msgid "Compression Level"
+msgstr "Nivelo de densigo"
+
+msgid "0 (None) - 6 (Normal) - 9 (Max.)"
+msgstr "0 (nenia) - 6 (normala) - 9 (maksimuma)"
+
+msgid "Password"
+msgstr "Pasvorto"
+
+msgid "Spaces are allowed."
+msgstr "Spacetoj estas permesitaj."
+
+msgid "Split Archive"
+msgstr "Dividita arkivo"
+
+msgid "Split - Volume Size Preset"
+msgstr "Dividita - portilgranda antauxdifino"
+
+msgid "Choose a predefined setting or define a custom value."
+msgstr "Elektu antauxdifinitan agordaron aux difinu uzulan valoron."
+
+msgid "Split - Custom Volume Size"
+msgstr "Dividita - uzula portilgrando"
+
+msgid "Range: 64 kB - 2048 MB"
+msgstr "Amplekso : 64 KiB - 2048 MiB"
+
+msgid "Does not apply to split Zip archives."
+msgstr "Ne aplikebla al dividitaj Zip-arkivoj."
+
+msgid "Comment Template"
+msgstr "Komenti sxablonon"
+
+msgid "See the manual for more information."
+msgstr "Vidu la manlibron por pli da informoj."
+
+msgid "'Abakt $V ['dd'-'mm'-'yyyy'@'hh.nn']'"
+msgstr "'Abakt $V ['dd'-'mm'-'yyyy'@'hh.nn']'"
+
+msgid "7-Zip"
+msgstr "7-Zip"
+
+msgid "Command Line Template"
+msgstr "Komandalinia sxablono"
+
+msgid "Refer to Abakt's and 7-Zip's manuals for more information."
+msgstr "Vidu Abakt-an kaj 7-Zip-an manlibrojn por pli da informoj."
+
+msgid "Command"
+msgstr "Komando"
+
+msgid "a=Add; u=Update"
+msgstr "Entajpu 'a' por aldoni aux 'u' por gxisdatigi."
+
+msgid "Archive Type"
+msgstr "Arkivotipo"
+
+msgid "The type of the archive to create ('7z', 'zip' etc.), also sets the extension (do not enter leading dot '.')."
+msgstr "Tipo (kaj ankaux sufikso) de la kreota arkivo. Ne entajpu la antauxiran punkton."
+
+msgid "Spaces are not allowed."
+msgstr "Spacetoj ne estas permesitaj."
+
+msgid "Overwrite Existing Files"
+msgstr "Anstatauxigas ekzistantajn dosierojn"
+
+msgid "Applies to Methods 'Copy/Move'."
+msgstr "Aplikebla al metodoj 'Kopii/Movi'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:378
+msgid "Also Overwrite Existing Read Only Files"
+msgstr "Anstataŭigi ankaŭ ekzistantajn nurlegajn dosierojn"
+
+msgid "Use Recycle Bin"
+msgstr "Uzi rubujon"
+
+msgid "Applies to Method 'Delete'."
+msgstr "Aplikebla al metodo 'Forigi'."
+
+msgid "The destination path information used when copying/moving a file."
+msgstr "Cela vojprefikso uzota dum kopiado/movado de dosiero."
+
+msgid "The Archive attribute will not be modified when using Action Types 'Move' or 'Delete'."
+msgstr "La arkiva (A) atributo ne estos sxangxata per uzado de taskotipoj 'Movi' aux 'Forigi'."
+
+msgid "Remove Emptied Source Directories"
+msgstr "Forigi malplenitajn fontajn dosierujojn"
+
+msgid "Remove Source directories that were emptied as a result of File Operation actions."
+msgstr "Forigi tiuj fontajn dosierujojn, kiuj estis malplenigita per dosieroperacioj taskoj."
+
+msgid "Test Archive After Action"
+msgstr "Testi arkivon post taskoplenumado"
+
+msgid "Applies to Zip Archives only."
+msgstr "Nur aplikebla al Zip-arkivoj."
+
+msgid "Include Empty Source Directories"
+msgstr "Anigi malplenajn fontajn dosierujojn"
+
+msgid "Perform the chosen Action on Empty Source Directories as well as on files."
+msgstr "Plenumi la elektitan taskon sur malplenaj fontaj dosierujoj kaj ankaux sur dosieroj."
+
+msgid "Destination Directory"
+msgstr "Celdosierujo"
+
+msgid "Automatically Create Directory"
+msgstr "Auxtomate krei dosierujon"
+
+msgid "If enabled, the directory will be created on Action execution."
+msgstr "Se sxaltita, la dosierujo estos kreata dum taskoplenumado."
+
+msgid "Name Template"
+msgstr "Nomizi sxablonon"
+
+msgid "Append Extension"
+msgstr "Aldoni sufikson"
+
+msgid "If disabled, the default extension ('.zip', '.7z', etc.) will not be appended."
+msgstr "Se malsxaltita, la defauxlta sufikso ('.zip', '.7z', ktp.) ne estos aldonita."
+
+# Netradukita. (Cyril Castelbou, 2007-01-15)
+msgid "'$N'"
+msgstr "'$N'"
+
+msgid "Finalize"
+msgstr "Finigado"
+
+msgid "Maintain a list of successful backups"
+msgstr "Konservi liston de sukcesaj restauxrkopioj"
+
+msgid "If disabled, the History will not be maintained, and no '*.abh' files will be created or updated."
+msgstr "Se malsxaltita, nenui historio estos konservata, kaj neniu '*.abh' dosiero estos kreata aux gxisdatigata."
+
+msgid "Remove backups older than N days"
+msgstr "Forigi restauxrkopiojn pli agxaj ol N tagoj"
+
+msgid "Always keep a minimum of N backups"
+msgstr "Cxiam konservi minimume N restauxrkopiojn"
+
+msgid "Keep a maximum of N backups"
+msgstr "Konservi maksimume N restauxrkopiojn"
+
+msgid "Move deleted backups to Recycle Bin if possible"
+msgstr "Movi forigitajn restauxrkopiojn al rujubon lauxeble"
+
+msgid "FileList"
+msgstr "Dosierlisto"
+
+msgid "Add FileList to Destination"
+msgstr "Aldoni dosierliston al celarkivo"
+
+msgid "If enabled, a text file containing the files successfully operated on will be written to the destination directory."
+msgstr "Se sxaltita, listo de sukcese plenumitaj dosieroj estos konservata kiel teskta dosiero en la celdosierujon."
+
+#, c-format
+msgid "Error [%d] opening directory %s: %s"
+msgstr "Eraro [%d] dum malfermado de dosierujo %s: %s"
+
+#, c-format
+msgid "Error [%d] in file %s: %s"
+msgstr "Eraro [%d] en dosiero %s: %s"
+
+msgid "Error reading file properties."
+msgstr "Eraro dum legado de dosieraj atributoj."
+
+msgid "Directory Not Selected"
+msgstr "Dosierujo malmarkita"
+
+msgid "Use A-files only."
+msgstr "Uzi nur A-dosierojn."
+
+msgid "Use non A-files only."
+msgstr "Uzi nur ne-A-dosierojn."
+
+msgid "Syntax error:"
+msgstr "Sintaksa eraro:"
+
+msgid "characters / \" < > are not allowed"
+msgstr "signoj / \" < > estas malpermesitaj"
+
+#, c-format
+msgid "value '%s' is not a valid number"
+msgstr "valoro '%s' ne estas valida numero"
+
+#, c-format
+msgid "operator '%s' not recognised"
+msgstr "operatoro '%s' ne akceptita"
+
+#, c-format
+msgid "value '%s' is not a valid date"
+msgstr "valoro '%s' ne estas valida dato"
+
+#, c-format
+msgid "expression '%s' too short"
+msgstr "esprimo '%s' tro malgranda"
+
+#, c-format
+msgid "no operator in expression '%s'"
+msgstr "neniu operatoro en esprimo '%s'."
+
+#, c-format
+msgid "no value in expression '%s'"
+msgstr "neniu valoro en esprimo '%s'"
+
+msgid "Condition"
+msgstr "Kondicxo"
+
+msgid "(New FilterSet)"
+msgstr "(Nova filtrilaro)"
+
+msgid "Could not create Temporary Directory:"
+msgstr "Ne eblis krei laboran dosierujon:"
+
+msgid "Untitled"
+msgstr "Sennoma"
+
+msgid "No History file. You have to save the Profile first."
+msgstr "Neniu historia dosiero. Vi devus unue konservi la profilon."
+
+#, c-format
+msgid "Reading History file %s."
+msgstr "Legas historian dosieron %s."
+
+msgid "Writing updated History file..."
+msgstr "Skribas gxisdatigitan historian dosieron..."
+
+#, c-format
+msgid "History file does not exist: %s."
+msgstr "Historia dosiero ne ekzistas: %s."
+
+#, c-format
+msgid "Error while parsing History file: %s."
+msgstr "Eraro dum analizado de historia dosiero: %s."
+
+#, c-format
+msgid "Removing non-existent Backup path from History filelist: %s..."
+msgstr "Forigas ne-ekzistantan vojprefikson de restauxrkopio el historia dosierlisto: %s..."
+
+msgid "Files on removable disks are not recorded."
+msgstr "Dosieroj sur demeteblaj diskoj ne estas registrita."
+
+#, c-format
+msgid "Adding to History: %s..."
+msgstr "Anigas en historion: %s..."
+
+#, c-format
+msgid "MinBackups (%d) is greater than MaxBackups (%d)."
+msgstr "Minimuma nombro de restauxrkopioj (%d) pli grandas ol maksimuma nombro (%d)."
+
+#, c-format
+msgid "MaxBackups is set to %d."
+msgstr "Maksimuma nombro de restauxrkopioj estas agordita je %d."
+
+#, c-format
+msgid "Files listed in History: %d."
+msgstr "Listitaj dosieraj en historio: %d."
+
+#, c-format
+msgid "Could not determine age of %s."
+msgstr "Ne eblis kalkuli agxon de %s."
+
+#, c-format
+msgid "Backups marked for removal by Age (Older than %d day(s)): %d."
+msgstr "Restauxrkopioj markitaj por forigado laux agxo (pli agxaj ol %d tago(j)): %d."
+
+#, c-format
+msgid "Keeping a minimum of %d backups."
+msgstr "Konservas minimume %d restauxrkopiojn."
+
+#, c-format
+msgid "Keeping a maximum of %d backups."
+msgstr "Konservas maksimume %d restauxrkopiojn."
+
+msgid "No backups will be removed."
+msgstr "Neniu restauxrkopio estos forigata."
+
+#, c-format
+msgid "Removing %d backup(s):"
+msgstr "Forigas %d restauxrkopio(j)n:"
+
+#, c-format
+msgid "Moving to Recycle Bin: %s..."
+msgstr "Movado en rubujo: %s..."
+
+#, c-format
+msgid "Permanently deleting %s..."
+msgstr "Nemalfareble forigas %s..."
+
+#, c-format
+msgid "and %d associated .Z## file(s)..."
+msgstr "kaj %d asociita(j) .Z## dosiero(j)..."
+
+msgid "Could not remove all associated .Z## files."
+msgstr "Ne eblis forigi cxiujn asociitajn .Z## dosierojn."
+
+#, c-format
+msgid "Imported Size Filter: %s"
+msgstr "Importita grandofiltrilo: %s"
+
+#, c-format
+msgid "Imported Date Filter: %s"
+msgstr "Importita datofiltrilo: %s"
+
+#, c-format
+msgid "Imported Age Filter: %s"
+msgstr "Importita agxofiltrilo: %s"
+
+#, c-format
+msgid "Imported Attribute Filter: %s"
+msgstr "Importita atributofiltrilo: %s"
+
+#, c-format
+msgid "Imported Path Mask: %s"
+msgstr "Importita masko de dosierindiko: %s"
+
+msgid "No command line arguments used. See the Manual for an overview."
+msgstr "Neniu komandlinia argumento uzita. Bonvolu legi la manlibron por pli da informoj."
+
+msgid "Idle"
+msgstr "Senfara"
+
+msgid "High"
+msgstr "Altnivela"
+
+msgid "RealTime"
+msgstr "Realtempa"
+
+msgid "Normal"
+msgstr "Normala"
+
+#, c-format
+msgid "Application priority level has been set to: %s (%s)."
+msgstr "Prioritatnivelo de la programon estas agordita je: %s (%s)."
+
+msgid "No filename provided"
+msgstr "Neniu dosiernomo provizita"
+
+msgid "Error"
+msgstr "Eraro"
+
+#, c-format
+msgid "Using Profile %s"
+msgstr "Uzado de profilo %s"
+
+#, c-format
+msgid "[-T] Adjusting Profile using Template %s."
+msgstr "[-T] Algxustigi profilon laux sxablono %s."
+
+#, c-format
+msgid "[-o] Adjusting Destination's Name with: %s"
+msgstr "[-o] Algxustigi nomon de celdosiero kun: %s"
+
+msgid "[-b] Executing Action"
+msgstr "[-b] Plenumado de tasko"
+
+#, c-format
+msgid "ExitCode = %i"
+msgstr "Elira kodo = %i"
+
+#, c-format
+msgid "Executing Group %s"
+msgstr "Plenumado de grupo %s"
+
+#, c-format
+msgid "Could not open Group %s"
+msgstr "Ne eblis malfermi grupon %s"
+
+msgid "[-o] Adjusting Destination's FormatText can only be used when opening single Profiles."
+msgstr "[-o] Algxustigi tekstan formaton de celdosiero nur eblas dum malfermado de solaj profiloj."
+
+#, c-format
+msgid "Using Group %s"
+msgstr "Uzado de grupo %s"
+
+msgid "'$N-MyText'"
+msgstr "'$N-MiaTeksto'"
+
+# La datoformato estas kontrolinda. (Cyril Castelbou, 2007-01-19)
+msgid "'Backup of Profile $N made on 'dddd', 'dd'-'mmm'-'yyyy"
+msgstr "'Restauxrkopio de profilo $N farita je 'dddd', 'dd'-'mmm'-'yyyy"
+
+msgid "Choose Destination Directory:"
+msgstr "Elekti celdosierujon:"
+
+#, c-format
+msgid ""
+"Failed to save your settings to:\n"
+"%s."
+msgstr ""
+"Fiaskis konservi agordaron en:\n"
+"%s."
+
+#, c-format
+msgid "%d - Total Size: %s (%s Bytes)"
+msgstr "%d - Totala grando: %s (%s bajtoj)"
+
+msgid "Operation Aborted"
+msgstr "Operacio cxesigita"
+
+msgid "Include (Always)"
+msgstr "Anigi (cxiam)"
+
+msgid "No Compression"
+msgstr "Ne densigi"
+
+msgid "Copy of"
+msgstr "Kopio de"
+
+msgid "Remove all FilterSets?"
+msgstr "Forigi cxiujn filtrilarojn?"
+
+msgid "This can not be undone."
+msgstr "Tio NE estas malfarebla."
+
+msgid "Hours"
+msgstr "horoj"
+
+msgid "Minutes"
+msgstr "minutoj"
+
+msgid "Seconds"
+msgstr "sekundoj"
+
+msgid "Group has been modified."
+msgstr "Grupo estas sxangxita."
+
+msgid "Save Group?"
+msgstr "Konservi grupon?"
+
+#, c-format
+msgid "Active Profile %s has been modified."
+msgstr "Aktiva profilo %s estas sxangxita."
+
+msgid "Save Profile?"
+msgstr "Konservi profilon?"
+
+#, c-format
+msgid "Could not write to file %s"
+msgstr "Ne eblis skribi al dosieron %s"
+
+#, c-format
+msgid "Group has been upgraded to %s.%s. Check the settings and save again."
+msgstr "Grupo estas gxisdatigita al %s. %s. Bonvolu kontroli agordaron kaj denove konservi."
+
+msgid "Clear list of Profiles?"
+msgstr "Vakigi liston de profiloj?"
+
+#, c-format
+msgid "Enabled: %s"
+msgstr "Sxaltita: %s"
+
+#, c-format
+msgid "Source Root Directory does not exist: %s."
+msgstr "Fonta radika dosierujo ne ekzistas: %s."
+
+#, c-format
+msgid "Directory does not exist: %s"
+msgstr "Dosierujo ne ekzistas: %s"
+
+msgid "Removed from Profile."
+msgstr "forigas gxin el profilon."
+
+msgid "File not found."
+msgstr "Dosiero ne trovita."
+
+#, c-format
+msgid "Age: %d day(s). Archive Mode: %s."
+msgstr "Aĝo: %d tago(j). Arkiva regximo: %s."
+
+msgid "Save modified Profile?"
+msgstr "Konservi sxangxitan profilon?"
+
+#, c-format
+msgid "Saving Profile %s..."
+msgstr "Konservas profilon %s..."
+
+#, c-format
+msgid "Please try '%s'."
+msgstr "Bonvolu provi '%s'."
+
+msgid "Save Profile As..."
+msgstr "Konservi profilon kiel..."
+
+#, c-format
+msgid "Opening Profile %s..."
+msgstr "Malfermas profilon %s..."
+
+#, c-format
+msgid "(Created with Abakt %s.%s)..."
+msgstr "(Kreita per Abakt %s.%s)..."
+
+#, c-format
+msgid "Profile has been upgraded to Abakt %s.%s."
+msgstr "Profilo estas gxisdatigita al Abakt %s.%s."
+
+msgid "Please check all settings, then save again using 'Save Profile As...'."
+msgstr "Bonvolu kontroli agordaron kaj denove konservi per 'Konservi profilon kiel...'."
+
+#, c-format
+msgid "Error: %s"
+msgstr "Eraro: %s"
+
+#, c-format
+msgid "Executing Action. Using Profile %s..."
+msgstr "Plenumas taskon. Uzas profilon %s..."
+
+msgid "There were warnings."
+msgstr "Estis avertoj."
+
+msgid "New Profile"
+msgstr "Kreas novan profilon"
+
+#, c-format
+msgid "(Using %s)..."
+msgstr "(Uzas %s)..."
+
+msgid "Current Profile has been modified."
+msgstr "Aktuala profilo estas sxangxita."
+
+msgid "Changes made to this Profile will be lost if Group Actions are performed."
+msgstr "Sxangxoj al tiu profilo estos perdita post plenumado de grupaj taskoj."
+
+#, c-format
+msgid "Reading preferences from %s..."
+msgstr "Legas preferojn el %s..."
+
+msgid "Abakt Profile"
+msgstr "Abakt-a profilo"
+
+msgid "Abakt Group"
+msgstr "Abakt-a grupo"
+
+msgid "Abakt History"
+msgstr "Abakt-a historio"
+
+msgid "Abakt Template"
+msgstr "Abakt-a sxablono"
+
+msgid "You need to restart Abakt for language changes to take effect."
+msgstr "Lingva sxansxo estos aplikata post restarto."
+
+msgid "Select Default Data Directory"
+msgstr "Elekti defauxltan datumdosierujon"
+
+msgid "The new default Data directories are:"
+msgstr "La novaj defauxltaj datumdosierujoj estas:"
+
+msgid "Select"
+msgstr "Elektu"
+
+msgid "Abort Restore Operation?"
+msgstr "Cxesigi restauxroperacion?"
+
+#, c-format
+msgid "Opening Zip Archive: %s..."
+msgstr "Malfermas Zip-arkivon: %s..."
+
+#, c-format
+msgid "Date Created: %s - Size: %s (%s B)"
+msgstr "Dato kreita: %s - Grando: %s (%s B)"
+
+#, c-format
+msgid ""
+"Zip Archive does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"Zip-arkivo ne ekzistas:\n"
+"\n"
+"%s"
+
+#, c-format
+msgid ""
+"Destination Directory does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"Celdosierujo ne ekzistas:\n"
+"\n"
+"%s"
+
+msgid "Detected Split/Spanned Zip Archive."
+msgstr "Detektis dividitan aux etendigxitan Zip-arkivon."
+
+#, c-format
+msgid "Files/Directories in Zip Archive: %d"
+msgstr "Dosieroj/dosierujoj en Zip-arkivo: %d"
+
+#, c-format
+msgid "Files/Directories Acted On: %d"
+msgstr "Plenumitaj dosieroj/dosierujoj: %d"
+
+msgid "Restore Operation Aborted"
+msgstr "Restauxroperacio cxesigita"
+
+msgid "Restore Operation Finished"
+msgstr "Restauxroperacio plenumita"
+
+#, c-format
+msgid "Files/Directories to Process: %d. Total Size: %s (%s B)"
+msgstr "Plenumendaj dosieroj/dosierujoj: %d. Totala grando: %s (%s B)"
+
+#, c-format
+msgid "Extracting File [%d/%d]: %s --> %s..."
+msgstr "Elarkivas dosieron [%d/%d]: %s --> %s..."
+
+msgid "[Overwrite]..."
+msgstr "[Anstatauxiga skribado]..."
+
+#, c-format
+msgid "Skipped Existing File %s...Ok."
+msgstr "Ignoras ekzistantan dosieron %s... Bone."
+
+#, c-format
+msgid "Creating Empty Directory %s...Ok."
+msgstr "Kreado de malplena dosierujo %s... Bone."
+
+#, c-format
+msgid "Copying file %s...Ok."
+msgstr "Kopiado de dosiero %s... Bone."
+
+#, c-format
+msgid "Please insert disk %d of %d in drive %s."
+msgstr "Bonvolu enmeti diskon %d el %d en legilo %s."
+
+msgid "Add Source Directory"
+msgstr "Aldoni fontan dosierujon"
+
+#, c-format
+msgid "Adding Source Directory %s..."
+msgstr "Anigas fontan dosierujon %s..."
+
+msgid "Remove Root Source Directory from Profile?"
+msgstr "Forigi radikan fontan dosierujon el profilon?"
+
+#, c-format
+msgid "Removing non-existing directory from Profile: %s..."
+msgstr "Forigas neekzistantan dosierujon el profilo: %s..."
+
+#, c-format
+msgid "Directory does not exist: %s."
+msgstr "Neekzistanta dosierujo: %s."
+
+#, c-format
+msgid "Scanning directory tree: %s..."
+msgstr "Skanas tutan brancxon: %s..."
+
+#, c-format
+msgid "(New FilterSet based on file %s)"
+msgstr "(Nova filtrilaro surbaze de dosiero %s)"
+
+msgid "Could not retrieve file properties."
+msgstr "Ne eblis relegi dosierajn atributojn."
+
+# Mi uzas la arajn vortojn 'anigi' kaj 'eksigi'. (Cyril Castelbou, 2007-01-15)
+#, c-format
+msgid "Included Files: %d/%d. Size: %s (%s Bytes)"
+msgstr "Anigitaj dosieroj: %d/%d. Grando: %s (%s bajtoj)"
+
+#, c-format
+msgid "Finding all subdirectories of '%s'..."
+msgstr "Sercxas tra cxiuj subdosierujoj de '%s'..."
+
+msgid "Now fully expanding..."
+msgstr "Vidigas tutan brancxon..."
+
+msgid "Template has been modified."
+msgstr "Sxablono estas sxangxita."
+
+msgid "Save Template?"
+msgstr "Konservi sxablonon?"
+
+msgid "Replace the current Profile's Configuration settings with the values of the selected (checked) settings in this Template."
+msgstr "Anstatauxigi agordaron de la aktuala profilo per la valoroj de la markita agordaro en tiu sxablono."
+
+msgid "Merge the current Profile's FilterSets with all FilterSets in this Template."
+msgstr "Kunfandi filtrilaron de la aktuala profilo kun cxiuj filtrilaroj en tiu sxablono."
+
+msgid "English"
+msgstr "Angla"
+
+msgid "Danish"
+msgstr "Dana"
+
+msgid "Dutch"
+msgstr "Nederlanda"
+
+msgid "French"
+msgstr "Franca"
+
+msgid "German"
+msgstr "Germana"
+
+msgid "Hungarian"
+msgstr "Hungara"
+
+msgid "Italian"
+msgstr "Itala"
+
+msgid "Polish"
+msgstr "Pola"
+
+msgid "Portuguese"
+msgstr "Portugala"
+
+msgid "Russian"
+msgstr "Rusa"
+
+msgid "Spanish"
+msgstr "Hispana"
+
+msgid "Swedish"
+msgstr "Sveda"
+

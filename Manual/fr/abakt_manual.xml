@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="../xml2html.xsl"?>
+<!DOCTYPE merge [
+	<!ENTITY fo-related "pdf/postscript/rtf">
+	<!ENTITY fop-related "pdf/postscript">
+]>
+
+<document>
+
+<document-meta-info>
+	<title>Manuel d'Abakt</title>
+	<attribute name="Author">Erik Dienske</attribute>
+	<attribute name="Internet"><a href="http://www.xs4all.nl/~edienske/abakt" target="top">http://www.xs4all.nl/~edienske/abakt/</a></attribute>
+	<attribute name="E-mail">Voir "Aide/À propos" dans l'application</attribute>
+	<!-- <attribute name="Last Modified">19-January-2006</attribute> -->
+</document-meta-info>
+
+<!-- formatting info -->
+<document-formatting-info>
+	<stylesheet url="abakt_manual.css" />
+	<stylesheet-fo url="abakt_manual.css" />
+	<left-margin>40pt</left-margin>
+	<right-margin>40pt</right-margin>
+	<top-margin>10pt</top-margin>
+	<bottom-margin>25pt</bottom-margin>
+	<generate-toc-page>yes</generate-toc-page>
+	<header-height>85pt</header-height>
+	<footer-height>50pt</footer-height>
+	<generate-section-numbers>no</generate-section-numbers>
+</document-formatting-info>
+
+<!-- document header -->
+<document-header>
+	<table width="100%"><tr>
+		<td align="left" width="64"><img src="AbaktLogo32x32Transparent.gif" alt="Abakt Logo"/></td>
+		<td align="left" valign="middle" class="document-header">Abakt -  Manuel</td>
+	</tr></table>
+	<hr size="1" color="red" noshade="true" />
+</document-header>
+
+
+<document-body>		<!-- document body -->
+
+
+<!-- meta info -->
+<table-of-content>
+	<link href="#Abakt">Abakt ?
+		<link href="#Abakt_Introduction">Introduction</link>
+		<link href="#Abakt_Requirements">Configuration</link>
+		<link href="#Abakt_Setup">Initialisation</link>
+		<link href="#Abakt_Donate">Don</link>
+		<link href="#Abakt_License">Licence</link>
+	</link>
+	<link href="#Edit">Éditer un profil
+		<link href="#Edit_Source">1 - Source</link>
+		<link href="#Edit_Filters">2 - Filtres</link>
+		<link href="#Edit_Action">3 - Action
+			<link href="#Edit_Action_ActionType">Type d'action</link>
+			<link href="#Edit_Action_ActionTypeSettings">Paramètrage des actions
+				<link href="#Edit_Action_ActionTypeSettings_Zip">Zip</link>
+				<link href="#Edit_Action_ActionTypeSettings_7Zip">7-Zip</link>
+				<link href="#Edit_Action_ActionTypeSettings_FileOperation">Opération sur fichiers</link>
+			</link>
+			<link href="#Edit_Action_Destination">Destination</link>
+		</link>
+		<link href="#Edit_Finalize">4 - Finaliser
+			<link href="#Edit_Finalize_History">Historique</link>
+		</link>
+	</link>
+	<link href="#Tools">Outils
+		<link href="#Tools_FilterPreview">Prévisualisation du filtre</link>
+		<link href="#Tools_RestoreZipArchive">Restaurer l'archive</link>
+		<link href="#Tools_Group">Groupe de profils</link>
+		<link href="#Tools_TemplateEditor">Éditeur de modèle</link>
+	</link>
+	<link href="#Preferences">Préférences
+		<link href="#Preferences_OnStartup">Au démarrage</link>
+		<link href="#Preferences_Application">Application</link>
+		<link href="#Preferences_Action">Action</link>
+		<link href="#Preferences_Logging">Journal</link>
+		<link href="#Preferences_Advanced">Avancé</link>
+	</link>
+	<link href="#CommandLine">Ligne de commande</link>
+	<link href="#FormatText">Formater le texte</link>
+	<link href="#HowTo">Comment...
+		<link href="#HowTo_FirstBackup">Créer votre première archive</link>
+		<link href="#HowTo_IncludeOneFileOnly">N'inclure qu'un seul fichier dans un répertoire</link>
+		<link href="#HowTo_Scheduler">Utiliser le programmateur de tâches de Windows</link>
+		<link href="#HowTo_MailResult">Envoyer un courriel après archivage</link>
+		<link href="#HowTo_Zip4GB">Créer un fichier Zip au-delà de 4 GB</link>
+	</link>
+</table-of-content>
+
+
+<!-- Abakt? -->
+<section name="Abakt" label="Abakt?">
+
+<p><b>Abakt est un outil d'archivage libre et gratuit pour Windows.</b></p>
+
+<p>Pour un court aperçu, voir : <section-link href="Abakt_Introduction">Introduction</section-link>.</p>
+
+<div class="head">Aspects principaux</div>
+
+	<div class="subhead1">Filtres</div>
+		<p>Sélectionner des fichiers ou répertoires par utilisation de jokers, des arrangements ou autres masques avancés.<br/>
+			Vous pouvez aussi utiliser ces propriétés pour sélectionner les fichiers : attributs, taille, ancienneté ou date de modification.</p>
+
+	<div class="subhead1">Archive (Backup)</div>
+		<p>Créer une archive PKZIP standard en utilisant la bibliothèque zip intégrée.<br/>
+			Ou appeler 7-Zip par un outil de ligne de commande externe pour créer des archives.<br/>
+			Vous pouvez aussi copier, déplacer ou effacer les fichiers sélectionnés.</p>
+
+	<div class="subhead1">Automatisation</div>
+		<p>Abakt accepte les arguments de ligne de commande.<br/>
+			Utiliser les options de ligne de commande pour renseigner un programmateur de tâches, ou pour écrire votre propre script batch.</p>
+
+<page-break />
+</section>
+
+
+<!-- Introduction -->
+<section name="Abakt_Introduction" label="Introduction">
+
+	<div class="subhead1">Ce pour quoi vous pouvez utiliser Abakt : </div>
+		<p>Malgré son nom et son intention originelle, Abakt peut faire plus que créer des sauvegardes : </p>
+		<p>le but d'Abakt est de <b>sélectionner des fichiers pour en faire "quelque chose"</b>, en utilisant les puissantes capacités de filtrage d'Abakt.</p>
+
+<div class="head">Sélectionner des fichiers pour en faire "quelque chose"...</div>
+
+	<div class="subhead1">Sélectionner des fichiers (en utilisant des filtres)...</div>
+		<ul>
+			<li><p>Sélectionner les répertoires à inclure sur la page <section-link href="Edit_Source">Source/Répertoires [F6]</section-link>.</p></li>
+			<li><p>Créer des <section-link href="Edit_Filters">Filtres</section-link> pour spécifier quels fichiers utiliser.</p>
+				<p class="note">Les fichiers dans les répertoires non sélectionnés (non cochés) seront ignorés tout au long du processus de filtrage.</p></li>
+			<li><div class="subhead2">Prévisualisation de la liste des fichiers sélectionnés</div>
+				<p>Avant d'exécuter un action jetez un œil à la liste de fichiers que
+					<section-link href="Tools_FilterPreview">Outils / Prévisualisation filtre</section-link> génère.
+					Si un fichier n'est pas dans le liste où vous l'attendiez, vous devriez revoir vos paramètrages de filtre.</p></li>
+		</ul>
+
+	<div class="subhead1">Faire "quelque chose" avec les fichiers sélectionnés...</div>
+		<ul>
+			<li><p>Choisir l'<section-link href="Edit_Action">Action</section-link> que vous voulez entreprendre sur les fichiers sélectionnés.
+				Vous pouvez archiver, copier, déplacer ou effacer les fichiers.</p>
+				<p>En option, avec les attributs d'Archive, vous pouvez dire à Abakt ce qu'il doit faire des fichiers.
+					Utile pour créer des archives complètes, différentielles ou incrementales.</p></li>
+			<li><p><section-link href="Edit_Action_ActionTypeSettings">Éditer les règlages</section-link> pour choisir l'Action à votre convenance.</p></li>
+			<li><p>Règler la <section-link href="Edit_Action_Destination">Destination</section-link>.</p></li>
+			<li><p>Décider ce qui est à faire lorsque l'action se termine avec succès
+				par le paramèage des options <section-link href="Edit_Finalize">Finaliser</section-link>.</p></li>
+		</ul>
+
+	<div class="subhead1">Exécuter le Profil</div>
+		<ul>
+			<li><p>Cliquer le bouton "Exécuter action" dans le coin en haut et à droite de la fenêtre principale.</p></li>
+			<li><p>La fenêtre Action s'ouvrira et elle en affichera la progression.</p></li>
+		</ul>
+
+<page-break />
+</section>
+
+
+<!-- Abakt / Requirements -->
+<section name="Abakt_Requirements" label="Exigences">
+
+<p>Abakt fonctionne avec les systèmes d'exploitation suivants : <br/>
+	<ul>
+		<li>Windows 95, 98, 98SE, ME, XP (SP1/SP2) ou 2003.</li>
+		<li>Processeur Pentium.</li>
+	</ul>
+</p>
+<p>Abakt fonctionne aussi avec Unix/Linux en utilisant <a href="http://www.winehq.org" target="_top">wine [http://www.winehq.org]</a>.</p>
+
+<page-break />
+</section>
+
+
+<!-- Abakt / Installation -->
+<section name="Abakt_Setup" label="Setup">
+
+	<div class="subhead1">Installation</div>
+		<p>Pour installer Abakt, éxécuter le fichier d'installation (setup) et suivre les instructions.<br/>
+			Vous n'avez pas à désinstaller les précédentes versions d'Abakt avant d'installer.</p>
+
+	<div class="subhead1">Désinstallation</div>
+		<p>Utiliser le désinstalleur : "Panneau de configuration / Ajout ou Suppr. de programmes".</p>
+		<p>Pendant la désinstallation, Abakt supprime tous les fichiers du répertoire d'installation.
+			Toutes les références aux fichiers d'Abakt seront effacées du registre.</p>
+		<p>En option : les fichiers sauvegardés dans votre répertoire "home" peuvent être détruits de façon définitive.</p>
+
+<page-break />
+</section>
+
+
+<!-- Abakt / Donate -->
+<section name="Abakt_Donate" label="Donations">
+
+	<div class="subhead1">Abakt est un logiciel libre</div>
+		<p>Je passe autant de temps que possible à travailler sur Abakt et à répondre à vos questions, suggestions et rapports de bogues.<br/>
+			Si vous utilisez Abakt régulièrement, pensez à faire un don, même minime.</p>
+
+	<div class="subhead1"><span class="note">Comment faire un don : </span></div>
+		<p><b>Cliquer sur l'image qui suit</b> pour accèder au site de paiement sécurisé PayPal.com :<br/>
+			Si vous n'avez pas de compte chez PayPal, vous pouvez faire des dons en utilisant la carte de crédit sur votre compte en banque.</p>
+		<div style="margin-left:15px;">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="image" src="x-click-but04.gif" border="0" name="submit" alt="[ Make a donation using PayPal (click here) ]" />
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHHgYJKoZIhvcNAQcEoIIHDzCCBwsCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC6XagksOwSxyWv7RcJ1FyQIgp1+kz53gBQ/69tNs7+2wa5lpCxREtDTfOEgvPas5eQt/h3e5+NkLc6MbZieoAo0E7Z7B8BYneYM4VN6UkKgRfPRlnPfRtkB1/5mVZPfTGligM5A9tK5tpdGbv/sxDQQu96WP55yAzkSVBIhg33XDELMAkGBSsOAwIaBQAwgZsGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQI/Qh0Gk3v1SeAeGkzIatvSjg2xqsd/KjxCPFdvKB/SOx0gmC8NbgU92+hGWudrpmr3mWQYaQpRbLEagf5HNfGUEyuEEm0WJ5zsXLzV+AYdSev3obnzDo8rMhkqbsXe8SEPopMPYvtQxYLdIbmz1Yt6oCeErWkooShVY774gJK5TzmaaCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTA2MDIxMTE1NTUyMVowIwYJKoZIhvcNAQkEMRYEFCisht7XUEcB0uzsKvQPRLwBVxPBMA0GCSqGSIb3DQEBAQUABIGAAUKYKEDmvBlN8i2PzUNxKbku4rTmU6lRtR+HzrnWD64tcroogHt8np37l76yVFPK7X0Kv3oyJGVAHonk5yfRPgSZMHPXjpuB95XuuakCFB7CCffNFhNZyR4kysEf30NHABcTIbvk6q3LrymLAs7XJBMY8deGYq7zirV2qa92JRU=-----END PKCS7-----
+"/>
+</form>
+		</div>
+		<p>Voir la page correspondante de mon site pour de plus amples informations :
+			<a target="_top" href="http://www.xs4all.nl/~edienske/abakt/donate.html">http://www.xs4all.nl/~edienske/abakt/donate.html</a>.</p>
+
+	<div class="subhead1">Merci de votre encouragement à Abakt ! - <i>Erik</i></div>
+		<p>Note : l'adresse de courriel que j'utilise pour les dons PayPal n'est pas celle que j'utilise pour les rapports de bogues etc.
+			L'adresse de courriel pour les dons commence par <i>ediesoft-</i>, ce qui signifie "E(rik) Die(nske) Soft(ware)".</p>
+
+<page-break />
+</section>
+
+
+<!-- Abakt / License -->
+<section name="Abakt_License" label="Licence">
+
+<p><b>Abakt est un logiciel libre, couvert par la <a href="http://www.gnu.org/copyleft/gpl.html" target="_top">GNU General Public License</a>.</b></p>
+
+	<div class="subhead1">Où trouver la licence</div>
+		<p>La "GNU General Public License" est incluse dans l'installeur
+    et peut être consultée sur
+			<a target="_top" href="http://www.xs4all.nl/~edienske/abakt/license.html">http://www.xs4all.nl/~edienske/abakt/license.html</a>.
+			Elle est également disponible en fichier texte (LICENSE.TXT) dans la distribution du source d'Abakt.</p>
+
+	<div class="subhead1">Pour plus d'information (en français) sur le Logiciel Libre :</div>
+		<ul>
+         <li>Wikipédia : <a href="http://fr.wikipedia.org/wiki/GNU_GPL" target="_top">Licence Publique Générale GNU</a>.</li>
+			<li><a href="http://www.gnu.org/home.fr.html" target="_top">www.gnu.org/home.fr.html</a></li>
+			<li><a href="http://fsffrance.org/gpl/gpl-fr.fr.html" target ="top">fsffrance.org/gpl/gpl-fr.fr.html</a></li>
+      <li>et aussi (mais en anglais) : <a href="http://www.opensource.org/" target="_top">www.opensource.org</a></li>
+					</ul>
+
+<page-break />
+</section>
+
+
+<!-- Edit -->
+<section name="Edit" label="Edit Profile">
+	<p>Pour un rapide aperçu de l'utilisation d'Abakt voir : <section-link href="Introduction">Introduction</section-link>.</p>
+<page-break />
+</section>
+
+
+<!-- Edit / 1-Source -->
+<section name="Edit_Source" label="1 - Source [F6]">
+
+<p><b>Sélectionner les répertoires et les fichiers avec lesquels vous souhaitez faire quelque chose.</b></p>
+<p class="note">Désélectionner les répertoires que vous voulez ignorer tout au long du processus de filtrage.</p>
+
+<div class="head">Répertoires</div>
+	<p><b>Ce panneau affiche l'arborescence des répertoires pour chaque répertoire racine.</b></p>
+	<p>Vous pouvez marquer un répertoire à inclure ou à exclure pour les opérations à venir.
+		Les nouveaux répertoires (qui n'existaient pas lorsque le profil a été créé) héritent de l'état de sélection des répertoires parents.</p>
+	<p>On peut accéder à davantage de fonctions utiles par un clic sur le bouton "Davantage".
+  Ces fonctions sont également accessibles par un clic droit dans le panneau.</p>
+
+<div class="head">Fichiers</div>
+	<p><b>Ce panneau montre tous les fichiers (et leurs propriétés) du répertoire courant.</b></p>
+	<p>Cliquez sur une en-tête de colonne ou sur l'icône pour changer l'ordre du tri.</p>
+	<p>La colonne "Filtre" affiche la première disposition qui s'applique à ce fichier (s'il y en a).
+		Elle peut aussi afficher "Répertoire non sélectionné", ce qui n'est pas une  disposition de filtrage.</p>
+
+	<div class="subhead1">Les icônes de Filtre</div>
+		<p>Abakt utilise les icônes suivantes pour afficher l'état du filtre :</p>
+		<ul>
+			<li><b>Exclu (X jaune)</b><br/>
+				Le fichier sera ignoré tout au long du processus de filtrage.</li>
+			<li><b>Inclus (carré bleu clair)</b><br/>
+				Le fichier est sélectionné (et sera inclus dans l'archivage).</li>
+			<li><b>Non compressé (carré bleu foncé) :</b><br/>
+				Le fichier sera inclus mais non compressé.</li>
+		</ul>
+		<p>Cliquer le bouton "Disposition du filtre" pour déployer un menu d'aide à la définition ou pour éditer les définitions des filtres.
+			Ce même menu apparaîtra également si vous faites un clic droit dans le panneau.</p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 2-Filters -->
+<section name="Edit_Filters" label="2 - Filters [F7]">
+
+<p><b>Éditer et créer des dispositions de filtrage qu'utilise Abakt pour sélectionner les fichiers.</b></p>
+<p class="note">Les répertoires non sélectionnés seront ignorés tout au long du processus de filtrage.</p>
+<p>Voir la section <section-link href="Abakt_Introduction">Introduction</section-link> pour un rapide aperçu de ce pourquoi on utilise Abakt.</p>
+
+<div class="head">Dispositions de filtrage</div>
+
+	<div class="subhead1">Qu'est-ce qu'une disposition de filtrage ?</div>
+		<p>Une disposition de filtrage est composée de Propriétés et de Conditions :</p>
+		<ul>
+			<li><a href="#filterset_properties">Propriétés</a> décrit la disposition du filtre et
+				indique à Abakt ce qu'il doit faire lorsque les Conditions sont réunies.</li>
+			<li><a href="#filterset_conditions">Conditions</a> est un groupe de filtres de propriétés de fichiers.
+				Chaque condition doit être remplie pour qu'une disposition de filtrage soit appliquée.</li>
+		</ul>
+		<p class="note">Remarque : si vous pensez qu'une disposition de filtrage vous embarrasse quelque peu, vous devriez d'abord uniquement utiliser le masque par chemin.</p>
+
+	<div class="subhead1">Comment cela fonctionne-t-il ?</div>
+		<p>Abakt utilise les règles suivantes pour déterminer si un filtre doit être inclus ou non :</p>
+		<ul>
+			<li>Chaque condition "non vide" doit être "vraie" pour que l'action de filtrage soit appliquée (ET logique).</li>
+			<li>Une condition vide signifie que la propriété du fichier sera ignorée.</li>
+			<li>Les expressions de Condition doivent être séparées par des point-virgules (;), et seront interprétées comme des OU logiques.</li>
+		</ul>
+
+	<div class="subhead1">Un exemple :</div>
+		<p>Les conditions sont interprétées logiquement comme des ET (chaque conditions doit être vraie pour que l'action du filtre soit appliquée).
+			Les expressions de Conditions (séparées par un point-virgule) seront interprétées logiquement comme des OU.</p>
+			<div class="subhead2">Conditions du filtrage :</div>
+			<p>Chemin = "*.doc";<br/>
+			Taille = "&lt;1024; &gt;312k"</p>
+			<div class="subhead2">Pseudo code :</div>
+			<code><pre>
+SI (
+     (le nom de fichier a l'extension ".doc")
+     ET (
+         (la taille du fichier est plus petite que 1024 Bytes)
+         OU (la taille du fichier est plus grande  que 312 kiloBytes) )
+) ALORS l'action sera réalisée.
+			</pre></code>
+
+<a name="filterset_properties"/>
+<div class="head">Dispositions de filtrage - Propriétés</div>
+
+	<div class="subhead1">Nom</div>
+		<p>Un nom décrit cette action. Cela peut être n'importe quel texte que vous souhaitez</p>
+
+	<div class="subhead1">Action</div>
+		<p>Elle peut avoir l'une de ces valeurs :</p>
+		<ul>
+			<li><b>Exclure</b><br/>
+				Cette disposition est utilisée pour spécifier les fichiers à exclure.</li>
+			<li><b>Inclure</b><br/>
+				Cette disposition est utilisée pour spécifier les fichiers a inclure toujours.</li>
+			<li><b>Non Compression</b><br/>
+				N'influence pas le processus de filtrage, n'agit que sur le niveau de compression pour les fichiers inclus.</li>
+		</ul>
+
+	<div class="subhead1">Activé</div>
+		<p>Vous pouvez inactiver une disposition de filtre en décochant cette option.</p>
+
+<a name="filterset_conditions"/>
+<div class="head">Disposition de filtrage - Conditions</div>
+
+	<div class="subhead1">Chemin (Masque)</div>
+		<p><b>Syntaxe : <code>Masque</code></b></p>
+
+	<p>Créer un masque pour sélectionner des fichiers par chemin et/ou par noms de fichier.<br/>
+         Un Masque peut contenir des jokers, le caractère pipe et des jeux de carctères.</p>
+
+   	  <div class="indent1">
+		 <div class="subhead2">Jokers: <code><b>* ?</b></code></div>
+		<ul>
+			<li><code><b>*</b></code> : un ensemble de caractères.</li>
+			<li><code><b>?</b></code> : n'importe quel caractère.</li>
+			<li>Si un masque contient un <tt><b>\</b></tt> les fichiers correspondent par leur chemin complet de fichier
+		 (lecteur inclus).</li>
+		</ul>
+		<p class="note">Vous devez utiliser <code><b>*</b></code> pour sélectionner n'importe quel fichier, et pas <code><b>*.*</b></code>.</p>
+
+		<div class="subhead2">Caractère pipe : <code><b>|</b></code></div>
+		<p>Utiliser un caractère pipe pour séparer la partie répertoire  de celle du nom d'un fichier.
+   		Ceci vous permet de créer quelques filtres avancés.</p>
+		<p>Syntaxe : <code>masque-de-répertoire<b>|</b>masque-de-nom-de-fichier</code></p>
+
+		<div class="subhead2">Jeux : <code><b>[a-z] [!0-9] [12.ad#$]</b></code></div>
+		<ul>
+			<li>Chaque jeu doit être mise entre des crochets : <code>[<i>jeu</i>]</code>.<br/>
+   			Les éléments du jeu sont entre crochets. Chaque élément est un caractère littéral ou une plage.</li>
+			<li>Les plages sont spécifiées par une valeur initiale, un tiret (<code>-</code>), et une valeur finale : <code>[<i>a-z</i>]</code>.<br/>
+   			Ne pas utiliser d'espace ou de virgule pour séparer les éléments du jeu.</li>
+			<li>Un jeu doit correspondre à un seul caractère de la chaîne.
+   			Le caractère correspond au jeu s'il est le même que l'un des caractères littéraux du jeu,
+   			ou s'il est dans l'une des plages du jeu.</li>
+			<li>Un caractère est dans une plage s'il correspond à la valeur initiale, à la valeur finale, ou se situe entre les deux valeurs.
+   			Toutes les comparaisons sont sensibles à la casse.</li>
+			<li>Si le premier caractère après l'ouverture du crochet d'un jeu est un point d'exclamation (<code>!</code>),
+   			alors le jeu pris en compte correspond à n'importe quel caractère qui n'est pas dans le jeu.</li>
+			<li>Exemple d'un masque avec le caractère <code>[</code> : <code>*[[]*</code><br/>
+				Exemple d'un masque avec le caractère <code>]</code> : <code>*]*</code></li>
+		</ul>
+
+		<div class="subhead2">Exemples de masques :</div>
+		<ul>
+			<li><code>*\temp\*|*</code><br/>
+   			Sélectionne dans tous les répertoires tous les fichiers dont le nom est "temp".</li>
+			<li><code>C:\Documents and Settings*\temp\*|*</code><br/>
+   			Sélectionne tous les fichiers dont le nom est "temp", dans tous les répertoires au dessous de "C:\Documents and Settings".</li>
+			<li><code>*partie-de-nomderépertoire*|*.doc </code><br/>
+   			Sélectionne tous les fichiers .doc dont les noms contiennent "partie-de-nomderépertoire".</li>
+		</ul>
+	  </div>
+
+	<div class="subhead1">Taille ( en Bytes)</div>
+		<p><b>Syntaxe : <code>[ &lt; &lt;= == != &gt;= &gt; ] VALEUR[K|M|G] [;]</code></b></p>
+		<p>VALEUR est une taille de fichier exprimée en bytes, et doit être une nombre positf ou un 0.</p>
+		<p>Les autres tailles de fichiers autorisée sont : "1K", "2M" ou "3G".
+			Il ne doit pas y avoir d'espaces entre le nombre et [K|M|G].</p>
+		<p class="note">Le format à virgule flottante : '1.23M' n'est pas supporté pour l'instant.</p>
+		<div class="indent1">
+		<div class="subhead2">Exemple :</div>
+		<p>Si l'action est "Exclure" cette condition : "&lt;1024; &gt;2G"
+			exclura tous les fichiers de taille inférieure à 1024 bytes ou ceux supérieurs à 2 GB.</p>
+		</div>
+
+	<div class="subhead1">Date (yyyy-mm-dd)</div>
+		<p><b>Syntaxe : <code>[ &lt; &lt;= == != &gt;= &gt; ] VALEUR [;]</code></b></p>
+		<p>VALEUR est une date de modification de fichier, et doit être formatée ainsi "yyyy-mm-dd" (dénommination anglaise).</p>
+
+	<div class="subhead1">Ancienneté (jours)</div>
+		<p><b>Syntaxe : <code>[ &lt; &lt;= == != &gt;= &gt; ] VALEUR [;]</code></b></p>
+		<p>VALEUR est l'ancienneté du fichier expriméé en jours, et doit être un nombre positif ou un 0.</p>
+
+	<div class="subhead1">Attributs (H,R,S)</div>
+		<p><b>Syntaxe : <code>[ == != ] VALEUR [;]</code></b></p>
+		<p>VALEUR est un (ou des) attribut(s) de fichier sous forme de chaîne faite des seuls caractères H, R, S (sensible à la casse).<br/>
+			où H="caché", R="lecture seule" et S="Système".</p>
+		<p>Si un attribut n'est pas spécifié, il sera ignoré.</p>
+		<p class="note">Bien que le caractère A soit possible, il n'est pas recommandé de l'utiliser :
+			ce caractère A (comme Archive) est déjà traité par Abakt lorsqu'il fabrique les archives.
+			See <section-link href="Edit_Action_ActionType">Type d'action / Mode Archive</section-link>.</p>
+		<div class="subhead2">Exemples :</div>
+		<p>Appliquer l'action si les attributs R <i>et</i> H sont affectés : '==RH'.<br/>
+			Appliquer l'action si l'attribut S <i>n'est pas</i> affecté : '!=S'.</p>
+
+<div class="head">Un diagramme</div>
+	<p>Ce diagramme présente graphiquement le fonctionnement du filtre d'Abakt :</p>
+	<p><img src="abakt_filter_diagram.gif" border="1" style="padding:8px;"/></p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action -->
+<section name="Edit_Action" label="3 - Action [F8|F9|F10]">
+<p><b>Sélectionnez et spécifiez le type d'action qu'Abakt doit entreprendre.</b></p>
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action / 3a-Action Type -->
+<section name="Edit_Action_ActionType" label="3a - Action Type [F8]">
+
+<div class="head">Type d'action</div>
+
+	<p>Choisissez entre créer un archive ou entreprendre une opération de fichier.</p>
+	<p>Voir <section-link href="Edit_Action_ActionTypeSettings">Affectations du type d'action</section-link> pour plus amples informations.</p>
+
+	<div class="subhead1">Créer une archive</div>
+		<ul>
+			<li><b>Zip</b><br/>
+				Utilise la bibliothèque zip intégrée d'Abakt (ZipBuilder) pour créer une archive.<br/>
+				voir <section-link href="Edit_Action_ActionTypeSettings_Zip">Affectations du type d'action - Zip</section-link>.</li>
+			<li><b>7-Zip</b><br/>
+				Appelle un outil extérieur de ligne de commande de 7-Zip (si installé) pour créer des archives Zip ou 7-Zip.<br/>
+				Voir <section-link href="Edit_Action_ActionTypeSettings_7Zip">Affectations du type d'action - 7-Zip</section-link>.</li>
+		</ul>
+
+	<div class="subhead1">Opération sur fichier</div>
+		<ul>
+			<li><b>Copier</b><br/>
+				Copie les fichiers sélectionnés de la Source vers la Destination.</li>
+			<li><b>Déplacer</b><br/>
+				Déplace les fichiers sélectionnés de la Source vers la Destination.</li>
+			<li><b>Effacer</b><br/>
+				Efface les fichiers sélectionnés (!).</li>
+		</ul>
+		<p>Voir <section-link href="Edit_Action_ActionTypeSettings_FileOperation">Paramètrage des types d'action - Opération sur fichier</section-link>.</p>
+
+<div class="head">Mode Archive</div>
+
+	<div class="subhead1">Comment traiter l'attribut d'archive (A)?</div>
+	<ul>
+		<li><b>Défaut</b><br/>
+			Utilise tous les fichiers sélectionnés (en ignorant l'attribut Archive).<br/>
+			Ne modifie pas l'attribut Archive.</li>
+		<li><b>Complet</b><br/>
+			Utilise les fichiers sélectionnés (en ignorant l'attribut Archive).<br/>
+			 Efface l'attribut Archive après l'action.</li>
+		<li><b>Différentiel</b><br/>
+			N'utilise que les fichiers [A]. (Fichiers ayant l'attribut Archive).<br/>
+			Ne modifie pas l'attribut Archive.</li>
+		<li><b>Incrémental</b><br/>
+			N'utilise que les fichiers [A]. (Fichiers ayant l'attribut Archive).<br/>
+			Supprime l'attribut Archive après l'action.</li>
+		<li><b>Inverse</b><br/>
+			N'utilise que les fichiers n'ayant pas l'attribut [A] d'Archive.<br/>
+			Ne modifie pas l'attribut d'Archive.</li>
+	</ul>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action / 3b-Action Type Settings -->
+<section name="Edit_Action_ActionTypeSettings" label="3b - Action Type Settings [F9]">
+
+	<p>Abakt affiche automatiquement la fenêtre appropriée selon la sélection de <section-link href="Edit_Action_ActionType">Type d'action</section-link>.</p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action / 3b-Action Type Settings / Zip -->
+<section name="Edit_Action_ActionTypeSettings_Zip" label="Zip">
+
+	<p><b>L'action "Zip" utilise la bibliothèque intégrée pour créer les archives.</b></p>
+	<div class="subhead2">Limitations d'archive Zip crée avec la bibliothèque intégrée :</div>
+	<ul>
+		<li>La taille totale de l'archive est limitée à 4 GB.</li>
+		<li>Le nombre total de fichiers dans une archive est limité à 65 535.</li>
+		<li>Chaque fichier séparé à ajouter à l'archive ne peut dépasser 2 GB.</li>
+	</ul>
+
+	<hr/>
+
+	<div class="subhead1">Méthode</div>
+		<p>Indique à Abakt comment traiter les fichiers dans l'archive Zip (probablement existante).</p>
+		<ul>
+			<li><b>Nouveau</b><br/>
+				Crée une nouvelle archive Zip qui n'écrase pas une archive existante avec le même nom de fichier.<br/>
+				Si une arcchive de même nom existe, le nouveau nom de fichier se verra ajouter "(++nr)".</li>
+			<li><b>Remplacer</b><br/>
+				Une nouvelle archive sera créée et il est possible que l'archive existante de même nom soit écrasée.<br/>
+				Si celle-ci existe elle sera copiée dans un fichier temporaire
+					(vous pouvez désactiver cela dans la fenêtre des Préférences).
+					Lorsque l'action s'est terminée avec succès, la copie temporaire est effacée.</li>
+			<li><b>Mise à jour</b><br/>
+				Les fichiers d'une archive existante seront mis à jour avec les nouveaux fichiers.<br/>
+				Les nouveaux fichiers (non trouvés dans l'archive) seront ajoutés.<br/>
+				Les fichiers dans l'archive qui n'existent plus sur le disque ne seront pas enlevés de l'archive.</li>
+			<li><b>Rafraîchir</b><br/>
+				Les fichier dans une archive existante qui ont leur correspondant plus récents sur le disque seront remplacés.<br/>
+				De nouveaux fichiers ne seront pas ajoutés à cette archive.</li>
+		</ul>
+		<p class="note">En choisissant "Mise à jour" ou "Rafraîchir" il est possible qu'il n'y ait aucun effet sur le nom de fichier de l'archive
+			qui utilise une modèle de nom du type date/heure dynamique.</p>
+
+	<div class="subhead1">Indication de chemin</div>
+		<p>Indication du chemin à conserver pour chaque fichier dans l'archive.</p>
+		<ul>
+			<li><b>Complet</b><br/>
+				Le répertoire source (sans indication de lecteur) sera conservé.</li>
+			<li><b>Relatif</b><br/>
+				L'indication du chemin relativement au répertoire source sera conservée.<br/>
+				Cela signifie que le répertoire source disparait de l'indication du chemin dans l'archive.<br/>
+				<span class="note">Il pourrait y avoir des conflits si des fichiers, en dessous de deux répertoires source différents (abstraction faite de l'indication du lecteur),
+					partagent la même combinaison chemin/nom.</span></li>
+			<li><b>Aucun</b><br/>
+				Pas du tout d'indication de chemin.<br/>
+				En d'autres termes, le fichier sera conservé dans l'archive tel quel, sans indication de chemin ou de lecteur.<br/>
+				<span class="note">Il pourrait y avoir des conflits si des fichiers, en dessous de deux répertoires source différents (abstraction faite de l'indication du lecteur),
+					partagent la même combinaison chemin/nom.</span></li>
+		</ul>
+
+	<div class="subhead1">Compression</div>
+		<p>Une valeur entre 0 et 9 :<br/>
+			0=Aucun ; 1=Faible ; 6=Normale ; 9=Maximum</p>
+
+	<div class="subhead1">Mot de passe</div>
+		<p>Abakt conserve le mot de passe dans le profil (fichier .abp) en simple texte.
+			Assurez-vous que le répertoire Données/Profil ne puisse être accessible par quelqu'un d'autre.</p>
+
+	<div class="subhead1">Fractionner l'archive</div>
+		<p>L'archive Zip peut être fractionnée en parties. La taille de chaque partie est définie par une Taille de Volume.</p>
+		<ul>
+			<li>Si la taille du volume est positionnée à "Personnalisé",
+				vous pouvez modifier la taille de chaque partie par appel à l'éditeur de taille en cliquant le bouton "...".</li>
+			<li>Chaque partie de fichier portera un nom comme : "[NomProfil].z##", où ## est une valeur allant de 01 à 99.</li>
+			<li>La dernière partie sera nommée "[NomProfil].zip".<br/>
+				Ceci est le fichier dont vous aurez besoin pour ouvrir, pour restaurer une sauvegarde (en utilisant n'importe quel dézippeur compatible, ou Abakt).</li>
+		</ul>
+<!--		<p class="note">Since TZipBuilder 1.79 it is possible to Update or Freshen split backups.</p> -->
+		<dl>
+			<dt>La différence entre fractionnement et "Spanning" :</dt>
+			<dd>Une "Spanned Zip archive" est fractionnée en parties qui doivent être sauvegardées sur un support amovible (disque floppy).</dd>
+			<dd>Une archive fractionnée peut être sauvegardée n'importe où, de préférence sur des disques fixes (disques durs).</dd>
+		</dl>
+
+	<div class="subhead1">Ajout Commentaire</div>
+		<p>Utilise les mêmes règles de formatage que <section-link href="Edit_Action_Destination">Modèle de Nom de Destination</section-link>.</p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action / 3b-Action Type Settings / 7-Zip -->
+<section name="Edit_Action_ActionTypeSettings_7Zip" label="7-Zip">
+
+	<p><b>Cette action utilise la liste de fichiers générée par Abakt comme entrée pour la ligne de commande de l'application 7z.exe.</b></p>
+	<p class="note"><b>Vous devez télécharger et installer <a href="http://www.7-zip.org" target="_top">7-Zip</a> vous-même.</b></p>
+	<p>Tuyau : vous pouvez tromper Abakt par utilisation de Rar.exe au lieu de 7z.exe sur la page Préférences/Action.
+		<a href="http://www.rarlab.com" target="_top">Rar</a> n'est pas gratuit.</p>
+
+	<div class="subhead2">Limitations des archives créées avec 7-Zip:</div>
+	<ul>
+		<li><b>Archives Zip  (.zip):</b><br/>
+			Extrait du manuel : "7-Zip supporte l'extension Zip64 du format ZIP". Je pense que cela est fait automatiquement.
+			En utilisant la version 4.32 de 7-Zip, j'ai gèré la création d'archive zip au-delà de 4 GB sans problème.<br/>
+			Ces archives volumineuses ne peuvent pas être extraites avec la bibliothèque intégrée d'Abakt. Utilisez à la place le gestionnaire 7-Zip, IZArc ou WinZip.</li>
+		<li><b>Archives 7-Zip (.7z)</b><br/>
+			Pratiquement aucunes.<br/>
+			Voir <a href="http://www.7-zip.org" target="_top">www.7-zip.org</a> pour les détails du format de 7z.</li>
+	</ul>
+
+	<hr/>
+
+	<div class="subhead1">Ligne de commande</div>
+      <div class="indent1">
+		<div class="subhead2">Prévisualisation</div>
+			<p>Concerne les paramètres de ligne de commandes qui seront utilisés lorsqu'on appelera l'exécutable de 7-Zip.</p>
+		<div class="subhead2">Modèle</div>
+			<p>Vous laisse construire la ligne de commande avec laquelle 7z.exe sera appelé.<br/>
+				Utiliser les variables ci-dessous pour rendre la tâche plus aisée.<br/>
+				Exemple : "$C $T $N -mx=5 $P $W $L".<br/>
+				Se référer au manuel de 7-Zip pour plus d'information sur la syntaxe de la ligne de commandes.</p>
+	</div>
+
+	<div class="subhead1">Variables</div>
+		<p>Les variables que vous pouvez utiliser dans le modèle de ligne de commandes sont les suivantes.<br/>
+			<span class="note">Les variables sont sensibles à la casse.</span></p>
+      <div class="indent1">
+		<div class="subhead2">$C - Commande</div>
+			<p>a=ajouter ; u=mettre à jour</p>
+		<div class="subhead2">$T - Type d'archive</div>
+			<p>7z.exe supporte plusieurs méthodes de compression. Elles sont transmises à 7z.exe en utilisant le commutateur -t sur la ligne de commandes.
+					Les plus communément utilisées sont : "7z" et "zip".<br/>
+				La valeur choisie met également l'extension pour l'archive (ne pas entrer le point initial ".").<br/>
+				Voir le manuel de 7-Zip pour une description du commutateur -t de la ligne de commandes.</p>
+		<div class="subhead2">$N - Nom</div>
+			<p>Destination.Répertoire + Destination.Nom</p>
+		<div class="subhead2">$P - Mot de passe</div>
+			<p>Abakt conserve le mot de passe dans le profile (fichier .abp) en simple text.
+				Assurez-vous que votre répertoire Données/Profil ne puisse être accessible à quelqu'un d'autre.</p>
+		<div class="subhead2">$W - Répertoire de travail</div>
+			<p>C'est le répertoire temporaire défini dans Préférences.</p>
+		<div class="subhead2">$L - Liste Fichiers</div>
+			<p><span class="note">Indispensable !</span> Sans cette variable 7z.exe ne sait pas quels fichiers utiliser.</p>
+		<div class="subhead2">$$ - $</div>
+			<p>Utiliser $$ pour avoir un $ dans la ligne de commandes.</p>
+	</div>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action / 3b-Action Type Settings / File Operation -->
+<section name="Edit_Action_ActionTypeSettings_FileOperation" label="File Operation">
+
+	<p><b>Utiliser ce type d'action pour exécuter les opérations sur les fichiers sélectionnés.</b></p>
+
+	<div class="subhead1">Méthodes</div>
+		<p>Vous pouvez sélectionner la méthode souhaitée sur la page <section-link href="Edit_Action_ActionType">Type d'action</section-link>.</p>
+		<ul>
+			<li><b>Copier</b><br/>
+				Copie les fichiers sélectionnés dans le répertoire de destination.</li>
+			<li><b>Déplacer</b><br/>
+				Déplace les fichiers vers le répertoire de destination.</li>
+			<li><b>Effacer</b><br/>
+				Efface les fichiers sélectionnés.<br/>
+				Vous pouvez utiliser cette méthode pour créer un profil qui nettoie quelques répertoires en enlevant les fichiers non nécessaires.<br/>
+				<span class="note"><b>Faites très attention en utilisant cette opération !</b></span></li>
+		</ul>
+
+	<div class="subhead1">Écraser les fichiers existants</div>
+		<p>Effectue les opérations copier et déplacer.<br/>
+			Si activé, les fichiers existants dans la destination seront remplacés.</p>
+		<div style="margin-left:20px;">
+			<div class="subhead2">Écraser aussi les fichiers en lecture seule</div>
+			<p>Activer cette option pour écraser les fichiers en lecture seule existants.</p>
+		</div>
+
+	<div class="subhead1">Utiliser la corbeille si possible</div>
+		<p>Effectue l'opération d'effacement.<br/>
+			<span class="note">Windows ne peut garantir que la corbeille sera utilisée pour cette opération.</span></p>
+
+	<div class="subhead1">Utiliser la fonction de Windows "SHFileOperation"</div>
+		<p>Effectue les opérations de copier déplacer et effacer.<br/>
+			Fourni moins de retours, mais est quelquefois plus rapide.<br/>
+			C'est un comportement qui est similaire aux opérations sur les fichiers exécutées avec l'Explorateur de Windows.<br/>
+			<span class="note">Ne pas utiliser avec de fichiers nombreux (des milliers),
+				<code>SHFileOperation()</code> plantera pour une raison inconnue.</span></p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 3-Action / 3c-Destination -->
+<section name="Edit_Action_Destination" label="Destination [F10]">
+
+<div class="head">Répertoire</div>
+
+	<p><b>Spécifie le répertoire de destination pour l'action sélectionnée.</b></p>
+<!--	<p>Since 0.9.2-betaXXX it is possible to use formatting (similar to Name, see below).
+		Formatting is only done if a quote (') is found in the directory's name.</p>
+	<p>Example of a directory without formatting:<br/>
+		<code>C:\My Backups\E-mail</code></p>
+	<p>Example of a directory with formatting:<br/>
+		<code>'C:\My Daily Backups\'yyyy-mm-dd'\E-mail'</code></p> -->
+
+	<div class="subhead1">Répertoire créé automatiquement</div>
+		<p>L'activation de cette option créera automatiquement le répertoire de destination si celui-ci n'existe pas lorsque vous exécutez l'action.<br/>
+			Ignoré pour l'opération Effacer.</p>
+
+<div class="head">Nom</div>
+
+	<div class="subhead1">Prévisualisation</div>
+		<p>Concerne le fichier ou le répertoire de destination.<br/>
+			La destination réelle est : "Répertoire + Prévisualisation".</p>
+
+	<div class="subhead1">Modèle</div>
+		<p>Utiliser un modèle pour élaborer le nom de destination.
+			C'est soit le nom d'une archive soit celui d'un répertoire lorsque Copier/Déplacer est utilisé.</p>
+      <div class="indent1">
+   		<div class="subhead2">Variables spéciales (noter les apostrophes obligatoires) :</div>
+   			<ul>
+   				<li><b>'$N'</b><br/>
+   					Nom du profil.</li>
+   				<li><b>'$M'</b><br/>
+   					Mode Archive (expliqué).</li>
+   				<li><b>'$V'</b><br/>
+   					Indication de version d"Abakt (telle qu'affichée dans la fenêtre : À propos).</li>
+   				<li><b>'$$'</b><br/>
+   					Caractère $.</li>
+   				<li><b>Chaînes en format texte</b><br/>
+   					Voir <section-link href="FormatText">Format Text</section-link> pour plus ample information.</li>
+   				<p><span class="note">Les caractères illégaux de nom de fichier seront supprimés de la chaîne résultante.</span></p>
+   			</ul>
+   	</div>
+
+	<div class="subhead1">Extension</div>
+	<p>Si désactivé, l'extension par défaut pour le type d'action choisi ne sera pas ajouté au nom de destination.<br/>
+		<span class="note">Ne fonctionne que pour les archives Zip. Ne fonctionne pas pour les archives zip fractionnées.</span></p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 4-Finalize -->
+<section name="Edit_Finalize" label="Finalize [F11]">
+
+<p><b>Les opérations à exécuter après qu'une action ait été terminée avec succès.</b></p>
+
+<div class="head">Historique</div>
+	<p>Voir <section-link href="Edit_Finalize_History">Éditer Historique</section-link>.</p>
+
+<div class="head">Liste de fichiers</div>
+	<p>Si activé, un fichier texte, contenant la liste des fichiers sur lesquels l'action a été menée avec succès, sera créé et écrit dans le répertoire de destination.
+		Ce fichier aura le même nom que Destination.Nom, mais avec l'extention ".txt".</p>
+	<p class="note">Ne fonctionne pour l'instant qu'avec le type d'action "Zip".</p>
+
+<div class="head">Supprimer les répertoires vides</div>
+	<p>Activer cette option pour supprimer les répertoires qui seraient vidés par les actions Copier/Déplacer.<br/>
+		Les répertoires seront supprimés après une action menée à terme avec succès.</p>
+	<p class="note">Seuls les répertoires qui auront été vidés par l'action seront supprimés.
+		Les répertoires qui étaient vides avant le démarrage de l'action sont ignorés.</p>
+
+<div class="head">Essayer Archive</div>
+	<p>Activer cette option pour essayer une archive zip nouvellement créée en vue d'éventuelles erreurs lors de l'action.</p>
+	<p class="note">Ne fonctionne que pour les archives zip (créées soit avec le moteur zip interne  soit avec 7-Zip).</p>
+	<p class="note">N'exécute pas une comparaison binaire de fichiers dans l'archive avec les fichiers source sélectionnés,
+		il teste simplement si l'archive zip est corrompue ou non.</p>
+
+<page-break />
+</section>
+
+
+<!-- Edit / 4-Finalize / History -->
+<section name="Edit_Finalize_History" label="History [Ctrl+H]">
+
+<p><b>Le module Historique maintient une liste des archives  de type "Zip" et "7-Zip" créées avec succès.</b></p>
+
+<div class="head">Catalogue Archive</div>
+
+	<div class="subhead1"><span class="note">Notes :</span></div>
+	<p>Seules les archives nouvellement créées avec succès seront ajoutées à l'Historique.
+		Pour en ajouter d'autres plus anciennes utiliser "Ajouter des fichiers à la liste".</p>
+	<p>Les règlages seront vérifiés et imposés après chaque action menée à bon terme,
+		ou sur demande, lorsqu'on appuyera sur le bouton "Appliquer les règlages maintenant".</p>
+	<p>Le module Historique conserve le Mode Archive qui était utilisé pour créer l'archive.</p>
+	<p>Le module Historique conserve la dernière archive crée menée à bonne fin, cette information est utilisée pour "Restaurer l'Archive Zip".</p>
+	<p class="note">Le module Historique ne retient aucune information pour les types d'actions "Opérations sur Fichiers".</p>
+
+		<ul>
+			<li>Le fichier Historique (.abh) est sauvegardé dans le même répertoire que le fichier Profil associé (.abp). Ceci ne peut être changé.</li>
+			<li>Les sauvegardes stockées sur des lecteurs amovibles ne seront pas enregistrées dans l'Historique.</li>
+		</ul>
+
+	<!-- <p>The following settings will be applied in order:</p> -->
+
+	<div class="subhead1">Activé</div>
+		<p>Si non coché, il n'y aura pas conservation de l'Historique.<br/>
+			Cela signifie que le fichier Historique associé au Profil courant ne sera pas (re-)créé ou mis à jour :
+				vous pouvez sans crainte supprimer tous les fichiers *.abh dans le répertoire "Profils".</p>
+		<p class="note">Désactiver cette option n'est pas recommandé.</p>
+
+	<div class="subhead1">Supprimer des sauvegardes plus anciennes que <i>N</i> jours</div>
+		<p>Les sauvegardes plus anciennes que <i>N</i> jours peuvent être supprimées, sauf si un "nombre minimum à conserver" est spécifié.<br/>
+			Désactivé si 0.</p>
+
+	<div class="subhead1">Conserver un minimum de <i>N</i> sauvegardes</div>
+		<p>Conserver toujours un minimum de <i>N</i> sauvegardes.<br/>
+			Désactivé si 0.</p>
+
+	<div class="subhead1">Conserver un maximum de <i>N</i> sauvegardes</div>
+		<p>Le nombre de sauvegardes stockées sur le disque ne peut excèder <i>N</i>.<br/>
+			Désactivé si 0.</p>
+
+	<div class="subhead1">Utiliser la corbeille si possible</div>
+		<p>Si coché, les sauvegardes supprimées seront envoyées à la corbeille.<br/>
+			<note>Dans Windows le succès de cette opération n'est pas garanti.</note></p>
+
+	<div class="subhead1">Boutons :</div>
+		<div class="indent1">
+			<div class="subhead2">Montrer la liste des fichiers</div>
+				<p>Affiche dans le panneau d'état les fichiers, avec leur ancienneté en jours, listés par le module Historique.<br/>
+					Aucune action n'est faite (aucun fichier ne sera supprimé).</p>
+			<div class="subhead2">Ajouter à la liste</div>
+				<p>Ajoute manuellement dans l'historique des noms de fichiers d'archives existantes.<br/>
+					Utiliser ceci pour ajouter des fichiers d'archives créées avant que le modole Historique ne les ait introduits dans Abakt.<br/>
+					Aucune indication sur le mode d'archive ne sera conservée pour ces fichiers.</p>
+			<div class="subhead2">Appliquer les options maintenant</div>
+				<p>Impose un contrôle immédiat.<br/>
+					Les fichiers qui sont en action seront instantanément supprimés selon les options.</p>
+		</div>
+
+<div class="head">Catalogue Fichier</div>
+	<p class="note">N'est pas encore mis en œuvre.</p>
+
+<page-break />
+</section>
+
+
+<!-- Tools -->
+<section name="Tools" label="Tools">
+<!-- <div class="subhead1">Execute Profile</div>
+		<p>Executes the current Profile.</p> -->
+<page-break />
+</section>
+
+
+<!-- Tools / Filter Preview -->
+<section name="Tools_FilterPreview" label="Filter Preview [Ctrl+Shift+F]">
+
+	<p><b>Utiliser la prévisualisation de filtre pour voir quels fichiers seront inclus et exclus.</b></p>
+
+	<div class="subhead1">Construire les listes</div>
+		<p>Démarrer la construction des listes selon les règlages du filtre courant et des options ci-dessous.<br/>
+			Vous pouvez voir les listes sur les panneaux Inclus et Exclus.</p>
+      <div class="indent1">
+   		<div class="subhead2">Ôter le lecteur</div>
+   			<p>Cocher cette option pour générer des listes sans indication de lecteur ("C:\").</p>
+   		<div class="subhead2">Guillemets</div>
+   			<p>Cocher cette option pour générer des listes où chaque fichier est délimité par des guillemets (").</p>
+   		<div class="subhead2">Examiner les répertoires exclus</div>
+   			<p>Si coché, le moteur de filtrage d'Abakt examinera également les répertoires exclus (non cochés).
+   				Le résultat sera une liste plus importante de fichiers exclus sur le panneau de liste des fichiers exclus.</p>
+   	</div>
+
+	<div class="subhead1">Sauvegarder la liste des fichiers sélectionnés</div>
+		<p>Sauvegarde dans un fichier .txt les fichiers sélectionnés de la liste affichée.</p>
+
+<page-break />
+</section>
+
+
+<!-- Tools / Restore Zip Archive -->
+<section name="Tools_RestoreZipArchive" label="Restore Zip Archive [Ctrl+Shift+R]">
+
+<p><b>Restaurer les archives Zip créées précédemment.</b></p>
+
+	<div class="subhead1">Archive Zip</div>
+		<p>Sélectionne ou édite pour ouvrir une archive Zip.<br/>
+			Le menu déroulant affiche toutes les archives qui étaient conservées en utilisant l'<section-link href="Edit_Finalize_History">Historique</section-link>.</p>
+		<p class="note">Il n'est pas possible d'ouvrir/restaurer les archives .7z. À la place vous devez utiliser le gestionnaire de fichier de 7-Zip.</p>
+
+	<div class="subhead1">Ouvrir</div>
+		<p>Ouvre l'archive Zip affichée dans le menu déroulant.</p>
+
+	<div class="subhead1">Répertoire de destination</div>
+		<p>Sélectionner ou éditer le répertoire vers lequel les fichiers seront extraits.</p>
+
+	<div class="subhead1">Restaurer les fichiers sélectionnés</div>
+		<p>Cliquer sur ce bouton pour démarrer l'extraction des fichiers sélectionnés vers le répertoire de destination.</p>
+
+<page-break />
+</section>
+
+
+<!-- Tools / Group -->
+<section name="Tools_Group" label="Group of Profiles [Ctrl+G]">
+
+<p><b>Utiliser un Groupe pour exécuter une série de Profils.</b></p>
+<p>Spécifier (en option) la configuration et/ou les jeux de filtre personnalisés qui seront appliqués à chaque profil sélectionné.<br/>
+	<note>Ceci est un dispositif très puissant.</note></p>
+
+<div class="head">Profils</div>
+	<p>Ajouter et sélectionner les profils que vous voulez exécuter en tant que Groupe.</p>
+	<p>Les profils seront exécutés dans l'ordre dans lequel ils sont affichés.</p>
+
+<div class="head">Configuration personnalisée</div>
+	<p><b>Ajuster les règlages de configuration <i>sélectionnés</i> sur la page pour chaque profil sélectionné.</b></p>
+	<p>Si un règlage est coché, celui dans le Profil sera remplacé par la valeur de cette page.</p>
+	<p>Si un règlage n'est pas coché, celui existant dans le profil ne sera pas modifié.</p>
+	<p>Par exemple, vous pouvez écraser "Destination.Répertoire" avec : "C:\Graver-le-cd\" pour tous les profils sélectionnés.
+		Utile si vous désirez placer quelques sauvegardes dans un unique répertoire de destination.</p>
+
+<div class="head">Règlages personalisé des filtres</div>
+	<p><b>Ces règlages (sélectionnés <i>et</i> non sélectionnés) seront utilisés pour modifier la liste de règlage des filtre de chaque profil sélectionné.</b></p>
+	<p>Si un filtre dans un profil a <i>exactement</i> les mêmes conditions que celui du modèle,
+		les propriétés "nom", "action" et "activé" prévaudront sur ces propriétés pour le règlage de filtre existant.</p>
+	<p class="note">Seules les conditions du règlage du filtre sont utilisées pour comparer, pas les propriétés (Nom, Action, Activé).</p>
+	<!-- <p>The remaining FilterSets will simply be added to the Profile's FilterSet list.</p> -->
+
+<page-break />
+</section>
+
+
+<!-- Tools / Template Editor -->
+<section name="Tools_TemplateEditor" label="Template Editor [Ctrl+Shift+T]">
+
+<p><b>Utiliser un modèle Abakt pour ajuster les règlages dans un profil dans Abakt.</b></p>
+<p>Le comportement est similaire à celui qui fonctionne pour une sauvegarde de groupe. Seuls les règlages cochés seront utilisés.</p>
+<p>Les modèles sauvegardés (fichiers *.abt) peuvent être utilisés pour modifier certains règlages spécifiques d'un profil
+	lorsqu'Abakt est appelé en utilisant les paramètres de ligne de commandes.</p>
+<p>Voir page <section-link href="CommandLine">Ligne de Commandes</section-link> (Option -T) par exemple.</p>
+
+<div class="head">Filtres personnalisés</div>
+	<p>Ce sont les configurations de filtre qui seront utilisées pour ajuster les règlages dans un profil.</p>
+	<p>Si un règlage de filtre dans un profil possède <i>exactement</i> les mêmes conditions que la configuration du modèle,
+	les propriétés du modèle "Nom", "Action" et "Activé" prévaudront sur celles de la configuration existante.<br/>
+		<span class="note">Note : seules les conditions du règlage du filtre sont utilisées, pas les propriétés (Nom, Action, Activé).</span></p>
+	<p>Les règlages restants seront simplement ajoutés à la liste des règlages du profil.</p>
+
+<div class="head">Configuration personnalisée</div>
+	<p>Sélectionner les règlages de la configuration que vous souhaitez ajuster lorsque vous utilisez un modèle.</p>
+	<p>Les valeurs de règlage sélectionnées (cochées) seront utilisées à la place de celles conservées dans le propfil.</p>
+
+<page-break />
+</section>
+
+
+<!-- Preferences -->
+<section name="Preferences" label="Preferences [Ctrl+P]">
+	<p>Détermine les règlages globaux qui seront conservés pour l'utilisateur courant.</p>
+<page-break />
+</section>
+
+
+<!-- Preferences / On Startup -->
+<section name="Preferences_OnStartup" label="On Startup">
+
+	<div class="subhead1">Utiliser ce profil</div>
+		<p>Sélectionner le profil à ouvrir au démarrage d'Abakt.</p>
+		<ul>
+			<li><b>Nouveau</b><br/>
+				Utiliser "default.abp" comme nouveau profil. Ce fichier se trouve dans le répertoire "Application Data\Abakt" de l'utilisateur courant.
+					(Windows XP : "C:\Documents and Settings\[user]\Application Data\Abakt\default.abp").</li>
+			<li><b>Ouvert précédemment/Sauvegardé</b><br/>
+				Utiliser le dernier fichier qui a été ouvert ou sauvegardé par Abakt.</li>
+			<li><b>Spécifique</b><br/>
+				Définir un fichier personnalisé qui doit être utilisé comme nouveau profil.</li>
+		</ul>
+
+	<div class="subhead1">Restaurer les associations de fichier au prochain démarrage</div>
+		<p>La prochaine fois qu'Abakt sera démarré, les associations de fichier seront restaurées pour les extensions suivantes :
+			.ABP, .ABG, .ABT and .ABH.</p>
+		<p>Si vous double-cliquez ces fichiers dans l'explorateur Windows, Abakt démarrera et ouvrira le fichier sélectionné.</p>
+		<p>Ces associations de fichier seront supprimées du registre lorsque vous désinstallerez Abakt.</p>
+
+<page-break />
+</section>
+
+
+<!-- Preferences / Application -->
+<section name="Preferences_Application" label="Application">
+
+	<div class="subhead1">Répertoire Données</div>
+	<p>C'est le répertoire où vos données (Profils, Groupes, Modèles Journal) seront sauvegardées.<br/>
+		Si vous modifiez ce répertoire, de nouveaux sous-répertoires seront créés automatiquement.<br/>
+		<note>Aucun fichier ne sera copié lorsque vous modifiez ce répertoire, vous devrez faire cela vous-même.</note></p>
+
+	<div class="subhead1">Montre les boîtes Description</div>
+		<p>Décocher si vous n'en avez pas besoin.</p>
+
+	<div class="subhead1">Fichiers récents</div>
+	<div class="indent1">
+		<div class="subhead2">Nonbre visible</div>
+			<p>Fixe le nombre de fichiers visibles sur les différents menus "Fichier | Fichiers récents".</p>
+		<div class="subhead2">Montrer le chemin</div>
+			<p>Si activé , le chemin complet sera montré.</p>
+	</div>
+
+	<div class="subhead1">Langue</div>
+		<p>Change la langue utilisée. Il est nécessaire de redémarrer Abakt pour que cela soit effectif.</p>
+		<p>Voir <a href="http://www.xs4all.nl/~edienske/abakt/translate.html#status" target="_top">État de Traduction</a>
+			pour un aperçu des langues disponibles.</p>
+		<p>Lire <a href="http://www.xs4all.nl/~edienske/abakt/translate.html" target="_top">Comment traduire Abakt</a>
+			si vous désirez en aider la traduction.</p>
+
+	<div class="subhead1">Fichiers des préférence</div>
+		<p>Affiche l'emplacement du fichier des préférences globales d'Abakt.</p>
+		<p>Vous pouvez dire à Abakt d'utiliser un fichiers des préférences personnalisé avec l'option  <code>-I</code> de la <section-link href="CommandLine">ligne de commandes</section-link>.</p>
+
+<page-break />
+</section>
+
+
+<!-- Preferences / Action -->
+<section name="Preferences_Action" label="Action">
+
+	<div class="subhead1">Répertoire de destination par défaut</div>
+		<p>Utilisé pour les nouveaux profils (Sans titre).</p>
+
+	<div class="subhead1">Répertoire temporaire</div>
+		<p>Spécifie le répertoire où Abakt sauvegardera les fichiers temporaires contenant la liste des fichiers qui doivent être inclus/exclus.<br/>
+			C'est aussi le répertoire que ZipForge utilise pendant le mise à jour et les sauvegardes tests.<br/>
+			Si vide, c'est le répertoire temporaire par défaut du système qui sera utilisé.</p>
+
+	<div class="subhead1">Exécutable 7-Zip</div>
+		<p>Fixe le chemin pour 7z.exe.
+         Vous pouvez obtenir 7-Zip à <a href="http://sourceforge.net/projects/sevenzip/" target="_top">http://sourceforge.net/projects/sevenzip/</a></p>
+
+	<div class="subhead1">Confirmer "Opération fichiers | Effacer"</div>
+		<p>Si activé Abakt ouvrira une fenêtre de demande de confirmation de l'effacement.</p>
+		<p class="note">Abakt ne demandera pas confirmation s'il est démarré par utilisation des paramètres de ligne de commandes parce que cela interromprait l'automatisation.</p>
+
+<page-break />
+</section>
+
+
+<!-- Preferences / Logging -->
+<section name="Preferences_Logging" label="Logging">
+
+<div class="head">Action</div>
+
+	<p><b>L'information sera journalisée dans la fenêtre d'Action.</b></p>
+
+	<div class="subhead1">Listes détaillées des fichiers en construction</div>
+		<p>Pour chaque fichier montre SI et POURQUOI il est inclus ou exclu.</p>
+		<p><note>Activer cette action ralentira l'action et générera de gros fichiers .log.</note></p>
+
+	<div class="subhead1">Progression détaillée</div>
+		<p>Affiche la progression complète dans le journal pendant l'exécution de l'action.<br/>
+			Si décoché, seules les défaillances seront rapportées.<br/>
+			S'applique aussi à l'option <section-link href="Edit_Finalize">Archive Test</section-link>.</p>
+		<p><note>Activer cette option ralentira (faiblement) l'action et il en résultera un journal plus volumineux.</note></p>
+
+	<div class="subhead1">Sauvegarder le journal dans "&lt;NomdeProfil&gt;.log"</div>
+		<p>Cocher cette option si vous désirez sauvegarder automatiquement l'information (sélectionnée au-dessus) dans un fichier .log (au-dessous).<br/>
+			Le fichier "[ProfileName].log" sera sauvegardé dans le répertoire du journal de l'action.</p>
+		<div class="indent1">
+   		<div class="subhead2">Répertoire du journal</div>
+   			<p>Fixe le répertoire dans lequel seront sauvegardés les fichiers.</p>
+   	</div>
+
+<div class="head">Application</div>
+
+	<div class="subhead1">Sauvegarder les messages du statut</div>
+		<p>Si activé, les messages du panneau de statut dans la fenêtre principale seront sauvegardés dans le répertoire de données de l'application pour l'utilisateur courant.<br/>
+			(Windows XP: "\Documents and Settings\[user]\Application Data\Abakt\Abakt.log".)</p>
+		<div class="indent1">
+         <div class="subhead2">Taille maximle (kB)</div>
+   			<p>La taille maximale du fichier des messages de Statut.<br/>
+   				Lorsque "Abakt.log" a atteint la moitié de la taille maximale, le fichier sera sauvegardé sous "Abakt.log.old".
+   					La journalisation continuera dans "Abakt.log".</p>
+   	</div>
+
+<page-break />
+</section>
+
+
+<!-- Preferences / Advanced -->
+<section name="Preferences_Advanced" label="Advanced">
+
+	<div class="subhead1">Supprimer du profil les répertoires sources inexistants</div>
+		<p>Activer ceci pour supprimer d'un profil les répertoires sources inexistants lorsqu'ils sont ouverts,<br/>
+			et de l'arborescence sur la page source.</p>
+		<ul class="note">
+			<li>Ces répertoires ne sont pas supprimés physiquement, ils ne sont simplement pas affichés.</li>
+		</ul>
+
+	<div class="subhead1">Inclure les répertoires vides</div>
+		<p>En l'activant cela inclura les répertoires vides pendant l'exécution.</p>
+		<ul class="note">
+			<li>S'applique seulement, pour l'instant, au type d'action "Zip".</li>
+			<li>Des répertoires vides ne peuvent être ajoutés à une archive avec  "Indication de chemin" fixé à "Aucun".</li>
+			<li>À faire : programmer pour "7-Zip", "Copier" et "déplacer".</li>
+		</ul>
+
+	<div class="subhead1">Créer une copie temporaire si l'archive existe</div>
+		<p>Si activé, Abakt effectue une copie de l'archive avant de démarrer l'action.</p>
+		<p>S'applique à la méthode Zip "Remplacer".<br/>
+			Désactivez cette option si vous n'avez pas beaucoup d'espace disponible sur le disque destinataire.</p>
+		<ul class="note">
+			<li>Toujours désactiver pour les lecteurs amovibles.</li>
+			<li>Soyez vigilant : si la sauvegarde plante et si l'option est désactivée, vous perdrez votre original.</li>
+		</ul>
+
+	<div class="subhead1">Actionner les opérations de sécurité dans ZipBuilder</div>
+		<p>Si "vrai", demande à ZipBuilder d'utiliser un fichier temporaire lorsqu'il modifie une archive Zip existante.
+			En d'autres termes il fonctionne directement sur le fichier original et une erreur peut le corrompre.</p>
+		<p>Ne s'applique qu'aux actions Zip.</p>
+		<ul class="note">
+			<li>Toujours désactivé pour les lecteurs amovibles.</li>
+			<li>À faire : décider si cela doit remplacer "Créer une copie temporaire si l'archive Zip existe".</li>
+		</ul>
+
+	<div class="subhead1">Traiter les alarmes comme erreurs</div>
+		<p>Si ce règlage est activé, lorsqu'un fichier ne peut être archivé,  alors l'action sera interrompue avec une erreur fatale.<br/>
+			Cela a un impact sur plusieurs aspects du comportement d'Abakt :<br/>
+			- L'action sera interrompue.<br/>
+			- Le code de sortie de la ligne de commandes sera ERROR au lieu de WARNING.<br/>
+			- Aucune opération de "Finalisation" ne sera exécutée.
+				En d'autres termes : les opérations historique, test archive, effacement des attributs d'archive etc. ne seront pas exécutées.</p>
+		<p>Ne s'applique qu'aux actions Zip.</p>
+
+	<div class="subhead1">Utiliser UI, le nouvel explorateur de dossiers</div>
+		<p>Désactivez si vous préférez les anciennes fenêtres de l'explorateur de dossiers, ou si vous rencontrez des problèmes.</p>
+
+<page-break />
+</section>
+
+
+<!-- Command Line -->
+<section name="CommandLine" label="Command Line">
+<p><b>Abakt accepte les arguments de ligne de commandes.</b></p>
+<p>Utile lorsqu'on crée des scripts .BAT pour automatiser des tâches ou pour démarrer Abakt avec des règlages personnalisés.</p>
+
+<div class="head">Syntaxe</div>
+
+	<p><b>Abakt.exe [options] NOMFICHIER</b></p>
+
+	<p>NOMFICHIER est soit un fichier .abp soit un .abg.<br/>
+		- L'extension est exigée.<br/>
+		- Sans indication de chemin, Abakt essayera de trouver NOMFICHIER dans les
+			sous-répertoires "Profils" ou "Groupes" dans le répertoire "Data" par défaut (voir Préférences).</p>
+
+<div class="head">Options</div>
+
+	<p class="note">Les options sont sensibles à la casse (-m n'est pas la même chose que -M).</p>
+
+	<table cellspacing="8" width="100%">
+	<!-- Header -->
+	<tr valign="top">
+		<td>
+			<div class="subhead1">Option</div>
+		</td>
+		<td>
+			<div class="subhead1">Description</div>
+		</td>
+	</tr>
+	<!-- Options and descriptions -->
+	<tr valign="top">
+		<td><b class="code">-b</b></td>
+		<td>
+			<b>Auto Exécuter</b><br/>
+			Exécute automatiquement l'action (un Profil ou un Groupe).<br/>
+			Si omis, Abakt démarrera simplement et ouvrira le Profil ou le Groupe.
+		</td>
+	</tr>
+	<tr valign="top">
+		<td><b class="code">-x</b></td>
+		<td>
+			<b>Sortie Auto</b><br/>
+			Ferme automatiquement Abakt lorsque l'opération est terminée.<br/>
+			<span class="note">- Ignoré si Auto Exécuter est faux.</span>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td><b class="code">-m</b></td>
+		<td>
+			<b>Réduire</b><br/>
+			Réduit Abakt pendant l'opération.<br/>
+			<span class="note">- Ignoré si Auto Exécuter est faux.</span>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td><b class="code">-l</b></td>
+		<td>
+			<b>Créer un fichier Log</b><br/>
+			Écrit le journal dans le fichier <tt>profil-nomfichier.log</tt> dans le répertoire "Log" par défaut (voir Préférences).<br/>
+			Cette option écrase le règlage par défaut de la fenêtre Préférences.<br/>
+			<span class="note">- Ignoré si Auto Exécuter est faux.</span>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td><b class="code">-L</b></td>
+		<td>
+			<b>Ne pas créer de journal</b><br/>
+			Cette option écrase le règlage par défaut de la fenêtre Préférences.<br/>
+			<span class="note">- Ignoré si Auto Exécuter est faux.</span>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td nowrap="nowrap"><b class="code">-o "TEXTE"</b></td>
+		<td>
+			<b>Utiliser "Destination/Nom Modèle" personnalisé</b><br/>
+			Remplace le nom du modèle de la destination dans le profil par TEXTE.<br/>
+			remplace les valeurs fournies en utilisant -T.<br/>
+			<p class="note">
+				- Ignoré pour les actions Groupe (fichiers .abg), ne fonctionne qu'avec Profils.<br/>
+				- Losque Auto Sortie est faux, le profil sera ouvert en temps que profil modifié.<br/>
+				- Ne pas oublier les apostrophes si on désire cette option.
+					Voir <section-link href="FormatText">Format Texte</section-link> pour plus d'informations.
+			</p>
+			<p>Exemple:<br/>
+				<code>"C:\Program Files\Abakt\Abakt.exe" -o "'monModèle'" "monProfil.abp"</code>
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td nowrap="nowrap"><b class="code">-I "FICHIER"</b></td>
+		<td>
+			<b>Utiliser un fichier de Préférences Globales personnalisé</b><br/>
+			Indique à Abakt d'utiliser FICHIER plutôt que le fichier "Abakt.ini" des préférences globales par défaut. Utile pour déboguer.<br/>
+			Si le fichier n'existe pas il sera créé.<br/>
+			<span class="note">- FICHIER doit contenir l'indication du chemin complet (c.à.d. "C:\Debug\TestAbakt.prefs").</span><br/>
+			<span class="note">- Le répertoire doit exister, il ne sera pas créé.</span>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td nowrap="nowrap"><b class="code">-T "FICHIER"</b></td>
+		<td>
+			<b>Utiliser un modèle Abakt (FICHIER doit pointer sur un fichier .abt existant) pour écraser les règlages spécifiques dans le profil à être exécuté.</b><br/>
+			- S'il n'y a pas d'indication de chemin et/ou d'extension, Abakt essayera de trouver FICHIER dans le
+				sous-répertoire "Templates" du répertoire "Data" (voir Préférences). Il n'est pas exigé d'ajouter l'extension ".abt".<br/>
+			<span class="note">- Lorsque Sortie Auto est faux, le profil sera ouvert en tant que profil modifié.</span><br/>
+			<span class="note">- Ignoré pour les actions Groupe (fichiers .abg), ne fonctionne qu'avec Profils.</span><br/>
+			Exemples:<br/>
+			<ul>
+				<li><code>Abakt.exe -T DoIncrementalBackup MyDocs.abp</code></li>
+				<li><code>"C:\Program Files\Abakt\Abakt.exe" -T "C:\AbaktData\Profiles\DoFullBackup.abt" "C:\AbaktData\Profiles\MyDocs.abp"</code></li>
+			</ul>
+		</td>
+	</tr>
+	</table>
+
+<div class="head">Codes Sortie</div>
+
+	<p>Abakt renvoie quelques codes utiles en sortie lorsqu'il est appelé par ligne de commandes.
+		Dans un script .BAT ils peuvent être obtenus avec %ERRORLEVEL% après l'appel Abakt.exe.</p>
+	<p>Voir pour exemple <section-link href="HowTo">Comment envoyer un courriel lorsque l'archivage est terminé</section-link>.</p>
+	<p class="note">Si le règlage global "Traiter les Alames comme Erreurs" est activé, le code de sortie sera soit OK soit ERREUR, jamais ALARME.</p>
+	<p class="note">Fonctionne avec Profils (.abp), pas avec  Groupes (.abg). Ne fonctionne pas avec 7-Zip.</p>
+
+	<div class="subhead1">Codes Sortie :</div>
+		<ul>
+			<li>0 : OK</li>
+	    	<li>1 : ERREUR</li>
+			<li>2 : ALARME (OK)</li>
+		</ul>
+		<div class="subhead2">Ou une combinaison :</div>
+			<ul>
+		    	<li>3 : ERREURR+ALARME</li>
+			</ul>
+
+<page-break />
+</section>
+
+
+<!-- Format Text -->
+<section name="FormatText" label="Format Text">
+
+<p><b>Construire votre chaîne au format texte en accord avec les règles suivantes :</b></p>
+
+<table border="0" cellspacing="2" cellpadding="0">
+
+	<tr valign="top"><td width="100"><div class="subhead1">Valeur</div></td><td><div class="subhead1">Signification</div></td></tr>
+
+	<tr valign="top"><td><b><i>(illegal)</i></b></td><td>Les caractères suivant ne peuvent pas être utilisés : \ / : * ? " &lt; &gt; | </td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>c</b></td><td>Affiche la date au format donné par la variable globale "ShortDateFormat",
+			suivi par l'heure au format donné par la variable globale "LongTimeFormat".
+			L'heure n'est pas affichée si la partie fractionnaire de la valeur de "DateTime" est nulle.</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>d</b></td><td>Affiche le jour sous forme de nombre sans 0 devant (1-31).</td></tr>
+	<tr valign="top"><td><b>dd</b></td><td>Affiche le jour sous forme de nombre avec un 0 devant (01-31).</td></tr>
+	<tr valign="top"><td><b>ddd</b></td><td>Affiche le jour sous forme d'abréviation (Sun-Sat) en utilisant les chaînes définies par la variable globale "ShortDayNames".</td></tr>
+	<tr valign="top"><td><b>dddd</b></td><td>Affiche le jour en entier (Sunday-Saturday) en utilisant les chaînes définies par la variable globale "LongDayNames".</td></tr>
+	<tr valign="top"><td><b>ddddd</b></td><td>Affiche la date en utilisant le farmat défini par la variable globale "ShortDateFormat".</td></tr>
+	<tr valign="top"><td><b>dddddd</b></td><td>Affiche la date en utilisant le format défini par la variable globale "LongDateFormat".</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>m</b></td><td>Affiche le mois sous forme de nombre sans 0 devant (1-12). Si le déterminant m suit immédiatement un déterminant h ou hh, les minutes remplaceront le mois.</td></tr>
+	<tr valign="top"><td><b>mm</b></td><td>Affiche le mois sous forme de nombre avec un 0 devant (01-12). Si le déterminant mm suit immédiatement un déterminant h ou hh, les minutes remplaceront le mois.</td></tr>
+	<tr valign="top"><td><b>mmm</b></td><td>Affiche le mois sous forme d'abréviation (Jan-Dec) en utilisant les chaînes déterminées par la variable globale "ShortMonthNames".</td></tr>
+	<tr valign="top"><td><b>mmmm</b></td><td>Affiche le nom du mois en entier (January-December) en utilisant les chaînes déterminées par la variable globale "LongMonthNames".</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>yy</b></td><td>Affiche l'année sous forme de nombre avec deux digits (00-99).</td></tr>
+	<tr valign="top"><td><b>yyyy</b></td><td>Affiche l'année sous forme de nombre avec quatre digits (0000-9999).</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>h</b></td><td>Affiche l'heure sans 0 devant (0-23).</td></tr>
+	<tr valign="top"><td><b>hh</b></td><td>Affiche l'heure avec un 0 devant (00-23).</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>n</b></td><td>Affiche les minutes sans 0 devant (0-59).</td></tr>
+	<tr valign="top"><td><b>nn</b></td><td>Affiche les minutes avec un 0 devant (00-59).</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>s</b></td><td>Affiche les secondes sans 0 devant (0-59).</td></tr>
+	<tr valign="top"><td><b>ss</b></td><td>Affiche les secondes avec un 0 devant (00-59).</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>t</b></td><td>Affiche le temps dans le format déterminé par la variable globale "ShortTimeFormat".</td></tr>
+	<tr valign="top"><td><b>tt</b></td><td>Affiche le temps dans le format déterminé par la variable globale "LongTimeFormat".</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td><b>'texte'</b></td><td>Les caractères délimités par des apostrophes sont affichés tels quels, et n'affectent pas le formatage.</td></tr>
+
+	<tr><td><hr/></td><td><hr/></td></tr>	<!-- lines -->
+
+	<tr valign="top"><td></td><td align="right">[Source : Borland Help File]</td></tr>
+
+</table>
+
+<page-break />
+</section>
+
+
+<!-- HowTo -->
+<section name="HowTo" label="How To ...">
+
+	<p>Plusieurs exemples de comment utiliser Abakt.</p>
+
+<page-break />
+</section>
+
+
+<!-- HowTo / Create your first backup -->
+<section name="HowTo_FirstBackup" label="Create your first backup">
+
+<p><b>Un guide simple pas à pas pour vous aider à faire votre première sauvegarde.</b></p>
+
+	<p>Supposons que vous vouliez faire une archive Zip du dossier "Mes Documents".<br/>
+		Les étapes suivantes décrivent comment créer et exécuter un Profil pour faire uniquement cela.</p>
+
+	<ol>
+		<li><p>Démarrer Abakt et créer un nouveau profil. <tt>[Fichier | Nouveau Profil]</tt>.</p></li>
+		<li><p>Aller à la page Source <tt>[F6]</tt>:<br/>
+			Cliquer sur le bouton "Ajout".<br/>
+			Parcourir jusqu'à "Mes Documents" et cliquer sur OK.
+				Abakt affichera un dossier tel que "C:\Documents and Settings\erik\Mes Documents" et ses sous-dossiers.</p>
+			<p class="note">Tous les fichiers dans les répertoires non sélectionnés seront ignorés quand s'exécutera une action.</p>
+		</li>
+		<li><p>[En Option] Sur le panneau fichiers :
+			clic droit sur un fichier, un menu contextuel apparaît qui vos aidera à créer des nouveaux filtres.<br/>
+			Vous pouvez revoir/éditer les dispositions de filtres sur la page Filtres <tt>[F7]</tt>.</p></li>
+		<li><p>Aller à la page Action/Type d'action <tt>[F8]</tt>:<br/>
+			Sélectionner l'action souhaitée : "Zip".</p></li>
+		<li><p>Aller à la page Action/Règlages du type d'action <tt>[F9]</tt>:<br/>
+			Revoir les règlages pour l'action sélectionnée ("Zip"). Les règlages par défaut doivent convenir.</p></li>
+		<li><p>Aller à la page Destination<tt>[F10]</tt>:<br/>
+			Dans la zone Répertoire cliquer sur le bouton "Parcourir" sélectionner un répertoire existant ou en créer un nouveau.</p></li>
+		<li><p>Pour créer l'archive cliquer sur le bouton "Exécuter le Profil".</p></li>
+	</ol>
+
+<page-break />
+</section>
+
+
+<!-- HowTo / Include only one file in a directory -->
+<section name="HowTo_IncludeOneFileOnly" label="Include only one file in a directory">
+
+<p><b><i>Reformulé :</i> Exclure tous les fichiers d'un répertoire, excepté un (ou plus) fichier(s) spécifique(s).</b></p>
+
+	<p>La suite est un exemple de comment exclure tous les fichiers dans "C:\Test\", excepté le fichier "C:\Test\keep-me.txt".</p>
+
+	<ol>
+		<li><p>Le répertoire "C:\Test\" <b>doit</b> être sélectionné (case à cocher jaune).</p>
+			<p class="note">Désélectionner les répertoires qui seront ignorés tout au long du processus de filtrage.</p></li>
+		<li><p>Clic droit sur n'importe quel fichier dans le panneau des fichiers : un menu contextuel apparaît.</p></li>
+		<li><p>Sélectionner "Exclure/Tous les fichiers dans ce répertoire".<br/>
+			À ce stade tous les fichiers du répertoire "C:\Test\" sont exclus.</p></li>
+		<li><p>Ensuite, clic droit sur le fichier que vous souhaitez inclure ("C:\Test\keep-me.txt"), et choisissez "Inclure (Toujours)/Ce fichier".</p></li>
+		<li><p>Ça y est !<br/>
+			À ce stade tous les fichiers du répertoire "C:\Test\" sont exclus à l'exception de "keep-me.txt".<br/>
+			Vous pouvez répéter l'étape 2 pour les autres fichiers que vous souhaitez l'inclusion.</p></li>
+	</ol>
+
+<page-break />
+</section>
+
+
+<!-- HowTo / Use the Windows Task Scheduler -->
+<section name="HowTo_Scheduler" label="Use the Windows Task Scheduler">
+
+<p><b>Vous pouvez utiliser les options de ligne de commandes pour renseigner le programmateur de tâches de Windows.</b></p>
+
+	<ol>
+		<li><p>Créer un raccourci vers Abakt avec une <code>cible</code> comme ceci :</p>
+			<p><code>"C:\Program Files\Abakt\Abakt.exe" -b "C:\Profiles\MyProfile.abp"</code></p>
+			<p>ou comme cela :</p>
+			<p><code>"C:\Program Files\Abakt\Abakt.exe" -b -x -m "MyGroupOfProfiles.abg"</code></p>
+		</li>
+		<li>Ensuite demander au programmateur d'appeler le raccourci que vous avez créé.</li>
+	</ol>
+
+	<p>Peut-être qu'une meilleure voie serait de créer et d'appeler un fichier .BAT au lieu d'un raccourci.</p>
+
+<page-break />
+</section>
+
+
+<!-- HowTo / Send mail when a backup has finished -->
+<section name="HowTo_MailResult" label="Send mail when a backup has finished">
+
+	<p>La suite est un exemple de script .BAT qui appelle Abakt et envoie un courriel avec d'utiles informations.<br/>
+		Vous devrez probablement modifier un peu le script pour qu'il fonctionne sur votre système.</p>
+
+	<p>Le script utilise <a href="http://www.blat.net/" target="_top">blat</a>, un utilitaire à ligne de commande pour envoyer un courriel.
+		Téléchergez blat.zip et extrayez le dans "C:\Program Files\blat\".</p>
+
+	<div class="subhead1">Exemple</div>
+	<code><pre>
+set BLAT="C:\Program Files\blat\smtp\blat.exe"
+set ABAKT="C:\Program Files\Abakt.exe"
+set PROFILE=MyProfile
+set HOME=C:\Documents and Settings\erik
+set LOGFILE="%HOME%\Application Data\Abakt\Log\%PROFILE%.log"
+set EMAIL=myName@myProvider.net
+
+@rem == Prepare blat:
+%BLAT% -install smtp.myprovider.net %EMAIL%
+
+@rem == Call Abakt:
+%ABAKT% -b -x -l -m "%PROFILE%.abp"
+
+goto result%ERRORLEVEL%
+:result0
+    @rem OK (0x00)
+    %BLAT% %LOGFILE% -s "%PROFILE% Ok" -to %EMAIL%
+    @goto end
+:result2
+    @rem OK+WARNING (0x02)
+    %BLAT% %LOGFILE% -s "%PROFILE% Ok + Warnings" -to %EMAIL%
+    @goto end
+:result1
+    @rem ERROR (0x01)
+:result3
+    @rem ERROR+WARNING (0x03)
+    %BLAT% %LOGFILE% -s "%PROFILE% Failed!" -to %EMAIL%
+    @goto end
+
+:end
+	</pre></code>
+
+<page-break />
+</section>
+
+
+<!-- HowTo / Create Zip files larger than 4 GB -->
+<section name="HowTo_Zip4GB" label="Create Zip files larger than 4 GB">
+
+<p><b>Le standard original PKZIP n'autorise pas des fichiers au delà de 4 GB.</b></p>
+
+	<p>Essayez en utilisant 7-Zip pour créer des archives .zip ou .7z plus grandes que 4 GB.<br/>
+		Tiré de la documentation 7-Zip : "7-Zip supporte l'extension Zip64 du format ZIP". Je pense que cela est fait automatiquement.
+		En utilisant 7-Zip 4.32 j'ai créé sans problèmes des archives .ZIP plus grandes que 4 GB.</p>
+	<p>Ces archives ne peuvent être extraites avec la bibliothèque intégrée d'Abakt.
+		À la place utilisez le gestionnaire de 7-Zip, IZArc ou WinZip.</p>
+
+	<p><note>Note : Windows 95/98(SE)/ME ne supportent pas du tout des fichiers au delà de 4 GB.</note></p>
+
+<page-break />
+</section>
+
+
+</document-body>	<!-- end of document body -->
+
+
+<!-- document footer -->
+<document-footer>
+<hr size="1" noshade="true" color="red" />
+<table width="100%">
+<tr>
+<td align="left"><span format="pdf">Page <page-number /> de <total-pages /></span></td>
+<td align="right"><a href="http://aurigadoc.sourceforge.net/" target="_top">Généré en utilisant AurigaDoc</a></td>
+</tr></table>
+</document-footer>
+
+
+</document>

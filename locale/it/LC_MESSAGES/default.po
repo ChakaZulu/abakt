@@ -1,0 +1,4616 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Abakt [en]\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-24 15:09+0200\n"
+"PO-Revision-Date: 2006-10-12 17:44+0100\n"
+"Last-Translator: Ringo <pizan65-abakt@yahoo.it>\n"
+"Language-Team: Erik Dienske <abakt@xs4all.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+
+#. f_About..Caption
+#: abakt/About.dfm:7
+msgid "About"
+msgstr "Informazioni su Abakt"
+
+#. f_About..Font.Name
+#. f_About..Panel1..pnl_MakeDonation..Font.Name
+#. f_About..Panel3..lbl_ZipBuilder..Font.Name
+#. f_About..Panel3..lbl_ZipBuilderLink..Font.Name
+#. f_About..Panel4..Label10..Font.Name
+#. f_About..Panel4..lbl_User..Font.Name
+#. f_About..Panel5..Label9..Font.Name
+#. f_About..Panel5..Label12..Font.Name
+#. f_About..Panel5..lbl_Language..Font.Name
+#. f_About..Panel7..pnl_Email..Font.Name
+#. f_About..Panel7..pnl_Internet..Font.Name
+#. f_About..Panel7..pnl_License..Font.Name
+#. f_About..Panel8..lbl_AppName..Font.Name
+#. f_Action..Font.Name
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Font.Name
+#. f_Action..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Font.Name
+#. f_Action..gbx_Progress..Panel3..lbl_FilePerc..Font.Name
+#. f_Action..Panel2..pnl_ElapsedTime..Font.Name
+#. f_Action..Panel2..pnl_GroupElapsedTime..Font.Name
+#. f_Action..Panel2..pnl_GroupCount..Font.Name
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..lbl_ZipInfo_SplitCustomSize..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..lbl_ZipInfo_Compression..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..lbl_7zInfo_Template..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_Overwrite..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseRecycleBin..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseSHFileOperation..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_PathInformation..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseSHFileOperation..Font.Name
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Font.Name
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Font.Name
+#. f_FileSizeEditor..Font.Name
+#. f_FileSizeEditor..Label1..Font.Name
+#. f_FilterPreview..Font.Name
+#. f_FilterPreview..pnl_Descr..Label15..Font.Name
+#. f_FilterPreview..gbx_FileLists..pnl_Included..lbl_IncludedFilesInfo..Font.Name
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..lbl_ExcludedFilesInfo..Font.Name
+#. f_FilterSetEditor..Font.Name
+#. f_FilterSetEditor..gbx_Conditions..Label2..Font.Name
+#. FrameFilters..pnl_Descr_Filters..Label4..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..Panel1..lbl_TestArchiveInfo..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..Panel10..lbl_RemoveEmptyDirsInfo..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..pnl_Descr_Finalize..Label9..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..lbl_FileList_Enabled_Info..Font.Name
+#. f_Group..Font.Name
+#. f_Group..PageControl..tab_Profiles..pnl_Descr_Profiles..Label1..Font.Name
+#. f_Group..PageControl..tab_CustomFilterSets..pnl_Descr_CustomFilterSets..Label3..Font.Name
+#. f_Group..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label2..Font.Name
+#. f_History..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MinBackups..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxBackups..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxDays..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistoryInfo..Font.Name
+#. f_Main..Font.Name
+#. f_Prefs..PageControl..tab_Startup..Label4..Font.Name
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Font.Name
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label14..Font.Name
+#. f_Prefs..PageControl..tab_Backup..Label7..Font.Name
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..bt_DefDestDir..Font.Name
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..lbl_Get7Zip..Font.Name
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label3..Font.Name
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label10..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label9..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label5..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label1..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label11..Font.Name
+#. f_RestoreBackup..Font.Name
+#. f_RestoreBackup..pnl_Top..lbl_ArchiveDetails..Font.Name
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..bt_DestDir..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..lbl_ProgressInfo..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..lbl_FilePerc..Font.Name
+#. FrameSource..pnl_Descr_Source..Label15..Font.Name
+#. f_TemplateEditor..Font.Name
+#. f_TemplateEditor..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label15..Font.Name
+#: abakt/About.dfm:14
+#: abakt/About.dfm:134
+#: abakt/About.dfm:160
+#: abakt/About.dfm:175
+#: abakt/About.dfm:202
+#: abakt/About.dfm:217
+#: abakt/About.dfm:232
+#: abakt/About.dfm:381
+#: abakt/About.dfm:402
+#: abakt/About.dfm:423
+#: abakt/About.dfm:449
+#: abakt/Action.dfm:13
+#: abakt/Action.dfm:136
+#: abakt/Action.dfm:180
+#: abakt/Action.dfm:224
+#: abakt/Action.dfm:330
+#: abakt/Action.dfm:347
+#: abakt/Action.dfm:364
+#: abakt/ActionTypeFrame.dfm:36
+#: abakt/ActionTypeFrame.dfm:58
+#: abakt/ActionTypeFrame.dfm:71
+#: abakt/ActionTypeFrame.dfm:113
+#: abakt/ActionTypeFrame.dfm:146
+#: abakt/ActionTypeFrame.dfm:159
+#: abakt/ActionTypeFrame.dfm:172
+#: abakt/ActionTypeFrame.dfm:185
+#: abakt/ActionTypeFrame.dfm:198
+#: abakt/ActionTypeFrame.dfm:211
+#: abakt/ActionTypeFrame.dfm:224
+#: abakt/ActionTypeSettingsFrame.dfm:52
+#: abakt/ActionTypeSettingsFrame.dfm:67
+#: abakt/ActionTypeSettingsFrame.dfm:80
+#: abakt/ActionTypeSettingsFrame.dfm:95
+#: abakt/ActionTypeSettingsFrame.dfm:175
+#: abakt/ActionTypeSettingsFrame.dfm:219
+#: abakt/ActionTypeSettingsFrame.dfm:297
+#: abakt/ActionTypeSettingsFrame.dfm:357
+#: abakt/ActionTypeSettingsFrame.dfm:405
+#: abakt/ActionTypeSettingsFrame.dfm:435
+#: abakt/ActionTypeSettingsFrame.dfm:485
+#: abakt/ActionTypeSettingsFrame.dfm:576
+#: abakt/ActionTypeSettingsFrame.dfm:596
+#: abakt/ActionTypeSettingsFrame.dfm:609
+#: abakt/ActionTypeSettingsFrame.dfm:629
+#: abakt/ActionTypeSettingsFrame.dfm:642
+#: abakt/ActionTypeSettingsFrame.dfm:657
+#: abakt/ActionTypeSettingsFrame.dfm:717
+#: abakt/ActionTypeSettingsFrame.dfm:745
+#: abakt/ActionTypeSettingsFrame.dfm:771
+#: abakt/ActionTypeSettingsFrame.dfm:784
+#: abakt/ActionTypeSettingsFrame.dfm:799
+#: abakt/ActionTypeSettingsFrame.dfm:823
+#: abakt/ActionTypeSettingsFrame.dfm:863
+#: abakt/ActionTypeSettingsFrame.dfm:910
+#: abakt/ConfigEditFrame.dfm:17
+#: abakt/ConfigEditFrame.dfm:30
+#: abakt/ConfigEditFrame.dfm:69
+#: abakt/ConfigEditFrame.dfm:95
+#: abakt/DestinationFrame.dfm:52
+#: abakt/DestinationFrame.dfm:65
+#: abakt/DestinationFrame.dfm:146
+#: abakt/FileSizeEditor.dfm:13
+#: abakt/FileSizeEditor.dfm:61
+#: abakt/FilterPreview.dfm:13
+#: abakt/FilterPreview.dfm:77
+#: abakt/FilterPreview.dfm:213
+#: abakt/FilterPreview.dfm:250
+#: abakt/FilterSetEditor.dfm:15
+#: abakt/FilterSetEditor.dfm:147
+#: abakt/FiltersFrame.dfm:27
+#: abakt/FinalizeFrame.dfm:38
+#: abakt/FinalizeFrame.dfm:74
+#: abakt/FinalizeFrame.dfm:132
+#: abakt/FinalizeFrame.dfm:157
+#: abakt/Group.dfm:13
+#: abakt/Group.dfm:60
+#: abakt/Group.dfm:220
+#: abakt/Group.dfm:267
+#: abakt/History.dfm:13
+#: abakt/History.dfm:110
+#: abakt/History.dfm:124
+#: abakt/History.dfm:138
+#: abakt/History.dfm:154
+#: abakt/Main.dfm:14
+#: abakt/Preferences.dfm:49
+#: abakt/Preferences.dfm:135
+#: abakt/Preferences.dfm:164
+#: abakt/Preferences.dfm:304
+#: abakt/Preferences.dfm:353
+#: abakt/Preferences.dfm:423
+#: abakt/Preferences.dfm:489
+#: abakt/Preferences.dfm:508
+#: abakt/Preferences.dfm:637
+#: abakt/Preferences.dfm:656
+#: abakt/Preferences.dfm:675
+#: abakt/Preferences.dfm:692
+#: abakt/RestoreBackup.dfm:13
+#: abakt/RestoreBackup.dfm:57
+#: abakt/RestoreBackup.dfm:167
+#: abakt/RestoreBackup.dfm:284
+#: abakt/RestoreBackup.dfm:326
+#: abakt/RestoreBackup.dfm:371
+#: abakt/SourceFrame.dfm:274
+#: abakt/TemplateEditor.dfm:13
+#: abakt/TemplateEditor.dfm:81
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. f_About..Panel1..Label11..Caption
+#: abakt/About.dfm:44
+msgid "&Support Abakt by making a small donation:"
+msgstr "&Sostieni Abakt con una piccola donazione:"
+
+#. f_About..Panel1..pnl_MakeDonation..Caption
+#: abakt/About.dfm:55
+msgid "Visit the website to read more."
+msgstr "Visita il sito web per saperne di più."
+
+#. f_About..Panel2..bt_Close..Caption
+#. f_Action..Panel1..bt_Close..Caption
+#. f_FilterPreview..Panel1..bt_Close..Caption
+#. f_Group..MainMenu..mu_File..mi_Close..Caption
+#. f_RestoreBackup..ActionList..act_Close..Caption
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileClose..Caption
+#: abakt/About.dfm:86
+#: abakt/Group.dfm:521
+#: abakt/RestoreBackup.dfm:428
+#: abakt/TemplateEditor.dfm:301
+msgid "&Close"
+msgstr "C&hiudi"
+
+#. f_About..Panel3..lbl_ZipBuilder..Caption
+#: abakt/About.dfm:112
+msgid "Abakt uses ZipBuilder %s."
+msgstr "Abakt usa ZipBuilder %s"
+
+#. f_About..Panel3..lbl_ZipBuilderLink..Caption
+#: abakt/About.dfm:130
+msgid "See http://www.drehoeksw.net/"
+msgstr "Visita http://www.drehoesksw.net/"
+
+#. f_About..Panel4..Label10..Caption
+#. f_About..Panel4..lbl_User..Caption
+#: abakt/About.dfm:156
+msgid "User"
+msgstr "Utente"
+
+#. f_About..Panel5..Label9..Caption
+#. f_About..Panel5..lbl_Language..Caption
+#: abakt/About.dfm:198
+msgid "Language"
+msgstr "Lingua"
+
+#. f_About..Panel5..Label12..Caption
+#. f_About..Panel5..ed_Translator..Text
+#: abakt/About.dfm:213
+msgid "Translator"
+msgstr "Traduttore"
+
+#. f_About..Panel6..lbl_Released..Caption
+#. f_About..Panel6..Label6..Caption
+#. FrameFilterSetList..lv......Caption
+#: abakt/About.dfm:270
+msgid "Date"
+msgstr "Data"
+
+#. f_About..Panel6..lbl_Version..Caption
+#. f_About..Panel6..Label5..Caption
+#: abakt/About.dfm:278
+msgid "Version"
+msgstr "Versione"
+
+#. f_About..Panel6..Label8..Caption
+#. f_About..Panel6..lbl_EccVersion..Caption
+#: abakt/About.dfm:302
+msgid "Using ecc"
+msgstr "Uso ecc"
+
+#. f_About..Panel7..lbl_Author..Caption
+#: abakt/About.dfm:331
+msgid "Author"
+msgstr "Autore"
+
+#. f_About..Panel7..Label2..Caption
+#: abakt/About.dfm:339
+msgid "&License"
+msgstr "&Licenza"
+
+#. f_About..Panel7..Label3..Caption
+#: abakt/About.dfm:347
+msgid "&E-mail"
+msgstr "&E-mail"
+
+#. f_About..Panel7..Label4..Caption
+#: abakt/About.dfm:356
+msgid "&Internet"
+msgstr "&Internet"
+
+#. f_About..Panel7..Label7..Caption
+#: abakt/About.dfm:365
+msgid "Erik Dienske"
+msgstr "Erik Dienske"
+
+#. f_About..Panel7..pnl_Email..Caption
+#: abakt/About.dfm:377
+msgid "abakt@xs4all.nl"
+msgstr "abakt@xs4all.nl"
+
+#. f_About..Panel7..pnl_Internet..Caption
+#: abakt/About.dfm:398
+msgid "http://www.xs4all.nl/~edienske/abakt/"
+msgstr "http://www.xs4all.nl/~edienske/abakt/"
+
+#. f_About..Panel7..pnl_License..Caption
+#: abakt/About.dfm:419
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#. f_About..Panel8..lbl_AppName..Caption
+#: abakt/About.dfm:445
+msgid "Abakt - A Backup Tool"
+msgstr "Abakt - Uno strumento di backup"
+
+#. f_About..Panel8..Label1..Caption
+#: abakt/About.dfm:460
+msgid "Copyright (C) 2003-2006 - Erik Dienske"
+msgstr "Copyright (C) 2003 - 2006 - Erik Dienske"
+
+#. f_Action..Caption
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Caption
+#: abakt/Action.dfm:6
+msgid "Action"
+msgstr "Azione"
+
+#. f_Action..Panel1..bt_SaveLog..Caption
+#. f_RestoreBackup..ActionList..act_SaveLog..Caption
+#: abakt/Action.dfm:53
+msgid "&Save Log"
+msgstr "&Salva Registro Log"
+
+#. f_Action..gbx_Log..Caption
+#: abakt/Action.dfm:64
+msgid "&Log"
+msgstr "&Registro Log"
+
+#. f_Action..gbx_Progress..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Caption
+#: abakt/Action.dfm:86
+msgid "Progress"
+msgstr "Avanzamento"
+
+#. f_Action..gbx_Progress..lbl_ProgressInfo..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..lbl_ProgressInfo..Caption
+#: abakt/Action.dfm:96
+msgid "lbl_ProgressInfo"
+msgstr "lbl_ProgressInfo"
+
+#. f_Action..gbx_Progress..bt_Abort..Caption
+#. f_FilterPreview..gbx_BuildFileLists..bt_Abort..Caption
+#. f_RestoreBackup..ActionList..act_Abort..Caption
+#: abakt/Action.dfm:104
+#: abakt/RestoreBackup.dfm:424
+msgid "&Abort"
+msgstr "I&nterrompi"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..Label5..Caption
+#. f_Action..Panel2..Label3..Caption
+#: abakt/Action.dfm:123
+msgid "Group"
+msgstr "Gruppo"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Caption
+#. f_Action..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Caption
+#. f_Action..gbx_Progress..Panel3..lbl_FilePerc..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..lbl_FilePerc..Caption
+#: abakt/Action.dfm:132
+#: abakt/RestoreBackup.dfm:322
+#: abakt/RestoreBackup.dfm:367
+msgid "100%"
+msgstr "100%"
+
+#. f_Action..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#. f_Action..Panel2..Label1..Caption
+#: abakt/Action.dfm:167
+msgid "Profile"
+msgstr "Profilo"
+
+#. f_Action..gbx_Progress..Panel3..lbl_File..Caption
+#. f_Group..ActionList..act_FileNew..Category
+#. f_Group..ActionList..act_FileOpen..Category
+#. f_Group..ActionList..act_FileSave..Category
+#. f_Group..ActionList..act_FileSaveAs..Category
+#. f_Main..ActionList..act_FileNew..Category
+#. f_Main..ActionList..act_FileOpen..Category
+#. f_Main..ActionList..act_FileSave..Category
+#. f_Main..ActionList..act_FileSaveAs..Category
+#. f_Main..ActionList..act_FileClose..Category
+#. f_Main..ActionList..act_StatusSaveAs..Category
+#. f_Main..ActionList..act_Exit..Category
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..Label1..Caption
+#: abakt/Action.dfm:211
+#: abakt/Group.dfm:591
+#: abakt/Group.dfm:605
+#: abakt/Main.dfm:717
+#: abakt/Main.dfm:740
+#: abakt/Main.dfm:746
+#: abakt/Main.dfm:752
+#: abakt/Main.dfm:776
+#: abakt/Main.dfm:812
+#: abakt/Main.dfm:818
+#: abakt/RestoreBackup.dfm:358
+msgid "File"
+msgstr "File"
+
+#. f_Action..Panel2..Label2..Caption
+#: abakt/Action.dfm:264
+msgid "Destination"
+msgstr "Destinazione"
+
+#. f_Action..Panel2..ed_ProfilePath..Text
+#: abakt/Action.dfm:286
+msgid "ed_ProfilePath"
+msgstr "ed_ProfilePath"
+
+#. f_Action..Panel2..ed_Destination..Text
+#: abakt/Action.dfm:301
+msgid "ed_Destination"
+msgstr "ed_Destination"
+
+#. f_Action..Panel2..ed_Group..Text
+#: abakt/Action.dfm:316
+msgid "ed_Group"
+msgstr "ed_Group"
+
+#. f_Action..Panel2..pnl_ElapsedTime..Caption
+#. f_Action..Panel2..pnl_GroupElapsedTime..Caption
+#: abakt/Action.dfm:326
+msgid "9:59:59"
+msgstr "9:59:59"
+
+#. f_Action..Panel2..pnl_GroupCount..Caption
+#: abakt/Action.dfm:360
+msgid "100/100"
+msgstr "100/100"
+
+#. f_Action..sdlg_Log..DefaultExt
+#. f_Main..sdlg_Status..DefaultExt
+#. f_RestoreBackup..sdlg_Log..DefaultExt
+#: abakt/Action.dfm:371
+msgid "log"
+msgstr "log"
+
+#. f_Action..sdlg_Log..Filter
+#. f_RestoreBackup..sdlg_Log..Filter
+#: abakt/Action.dfm:372
+msgid "Log File (*.log)|*.log|Any File (*.*)|*.*"
+msgstr "File Log (*.log)|*.log|Tutti i file(*.*)|*.*"
+
+#. f_Action..sdlg_Log..Title
+#. f_RestoreBackup..sdlg_Log..Title
+#: abakt/Action.dfm:374
+msgid "Save log file"
+msgstr "Salva il file di log"
+
+#. f_Action..ZipBuilder..SFXCaption
+#. f_RestoreBackup..ZipBuilder..SFXCaption
+#: abakt/Action.dfm:389
+msgid "Self-extracting Archive"
+msgstr "Archivio auto-estraente"
+
+#. f_Action..ZipBuilder..SFXLanguage
+#. f_RestoreBackup..ZipBuilder..SFXLanguage
+#: abakt/Action.dfm:390
+msgid "US"
+msgstr "US"
+
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Caption
+#: abakt/ActionTypeFrame.dfm:32
+msgid "Select the Action Type and specify the Archive Mode."
+msgstr "Selezionare il tipo di Azione e specificare il tipo di backup"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Caption
+#: abakt/ActionTypeFrame.dfm:47
+msgid "Action Type"
+msgstr "Tipo di Azione"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Caption
+#: abakt/ActionTypeFrame.dfm:54
+msgid "Create Archive"
+msgstr "Crea archivio"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Caption
+#: abakt/ActionTypeFrame.dfm:67
+msgid "File Operation"
+msgstr "Operazioni sui file"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Copy..Caption
+#: abakt/ActionTypeFrame.dfm:80
+msgid "&Copy"
+msgstr "&Copia"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_Zip..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..Caption
+#: abakt/ActionTypeFrame.dfm:89
+msgid "&Zip"
+msgstr "&Zip"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_7Zip..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Caption
+#: abakt/ActionTypeFrame.dfm:100
+msgid "&7-Zip"
+msgstr "&7-Zip"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Caption
+#: abakt/ActionTypeFrame.dfm:109
+msgid "&Delete"
+msgstr "Ca&ncella"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Move..Caption
+#: abakt/ActionTypeFrame.dfm:124
+msgid "&Move"
+msgstr "Sp&osta"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Caption
+#: abakt/ActionTypeFrame.dfm:135
+msgid "&Archive Mode"
+msgstr "Tipo di &backup"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Caption
+#: abakt/ActionTypeFrame.dfm:142
+msgid "Use all selected files (ignoring A). Don't modify A."
+msgstr "Usa tutti i file selezionati (ignorando A). Non modificare -A-."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Caption
+#: abakt/ActionTypeFrame.dfm:155
+msgid "Use all selected files (ignoring A). Clear A after Action."
+msgstr "Usa tutti i file selezionati (ingnorando -A-). Togli l'attributo -A- dopo l' Azione"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Caption
+#: abakt/ActionTypeFrame.dfm:168
+msgid "Use A-files only. Don't modify A."
+msgstr "Usa solo i file di attributo -A-. Non modificare l'attributo -A-."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Caption
+#: abakt/ActionTypeFrame.dfm:181
+msgid "Use A-files only. Clear A after Action."
+msgstr "Usa solo i file di attributo -A-. Cancella l'attributo -A- dopo l'Azione."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Caption
+#: abakt/ActionTypeFrame.dfm:194
+msgid "Use non A-files only. Don't modify A."
+msgstr "Usa i file di attributo diverso da -A-. Non modificare l'attributo -A-."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..lbl_ZipInfo_SplitCustomSize..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..lbl_ZipInfo_Compression..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..lbl_7zInfo_Template..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_Overwrite..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseRecycleBin..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseSHFileOperation..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_PathInformation..Caption
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Caption
+#. FrameFinalize..ScrollBox_Finalize..Panel1..lbl_TestArchiveInfo..Caption
+#. FrameFinalize..ScrollBox_Finalize..Panel10..lbl_RemoveEmptyDirsInfo..Caption
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..lbl_FileList_Enabled_Info..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MinBackups..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxBackups..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxDays..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistoryInfo..Caption
+#. f_RestoreBackup..pnl_Top..lbl_ArchiveDetails..Caption
+#: abakt/ActionTypeFrame.dfm:207
+#: abakt/ActionTypeSettingsFrame.dfm:353
+#: abakt/ActionTypeSettingsFrame.dfm:401
+#: abakt/ActionTypeSettingsFrame.dfm:481
+#: abakt/ActionTypeSettingsFrame.dfm:605
+#: abakt/ActionTypeSettingsFrame.dfm:653
+#: abakt/ActionTypeSettingsFrame.dfm:767
+#: abakt/ActionTypeSettingsFrame.dfm:780
+#: abakt/ActionTypeSettingsFrame.dfm:795
+#: abakt/ActionTypeSettingsFrame.dfm:819
+#: abakt/ConfigEditFrame.dfm:65
+#: abakt/DestinationFrame.dfm:61
+#: abakt/FinalizeFrame.dfm:34
+#: abakt/FinalizeFrame.dfm:70
+#: abakt/FinalizeFrame.dfm:153
+#: abakt/History.dfm:106
+#: abakt/History.dfm:120
+#: abakt/History.dfm:134
+#: abakt/History.dfm:150
+#: abakt/RestoreBackup.dfm:53
+msgid "AUTO_TRANSLATED"
+msgstr "AUTO_TRANSLATED"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Caption
+#: abakt/ActionTypeFrame.dfm:220
+msgid "How to deal with the Archive attribute (A)?"
+msgstr "Come trattare l'attributo 'Archivio' (-A-)?"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Default..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..bt_7z_Default..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..bt_DefaultTempDir..Caption
+#: abakt/ActionTypeFrame.dfm:233
+#: abakt/Preferences.dfm:398
+msgid "Default"
+msgstr "Default"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Full..Caption
+#: abakt/ActionTypeFrame.dfm:244
+msgid "Full"
+msgstr "Completo"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Differential..Caption
+#: abakt/ActionTypeFrame.dfm:253
+msgid "Differential"
+msgstr "Differenziale"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Incremental..Caption
+#: abakt/ActionTypeFrame.dfm:262
+msgid "Incremental"
+msgstr "Incrementale"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Inverse..Caption
+#: abakt/ActionTypeFrame.dfm:271
+msgid "Inverse"
+msgstr "Inverso"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:41
+msgid "&Method"
+msgstr "Mo&dalità archivio"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:48
+msgid "Existing backup with the same filename will be replaced."
+msgstr "Gli archivi (già esistenti) con lo stesso nome, saranno sostituiti."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:63
+msgid "Add new files and update files already present in existing backup with the same filename."
+msgstr "Aggiungi i nuovi file e aggiorna i file già presenti in un archivio (già esistente) con lo stesso nome."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:76
+msgid "Never overwrite existing backup with the same filename."
+msgstr "Non sovrascrivere mai gli archivi (già esistenti) con lo stesso nome."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:91
+msgid "Update files already present, don't add new files to existing backup with the same filename."
+msgstr "Aggiorna i file già presenti, ma non aggiungere nuovi file ad un archivio (già esistente) con lo stesso nome."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodReplace..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:104
+msgid "Replace"
+msgstr "Sostituisci"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodUpdate..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:113
+msgid "Update"
+msgstr "Aggiorna"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodNew..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:122
+msgid "New"
+msgstr "Nuovo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodFreshen..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:133
+msgid "Freshen"
+msgstr "Meno recenti"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label11..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:155
+msgid "Vo&lume Size"
+msgstr "Di&m&ensione dell'unità"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label12..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:163
+msgid "Custom &Size (B)"
+msgstr "Dimensione personali&zzata"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..cb_Zip_Split..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:184
+msgid "Spl&it Archive"
+msgstr "Dividi arc&hivio"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Caption
+#. f_Prefs..PageControl..tab_Application..GroupBox2..bt_DefDataDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..bt_DefDestDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..bt_TempDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..bt_7ZipExe..Caption
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..bt_DestDir..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:215
+#: abakt/Preferences.dfm:349
+#: abakt/Preferences.dfm:388
+#: abakt/Preferences.dfm:434
+#: abakt/RestoreBackup.dfm:163
+msgid "..."
+msgstr "..."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..Label6..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:243
+msgid "Template"
+msgstr "Mode&llo"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..cb_Zip_AddComment..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:252
+msgid "Add Comment"
+msgstr "Aggiungi commen&to"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..ed_Zip_CommentTemplate..Text
+#: abakt/ActionTypeSettingsFrame.dfm:265
+msgid "'Created with Abakt $V on 'yyyy'-'mm'-'dd'@'hh.nn"
+msgstr "'Creato con Abakt $V il 'dd'-'mm'-'yyyy'@'hh.nn"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..bt_Zip_CommentPreview..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label29..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label32..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:274
+#: abakt/ActionTypeSettingsFrame.dfm:473
+#: abakt/DestinationFrame.dfm:40
+msgid "Preview"
+msgstr "Anteprima"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:293
+msgid "Copy the selected files to a Zip archive."
+msgstr "Copia i file selezionati in un archivio Zip."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..Label26..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:316
+msgid "Pass&word"
+msgstr "Pass&word"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..ed_Zip_Password..PasswordChar
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Password..PasswordChar
+#: abakt/ActionTypeSettingsFrame.dfm:326
+#: abakt/ActionTypeSettingsFrame.dfm:682
+msgid "*"
+msgstr "*"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..Label1..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:345
+msgid "&Compression"
+msgstr "&Compressione"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..Label8..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_File_PathInformation..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:414
+#: abakt/ActionTypeSettingsFrame.dfm:809
+msgid "&Path Information"
+msgstr "Info sul &percorso"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:455
+msgid "Command Line"
+msgstr "Linea di comando"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label22..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label29..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:465
+msgid "Te&mplate"
+msgstr "Mo&dello"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..ed_7z_Template..Text
+#: abakt/ActionTypeSettingsFrame.dfm:496
+msgid "$C $T $N -mx=5 $P $W $L"
+msgstr "$C $T $N -mx=5 $P $W $L"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:531
+msgid "Variables"
+msgstr "Variabili"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label18..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:541
+msgid "$T - &Archive Type"
+msgstr "$T - Tipo di arc&hivio"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label19..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:549
+msgid "$P - &Password"
+msgstr "$P - &Password"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label5..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:557
+msgid "$C - &Command"
+msgstr "$C - &Comando"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label27..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:565
+msgid "$N - Archive Name"
+msgstr "$N - Nome archivio"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:572
+msgid "Destination.Directory + Destination.Name"
+msgstr "Cartella.Destinazione + Nome.Destinazione"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label30..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:585
+msgid "$W - Working Directory"
+msgstr "$W - Cartella di lavoro"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:592
+msgid "-w<Preferences.TemporaryDirectory>"
+msgstr "w<Preferenze.CartellaTemporanea>"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label32..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:618
+msgid "$L - Listfile"
+msgstr "$L - File Elenco"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:625
+msgid "@<Destination.Directory + Destination.Name>~.txt"
+msgstr "@<Cartella.Destinazione + Nome.Destinazione>~.txt"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:638
+msgid "Required. Instructs 7-Zip which files to use."
+msgstr "Obbligatorio. Indica a 7-Zip quali file usare."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#: abakt/ActionTypeSettingsFrame.dfm:672
+msgid "7z"
+msgstr "7z"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#. f_History..odlg_HistoryFiles..DefaultExt
+#. f_RestoreBackup..odlg_Backup..DefaultExt
+#: abakt/ActionTypeSettingsFrame.dfm:673
+#: abakt/RestoreBackup.dfm:457
+msgid "zip"
+msgstr "zip"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#: abakt/ActionTypeSettingsFrame.dfm:674
+msgid "tar"
+msgstr "tar"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Command..Text
+#: abakt/ActionTypeSettingsFrame.dfm:693
+msgid "a"
+msgstr "a"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:713
+msgid "Use 7-Zip to create a backup.  You should set the path to 7-Zip on the Preferences window first."
+msgstr "Usa 7-Zip per creare un Archivio. Impostare il percorso verso l'eseguibile 7-Zip nelle 'Preferenze'."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:725
+msgid "File &Operation"
+msgstr "&Operazioni sui file"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:741
+msgid "Settings for the File Operations Copy, Move or Delete."
+msgstr "Impostazioni riguardanti le operazioni sui file: 'Copia', 'Sposta' o 'Cancella'."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_Overwrite..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:835
+msgid "O&verwrite Existing Files"
+msgstr "Sovrascrivi i file esiste&nti"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseRecycleBin..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:847
+msgid "Use &Recycle Bin If Possible"
+msgstr "Usa il '&Cestino', se possibile"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseSHFileOperation..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:859
+msgid "Use Windows function &SHFileOperation"
+msgstr "Usa la funzione di &Windows SHFileOperation"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_OverwriteReadOnly..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:875
+msgid "&Also Overwrite Existing Read Only Files"
+msgstr "Sovrascrivi anc&he i file esistenti di 'sola lettura'"
+
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:906
+msgid "Specify the settings for the selected Action Type."
+msgstr "Specifica le impostazioni per il tipo di Azione selezionato."
+
+#. FrameCheckListBox..tbar..tb_Add..Caption
+#. FrameFilterSetList..tbar..tb_Add..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileAdd..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryAdd..Caption
+#: abakt/CheckListBoxFrame.dfm:26
+#: abakt/Group.dfm:87
+#: abakt/SourceFrame.dfm:220
+msgid "&Add"
+msgstr "Aggi&ungi"
+
+#. FrameCheckListBox..tbar..tb_Remove..Caption
+#. FrameFilterSetList..tbar..tb_Remove..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileRemove..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryRemove..Caption
+#: abakt/CheckListBoxFrame.dfm:33
+#: abakt/Group.dfm:95
+#: abakt/SourceFrame.dfm:229
+msgid "&Remove"
+msgstr "Ca&ncella"
+
+#. FrameCheckListBox..tbar..tb_Edit..Caption
+#. FrameFilterSetList..tbar..tb_Edit..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileEdit..Caption
+#: abakt/CheckListBoxFrame.dfm:40
+#: abakt/Group.dfm:103
+msgid "E&dit"
+msgstr "Mo&difica"
+
+#. FrameCheckListBox..tbar..ToolButton4..Caption
+#. FrameFilterSetList..tbar..ToolButton4..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton4..Caption
+#: abakt/CheckListBoxFrame.dfm:47
+#: abakt/Group.dfm:111
+msgid "ToolButton4"
+msgstr "ToolButton4"
+
+#. FrameCheckListBox..tbar..tb_All..Caption
+#. FrameConfigEdit..Panel1..tbar..tb_CheckAll..Caption
+#. FrameFilterSetList..tbar..tb_CheckAll..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileAll..Caption
+#: abakt/CheckListBoxFrame.dfm:55
+#: abakt/FilterSetListFrame.dfm:76
+#: abakt/Group.dfm:119
+msgid "A&ll"
+msgstr "&Tutti"
+
+#. FrameCheckListBox..tbar..tb_None..Caption
+#. FrameConfigEdit..Panel1..tbar..tb_CheckNone..Caption
+#. FrameFilterSetList..tbar..tb_CheckNone..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileNone..Caption
+#: abakt/CheckListBoxFrame.dfm:62
+#: abakt/FilterSetListFrame.dfm:87
+#: abakt/Group.dfm:127
+msgid "&None"
+msgstr "Nessun&o"
+
+#. FrameCheckListBox..tbar..ToolButton7..Caption
+#. FrameFilterSetList..tbar..ToolButton7..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton7..Caption
+#: abakt/CheckListBoxFrame.dfm:69
+#: abakt/Group.dfm:135
+msgid "ToolButton7"
+msgstr "ToolButton7"
+
+#. FrameCheckListBox..tbar..tb_Up..Hint
+#: abakt/CheckListBoxFrame.dfm:76
+msgid "Ctrl+Up"
+msgstr "Ctrl+[FrecciaSu]"
+
+#. FrameCheckListBox..tbar..tb_Up..Caption
+#. FrameFilterSetList..tbar..tb_MoveUp..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileUp..Hint
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileUp..Caption
+#: abakt/CheckListBoxFrame.dfm:78
+#: abakt/Group.dfm:143
+#: abakt/Group.dfm:145
+msgid "Up"
+msgstr "Su"
+
+#. FrameCheckListBox..tbar..tb_Down..Hint
+#: abakt/CheckListBoxFrame.dfm:86
+msgid "Ctrl+Down"
+msgstr "Ctrl+[FrecciaGiù]"
+
+#. FrameCheckListBox..tbar..tb_Down..Caption
+#. FrameFilterSetList..tbar..tb_MoveDown..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileDown..Hint
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileDown..Caption
+#: abakt/CheckListBoxFrame.dfm:88
+#: abakt/Group.dfm:152
+#: abakt/Group.dfm:154
+msgid "Down"
+msgstr "Giù"
+
+#. FrameCheckListBox..tbar..tb_Sort..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileSort..Caption
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterIcons..tb_FileSort..Caption
+#: abakt/CheckListBoxFrame.dfm:97
+#: abakt/SourceFrame.dfm:123
+msgid "Sort"
+msgstr "Ordina per..."
+
+#. FrameCheckListBox..tbar..ToolButton12..Caption
+#. FrameFilterSetList..tbar..ToolButton12..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton12..Caption
+#: abakt/CheckListBoxFrame.dfm:104
+#: abakt/Group.dfm:170
+msgid "ToolButton12"
+msgstr "ToolButton12"
+
+#. FrameCheckListBox..tbar..tb_Clear..Caption
+#. FrameFilterSetList..tbar..tb_Clear..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileClear..Caption
+#: abakt/CheckListBoxFrame.dfm:112
+#: abakt/Group.dfm:178
+msgid "Clear"
+msgstr "Elimina tutti"
+
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Caption
+#: abakt/ConfigEditFrame.dfm:26
+msgid "lbl_ItemCaption"
+msgstr "lbl_ItemCaption"
+
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Caption
+#: abakt/ConfigEditFrame.dfm:91
+msgid "Internal Name=Value"
+msgstr "Nome Interno=Valore"
+
+#. FrameConfigEdit..Panel1..Caption
+#: abakt/ConfigEditFrame.dfm:120
+msgid "Panel1"
+msgstr "Panel1"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/ConfigEditFrame.dfm:163
+#: abakt/FilterPreview.dfm:115
+#: abakt/FilterPreview.dfm:160
+#: abakt/FilterSetListFrame.dfm:149
+#: abakt/RestoreBackup.dfm:191
+#: abakt/SourceFrame.dfm:35
+msgid "Name"
+msgstr "Nome"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#: abakt/ConfigEditFrame.dfm:167
+msgid "Value"
+msgstr "Valore"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#: abakt/ConfigEditFrame.dfm:171
+msgid "Type"
+msgstr "Tipo"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Caption
+#: abakt/DestinationFrame.dfm:48
+msgid "Examples"
+msgstr "Esemp&i:"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cb_AppendExtension..Caption
+#: abakt/DestinationFrame.dfm:102
+msgid "Append Exten&sion"
+msgstr "Aggiungi le estensio&ni"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:119
+msgid "Choose..."
+msgstr "Scegli..."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:120
+msgid "<Name>"
+msgstr "<Nome>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:121
+msgid "<Name>-MyText"
+msgstr "<Nome>-MioTesto"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:122
+msgid "<Name>-BAK-<Date>"
+msgstr "<Nome>-BAK-<Data>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:123
+msgid "<Name>-<Date>-<ArchiveMode>"
+msgstr "<Nome>-<Data>-<Tipo Backup>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:124
+msgid "<Name>-<Date@Time>"
+msgstr "<Nome>-<Data@Ora>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:125
+msgid "Backup of Profile <Name>, made on <Day, Date>"
+msgstr "Backup del Profilo <Nome>, creato <Giorno, Data>"
+
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Caption
+#: abakt/DestinationFrame.dfm:142
+msgid "Specify the Destination directory and (file)name."
+msgstr "Specifica la cartella di destinazione e il nome (del file)."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..Caption
+#: abakt/DestinationFrame.dfm:157
+msgid "Directory"
+msgstr "Cartella"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..bt_BrowseDir..Caption
+#. f_Prefs..PageControl..tab_Startup..bt_SelectCustomInitialProfile..Caption
+#: abakt/DestinationFrame.dfm:167
+msgid "&Browse"
+msgstr "Sfo&glia..."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..cb_AutoCreateDir..Caption
+#: abakt/DestinationFrame.dfm:188
+msgid "Automatically &Create Directory"
+msgstr "&Crea automaticamente la cartella"
+
+#. f_FileSizeEditor..Caption
+#: abakt/FileSizeEditor.dfm:6
+msgid "Enter File Size"
+msgstr "Immetti la dimensione del file"
+
+#. f_FileSizeEditor..lbl_B..Caption
+#: abakt/FileSizeEditor.dfm:31
+msgid "&Bytes"
+msgstr "&Bytes"
+
+#. f_FileSizeEditor..lbl_kB..Caption
+#: abakt/FileSizeEditor.dfm:39
+msgid "&kB (rounded)"
+msgstr "&kB (arrotondato)"
+
+#. f_FileSizeEditor..lbl_MB..Caption
+#: abakt/FileSizeEditor.dfm:47
+msgid "&MB (rounded)"
+msgstr "&MB (arrotondato)"
+
+#. f_FileSizeEditor..Label1..Caption
+#: abakt/FileSizeEditor.dfm:57
+msgid "Use Up/Down keys to modify values."
+msgstr "Usa i tasti Freccia Su/Giù per modificare i valori."
+
+#. f_FileSizeEditor..Panel1..bt_Ok..Caption
+#. f_FilterSetEditor..pnl_Bottom..bt_Ok..Caption
+#. f_History..Panel1..bt_Ok..Caption
+#. f_Prefs..pnl_Bottom..bt_Ok..Caption
+#: abakt/FileSizeEditor.dfm:114
+#: abakt/History.dfm:39
+#: abakt/Preferences.dfm:790
+msgid "OK"
+msgstr "OK"
+
+#. f_FileSizeEditor..Panel1..bt_Cancel..Caption
+#. f_FilterSetEditor..pnl_Bottom..bt_Cancel..Caption
+#. f_Prefs..pnl_Bottom..bt_Cancel..Caption
+#: abakt/FileSizeEditor.dfm:126
+#: abakt/Preferences.dfm:803
+msgid "Cancel"
+msgstr "Annulla"
+
+#. f_FilterPreview..Caption
+#: abakt/FilterPreview.dfm:6
+msgid "Filter Preview"
+msgstr "Anteprima filtro"
+
+#. f_FilterPreview..Panel1..bt_SaveActiveList..Caption
+#: abakt/FilterPreview.dfm:52
+msgid "&Save list of selected files"
+msgstr "&Salva lista dei file selezionati"
+
+#. f_FilterPreview..pnl_Descr..Label15....Caption
+#: abakt/FilterPreview.dfm:73
+msgid "Show the files that will be included and excluded, according to the current FilterSets. "
+msgstr "Mostra i file che saranno inclusi ed esclusi, seguendo le regole del filtro attuale."
+
+#. f_FilterPreview..gbx_FileLists..Caption
+#: abakt/FilterPreview.dfm:89
+msgid "FileLists"
+msgstr "Lista dei file"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..Hint
+#: abakt/FilterPreview.dfm:96
+msgid "Tip: Right-click mouse button for more features."
+msgstr "Tip: usa il tasto destro del mouse per ulteriori opzioni"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..Caption
+#: abakt/FilterPreview.dfm:105
+msgid "&Included"
+msgstr "&Inclusi"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:121
+#: abakt/FilterSetListFrame.dfm:157
+#: abakt/RestoreBackup.dfm:202
+#: abakt/SourceFrame.dfm:41
+msgid "Size"
+msgstr "Dimensione"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:126
+#: abakt/FilterSetListFrame.dfm:166
+#: abakt/RestoreBackup.dfm:207
+#: abakt/SourceFrame.dfm:46
+msgid "Attributes"
+msgstr "Attributi"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:131
+#: abakt/RestoreBackup.dfm:212
+#: abakt/SourceFrame.dfm:52
+msgid "Modified"
+msgstr "Modificato"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:136
+#: abakt/SourceFrame.dfm:61
+msgid "Filter"
+msgstr "Regole filtro..."
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..Caption
+#: abakt/FilterPreview.dfm:151
+msgid "&Excluded"
+msgstr "&Esclusi"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Included..lbl_IncludedFilesInfo..Caption
+#: abakt/FilterPreview.dfm:209
+msgid "lbl_IncludedFilesInfo"
+msgstr "lbl_IncludedFilesInfo"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Included..Label2..Caption
+#: abakt/FilterPreview.dfm:223
+msgid "Included Files:"
+msgstr "File inclusi:"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..Label4..Caption
+#: abakt/FilterPreview.dfm:239
+msgid "Excluded Files:"
+msgstr "File esclusi:"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..lbl_ExcludedFilesInfo..Caption
+#: abakt/FilterPreview.dfm:246
+msgid "lbl_ExcludedFilesInfo"
+msgstr "lbl_ExcludedFilesInfo"
+
+#. f_FilterPreview..gbx_BuildFileLists..Caption
+#: abakt/FilterPreview.dfm:263
+msgid "Build FileLists"
+msgstr "Crea la lista dei file"
+
+#. f_FilterPreview..gbx_BuildFileLists..bt_Build..Caption
+#: abakt/FilterPreview.dfm:273
+msgid "&Build"
+msgstr "&Crea"
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_ScanFullTree..Caption
+#: abakt/FilterPreview.dfm:284
+msgid "Scan exluded directories"
+msgstr "Esa&mina le cartelle escluse"
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_StripDrive..Caption
+#: abakt/FilterPreview.dfm:292
+msgid "Strip &drive"
+msgstr "&Senza lett. unità (es. C:)"
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_AddQuotes..Caption
+#: abakt/FilterPreview.dfm:301
+msgid "&Quotes"
+msgstr "&Virgoletta i file"
+
+#. f_FilterPreview..sdlg_FileList..DefaultExt
+#: abakt/FilterPreview.dfm:317
+msgid "txt"
+msgstr "txt"
+
+#. f_FilterPreview..sdlg_FileList..Filter
+#: abakt/FilterPreview.dfm:318
+msgid "Text File (*.txt)|*.txt|Any File (*.*)|*.*"
+msgstr "File di testo (*.txt)|*.txt|Tutti i file (*.*)|*.*"
+
+#. f_FilterPreview..sdlg_FileList..Title
+#: abakt/FilterPreview.dfm:320
+msgid "Save File List"
+msgstr "Salva la lista dei file"
+
+#. f_FilterPreview..pop_Files..pmi_ClearFileList..Caption
+#: abakt/FilterPreview.dfm:328
+msgid "&Clear List"
+msgstr "&Elimina lista"
+
+#. f_FilterPreview..pop_Files..pmi_SelectAllFiles..Caption
+#. f_RestoreBackup..ActionList..act_SelectAllFiles..Caption
+#: abakt/FilterPreview.dfm:332
+msgid "Select &All"
+msgstr "Seleziona t&utto"
+
+#. f_FilterSetEditor..Caption
+#: abakt/FilterSetEditor.dfm:8
+msgid "Edit FilterSet"
+msgstr "Modifica filtro"
+
+#. f_FilterSetEditor..pnl_Properties..lbl_Name..Caption
+#: abakt/FilterSetEditor.dfm:43
+msgid "&Name"
+msgstr "&Nome"
+
+#. f_FilterSetEditor..pnl_Properties..lbl_Action..Caption
+#. f_Prefs..PageControl..tab_Backup..Caption
+#: abakt/FilterSetEditor.dfm:51
+msgid "A&ction"
+msgstr "A&zione"
+
+#. f_FilterSetEditor..pnl_Properties..cb_Enabled..Caption
+#: abakt/FilterSetEditor.dfm:68
+msgid "&Enabled"
+msgstr "&Attivo"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_PathMask..Caption
+#: abakt/FilterSetEditor.dfm:103
+msgid "&Path (Mask)"
+msgstr "&Percorso (maschera)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Size..Caption
+#: abakt/FilterSetEditor.dfm:111
+msgid "&Size (Bytes)"
+msgstr "Dimen&sione (Bytes)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Age..Caption
+#: abakt/FilterSetEditor.dfm:119
+msgid "&Age (Days)"
+msgstr "Età (&giorni)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Date..Caption
+#: abakt/FilterSetEditor.dfm:127
+msgid "&Date (yyyy-mm-dd)"
+msgstr "&Data (yyyy-mm-dd)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Attributes..Caption
+#: abakt/FilterSetEditor.dfm:135
+msgid "A&ttributes"
+msgstr "A&ttributi"
+
+#. f_FilterSetEditor..gbx_Conditions..Label2..Caption
+#: abakt/FilterSetEditor.dfm:143
+msgid "File Property Conditions:"
+msgstr "Proprietà del file:"
+
+#. f_FilterSetEditor..pnl_Bottom..bt_Reset..Caption
+#: abakt/FilterSetEditor.dfm:233
+msgid "&Reset"
+msgstr "&Resetta"
+
+#. f_FilterSetEditor..pnl_Bottom..bt_Help..Caption
+#. f_Group..MainMenu..mu_Help..Caption
+#. f_Main..MainMenu..mu_Help..Caption
+#: abakt/FilterSetEditor.dfm:242
+msgid "&Help"
+msgstr "&Aiuto"
+
+#. FrameFilterSetList..tbar..tb_Add..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryAdd..Hint
+#: abakt/FilterSetListFrame.dfm:25
+msgid "[Insert]"
+msgstr "[Ins]"
+
+#. FrameFilterSetList..tbar..tb_Remove..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryRemove..Hint
+#: abakt/FilterSetListFrame.dfm:36
+msgid "[Delete]"
+msgstr "[Canc]"
+
+#. FrameFilterSetList..tbar..tb_Edit..Hint
+#: abakt/FilterSetListFrame.dfm:47
+msgid "[F2]"
+msgstr "[F2]"
+
+#. FrameFilterSetList..tbar..tb_Duplicate..Caption
+#: abakt/FilterSetListFrame.dfm:59
+msgid "Dupli&cate"
+msgstr "Dupli&ca"
+
+#. FrameFilterSetList..tbar..tb_CheckAll..Hint
+#: abakt/FilterSetListFrame.dfm:74
+msgid "[Ctrl+Shift+A]"
+msgstr "[Ctrl+Shift+A]"
+
+#. FrameFilterSetList..tbar..tb_CheckNone..Hint
+#: abakt/FilterSetListFrame.dfm:85
+msgid "[Ctrl+Shift+N]"
+msgstr "[Ctrl+Shift+N]"
+
+#. FrameFilterSetList..tbar..tb_MoveUp..Hint
+#: abakt/FilterSetListFrame.dfm:104
+msgid "[Ctrl+Up]"
+msgstr "[Ctrl+Su]"
+
+#. FrameFilterSetList..tbar..tb_MoveDown..Hint
+#: abakt/FilterSetListFrame.dfm:115
+msgid "[Ctrl+Down]"
+msgstr "[Ctrl+Giù]"
+
+#. FrameFilterSetList..lv......Caption
+#: abakt/FilterSetListFrame.dfm:153
+msgid "Path Mask"
+msgstr "Percorso maschera"
+
+#. FrameFilterSetList..lv......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterSetListFrame.dfm:163
+msgid "Age"
+msgstr "Età"
+
+#. FrameFilters..pnl_Descr_Filters..Label4....Caption
+#: abakt/FiltersFrame.dfm:23
+msgid "Filters will be tested against files in -selected- Source directories only."
+msgstr "I filtri saranno applicati ai soli file -selezionati- nelle cartella di destinazione."
+
+#. FrameFilters..gbx_FilterSetList..Caption
+#: abakt/FiltersFrame.dfm:38
+msgid "F&ilterSet List"
+msgstr "Impostazioni F&iltro"
+
+#. FrameFinalize..ScrollBox_Finalize..Panel1..cb_TestArchive..Caption
+#: abakt/FinalizeFrame.dfm:48
+msgid "Te&st Archive"
+msgstr "Verifica ar&chivio"
+
+#. FrameFinalize..ScrollBox_Finalize..Panel10..cb_RemoveEmptyDirs..Caption
+#: abakt/FinalizeFrame.dfm:84
+msgid "Re&move Empty Directories"
+msgstr "Rim&uovi le cartelle vuote"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..Caption
+#: abakt/FinalizeFrame.dfm:95
+msgid "H&istory"
+msgstr "&Registro eventi"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..lbl_HistoryEnabled..Caption
+#: abakt/FinalizeFrame.dfm:102
+msgid "lbl_HistoryEnabled"
+msgstr "lbl_HistoryEnabled"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..bt_History..Caption
+#: abakt/FinalizeFrame.dfm:109
+msgid "Manage History"
+msgstr "&Gestisci Registro"
+
+#. FrameFinalize..ScrollBox_Finalize..pnl_Descr_Finalize..Label9..Caption
+#: abakt/FinalizeFrame.dfm:128
+msgid "Things to do when an Action has finished without errors."
+msgstr "Procedure da intraprendere dopo che un'Azione si è conclusa senza errori."
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..Caption
+#: abakt/FinalizeFrame.dfm:143
+msgid "File&List"
+msgstr "&Lista dei file"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:167
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:206
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..cb_FileList_Enabled..Caption
+#: abakt/FinalizeFrame.dfm:167
+msgid "Enabled"
+msgstr "A&bilitata"
+
+#. f_Group..Caption
+#: abakt/Group.dfm:6
+msgid "Group of Profiles"
+msgstr "Gruppo di profili"
+
+#. f_Group..PageControl..tab_Profiles..pnl_Descr_Profiles..Label1..Caption
+#: abakt/Group.dfm:56
+msgid "Select the Profiles to be executed in the order displayed below."
+msgstr "Seleziona i profili che devono essere applicati nell'ordine elencato qui sotto."
+
+#. f_Group..PageControl..tab_CustomFilterSets..pnl_Descr_CustomFilterSets..Label3....Caption
+#: abakt/Group.dfm:216
+msgid "FilterSets that will be added to the FilterSet list in every executed Profile. They can also be used to adjust existing FilterSets."
+msgstr "Regole filtro che saranno aggiunte a quelle di ogni profilo del gruppo. Si applicano quindi alle regole esistenti."
+
+#. f_Group..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label2....Caption
+#: abakt/Group.dfm:263
+msgid "Select and modify the configuration settings to adjust in every executed Profile."
+msgstr "Seleziona e modifica le impostazioni di configurazione da regolare in ogni profilo eseguito."
+
+#. f_Group..pnl_ToolBars..Panel4..ToolBar1..Caption
+#. f_Main..pnl_Toolbars..pnl_FileToolBar..tbar_File..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_FileToolBar..tbar_File..Caption
+#: abakt/Group.dfm:350
+msgid "tbar_File"
+msgstr "tbar_File"
+
+#. f_Group..pnl_ToolBars..Panel4..ToolBar1..ToolButton5..Caption
+#. f_Group..pnl_ToolBars..pnl_TabsToolbar..ToolBar2..ToolButton1..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..ToolButton3..Caption
+#. f_Main..pnl_Toolbars..pnl_FileToolBar..tbar_File..ToolButton1..Caption
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..ToolButton3..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..ToolButton1..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_FileToolBar..tbar_File..ToolButton1..Caption
+#: abakt/Group.dfm:379
+#: abakt/Main.dfm:429
+#: abakt/SourceFrame.dfm:162
+#: abakt/SourceFrame.dfm:237
+#: abakt/TemplateEditor.dfm:202
+msgid "ToolButton1"
+msgstr "ToolButton1"
+
+#. f_Group..pnl_ToolBars..pnl_TabsToolbar..ToolBar2..Caption
+#. f_Main..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..Caption
+#: abakt/Group.dfm:402
+msgid "tbar_ProfileTabs"
+msgstr "tbar_ProfileTabs"
+
+#. f_Group..pnl_ToolBars..pnl_ExecuteButton..tbar_ExecuteButton..ToolButton3..Caption
+#. f_Main..pnl_Toolbars..pnl_ExecuteButton..tbar_ExecuteButton..ToolButton4..Caption
+#: abakt/Group.dfm:481
+msgid "ToolButton3"
+msgstr "ToolButton3"
+
+#. f_Group..MainMenu..mu_File..Caption
+#. f_Main..MainMenu..mu_File..Caption
+#. f_TemplateEditor..MainMenu..mu_File..Caption
+#: abakt/Group.dfm:493
+msgid "&File"
+msgstr "&File"
+
+#. f_Group..MainMenu..mu_File..N3..Caption
+#. f_Group..MainMenu..mu_File..N1..Caption
+#. f_Group..MainMenu..mu_File..N4..Caption
+#. f_Main..MainMenu..mu_File..N3..Caption
+#. f_Main..MainMenu..mu_File..N8..Caption
+#. f_Main..MainMenu..mu_File..N9..Caption
+#. f_Main..MainMenu..mu_File..N2..Caption
+#. f_Main..MainMenu..mu_Edit..N10..Caption
+#. f_Main..MainMenu..mu_View..N14..Caption
+#. f_Main..MainMenu..mu_View..N12..Caption
+#. f_Main..MainMenu..mu_Tools..N13..Caption
+#. f_Main..MainMenu..mu_Tools..N6..Caption
+#. f_Main..MainMenu..mu_Tools..N4..Caption
+#. f_Main..MainMenu..mu_Help..N1..Caption
+#. f_Main..MainMenu..mu_Help..N5..Caption
+#. f_Main..MainMenu..mu_Help..N7..Caption
+#. FrameSource..pop_Dirs..N2..Caption
+#. FrameSource..pop_Dirs..N1..Caption
+#. FrameSource..pop_FilterSet..N3..Caption
+#. FrameSource..pop_FilterSet..N4..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N1..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N3..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N2..Caption
+#: abakt/Group.dfm:501
+#: abakt/Main.dfm:563
+#: abakt/Main.dfm:572
+#: abakt/Main.dfm:578
+#: abakt/Main.dfm:586
+#: abakt/Main.dfm:619
+#: abakt/Main.dfm:632
+#: abakt/Main.dfm:650
+#: abakt/Main.dfm:665
+#: abakt/Main.dfm:671
+#: abakt/Main.dfm:677
+#: abakt/Main.dfm:693
+#: abakt/Main.dfm:699
+#: abakt/Main.dfm:706
+#: abakt/SourceFrame.dfm:332
+#: abakt/SourceFrame.dfm:341
+#: abakt/SourceFrame.dfm:390
+#: abakt/SourceFrame.dfm:397
+#: abakt/TemplateEditor.dfm:277
+#: abakt/TemplateEditor.dfm:290
+#: abakt/TemplateEditor.dfm:298
+msgid "-"
+msgstr "-"
+
+#. f_Group..MainMenu..mu_File..mi_RecentFiles..Caption
+#. f_Main..MainMenu..mu_File..mi_RecentFiles..Caption
+#. f_TemplateEditor..MainMenu..mu_File..mi_RecentFiles..Caption
+#: abakt/Group.dfm:513
+msgid "&Recent Files"
+msgstr "File &recenti"
+
+#. f_Group..MainMenu..mu_Edit..Caption
+#. f_Main..MainMenu..mu_Edit..Caption
+#: abakt/Group.dfm:527
+msgid "&Edit"
+msgstr "&Modifica"
+
+#. f_Group..MainMenu..mu_View..Caption
+#. f_Main..MainMenu..mu_View..Caption
+#. f_TemplateEditor..MainMenu..mu_View..Caption
+#: abakt/Group.dfm:539
+msgid "&View"
+msgstr "&Visualizza"
+
+#. f_Group..MainMenu..mu_Tools..Caption
+#. f_Main..MainMenu..mu_Tools..Caption
+#. f_TemplateEditor..MainMenu..mu_Tools..Caption
+#: abakt/Group.dfm:545
+msgid "&Tools"
+msgstr "&Strumenti"
+
+#. f_Group..ActionList..act_EditProfiles..Category
+#. f_Group..ActionList..act_EditCustomFilterSets..Category
+#. f_Group..ActionList..act_EditCustomConfiguration..Category
+#. f_Main..ActionList..act_EditSource..Category
+#. f_Main..ActionList..act_EditFilters..Category
+#. f_Main..ActionList..act_EditAction..Category
+#. f_Main..ActionList..act_EditActionType..Category
+#. f_Main..ActionList..act_EditActionTypeSettings..Category
+#. f_Main..ActionList..act_EditDestination..Category
+#. f_Main..ActionList..act_EditFinalize..Category
+#. f_Main..ActionList..act_EditHistory..Category
+#. f_Main..ActionList..act_Preferences..Category
+#: abakt/Group.dfm:561
+#: abakt/Main.dfm:723
+#: abakt/Main.dfm:729
+#: abakt/Main.dfm:735
+#: abakt/Main.dfm:806
+#: abakt/Main.dfm:823
+#: abakt/Main.dfm:829
+#: abakt/Main.dfm:835
+#: abakt/Main.dfm:852
+#: abakt/Main.dfm:858
+msgid "Edit"
+msgstr "Modifica"
+
+#. f_Group..ActionList..act_EditProfiles..Caption
+#: abakt/Group.dfm:562
+msgid "Profiles"
+msgstr "Profili"
+
+#. f_Group..ActionList..act_EditCustomFilterSets..Caption
+#. f_TemplateEditor..ActionList..act_ViewPageCustomFilterSets..Caption
+#: abakt/Group.dfm:568
+msgid "Custom FilterSets"
+msgstr "Regole filtro personalizzate"
+
+#. f_Group..ActionList..act_EditCustomConfiguration..Caption
+#. f_TemplateEditor..ActionList..act_ViewPageCustomConfiguration..Caption
+#: abakt/Group.dfm:574
+msgid "Custom Configuration"
+msgstr "Configurazione personalizzata"
+
+#. f_Group..ActionList..act_FileNew..Caption
+#: abakt/Group.dfm:580
+msgid "&New Group"
+msgstr "&Nuovo gruppo"
+
+#. f_Group..ActionList..act_FileOpen..Caption
+#: abakt/Group.dfm:586
+msgid "&Open Group"
+msgstr "&Apri gruppo"
+
+#. f_Group..ActionList..act_FileSave..Caption
+#: abakt/Group.dfm:592
+msgid "&Save Group"
+msgstr "&Salva gruppo"
+
+#. f_Group..ActionList..act_ViewActionLog..Category
+#. f_Main..ActionList..act_ViewActionLog..Category
+#. f_Main..ActionList..act_ClearStatus..Category
+#. f_TemplateEditor..ActionList..act_ViewPageCustomFilterSets..Category
+#. f_TemplateEditor..ActionList..act_ViewPageCustomConfiguration..Category
+#: abakt/Group.dfm:597
+#: abakt/TemplateEditor.dfm:348
+#: abakt/TemplateEditor.dfm:354
+msgid "View"
+msgstr "Visualizza"
+
+#. f_Group..ActionList..act_ViewActionLog..Caption
+#. f_Main..ActionList..act_ViewActionLog..Caption
+#: abakt/Group.dfm:598
+msgid "Action &Log"
+msgstr "&Log ultima Azione"
+
+#. f_Group..ActionList..act_FileSaveAs..Caption
+#: abakt/Group.dfm:606
+msgid "Save Group &As..."
+msgstr "Sal&va gruppo come..."
+
+#. f_Group..ActionList..act_ExecuteGroup..Category
+#. f_Main..ActionList..act_ExecuteProfile..Category
+#. f_Main..ActionList..act_Group..Category
+#. f_Main..ActionList..act_FilterPreview..Category
+#. f_Main..ActionList..act_TemplateEditor..Category
+#. f_Main..ActionList..act_RestoreZipArchive..Category
+#: abakt/Group.dfm:611
+#: abakt/Main.dfm:770
+#: abakt/Main.dfm:782
+#: abakt/Main.dfm:800
+msgid "Tools"
+msgstr "Strumenti"
+
+#. f_Group..ActionList..act_ExecuteGroup..Caption
+#: abakt/Group.dfm:612
+msgid "E&xecute Group"
+msgstr "&Esegui gruppo"
+
+#. f_Group..ActionList..act_ExecuteGroup....SecondaryShortCuts.Strings
+#: abakt/Group.dfm:615
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#. f_Group..ActionList..act_Manual..Category
+#. f_Main..ActionList..act_Manual..Category
+#. f_Main..ActionList..act_About..Category
+#. f_Main..ActionList..act_ToggleDescriptionBoxes..Category
+#. f_Prefs..pnl_Bottom..bt_Help..Caption
+#: abakt/Group.dfm:619
+#: abakt/Main.dfm:864
+#: abakt/Preferences.dfm:780
+msgid "Help"
+msgstr "Aiuto"
+
+#. f_Group..ActionList..act_Manual..Caption
+#. f_Main..ActionList..act_Manual..Caption
+#: abakt/Group.dfm:620
+msgid "&Manual"
+msgstr "&Manuale"
+
+#. f_Group..odlg_Group..DefaultExt
+#. f_Group..sdlg_Group..DefaultExt
+#: abakt/Group.dfm:626
+msgid "abg"
+msgstr "abg"
+
+#. f_Group..odlg_Group..Filter
+#. f_Group..sdlg_Group..Filter
+#: abakt/Group.dfm:627
+msgid "Abakt Group (*.abg)|*.abg|All files (*.*)|*.*"
+msgstr "Gruppo Abakt (*.abg)|*.abg|Tutti i file (*.*)|*.*"
+
+#. f_Group..odlg_Group..Title
+#: abakt/Group.dfm:629
+msgid "Open Group"
+msgstr "Apri gruppo"
+
+#. f_Group..sdlg_Group..Title
+#: abakt/Group.dfm:637
+msgid "Save Group"
+msgstr "Salva gruppo"
+
+#. f_Group..odlg_Profiles..DefaultExt
+#. f_Main..sdlg_Profile..DefaultExt
+#. f_Main..odlg_Profile..DefaultExt
+#. f_Prefs..odlg_InitialProfile..DefaultExt
+#: abakt/Group.dfm:642
+#: abakt/Preferences.dfm:819
+msgid "abp"
+msgstr "abp"
+
+#. f_Group..odlg_Profiles..Filter
+#. f_Main..sdlg_Profile..Filter
+#. f_Main..odlg_Profile..Filter
+#. f_Prefs..odlg_InitialProfile..Filter
+#: abakt/Group.dfm:643
+#: abakt/Preferences.dfm:820
+msgid "Abakt Profile (*.abp)|*.abp|All files (*.*)|*.*"
+msgstr "Profilo Abakt (*.abp)|*.abp|Tutti i file (*.*)|*.*"
+
+#. f_Group..odlg_Profiles..Title
+#: abakt/Group.dfm:645
+msgid "Choose a Profile to add to the Group"
+msgstr "Scegli un profilo da aggiungere al gruppo"
+
+#. f_History..Caption
+#: abakt/History.dfm:6
+msgid "History"
+msgstr "Registro eventi"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..Caption
+#: abakt/History.dfm:55
+msgid "&Archive Catalogue"
+msgstr "&Catalogo archvio"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Caption
+#: abakt/History.dfm:72
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label3..Caption
+#: abakt/History.dfm:82
+msgid "&Remove backups older than (days)"
+msgstr "&Rimuovi i backup più vecchi di (giorni)"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label4..Caption
+#: abakt/History.dfm:90
+msgid "&Keep a minimum of backups"
+msgstr "&Mantieni un minimo di (n°) backup"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label5..Caption
+#: abakt/History.dfm:98
+msgid "Keep a &maximum of backups"
+msgstr "Mantieni un ma&ssimo di (n°) backup"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..cb_UseRecycleBin..Caption
+#: abakt/History.dfm:234
+msgid "&Use Recycle Bin if possible"
+msgstr "&Usa il 'Cestino' se possibile"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..cb_MaintainHistory..Caption
+#: abakt/History.dfm:243
+msgid "Ena&bled"
+msgstr "A&bilitato"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..Caption
+#: abakt/History.dfm:257
+msgid "pnl_ToolBar"
+msgstr "pnl_ToolBar"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_ShowFileList..Caption
+#: abakt/History.dfm:277
+msgid "Show &List of Files"
+msgstr "Mostra la &lista dei file"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_AddFiles..Caption
+#: abakt/History.dfm:292
+msgid "Add F&iles to List..."
+msgstr "Aggi&ungi file alla lista..."
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..ToolButton5..Caption
+#. f_Main..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..ToolButton2..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..ToolButton2..Caption
+#: abakt/History.dfm:299
+msgid "ToolButton2"
+msgstr "ToolButton2"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_ApplySettings..Caption
+#: abakt/History.dfm:307
+msgid "Apply Settings &Now"
+msgstr "&Applica le impostazioni adesso"
+
+#. f_History..odlg_HistoryFiles..Filter
+#: abakt/History.dfm:316
+msgid "Backups (*.zip;*.7z)|*.zip;*.7z|All Files (*.*)|*.*"
+msgstr "Backups (*.zip;*.7z)|*.zip;*.7z|Tutti i file (*.*)|*.*"
+
+#. f_History..odlg_HistoryFiles..Title
+#: abakt/History.dfm:318
+msgid "Add Backup Files to History"
+msgstr "Aggiungi i file di backup al Registro"
+
+#. f_Main..Caption
+#: abakt/Main.dfm:6
+msgid "Abakt"
+msgstr "Abakt"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionType..Caption
+#: abakt/Main.dfm:145
+msgid "F8 - Action Type"
+msgstr "F8 - Tipo di Azione"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionTypeSettings..Caption
+#: abakt/Main.dfm:203
+msgid "F9 - Action Type Settings"
+msgstr "F9 - Impostazioni tipo di Azione"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_Destination..Caption
+#: abakt/Main.dfm:273
+msgid "F10 - Destination"
+msgstr "F10 - Destinazione"
+
+#. f_Main..gbx_Status..Caption
+#: abakt/Main.dfm:357
+msgid "Status"
+msgstr "Messaggi di stato"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshDirectoryList..Caption
+#: abakt/Main.dfm:635
+msgid "&Refresh Directory List"
+msgstr "Aggiorna riquadro &cartelle"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshFileList..Caption
+#: abakt/Main.dfm:640
+msgid "R&efresh File List"
+msgstr "Aggiorna riquadro dei &file"
+
+#. f_Main..MainMenu..mu_View..mi_Source_ScanTreeBelowDir..Caption
+#: abakt/Main.dfm:645
+msgid "Sca&n Tree Below Directory"
+msgstr "&Esamina l'albero e le sotto-cartelle"
+
+#. f_Main..MainMenu..mu_Help..mi_SelectManual..Caption
+#: abakt/Main.dfm:689
+msgid "&Select Manual..."
+msgstr "&Scegli lingua Manuale..."
+
+#. f_Main..MainMenu..mu_Help..mi_AbaktWebsite..Caption
+#: abakt/Main.dfm:702
+msgid "Abakt &Homepage"
+msgstr "Abakt &Homepage"
+
+#. f_Main..ActionList..act_FileNew..Caption
+#: abakt/Main.dfm:718
+msgid "&New Profile"
+msgstr "&Nuovo profilo"
+
+#. f_Main..ActionList..act_EditSource..Caption
+#: abakt/Main.dfm:724
+msgid "&1 - Source"
+msgstr "&1 - Origine dati"
+
+#. f_Main..ActionList..act_EditFilters..Caption
+#: abakt/Main.dfm:730
+msgid "&2 - Filters"
+msgstr "&2 - Filtri"
+
+#. f_Main..ActionList..act_EditAction..Caption
+#: abakt/Main.dfm:736
+msgid "&3 - Action"
+msgstr "&3 - Azione"
+
+#. f_Main..ActionList..act_FileOpen..Caption
+#: abakt/Main.dfm:741
+msgid "&Open Profile..."
+msgstr "&Apri profilo..."
+
+#. f_Main..ActionList..act_FileSave..Caption
+#: abakt/Main.dfm:747
+msgid "&Save Profile"
+msgstr "&Salva profilo"
+
+#. f_Main..ActionList..act_FileSaveAs..Caption
+#: abakt/Main.dfm:753
+msgid "Save Profile &As..."
+msgstr "Sal&va profilo come..."
+
+#. f_Main..ActionList..act_ExecuteProfile..Caption
+#: abakt/Main.dfm:759
+msgid "E&xecute Profile"
+msgstr "&Esegui profilo"
+
+#. f_Main..ActionList..act_Group..Caption
+#: abakt/Main.dfm:765
+msgid "&Group of Profiles..."
+msgstr "&Gruppo di profili..."
+
+#. f_Main..ActionList..act_FilterPreview..Caption
+#: abakt/Main.dfm:771
+msgid "&Filter Preview..."
+msgstr "&Anteprima filtro..."
+
+#. f_Main..ActionList..act_FileClose..Caption
+#: abakt/Main.dfm:777
+msgid "&Close Profile"
+msgstr "&Chiudi profilo"
+
+#. f_Main..ActionList..act_TemplateEditor..Caption
+#: abakt/Main.dfm:783
+msgid "&Template Editor..."
+msgstr "Editor &modello..."
+
+#. f_Main..ActionList..act_About..Caption
+#: abakt/Main.dfm:795
+msgid "&About"
+msgstr "&Informazioni su..."
+
+#. f_Main..ActionList..act_RestoreZipArchive..Caption
+#: abakt/Main.dfm:801
+msgid "&Restore Zip Archive..."
+msgstr "&Ripristina archivio da Zip..."
+
+#. f_Main..ActionList..act_EditActionType..Caption
+#: abakt/Main.dfm:807
+msgid "3&a - Action Type"
+msgstr "3&a - Tipo di Azione"
+
+#. f_Main..ActionList..act_StatusSaveAs..Caption
+#: abakt/Main.dfm:813
+msgid "Save S&tatus As..."
+msgstr "Salva &messaggi di stato..."
+
+#. f_Main..ActionList..act_Exit..Caption
+#: abakt/Main.dfm:819
+msgid "E&xit"
+msgstr "&Uscita"
+
+#. f_Main..ActionList..act_EditActionTypeSettings..Caption
+#: abakt/Main.dfm:824
+msgid "3&b - Action Type Settings"
+msgstr "3&b - Impostazioni tipo di Azione"
+
+#. f_Main..ActionList..act_EditDestination..Caption
+#: abakt/Main.dfm:830
+msgid "3&c - Destination"
+msgstr "3&c - Destinazione"
+
+#. f_Main..ActionList..act_EditFinalize..Caption
+#: abakt/Main.dfm:836
+msgid "&4 - Finalize"
+msgstr "&4 -Concludi"
+
+#. f_Main..ActionList..act_ClearStatus..Caption
+#: abakt/Main.dfm:848
+msgid "Clear &Status Window"
+msgstr "Ripulisci &messaggi di stato"
+
+#. f_Main..ActionList..act_EditHistory..Caption
+#: abakt/Main.dfm:853
+msgid "4a - &History..."
+msgstr "4a - &Registro eventi..."
+
+#. f_Main..ActionList..act_Preferences..Caption
+#: abakt/Main.dfm:859
+msgid "&Preferences..."
+msgstr "&Preferenze..."
+
+#. f_Main..ActionList..act_ToggleDescriptionBoxes..Caption
+#: abakt/Main.dfm:865
+msgid "Show &Description Boxes"
+msgstr "Mostra &descrizioni"
+
+#. f_Main..sdlg_Profile..Title
+#: abakt/Main.dfm:875
+msgid "Save Profile"
+msgstr "Salva profilo"
+
+#. f_Main..odlg_Profile..Title
+#: abakt/Main.dfm:883
+msgid "Open Profile"
+msgstr "Apri profilo"
+
+#. f_Main..sdlg_Status....Filter
+#: abakt/Main.dfm:891
+msgid "Log files (*.log)|*.log|Text files (*.txt)|*.txt|All files (*.*)|*.*"
+msgstr "File di Log (*.log)|*.log|File di testo (*.txt)|*.txt|Tutti i file (*.*)|*.*"
+
+#. f_Main..sdlg_Status..Title
+#: abakt/Main.dfm:893
+msgid "Save Status As..."
+msgstr "Salva messaggi di stato..."
+
+#. f_Main..odlg_Manual..DefaultExt
+#: abakt/Main.dfm:908
+msgid "chm"
+msgstr "chm"
+
+#. f_Main..odlg_Manual..Filter
+#: abakt/Main.dfm:909
+msgid "Compiled HTML Help (*.chm)|*.chm|All files (*.*)|*.*"
+msgstr "HTML Help compilato (*.chm)|*.chm|Tutti i file (*.*)|*.*"
+
+#. f_Main..odlg_Manual..Title
+#: abakt/Main.dfm:912
+msgid "Select Manual"
+msgstr "Scegli la lingua del Manuale..."
+
+#. f_Prefs..Caption
+#: abakt/Preferences.dfm:7
+msgid "Preferences"
+msgstr "Preferenze di Abakt"
+
+#. f_Prefs..PageControl..tab_Startup..Caption
+#: abakt/Preferences.dfm:32
+msgid "On &Startup"
+msgstr "All'a&vvio"
+
+#. f_Prefs..PageControl..tab_Startup..Label4....Caption
+#: abakt/Preferences.dfm:45
+msgid "Applies to '.abp', '.abg', '.abt' and '.abh' files. Will be performed once, at the next startup."
+msgstr "Avrà effetto sui file '.abp', '.abg', '.abt' and '.abh' . Sarà eseguito al prossimo avvio di Abakt."
+
+#. f_Prefs..PageControl..tab_Startup..cb_CreateFileAssociations..Caption
+#: abakt/Preferences.dfm:60
+msgid "&Restore File Associations at Next Startup"
+msgstr "&Ripristina le associazioni dei file al prossimo avvio."
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType..Caption
+#: abakt/Preferences.dfm:71
+msgid "Use This Profile"
+msgstr "Utilizza un profilo:"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:74
+msgid "&New"
+msgstr "N&uovo"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:75
+msgid "&Previously Opened/Saved"
+msgstr "L'ulti&mo aperto o salvato"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:76
+msgid "C&ustom"
+msgstr "&Personalizzato"
+
+#. f_Prefs..PageControl..tab_Application..Caption
+#: abakt/Preferences.dfm:100
+msgid "&Application"
+msgstr "&Applicazione"
+
+#. f_Prefs..PageControl..tab_Application..cb_ShowDescriptionBoxes..Caption
+#: abakt/Preferences.dfm:110
+msgid "Show Description &Boxes"
+msgstr "&Mostra riquadri descrizioni"
+
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Caption
+#: abakt/Preferences.dfm:131
+msgid "This is a Description Box."
+msgstr "Questo è un riquadro descrizione."
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Caption
+#: abakt/Preferences.dfm:148
+msgid "Lang&uage"
+msgstr "&Lingua"
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label14..Caption
+#: abakt/Preferences.dfm:160
+msgid "Requires application restart."
+msgstr "Richiede un riavvio dell'applicazione."
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..Caption
+#: abakt/Preferences.dfm:187
+msgid "Preferences File"
+msgstr "File delle preferenze"
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..ed_PrefsFile..Text
+#: abakt/Preferences.dfm:205
+msgid "ed_PrefsFile"
+msgstr "ed_PrefsFile"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Caption
+#: abakt/Preferences.dfm:214
+msgid "Recent Files Menu"
+msgstr "Menu 'File recenti'"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Label2..Caption
+#: abakt/Preferences.dfm:221
+msgid "Numbe&r of Listed Files"
+msgstr "N&umero di file in elenco"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..cb_RecentFilesShowPath..Caption
+#: abakt/Preferences.dfm:230
+msgid "Show &Path Information"
+msgstr "Mostra in&fo sul percorso"
+
+#. f_Prefs..PageControl..tab_Application..GroupBox2..Caption
+#: abakt/Preferences.dfm:260
+msgid "&Data Directory"
+msgstr "Cartella dei &dati"
+
+#. f_Prefs..PageControl..tab_Backup..Label7..Caption
+#: abakt/Preferences.dfm:300
+msgid "Not used when Abakt is started with command line parameters."
+msgstr "Non usato se Abakt è eseguito con parametri dalla linea di comando."
+
+#. f_Prefs..PageControl..tab_Backup..cb_ActFile_ConfirmDelete..Caption
+#: abakt/Preferences.dfm:316
+msgid "&Confirm 'File Operation | Delete'"
+msgstr "Confer&ma le azioni di 'Operazioni sui file | Cancella'"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..Caption
+#: abakt/Preferences.dfm:327
+msgid "Default &Destination Directory"
+msgstr "Cartella di &destinazione di default"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..Caption
+#: abakt/Preferences.dfm:366
+msgid "&Temporary Directory"
+msgstr "Cartella &temporanea"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..Caption
+#: abakt/Preferences.dfm:409
+msgid "&7-Zip Executable"
+msgstr "Eseguibile &7-Zip"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..lbl_Get7Zip..Caption
+#: abakt/Preferences.dfm:419
+msgid "Get 7-Zip from http://sourceforge.net/projects/sevenzip/"
+msgstr "Scarica 7-Zip da http://sourceforge.net/projects/sevenzip/"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..cb_OEMlistfile7Zip..Caption
+#: abakt/Preferences.dfm:454
+msgid "Convert filenames in @listfile to OEM"
+msgstr "Converti i nomi di file in @listafile a &OEM"
+
+#. f_Prefs..PageControl..tab_Logging..Caption
+#: abakt/Preferences.dfm:462
+msgid "&Logging"
+msgstr "Tracciatu&ra"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label3..Caption
+#: abakt/Preferences.dfm:485
+msgid "For every file: show IF and WHY it is included or excluded."
+msgstr "Per ogni file: mostra SE e PERCHÈ è incluso o escluso."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label10....Caption
+#: abakt/Preferences.dfm:504
+msgid "Show detailed progress for every file. If unchecked, only the failures are reported."
+msgstr "Mostra avanzamento dettagliato per ogni file. Se deselezionato, saranno riportati solo gli insuccessi."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_LogBuildingFileLists..Caption
+#: abakt/Preferences.dfm:520
+msgid "Detailed &Building File Lists"
+msgstr "Creazione lista dei file &dettagliata"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_LogFullAction..Caption
+#: abakt/Preferences.dfm:529
+msgid "Detailed &Progress"
+msgstr "Avanza&mento dettagliato"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..bt_ActionLogDir..Caption
+#: abakt/Preferences.dfm:539
+msgid "&Directory"
+msgstr "Cart&ella"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_AutoSaveActionLog..Caption
+#: abakt/Preferences.dfm:560
+msgid "Save Log &to \"<ProfileName>.log\""
+msgstr "Salva &Log in \"<NomeProfilo>.log\""
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..Caption
+#: abakt/Preferences.dfm:572
+msgid "Application"
+msgstr "Applicazione"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..Label8..Caption
+#: abakt/Preferences.dfm:582
+msgid "Maximum Size (kB):"
+msgstr "Dimens. max (kB):"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..cb_SaveAppStatus..Caption
+#: abakt/Preferences.dfm:590
+msgid "Save Status &Messages"
+msgstr "&Salva messaggi di stato"
+
+#. f_Prefs..PageControl..tab_Advanced..Caption
+#: abakt/Preferences.dfm:619
+msgid "Ad&vanced"
+msgstr "Avan&zate"
+
+#. f_Prefs..PageControl..tab_Advanced..Label9....Caption
+#: abakt/Preferences.dfm:633
+msgid "Make sure that only 100% successful backups are made. Applies to Zip Actions only."
+msgstr "Il backup sarà portato a termine solo se TUTTI i file da archiviare sono stati archiviati. Si applica solo alle Azioni sugli Zip."
+
+#. f_Prefs..PageControl..tab_Advanced..Label5....Caption
+#: abakt/Preferences.dfm:652
+msgid "Applies to Zip Method 'Replace'. Always disabled for removable drives."
+msgstr "Applicato alla modalità Zip 'Sostituisci'. Sempre disabilitato per drive rimovibili."
+
+#. f_Prefs..PageControl..tab_Advanced..Label1....Caption
+#: abakt/Preferences.dfm:671
+msgid "Instructs ZipBuilder to work on a temporary copy of existing zip archive."
+msgstr "Istruisci ZipBuilder a lavorare su una copia temporanea dell'archivio zip esistente."
+
+#. f_Prefs..PageControl..tab_Advanced..Label11..Caption
+#: abakt/Preferences.dfm:688
+msgid "Applies to Zip Actions only."
+msgstr "Applicato solo alle Azioni sugli Zip."
+
+#. f_Prefs..PageControl..tab_Advanced..cb_RemoveNonExistingSourceDirs..Caption
+#: abakt/Preferences.dfm:704
+msgid "&Remove Non-Existing Source Directories from Profile"
+msgstr "Nascondi le cartelle d'origine c&he non esistono dal profilo"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_UseNewUIOnBFD..Caption
+#: abakt/Preferences.dfm:715
+msgid "Use New UI BrowseFor&Folder"
+msgstr "Usa la nuova visualizzazione UI BrowserFor&Folder"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_IncludeEmptyDirs..Caption
+#: abakt/Preferences.dfm:726
+msgid "&Include Empty Directories"
+msgstr "Incl&udi cartelle vuote"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_CreateTempZipCopy..Caption
+#: abakt/Preferences.dfm:737
+msgid "Create &Temporary Copy if Zip Archive Exists"
+msgstr "Crea una copia te&mporanea se l'archivio Zip esiste"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_TreatWarningsAsErrors..Caption
+#: abakt/Preferences.dfm:748
+msgid "Treat &Warnings as Errors"
+msgstr "Tratta gli avvisi come &errori"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_UseZipBuilderAddSafe..Caption
+#: abakt/Preferences.dfm:757
+msgid "&Perform Safe ZipBuilder Operations"
+msgstr "Esegui operazioni di Zip&Builder sicure"
+
+#. f_Prefs..odlg_7ZipExe..DefaultExt
+#: abakt/Preferences.dfm:810
+msgid "exe"
+msgstr "exe"
+
+#. f_Prefs..odlg_7ZipExe..FileName
+#: abakt/Preferences.dfm:811
+msgid "7z.exe"
+msgstr "7z.exe"
+
+#. f_Prefs..odlg_7ZipExe..Filter
+#: abakt/Preferences.dfm:812
+msgid "Application (*.exe)|*.exe|Any File (*.*)|*.*"
+msgstr "Applicazione (*.exe)|*.exe|Tutti i file (*.*)|*.*"
+
+#. f_Prefs..odlg_7ZipExe..Title
+#: abakt/Preferences.dfm:814
+msgid "7-Zip Commandline Executable"
+msgstr "Linea di comando eseguibile di 7-Zip"
+
+#. f_RestoreBackup..Caption
+#: abakt/RestoreBackup.dfm:6
+msgid "Restore Zip Archive"
+msgstr "Ripristina archivio da un backup Zip"
+
+#. f_RestoreBackup..pnl_Top..lbl_Password..Caption
+#: abakt/RestoreBackup.dfm:77
+msgid "&Password:"
+msgstr "&Password:"
+
+#. f_RestoreBackup..pnl_Top..cb_Overwrite..Caption
+#: abakt/RestoreBackup.dfm:86
+msgid "O&verwrite Existing Files and Directories"
+msgstr "So&vrascrivi file e cartelle esistenti"
+
+#. f_RestoreBackup..pnl_Top..bt_ZipArchive..Caption
+#: abakt/RestoreBackup.dfm:102
+msgid "&Zip Archive"
+msgstr "Archivio &Zip"
+
+#. f_RestoreBackup..pnl_Top..bt_ListFiles..Caption
+#: abakt/RestoreBackup.dfm:120
+msgid "&Open"
+msgstr "&Apri"
+
+#. f_RestoreBackup..pnl_Top..cmbx_ZipArchiveFilename..Text
+#: abakt/RestoreBackup.dfm:132
+msgid "cmbx_ZipArchiveFilename"
+msgstr "cmbx_ZipArchiveFilename"
+
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..Caption
+#: abakt/RestoreBackup.dfm:141
+msgid "&Destination Directory"
+msgstr "Cartella di &destinazione"
+
+#. f_RestoreBackup..gbx_ZipFiles..Caption
+#. FrameSource..gbx_Files..Caption
+#: abakt/RestoreBackup.dfm:181
+msgid "Fi&les"
+msgstr "Fi&le"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:196
+msgid "Path"
+msgstr "Percorso"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:218
+msgid "Rate (%)"
+msgstr "Tasso (%)"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:222
+msgid "Compressed"
+msgstr "Compresso(i)"
+
+#. f_RestoreBackup..pnl_Bottom..gbx_Log..Caption
+#: abakt/RestoreBackup.dfm:249
+msgid "Log"
+msgstr "Log"
+
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#: abakt/RestoreBackup.dfm:313
+msgid "Archive"
+msgstr "Archivio"
+
+#. f_RestoreBackup..ActionList..act_RestoreFiles..Caption
+#: abakt/RestoreBackup.dfm:438
+msgid "&Restore Selected Files"
+msgstr "&Ripristina i file selezionati"
+
+#. f_RestoreBackup..odlg_Backup..Filter
+#: abakt/RestoreBackup.dfm:458
+msgid "Zip Files (*.zip)|*.zip|Any File (*.*)|*.*"
+msgstr "File Zip (*.zip)|*.zip|Tutti i file (*.*)|*.*"
+
+#. f_RestoreBackup..odlg_Backup..Title
+#: abakt/RestoreBackup.dfm:460
+msgid "Select an Archive to Restore"
+msgstr "Seleziona un archivio da ripristinare"
+
+#. FrameSource..gbx_Files..pnl_FilesSummary..lbl_FilesSummary..Caption
+#: abakt/SourceFrame.dfm:88
+msgid "lbl_FilesSummary"
+msgstr "lbl_FilesSummary"
+
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..tb_FilterSetFunctions..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoriesMoreFunctions..Hint
+#: abakt/SourceFrame.dfm:149
+msgid "[Right Mousebutton]"
+msgstr "[Mouse: tasto destro]"
+
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..tb_FilterSetFunctions..Caption
+#: abakt/SourceFrame.dfm:152
+msgid "Filter&Set"
+msgstr "&Regole filtro..."
+
+#. FrameSource..gbx_Dirs..Caption
+#: abakt/SourceFrame.dfm:174
+msgid "&Directories"
+msgstr "&Cartelle"
+
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoriesMoreFunctions..Caption
+#: abakt/SourceFrame.dfm:246
+msgid "&More"
+msgstr "Al&tro..."
+
+#. FrameSource..pnl_Descr_Source..Label15....Caption
+#: abakt/SourceFrame.dfm:270
+msgid "Select the directories to include. Unselected directories are always excluded."
+msgstr "Seleziona le cartelle da includere. Quelle deselezionate sono sempre escluse."
+
+#. FrameSource..ActionList..act_RefreshDirList..Caption
+#: abakt/SourceFrame.dfm:283
+msgid "Refresh &Directory List"
+msgstr "Aggiorna riquadro carte&lle"
+
+#. FrameSource..ActionList..act_RefreshFileList..Caption
+#: abakt/SourceFrame.dfm:288
+msgid "Refresh &File List"
+msgstr "Aggiorna riquadro &file"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Category
+#. FrameSource..ActionList..act_UnSelectAllChildren..Category
+#. FrameSource..ActionList..act_CollapseAllChildren..Category
+#. FrameSource..ActionList..act_ExpandAllChildren..Category
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Category
+#: abakt/SourceFrame.dfm:293
+#: abakt/SourceFrame.dfm:305
+#: abakt/SourceFrame.dfm:310
+#: abakt/SourceFrame.dfm:315
+msgid "Popup_Dirs"
+msgstr "Popup_Dirs"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Caption
+#: abakt/SourceFrame.dfm:294
+msgid "&Select + All Children"
+msgstr "&Seleziona anche le sue sottocartelle"
+
+#. FrameSource..ActionList..act_UnSelectAllChildren..Caption
+#: abakt/SourceFrame.dfm:300
+msgid "&UnSelect + All Children"
+msgstr "&Deseleziona anche le sue sottocartelle"
+
+#. FrameSource..ActionList..act_CollapseAllChildren..Caption
+#: abakt/SourceFrame.dfm:306
+msgid "&Collapse + All Children"
+msgstr "&Comprimi tutte le sue sottocartelle"
+
+#. FrameSource..ActionList..act_ExpandAllChildren..Caption
+#: abakt/SourceFrame.dfm:311
+msgid "&Expand + All Children"
+msgstr "&Espandi tutte le sue sottocartelle"
+
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Caption
+#: abakt/SourceFrame.dfm:316
+msgid "Scan &Tree Below Directory"
+msgstr "Esamina il ramo e le so&ttocartelle"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..Caption
+#: abakt/SourceFrame.dfm:353
+msgid "&Exclude"
+msgstr "&Escludi..."
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_ThisFile..Caption
+#: abakt/SourceFrame.dfm:356
+msgid "This &File"
+msgstr "questo &file"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeAllDirs..Caption
+#: abakt/SourceFrame.dfm:360
+msgid "Filetype In All &Directories"
+msgstr "questo tipo &di file in tutte le cartelle"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeThisDir..Caption
+#: abakt/SourceFrame.dfm:364
+msgid "Filetype In &This Directory Only"
+msgstr "questo tipo di file in &questa sola cartella"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeDirAndSubdirs..Caption
+#: abakt/SourceFrame.dfm:368
+msgid "Filetype In This Directory And &Below"
+msgstr "questo tipo di file in questa cartella e &sottocartelle"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_AllFilesThisDir..Caption
+#: abakt/SourceFrame.dfm:372
+msgid "&All Files In This Dir"
+msgstr "&tutti i file in questa cartella"
+
+#. FrameSource..pop_FilterSet..pmi_Include..Caption
+#: abakt/SourceFrame.dfm:377
+msgid "&Include (Always)"
+msgstr "&Includi (sempre)..."
+
+#. FrameSource..pop_FilterSet..pmi_NoCompression..Caption
+#: abakt/SourceFrame.dfm:381
+msgid "No &Compression"
+msgstr "Non &comprimere..."
+
+#. FrameSource..pop_FilterSet..pmi_AlwaysShowEditor..Caption
+#: abakt/SourceFrame.dfm:385
+msgid "&Always Show Editor"
+msgstr "Mostr&a sempre l'editor"
+
+#. FrameSource..pop_FilterSet..pmi_NewFilterSetBasedOnFile..Caption
+#: abakt/SourceFrame.dfm:393
+msgid "&New FilterSet"
+msgstr "&Nuove Regole filtro..."
+
+#. FrameSource..pop_FilterSet..pmi_EditActiveFilterSet..Caption
+#: abakt/SourceFrame.dfm:400
+msgid "E&dit Active FilterSet"
+msgstr "Mo&difica Regole filtro attive..."
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:137
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:273
+#. FrameSource..pop_FileSort..pmi_None..Caption
+#: abakt/SourceFrame.dfm:410
+msgid "None"
+msgstr "Nessuno"
+
+#. FrameSource..pop_FileSort..pmi_Excluded..Caption
+#: abakt/SourceFrame.dfm:414
+msgid "Excluded"
+msgstr "Esclusi"
+
+#. FrameSource..pop_FileSort..pmi_Included..Caption
+#: abakt/SourceFrame.dfm:419
+msgid "Included"
+msgstr "Inclusi"
+
+#. FrameSource..pop_FileSort..pmi_NotCompressed..Caption
+#: abakt/SourceFrame.dfm:424
+msgid "Not Compressed"
+msgstr "Non compressi"
+
+#. f_TemplateEditor..Caption
+#: abakt/TemplateEditor.dfm:6
+msgid "Template Editor"
+msgstr "Editor modello"
+
+#. f_TemplateEditor..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label15....Caption
+#: abakt/TemplateEditor.dfm:77
+msgid "Only the selected (checked) settings will be written to the template."
+msgstr "Saranno inserite nel modello solo le impostazioni selezionate."
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileNew..Caption
+#: abakt/TemplateEditor.dfm:267
+msgid "&New Template"
+msgstr "&Nuovo modello"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileOpen..Caption
+#: abakt/TemplateEditor.dfm:272
+msgid "&Open Template"
+msgstr "&Apri modello"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileSave..Caption
+#: abakt/TemplateEditor.dfm:280
+msgid "&Save Template"
+msgstr "&Salva modello"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileSaveAs..Caption
+#: abakt/TemplateEditor.dfm:285
+msgid "Save Template &As..."
+msgstr "Salva modello &come..."
+
+#. f_TemplateEditor..MainMenu..mu_Tools..mi_ToolsPopulateWithCurrentProfile..Caption
+#: abakt/TemplateEditor.dfm:318
+msgid "Current Profile --> This Template"
+msgstr "Profilo attuale --> Questo modello"
+
+#. f_TemplateEditor..MainMenu..mu_Tools..mi_ToolsApplyToCurrentProfile..Caption
+#: abakt/TemplateEditor.dfm:322
+msgid "This Template --> Current Profile"
+msgstr "Questo modello --> Profilo attuale"
+
+#. f_TemplateEditor..odlg_Template..DefaultExt
+#. f_TemplateEditor..sdlg_Template..DefaultExt
+#: abakt/TemplateEditor.dfm:328
+msgid "abt"
+msgstr "abt"
+
+#. f_TemplateEditor..odlg_Template....Filter
+#: abakt/TemplateEditor.dfm:331
+msgid "Abakt Template (*.abt)|*.abt|Import Abakt Profile or Group (*.abp;*.abg)|*.abp;*.abg|All files (*.*)|*.*"
+msgstr "Modello Abakt (*.abt)|*.abt|Importa profilo Abakt o gruppo (*.abp;*.abg)|*.abp;*.abg|All files (*.*)|*.*"
+
+#. f_TemplateEditor..odlg_Template..Title
+#: abakt/TemplateEditor.dfm:333
+msgid "Open/Import Template"
+msgstr "Apri/Importa modello"
+
+#. f_TemplateEditor..sdlg_Template..Filter
+#: abakt/TemplateEditor.dfm:339
+msgid "Abakt Template (*.abt)|*.abt|All files (*.*)|*.*"
+msgstr "Modello Abakt (*.abt)|*.abt|Tutti i file (*.*)|*.*"
+
+# P:\Abakt\Source\abakt\Action.cpp:165
+msgid "Destination Directory can not be empty."
+msgstr "La cartella di destinazione non può essere vuota!"
+
+# P:\Abakt\Source\abakt\Action.cpp:170
+#, c-format
+msgid "Destination Directory does not exist: %s"
+msgstr "La cartella di destinazione non esiste: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:173
+#, c-format
+msgid "Creating Destination Directory %s..."
+msgstr "Creazione cartella di destinazione %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:176
+# P:\Abakt\Source\abakt\Action.cpp:759
+# P:\Abakt\Source\abakt\Action.cpp:788
+# P:\Abakt\Source\abakt\Action.cpp:1023
+# P:\Abakt\Source\abakt\Action.cpp:1042
+# P:\Abakt\Source\abakt\Action.cpp:1184
+# P:\Abakt\Source\abakt\Action.cpp:1299
+# P:\Abakt\Source\abakt\Action.cpp:1311
+# P:\Abakt\Source\abakt\Action.cpp:1466
+# P:\Abakt\Source\abakt\Action.cpp:1488
+# P:\Abakt\Source\abakt\Action.cpp:1604
+# P:\Abakt\Source\abakt\Action.cpp:1611
+# P:\Abakt\Source\abakt\Action.cpp:1859
+# P:\Abakt\Source\abakt\Action.cpp:1932
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:327
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:481
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:343
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:133
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:316
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:429
+# P:\Abakt\Source\abakt\Main.cpp:292
+# P:\Abakt\Source\abakt\Main.cpp:356
+# P:\Abakt\Source\abakt\Main.cpp:416
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:282
+# P:\Abakt\Source\abakt\SourceFrame.cpp:115
+msgid "Failed."
+msgstr "Fallito."
+
+# P:\Abakt\Source\abakt\Action.cpp:180
+# P:\Abakt\Source\abakt\Action.cpp:765
+# P:\Abakt\Source\abakt\Action.cpp:791
+# P:\Abakt\Source\abakt\Action.cpp:1021
+# P:\Abakt\Source\abakt\Action.cpp:1040
+# P:\Abakt\Source\abakt\Action.cpp:1189
+# P:\Abakt\Source\abakt\Action.cpp:1419
+# P:\Abakt\Source\abakt\Action.cpp:1508
+# P:\Abakt\Source\abakt\Action.cpp:1784
+# P:\Abakt\Source\abakt\Action.cpp:1792
+# P:\Abakt\Source\abakt\Action.cpp:1854
+# P:\Abakt\Source\abakt\Action.cpp:1936
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:333
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:474
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:340
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:136
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:284
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:319
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:460
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:581
+# P:\Abakt\Source\abakt\Main.cpp:287
+# P:\Abakt\Source\abakt\Main.cpp:343
+# P:\Abakt\Source\abakt\Main.cpp:419
+# P:\Abakt\Source\abakt\Main.cpp:461
+# P:\Abakt\Source\abakt\Main.cpp:719
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:278
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:657
+# P:\Abakt\Source\abakt\SourceFrame.cpp:113
+# P:\Abakt\Source\abakt\SourceFrame.cpp:415
+# P:\Abakt\Source\abakt\SourceFrame.cpp:422
+# P:\Abakt\Source\abakt\SourceFrame.cpp:520
+# P:\Abakt\Source\abakt\SourceFrame.cpp:895
+# P:\Abakt\Source\abakt\SourceFrame.cpp:905
+msgid "Ok."
+msgstr "OK."
+
+# P:\Abakt\Source\abakt\Action.cpp:185
+msgid "Destination Directory will not be automatically created."
+msgstr "La cartella di destinazione non sarà creata automaticamente."
+
+# P:\Abakt\Source\abakt\Action.cpp:375
+#, c-format
+msgid "Action Log Directory does not exist: %s"
+msgstr "La cartella del Log dell'Azione non esiste: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:377
+msgid "Logging to file is disabled for the current Action."
+msgstr "Il salvataggio del Registro è disabilitato per l'Azione in corso."
+
+# P:\Abakt\Source\abakt\Action.cpp:390
+#, c-format
+msgid "[ Starting Action %s ]"
+msgstr "[Avvio Azione %s]"
+
+# P:\Abakt\Source\abakt\Action.cpp:381
+#, c-format
+msgid "Abakt Version: %s"
+msgstr "Versione Abakt: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:391
+# P:\Abakt\Source\abakt\Action.cpp:1076
+#, c-format
+msgid "Profile: %s"
+msgstr "Profilo: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:394
+#, c-format
+msgid "Log File: %s"
+msgstr "File di registro: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:397
+# P:\Abakt\Source\abakt\Action.cpp:1428
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:315
+msgid "Disabled"
+msgstr "Disabilitato"
+
+msgid "Archive Mode"
+msgstr "Tipo di backup"
+
+# P:\Abakt\Source\abakt\Action.cpp:411
+# P:\Abakt\Source\abakt\Action.cpp:418
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:369
+msgid "Method"
+msgstr "Modalità"
+
+# P:\Abakt\Source\abakt\Action.cpp:413
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:180
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:250
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:391
+msgid "Path Information"
+msgstr "Info sul percorso"
+
+# P:\Abakt\Source\abakt\Action.cpp:438
+#, c-format
+msgid "Elapsed Time (Profile): %s"
+msgstr "Tempo trascorso (profilo): %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:440
+#, c-format
+msgid "Finished Action %s"
+msgstr "Azione conclusa %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:452
+msgid "ZipBuilder automatically renamed the last part of the Split Archive to '*.zip'."
+msgstr "ZipBuilder ha rinominato automaticamente l'ultima parte dell'archivio diviso, in '*.zip'."
+
+# P:\Abakt\Source\abakt\Action.cpp:460
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:395
+msgid "Zip Archive Details:"
+msgstr "Dettagli sull'archivio Zip:"
+
+# P:\Abakt\Source\abakt\Action.cpp:462
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:279
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:398
+#, c-format
+msgid "Files in Zip Archive: %d"
+msgstr "File nell'archivio Zip: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:463
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:399
+#, c-format
+msgid "Files Acted On: %d"
+msgstr "File elaborati: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:467
+#, c-format
+msgid "Split Zip Archive Parts: %d"
+msgstr "Parti in cui è suddiviso l'archivio Zip: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:473
+#, c-format
+msgid "Compressed Size: %s (%s B) of %s (%s B) = %i%% of original size."
+msgstr "Dimensione compressa: %s (%s B) di %s (%s B) = %i%% della dimensione originale."
+
+# P:\Abakt\Source\abakt\Action.cpp:489
+msgid "The following files or directories could not be archived:"
+msgstr "I seguenti file o cartelle non possono essere archiviate:"
+
+# P:\Abakt\Source\abakt\Action.cpp:499
+msgid "FileList:"
+msgstr "Lista dei file:"
+
+# P:\Abakt\Source\abakt\Action.cpp:503
+#, c-format
+msgid "Saving FileList to: %s"
+msgstr "Lista dei file salvata in: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:506
+msgid "No Source directories."
+msgstr "Nessuna cartella d'origine."
+
+# P:\Abakt\Source\abakt\Action.cpp:516
+#, c-format
+msgid "Compression Level: %d"
+msgstr "Livello di compressione: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:520
+#, c-format
+msgid "Using Password: %s"
+msgstr "Uso della Password: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:521
+# P:\Abakt\Source\abakt\Action.cpp:536
+msgid "No"
+msgstr "No"
+
+# P:\Abakt\Source\abakt\Action.cpp:521
+# P:\Abakt\Source\abakt\Action.cpp:536
+msgid "Yes"
+msgstr "Si"
+
+msgid "Perform Safe ZipBuilder Operations"
+msgstr "Operazioni Safe ZipBuider in esecuzione"
+
+# P:\Abakt\Source\abakt\Action.cpp:532
+#, c-format
+msgid "Destination Drive: %s"
+msgstr "Unità di destinazione: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:535
+#, c-format
+msgid "Removable: %s"
+msgstr "Rimovibile: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:540
+msgid "Type: CD/DVD"
+msgstr "Tipo: CD/DVD"
+
+# P:\Abakt\Source\abakt\Action.cpp:545
+# P:\Abakt\Source\abakt\Action.cpp:552
+#, c-format
+msgid "Free Space: %s (%s Bytes)"
+msgstr "Spazio libero: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:550
+#, c-format
+msgid "Temporary Directory: %s"
+msgstr "Cartella temporanea: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:574
+msgid "Zip Archive's Destination is empty."
+msgstr "L'archivio Zip di destinazione è vuoto."
+
+# P:\Abakt\Source\abakt\Action.cpp:594
+#, c-format
+msgid "Destination Zip Archive exists. New name: %s"
+msgstr "L'archivio Zip di destinazione esiste. Nuovo nome: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:608
+#, c-format
+msgid "You chose to Freshen a non-existing Zip Archive: %s."
+msgstr "Hai scelto di aggiornare un archivio Zip che non esiste: %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:610
+msgid "A new Zip Archive will be created."
+msgstr "Sarà creato un nuovo archivio Zip."
+
+# P:\Abakt\Source\abakt\Action.cpp:625
+msgid "Action failed."
+msgstr "Azione fallita."
+
+# P:\Abakt\Source\abakt\Action.cpp:687
+msgid "You can not add more than 65535 files to a Zip archive."
+msgstr "Impossibile aggiungere più di 65535 file ad un archivio Zip."
+
+# P:\Abakt\Source\abakt\Action.cpp:698
+# P:\Abakt\Source\abakt\Action.cpp:1383
+# P:\Abakt\Source\abakt\Action.cpp:1467
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:259
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:346
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:179
+#, c-format
+msgid "Could not open file: %s"
+msgstr "Impossibile aprire il file: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:720
+msgid "No existing Zip Archive found. Creating new archive."
+msgstr "Trovato un archivio Zip inesistente. Creazione di un nuovo archivio."
+
+# P:\Abakt\Source\abakt\Action.cpp:727
+msgid "Creating New Zip Archive:"
+msgstr "Creazione di un nuovo archivo Zip:"
+
+# P:\Abakt\Source\abakt\Action.cpp:741
+msgid "Replacing Existing Zip Archive:"
+msgstr "Sostituzione di un archivio Zip esistente:"
+
+# P:\Abakt\Source\abakt\Action.cpp:748
+msgid "Creating a temporary copy on a removable drive is always disabled."
+msgstr "La creazione di una copia temporanea su un drive rimovibile è sempre disabilitata."
+
+# P:\Abakt\Source\abakt\Action.cpp:755
+#, c-format
+msgid "Creating temporary copy of existing Zip Archive: %s..."
+msgstr "Creazione di una copia temporanea di un archivio Zip esistente: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:760
+msgid "Adding files to existing Zip Archive instead."
+msgstr "Invece, aggiunta di file ad un archivio Zip esistente."
+
+# P:\Abakt\Source\abakt\Action.cpp:766
+msgid "Adding files. Please wait."
+msgstr "Aggiunta file. Attendere prego..."
+
+# P:\Abakt\Source\abakt\Action.cpp:785
+#, c-format
+msgid "Deleting temporary copy of Zip Archive: %s..."
+msgstr "Eliminazione copia temporanea dell'archivio Zip: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:800
+msgid "Updating Existing Zip Archive:"
+msgstr "Aggiornamento di un archivio Zip esistente:"
+
+# P:\Abakt\Source\abakt\Action.cpp:855
+#, c-format
+msgid "Testing Zip Archive %s:"
+msgstr "Verifica archivio Zip %s:"
+
+# P:\Abakt\Source\abakt\Action.cpp:858
+msgid "Disabled."
+msgstr "Disabilitato."
+
+# P:\Abakt\Source\abakt\Action.cpp:873
+#, c-format
+msgid "All %d files tested Ok."
+msgstr "Tutti i %d file verificati sono OK."
+
+# P:\Abakt\Source\abakt\Action.cpp:876
+#, c-format
+msgid "Error: %d files tested BAD, or skipped!"
+msgstr "Errore: %d file verificati NON VALIDI, o ignorati!"
+
+# P:\Abakt\Source\abakt\Action.cpp:909
+msgid "Detecting Empty Directories:"
+msgstr "Rilevamento delle cartelle vuote:"
+
+# P:\Abakt\Source\abakt\Action.cpp:917
+msgid "Empty directories can not be added to an archive without path information."
+msgstr "Le cartelle vuote, senza informazioni sul percorso, non possono essere aggiunte ad un archivio."
+
+# P:\Abakt\Source\abakt\Action.cpp:1506
+# P:\Abakt\Source\abakt\Action.cpp:1975
+msgid "None found."
+msgstr "Nessuno."
+
+# P:\Abakt\Source\abakt\Action.cpp:927
+#, c-format
+msgid "Empty directories to include: %d"
+msgstr "Cartelle vuote da includere: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:997
+msgid "Split Zip Archive: Enabled"
+msgstr "Divisione archvio Zip: Abilitato"
+
+# P:\Abakt\Source\abakt\Action.cpp:1000
+msgid "Type: Spanning (using removable disks)"
+msgstr "Tipo: distribuito (usato su dischi rimovibili)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1001
+msgid "You should label every disk."
+msgstr "Sarebbe utile etichettare ogni disco."
+
+# P:\Abakt\Source\abakt\Action.cpp:1005
+msgid "Type: Splitting (using a fixed drive)."
+msgstr "Tipo: diviso (usato su un'unità fissa)."
+
+# P:\Abakt\Source\abakt\Action.cpp:1006
+msgid "Files will be named '*.z01', '*.z02', etc., and finally '*.zip'."
+msgstr "I file saranno nominati '*.z01', '*.z02', ecc., ed infine '*.zip'."
+
+# P:\Abakt\Source\abakt\Action.cpp:1008
+#, c-format
+msgid "Each part will have a maximum size of %s (%s Bytes)"
+msgstr "Ogni parte avrà una dimensione massima di %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1018
+#, c-format
+msgid "Deleting unfinished Zip Archive %s..."
+msgstr "Eliminazione dell'archivio Zip incompleto %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1038
+#, c-format
+msgid "Deleting %s..."
+msgstr "Eliminazione di %s..."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:119
+#, c-format
+msgid "File does not exist: %s"
+msgstr "Il file non esiste: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1115
+#, c-format
+msgid "Elapsed Time (Group): %s"
+msgstr "Tempo trascorso (gruppo): %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1172
+msgid "Action not completed"
+msgstr "Azione non completata"
+
+# P:\Abakt\Source\abakt\Action.cpp:1173
+# P:\Abakt\Source\abakt\Action.cpp:1742
+msgid "Action aborted by user."
+msgstr "Azione interrotta dall'utente."
+
+# P:\Abakt\Source\abakt\Action.cpp:1174
+msgid "An error occured."
+msgstr "Si è verificato un errore."
+
+# P:\Abakt\Source\abakt\Action.cpp:1181
+#, c-format
+msgid "Restoring temporary copy %s..."
+msgstr "Ripristino della copia temporanea %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1185
+msgid "You should manually restore the temporary copy."
+msgstr "Ripristinare manualmente la copia temporanea."
+
+# P:\Abakt\Source\abakt\Action.cpp:1216
+#, c-format
+msgid "Destination: %s"
+msgstr "Destinazione: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1273
+# P:\Abakt\Source\abakt\Action.cpp:1299
+# P:\Abakt\Source\abakt\Action.cpp:1311
+msgid "Building File Lists"
+msgstr "Creazione delle liste dei file"
+
+# P:\Abakt\Source\abakt\Action.cpp:1274
+#, c-format
+msgid "Saving List of Files to Include to %s."
+msgstr "Salvataggio lista dei file da includere in %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1276
+#, c-format
+msgid "Saving List of Files to Exclude to %s."
+msgstr "Salvataggio lista dei file da escludere in %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1286
+#, c-format
+msgid "Included Files: %d. Total Size: %s (%s Bytes)"
+msgstr "File inclusi: %d. Dimensione totale: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1290
+#, c-format
+msgid "Excluded Files: %d. Total Size: %s (%s Bytes)"
+msgstr "File esclusi: %d. Dimensione totale: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1294
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:370
+#, c-format
+msgid "Elapsed Time: %s"
+msgstr "Tempo trascorso: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1304
+msgid "Nothing to do! No files selected."
+msgstr "Comando annullato! Nessun file selezionato."
+
+# P:\Abakt\Source\abakt\Action.cpp:1335
+#, c-format
+msgid "Files: %d (%s) - File: %s"
+msgstr "Files: %d (%s) - File: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1355
+#, c-format
+msgid "+ Included %s: %s"
+msgstr "+ Incluso %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1358
+#, c-format
+msgid "- Excluded %s: %s"
+msgstr "- Escluso %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1374
+msgid "Clearing Archive Attributes..."
+msgstr "Cancellazione attributo archivio -A-..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1403
+#, c-format
+msgid "Could not read attributes of file: %s"
+msgstr "Impossibile leggere gli attributi del file: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1412
+#, c-format
+msgid "Could not clear Archive attribute of file: %s"
+msgstr "Impossibile cancellare l'attributo archivio -A- del file: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1434
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:455
+msgid "Nothing done."
+msgstr "Nessuna operazione eseguita."
+
+# P:\Abakt\Source\abakt\Action.cpp:1461
+msgid "Removing Empty Source Directories..."
+msgstr "Rimozione cartelle d'origine vuote..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1501
+#, c-format
+msgid "Successfully deleted: %s"
+msgstr "Cancellato con successo: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1537
+# P:\Abakt\Source\abakt\Action.cpp:1548
+msgid "Abort Action?"
+msgstr "Annullare l'Azione?"
+
+# P:\Abakt\Source\abakt\Action.cpp:1543
+msgid "Aborting Action"
+msgstr "Annullamento Azione"
+
+# P:\Abakt\Source\abakt\Action.cpp:1543
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:428
+msgid "Please wait"
+msgstr "Attendere, prego..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1591
+#, c-format
+msgid "Aborting - (%d/%d) - Please wait..."
+msgstr "Annullamento - (%d/%d) - Attendere, prego..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1608
+#, c-format
+msgid "File [%d/%d]: %s..."
+msgstr "File [%d/%d]: %s..."
+
+msgid "Treat Warnings As Errors"
+msgstr "Tratta gli avvisi come errori"
+
+# P:\Abakt\Source\abakt\Action.cpp:1617
+msgid "option is enabled: Action failed with Exit Code: ERROR."
+msgstr "l'opzione è abilitata: Azione fallita con il 'Codice di ritorno':  ERRORE."
+
+# P:\Abakt\Source\abakt\Action.cpp:1681
+#, c-format
+msgid "Files to Process: %d. Total Size: %s (%s B)."
+msgstr "File da processare: %d. Dimensione totale: %s (%s B)."
+
+# P:\Abakt\Source\abakt\Action.cpp:1663
+#, c-format
+msgid "Testing File [%d/%d]: %s..."
+msgstr "Verifica file [%d/%d]: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1671
+#, c-format
+msgid "File [%d/%d]: %s --> %s..."
+msgstr "File [%d/%d]: %s --> %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1767
+msgid "Adding"
+msgstr "Aggiunta"
+
+# P:\Abakt\Source\abakt\Action.cpp:1809
+#, c-format
+msgid "Empty Directory [%d/%d]: %s..."
+msgstr "Cartella vuota [%d/%d]: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1782
+msgid "File Size Changed While Zipping"
+msgstr "La dimensione del file è cambiata durante la compressione"
+
+# P:\Abakt\Source\abakt\Action.cpp:1797
+msgid "Updating"
+msgstr "Aggiornamento"
+
+# P:\Abakt\Source\abakt\Action.cpp:1800
+msgid "Keeping"
+msgstr "Conservazione"
+
+# P:\Abakt\Source\abakt\Action.cpp:1805
+msgid "Copying"
+msgstr "Copia"
+
+# P:\Abakt\Source\abakt\Action.cpp:1807
+msgid "(for testing)"
+msgstr "(per verifica)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1809
+#, c-format
+msgid "File: %s"
+msgstr "File: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1899
+#, c-format
+msgid "ZipBuilder Message [Code=%d]: %s"
+msgstr "Messaggio di ZipBuilder [Codice=%d]: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1925
+#, c-format
+msgid "Writing Zip Comment: %s..."
+msgstr "Scrittura commento Zip: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1942
+msgid "Detecting Duplicate Filenames:"
+msgstr "Rilevamento file duplicati:"
+
+# P:\Abakt\Source\abakt\Action.cpp:1959
+#, c-format
+msgid "Filename %s exists! - File %s will not be included in archive"
+msgstr "Il nome di file %s esiste! - Il file %s non sarà incluso nell'archivio"
+
+# P:\Abakt\Source\abakt\Action.cpp:2050
+#, c-format
+msgid "Copying Files to Zip Archive Part %d - (%s):"
+msgstr "Copia file nella parte %d dell'archivio Zip - (%s):"
+
+# P:\Abakt\Source\abakt\Action.cpp:2071
+# P:\Abakt\Source\abakt\Action.cpp:2103
+msgid "Destination disk does not have enough free space."
+msgstr "Il disco di destinazione non ha spazio libero sufficiente."
+
+# P:\Abakt\Source\abakt\Action.cpp:2081
+msgid "Destination disk is not empty."
+msgstr "Il disco di destinazione non è vuoto."
+
+# P:\Abakt\Source\abakt\Action.cpp:2082
+msgid "Use this disk anyway?"
+msgstr "Usare questo disco ugualmente?"
+
+# P:\Abakt\Source\abakt\Action.cpp:2083
+msgid "You can insert another disk now, then press Retry."
+msgstr "Inserire un altro disco ora, poi premere Riprova."
+
+# P:\Abakt\Source\abakt\Action.cpp:2104
+msgid "Insert a (formatted) disk in the drive."
+msgstr "Inserire un disco formattato nel drive."
+
+# P:\Abakt\Source\abakt\Action.cpp:2143
+#, c-format
+msgid "Insert a (formatted) disk in drive %s."
+msgstr "Inserire un disco formattato nel drive: %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:2146
+#, c-format
+msgid "Label this disk '%d'."
+msgstr "Etichetta questo disco: ' %d'."
+
+# P:\Abakt\Source\abakt\Action.cpp:2162
+#, c-format
+msgid "Saving Zip Archive part %d to drive %s."
+msgstr "Salvataggio parte %d dell'archivio Zip, nel drive %s."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:134
+msgid "Copying Files:"
+msgstr "Copia file in corso..."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:141
+msgid "Moving Files:"
+msgstr "Spostamento file in corso..."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:148
+msgid "Files."
+msgstr "Files."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:152
+msgid "Using Recycle Bin if possible."
+msgstr "Uso del 'Cestino' se possibile."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:154
+#, c-format
+msgid "Method: Delete %s"
+msgstr "Modalità: Cancella %s."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:155
+#, c-format
+msgid "Deleting %s"
+msgstr "Cancellazione di %s."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:177
+#, c-format
+msgid "Destination Directory: %s"
+msgstr "Cartella di destinazione: %s."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:186
+msgid "Existing files will be overwritten."
+msgstr "I file esistenti saranno sovrascritti."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:232
+msgid "Confirming Action Type Delete is disabled when performing an AutoExecute backup using the command line."
+msgstr "La conferma di una Azione di tipo 'Cancella'  è disabilitata, quando si crea un backup in automatico usando la linea di comando."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:238
+msgid "You chose to Delete files."
+msgstr "Si è scelto di cancellare dei file."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:239
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:598
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:254
+msgid "Using Windows function SHFileOperation."
+msgstr "Uso della funzione di Windows SHFileOperation."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:296
+#, c-format
+msgid "Performing SHFileOperation (%d/%d) on %s"
+msgstr "SHFileOperation (%d/%d) in esecuzione su %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:322
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:380
+msgid "Aborted."
+msgstr "Annullato."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:341
+msgid "Performing File-By-File Operation."
+msgstr "Operazione File-By-File in esecuzione."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:438
+#, c-format
+msgid "Copying (%d/%d): %s --> %s"
+msgstr "Copia (%d/%d): %s --> %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:447
+#, c-format
+msgid "Moving (%d/%d): %s --> %s"
+msgstr "Spostamento (%d/%d): %s --> %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:455
+msgid "Destination file exists."
+msgstr "Il file di destinazione esiste."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:463
+#, c-format
+msgid "Deleting (%d/%d): %s"
+msgstr "Cancellazione (%d/%d): %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:486
+msgid "Is destination file Read-Only/Hidden?"
+msgstr "Il file di destinazione è di 'Sola Lettura' o 'Nascosto'?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:487
+msgid "Is source or destination file in use by another application?"
+msgstr "Il file di destinazione o d'origine è in uso da un'altra applicazione?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:494
+#, c-format
+msgid "Operation performed successfully on %d/%d files."
+msgstr "Operazione completata con successo su %d/%d file."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:520
+msgid "Could not clear R attribute"
+msgstr "Impossibile cancellare l'attributo -R- (sola lettura)."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:551
+msgid "Could not re-set R attribute"
+msgstr "Impossibile reimpostare l'attributo -R- (sola lettura)."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:592
+msgid "Could not delete existing destination file: "
+msgstr "Impossibile cancellare il file di destinazione esistente:"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:635
+#, c-format
+msgid "Could not create directory: %s"
+msgstr "Impossibile creare la cartella: %s."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:120
+msgid "Could not find 7-Zip executable."
+msgstr "Impossibile trovare l'eseguibile 7-Zip."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:141
+msgid "Destination archive has no name."
+msgstr "L'archivio di destinazione non ha un nome."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:154
+msgid "Calling 7-Zip with command line:"
+msgstr "Chiamata all'eseguibile 7-Zip dalla linea di comando:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:168
+msgid "Note:"
+msgstr "Nota:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:169
+msgid "7-Zip requires the source files to be on one drive."
+msgstr "7-Zip richiede che i file di origine risiedano su un drive."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:170
+msgid "The 7-Zip executable will be called for every drive."
+msgstr "L'eseguibile 7-Zip sarà richiamato per ogni drive."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:232
+msgid "7-Zip Archive Details:"
+msgstr "Dettagli archivio 7-Zip:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:233
+#, c-format
+msgid "Compressed Size: %s (%s Bytes)"
+msgstr "Dimensione compressa: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:266
+#, c-format
+msgid "Could not find temporary filelist: %s"
+msgstr "Impossibile trovare la lista dei file temporanea: %s."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:271
+#, c-format
+msgid "Calling 7-Zip executable for drive: %s"
+msgstr "Chiamata dell'eseguibile 7-Zip per il drive: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:304
+#, c-format
+msgid "Using temporary filelist (%s): %s"
+msgstr "Uso della lista dei file temporanea (%s): %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:337
+msgid "Terminating 7-Zip process..."
+msgstr "Completamento del processo 7-Zip..."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:356
+#, c-format
+msgid "File %d/%d [%s]"
+msgstr "File %d/%d [%s]"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:377
+msgid "COMMAND:"
+msgstr "COMANDO:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:428
+msgid "Reading Output"
+msgstr "Lettura dell'Output:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:498
+msgid "Finished Reading Output"
+msgstr "Lettura dell'Output conclusa"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:520
+#, c-format
+msgid "Could not delete temporary filelist file: %s"
+msgstr "Impossibile cancellare la lista dei file temporanea: %s"
+
+# P:\Abakt\Source\abakt\ConfigEditFrame.cpp:502
+msgid "Browse"
+msgstr "Esplora"
+
+# P:\Abakt\Source\abakt\ConfigEditFrame.cpp:532
+msgid "Choose directory:"
+msgstr "Scegli la cartella:"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:71
+msgid "true"
+msgstr "vero"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:72
+msgid "false"
+msgstr "falso"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:77
+msgid "Confirm"
+msgstr "Conferma"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:78
+msgid "&Yes"
+msgstr "&Si"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:79
+msgid "&No"
+msgstr "&No"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:80
+msgid "&Retry"
+msgstr "&Riprova"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:81
+msgid "&Ignore"
+msgstr "&Ignora"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:94
+msgid "Ignore"
+msgstr "Ignora"
+
+msgid "Exclude"
+msgstr "Escludi"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:96
+msgid "OnlyInclude"
+msgstr "Includi solo"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:138
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:239
+msgid "Zip"
+msgstr "Zip"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:139
+msgid "SevenZip"
+msgstr "SevenZip"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:272
+msgid "Relative"
+msgstr "Relativo"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:313
+msgid "Always"
+msgstr "Sempre"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:314
+msgid "Automatic"
+msgstr "Automatico"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:355
+msgid "Custom..."
+msgstr "Personalizzato..."
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:356
+msgid "1.44 MB (3.5\" floppy disk)"
+msgstr "1.44 MB (3.5\" floppy disk)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:357
+msgid "94.6 MB (100 MB IOMEGA disk)"
+msgstr "94.6 MB (100 MB IOMEGA disk)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:358
+msgid "200 MB (MO disk)"
+msgstr "200 MB (MO disk)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:359
+msgid "250 MB (MO disk)"
+msgstr "250 MB (MO disk)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:360
+msgid "600 MB (MO disk)"
+msgstr "600 MB (MO disk)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:361
+msgid "650 MB (74 min. CD)"
+msgstr "650 MB (CD 74 min.)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:362
+msgid "700 MB (80 min. CD)"
+msgstr "700 MB (CD 80 min.)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:363
+msgid "750 MB (750 MB IOMEGA disk)"
+msgstr "750 MB (750 MB IOMEGA disk)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:406
+msgid "Copy"
+msgstr "Copia"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:407
+msgid "Move"
+msgstr "Sposta"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:408
+msgid "Delete"
+msgstr "Cancella"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:85
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:128
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:160
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:199
+msgid "File Properties Filter"
+msgstr "File proprietà del filtro"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:91
+msgid "H Filter Method"
+msgstr "Modalità filtra -H-"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:94
+msgid "H = Hidden"
+msgstr "H = Nascosto"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:97
+msgid "R Filter Method"
+msgstr "Modalità filtra -R-"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:100
+msgid "R = Read Only"
+msgstr "R = Sola lettura"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:103
+msgid "S Filter Method"
+msgstr "Modalità filtra -S-"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:106
+msgid "S = System"
+msgstr "S = Sistema"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:134
+msgid "Exclude files smaller than N Bytes"
+msgstr "Escludi i file più piccoli di N Bytes"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:135
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:139
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:520
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:524
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:528
+msgid "Ignored if 0."
+msgstr "Ignora se 0."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:138
+msgid "Exclude files greater than N Bytes"
+msgstr "Escludi i file più grandi di N Bytes"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:168
+msgid "Exclude files modified between Date1 and Date2"
+msgstr "Escludi i file modificati tra la Data1 e la Data2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:171
+msgid "File modification date 1"
+msgstr "Data di modifica 1"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:172
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:176
+msgid "Format: 'yyyy-mm-dd'."
+msgstr "Formato: 'yyyy-mm-dd'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:175
+msgid "File modification date 2"
+msgstr "Data di modifica 2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:207
+msgid "Only Include files with an age between Age1 and Age2 days."
+msgstr "Includi solo i file con un'età compresa tra l'Età 1 e l'Età 2 (giorni)."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:210
+msgid "File age 1"
+msgstr "File Età 1"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:211
+msgid "Should be less than or equal to Age2."
+msgstr "Dovrebbe essere inferiore o uguale all'Età 2."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:213
+msgid "File age 2"
+msgstr "File Età 2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:214
+msgid "Should be greater than or equal to Age2."
+msgstr "Dovrebbe essere maggiore o uguale all'Età 2."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:243
+msgid "Archive Method"
+msgstr "Modalità d'archiviazione"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:245
+msgid "Choosing Update or Freshen possibly has no effect on a dynamic Archive Filename (date/time)."
+msgstr "I comandi Aggiorna o Aggiorna meno recenti non hanno effetto su un archivio dal nome dinamico (data/ora)."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:251
+msgid "The path information to store for every file."
+msgstr "È l'informazione sul percorso da memorizzare per ogni file."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:256
+msgid "Compression Level"
+msgstr "Livello di compressione"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:257
+msgid "0 (None) - 6 (Normal) - 9 (Max.)"
+msgstr "0 (Nessuno)- 6 (Normale) - 9 (Max.)"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:266
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:338
+msgid "Password"
+msgstr "Password"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:267
+msgid "Spaces are allowed."
+msgstr "Gli spazi sono permessi."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:270
+msgid "Split Archive"
+msgstr "Dividi archivio"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:274
+msgid "Split - Volume Size Preset"
+msgstr "Suddivisione - dimensione volume preimpostato"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:275
+msgid "Choose a predefined setting or define a custom value."
+msgstr "Scegliere un'impostazione predefinita o definire un valore personalizzato."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:280
+msgid "Split - Custom Volume Size"
+msgstr "Suddivisione - dimensione volume personalizzata"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:281
+msgid "Range: 64 kB - 2048 MB"
+msgstr "Intervallo: 64 kB - 2048 MB"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:285
+msgid "Does not apply to split Zip archives."
+msgstr "Non applicabile agli archivi Zip suddivisi."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:288
+msgid "Comment Template"
+msgstr "Modello commento"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:289
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:480
+msgid "See the manual for more information."
+msgstr "Leggi il Manuale per maggiori informazioni"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:306
+msgid "'Abakt $V ['dd'-'mm'-'yyyy'@'hh.nn']'"
+msgstr "'Abakt $V ['dd'-'mm'-'yyyy'@'hh.nn']'"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:320
+msgid "7-Zip"
+msgstr "7-Zip"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:324
+msgid "Command Line Template"
+msgstr "Modello Linea di comando"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:325
+msgid "Refer to Abakt's and 7-Zip's manuals for more information."
+msgstr "Consulta i manuali di Abakt e 7-Zip per maggiori informazioni."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:329
+msgid "Command"
+msgstr "Comando"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:330
+msgid "a=Add; u=Update"
+msgstr "a=Aggiungi; u=Aggiorna"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:333
+msgid "Archive Type"
+msgstr "Tipo archivio"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:334
+msgid "The type of the archive to create ('7z', 'zip' etc.), also sets the extension (do not enter leading dot '.')."
+msgstr "Il tipo dell'archivio da creare ('7z', 'zip', ecc.), imposterà automaticamente l'estensione (non inserire il punto '.')."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:339
+msgid "Spaces are not allowed."
+msgstr "Gli spazi non sono permessi."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:374
+msgid "Overwrite Existing Files"
+msgstr "Sovrascrivi i file esistenti"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:375
+msgid "Applies to Methods 'Copy/Move'."
+msgstr "Applicato alle modalità 'Copia/Sposta'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:378
+msgid "Also Overwrite Existing Read Only Files"
+msgstr "Sovrascrivi anche i file esistenti di 'Sola lettura'"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:382
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:531
+msgid "Use Recycle Bin"
+msgstr "Usa il 'Cestino'"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:383
+msgid "Applies to Method 'Delete'."
+msgstr "Applicato alla modalità 'Cancella'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:386
+msgid "Use Windows function SHFileOperation"
+msgstr "Usa la funzione di Windows SHFileOperation"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:387
+msgid "Applies to Methods 'Copy/Move/Delete'."
+msgstr "Applicato alle modalità 'Copia/Sposta/Cancella'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:388
+msgid "Provides less feedback, but is sometimes faster. Do not use with many files (thousands)."
+msgstr "Fornisce meno controllo ma a volte è più veloce. Da non usare con molti files (migliaia)."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:392
+msgid "The destination path information used when copying/moving a file."
+msgstr "È l'informazione del percorso di destinazione, usato quando si copia/sposta un file."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:432
+msgid "The Archive attribute will not be modified when using Action Types 'Move' or 'Delete'."
+msgstr "L'attributo Archivio (-A-) non sarà modificato, se si usa l'Azione 'Sposta' o 'Cancella'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:437
+msgid "Remove Empty Directories"
+msgstr "Rimuovi le cartelle vuote"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:438
+msgid "Applies to File Operations 'Move' and 'Delete'."
+msgstr "Applicato alle operazioni su file 'Sposta' e 'Cancella'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:441
+msgid "Test Archive After Action"
+msgstr "Verifica l'archivio dopo l'Azione"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:442
+msgid "Applies to Zip Archives only."
+msgstr "Applicato solo agli archivi Zip."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:472
+msgid "Destination Directory"
+msgstr "Cartella di destinazione"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:475
+msgid "Automatically Create Directory"
+msgstr "Crea automaticamente la cartella"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:476
+msgid "If enabled, the directory will be created on Action execution."
+msgstr "Se attivo, la cartella sarà creata durante l'esecuzione dell'Azione."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:479
+msgid "Name Template"
+msgstr "Nome modello"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:483
+msgid "Append Extension"
+msgstr "Aggiungi estensione"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:484
+msgid "If disabled, the default extension ('.zip', '.7z', etc.) will not be appended."
+msgstr "Se disabilitato, l'estensione di default ('zip', '7z', ecc.) non sarà aggiunta."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:494
+msgid "'$N'"
+msgstr "'$N'"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:509
+msgid "Finalize"
+msgstr "Concludi"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:515
+msgid "Maintain a list of successful backups"
+msgstr "Mantieni una lista di backup conclusi con successo"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:516
+msgid "If disabled, the History will not be maintained, and no '*.abh' files will be created or updated."
+msgstr "Se disabilitato, il Registro eventi non sarà usato, e nessun file '*.abh' sarà creato o aggiornato."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:519
+msgid "Remove backups older than N days"
+msgstr "Rimuovi backup più vecchi di N giorni"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:523
+msgid "Always keep a minimum of N backups"
+msgstr "Mantieni sempre un minimo di N backup"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:527
+msgid "Keep a maximum of N backups"
+msgstr "Mantieni un massimo di N backup"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:532
+msgid "Move deleted backups to Recycle Bin if possible"
+msgstr "Sposta i backup eliminati nel 'Cestino', se possibile"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:563
+msgid "FileList"
+msgstr "Lista dei file"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:567
+msgid "Add FileList to Destination"
+msgstr "Aggiungi la Lista dei file alla destinazione"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:568
+msgid "If enabled, a text file containing the files successfully operated on will be written to the destination directory."
+msgstr "Se abilitata, nella cartella di destinazione, sarà creato un file di testo contenente la lista dei file processati con successo."
+
+# P:\Abakt\Source\abakt\Core\AbaktFileList.cpp:172
+#, c-format
+msgid "Error [%d] opening directory %s: %s"
+msgstr "Errore [%d] all'apertura della cartella %s: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktFileList.cpp:235
+#, c-format
+msgid "Error [%d] in file %s: %s"
+msgstr "Errore [%d] nel file %s: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:73
+msgid "Error reading file properties."
+msgstr "Errore durante la lettura delle proprietà del file."
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:86
+msgid "Directory Not Selected"
+msgstr "Cartella non selezionata"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:99
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:107
+msgid "Use A-files only."
+msgstr "Usa solo i file -A-."
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:115
+msgid "Use non A-files only."
+msgstr "Usa solo i file non -A-."
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:233
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:311
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:332
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:375
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:396
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:461
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:478
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:507
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:519
+msgid "Syntax error:"
+msgstr "Errore di sintassi:"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:263
+msgid "characters / \" < > are not allowed"
+msgstr "i caratteri / \" < > non sono ammessi"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:311
+#, c-format
+msgid "value '%s' is not a valid number"
+msgstr "il valore '%s' non è un numero valido"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:332
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:396
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:461
+#, c-format
+msgid "operator '%s' not recognised"
+msgstr "l'operatore '%s' non è riconosciuto"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:375
+#, c-format
+msgid "value '%s' is not a valid date"
+msgstr "la stringa '%s' non è una data valida"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:478
+#, c-format
+msgid "expression '%s' too short"
+msgstr "l'espressione '%s' è troppo corta"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:507
+#, c-format
+msgid "no operator in expression '%s'"
+msgstr "nessun operatore nell'espressione '%s'"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:519
+#, c-format
+msgid "no value in expression '%s'"
+msgstr "nessun valore nell'espressione '%s'"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:542
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:546
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:550
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:554
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:558
+msgid "Condition"
+msgstr "Condizione"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilterSet.cpp:44
+msgid "(New FilterSet)"
+msgstr "(Nuova Regola filtro)"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:131
+msgid "Build"
+msgstr "Crea"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+msgid "Could not create Temporary Directory:"
+msgstr "Impossibile creare la cartella temporanea:"
+
+# P:\Abakt\Source\abakt\Core\AbaktGroup.cpp:54
+# P:\Abakt\Source\abakt\Main.cpp:134
+# P:\Abakt\Source\abakt\Main.cpp:454
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:188
+msgid "Untitled"
+msgstr "Senza nome"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:63
+msgid "No History file. You have to save the Profile first."
+msgstr "Nessun file di Registro. Salvare prima il profilo."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:68
+#, c-format
+msgid "Reading History file %s."
+msgstr "Lettura del file di Registro %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:91
+msgid "Writing updated History file..."
+msgstr "Scrittura aggiornamento file di Registro in corso..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:157
+#, c-format
+msgid "History file does not exist: %s."
+msgstr "Il file di Registro non esiste: %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:163
+#, c-format
+msgid "Error while parsing History file: %s."
+msgstr "Errore durante il parsing del file di Registro: %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:279
+#, c-format
+msgid "Removing non-existent Backup path from History filelist: %s..."
+msgstr "Rimozione del percorso del backup inesistente dalla lista dei file del Registro: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:299
+msgid "Files on removable disks are not recorded."
+msgstr "I file sui dischi rimovibili non sono registrati."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:303
+#, c-format
+msgid "Adding to History: %s..."
+msgstr "Aggiornamento del Registro: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:333
+#, c-format
+msgid "MinBackups (%d) is greater than MaxBackups (%d)."
+msgstr "MinBackup (%d) è più grande di MaxBackup (%d)."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:337
+#, c-format
+msgid "MaxBackups is set to %d."
+msgstr "MaxBackup è impostato su %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:343
+# P:\Abakt\Source\abakt\FinalizeFrame.cpp:167
+# P:\Abakt\Source\abakt\History.cpp:73
+#, c-format
+msgid "Files listed in History: %d."
+msgstr "File elencati nel Registro: %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:353
+#, c-format
+msgid "Could not determine age of %s."
+msgstr "Impossibile determinare l'età di %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:364
+#, c-format
+msgid "Backups marked for removal by Age (Older than %d day(s)): %d."
+msgstr "Backup contrassegnati per l'eliminazione in base all'Età (più vecchi di %d giorni): %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:376
+#, c-format
+msgid "Keeping a minimum of %d backups."
+msgstr "Mantieni un minimo di %d backup."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:387
+#, c-format
+msgid "Keeping a maximum of %d backups."
+msgstr "Mantieni un massimo di %d backup."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:395
+msgid "No backups will be removed."
+msgstr "Nessun backup sarà rimosso."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Removing %d backup(s):"
+msgstr "Rimozione %d backup:"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:418
+#, c-format
+msgid "Moving to Recycle Bin: %s..."
+msgstr "Spostamento nel 'Cestino': %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:423
+#, c-format
+msgid "Permanently deleting %s..."
+msgstr "Eliminazione permanente di %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:456
+#, c-format
+msgid "and %d associated .Z## file(s)..."
+msgstr "e %d associato a .Z## file..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:458
+msgid "Could not remove all associated .Z## files."
+msgstr "Impossibile rimuovere tutti i file .Z## associati."
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:202
+#, c-format
+msgid "Imported Size Filter: %s"
+msgstr "Dimensione filtro importato: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:214
+#, c-format
+msgid "Imported Date Filter: %s"
+msgstr "Data filtro importato: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:228
+#, c-format
+msgid "Imported Age Filter: %s"
+msgstr "Età filtro importato: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:262
+#, c-format
+msgid "Imported Attribute Filter: %s"
+msgstr "Attributi filtro importato: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:710
+#, c-format
+msgid "Imported Path Mask: %s"
+msgstr "Maschera percorso importato: %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:72
+msgid "No command line arguments used. See the Manual for an overview."
+msgstr "Nessun argomento usato da linea di comando. Leggi il Manuale per maggiori informazioni."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:127
+msgid "No filename provided"
+msgstr "Nessun nome di file fornito"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:142
+msgid "Error"
+msgstr "Errore"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:166
+#, c-format
+msgid "Using Profile %s"
+msgstr "Uso del profilo %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:180
+#, c-format
+msgid "[-T] Adjusting Profile using Template %s."
+msgstr "[-T] Adattamento del profilo usando il modello %s."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:198
+#, c-format
+msgid "[-o] Adjusting Destination's Name with: %s"
+msgstr "[-o] Adattamento del nome del file destinazione con: %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:213
+msgid "[-b] Executing Action"
+msgstr "[-b] Esecuzione Azione"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:231
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:232
+#, c-format
+msgid "ExitCode = %i"
+msgstr "Codice di ritorno = %i"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:247
+#, c-format
+msgid "Executing Group %s"
+msgstr "Esecuzione gruppo %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:252
+#, c-format
+msgid "Could not open Group %s"
+msgstr "Impossibile aprire il gruppo %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:259
+msgid "[-o] Adjusting Destination's FormatText can only be used when opening single Profiles."
+msgstr "[-o] L'adattamento del formato testo del file destinazione può solo essere usato mentre si apre un singolo profilo."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:279
+#, c-format
+msgid "Using Group %s"
+msgstr "Uso del gruppo %s"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:53
+msgid "'$N-MyText'"
+msgstr "'$N-MioTesto'"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:57
+msgid "'Backup of Profile $N made on 'dddd', 'dd'-'mmm'-'yyyy"
+msgstr "'Backup del profilo $N creato 'dddd', 'dd'-'mmm'-'yyyy"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:85
+msgid "Choose Destination Directory:"
+msgstr "Scegliere la cartella di destinazione:"
+
+# P:\Abakt\Source\abakt\FilterPreview.cpp:139
+# P:\Abakt\Source\abakt\Group.cpp:151
+# P:\Abakt\Source\abakt\Main.cpp:110
+# P:\Abakt\Source\abakt\Preferences.cpp:169
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:135
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:140
+#, c-format
+msgid ""
+"Failed to save your settings to:\n"
+"%s."
+msgstr ""
+"Salvataggio delle preferenze fallito in:\n"
+"%s."
+
+# P:\Abakt\Source\abakt\FilterPreview.cpp:348
+# P:\Abakt\Source\abakt\FilterPreview.cpp:352
+#, c-format
+msgid "%d - Total Size: %s (%s Bytes)"
+msgstr "%d - Dimensione totale: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\FilterPreview.cpp:367
+# P:\Abakt\Source\abakt\FilterPreview.cpp:369
+msgid "Operation Aborted"
+msgstr "Operazione annullata"
+
+msgid "Include (Always)"
+msgstr "Includi (sempre)"
+
+msgid "No Compression"
+msgstr "Nessuna compressione"
+
+# P:\Abakt\Source\abakt\FilterSetListEditorFrame.cpp:202
+msgid "Copy of"
+msgstr "Copia di"
+
+# P:\Abakt\Source\abakt\FilterSetListEditorFrame.cpp:341
+msgid "Remove all FilterSets?"
+msgstr "Rimuovi tutte le Regole filtro?"
+
+# P:\Abakt\Source\abakt\FilterSetListEditorFrame.cpp:342
+msgid "This can not be undone."
+msgstr "Questo comando non potrà essere annullato."
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:157
+msgid "Hours"
+msgstr "Ore"
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:158
+msgid "Minutes"
+msgstr "Minuti"
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:159
+msgid "Seconds"
+msgstr "Secondi"
+
+# P:\Abakt\Source\abakt\Group.cpp:184
+# P:\Abakt\Source\abakt\Group.cpp:335
+# P:\Abakt\Source\abakt\Group.cpp:387
+msgid "Group has been modified."
+msgstr "Il gruppo è stato modificato."
+
+# P:\Abakt\Source\abakt\Group.cpp:185
+# P:\Abakt\Source\abakt\Group.cpp:336
+# P:\Abakt\Source\abakt\Group.cpp:388
+msgid "Save Group?"
+msgstr "Salvare il gruppo?"
+
+# P:\Abakt\Source\abakt\Group.cpp:246
+#, c-format
+msgid "Active Profile %s has been modified."
+msgstr "Il profilo attivo %s è stato modificato."
+
+# P:\Abakt\Source\abakt\Group.cpp:247
+# P:\Abakt\Source\abakt\Main.cpp:486
+msgid "Save Profile?"
+msgstr "Salvare il profilo?"
+
+# P:\Abakt\Source\abakt\Group.cpp:293
+# P:\Abakt\Source\abakt\Group.cpp:315
+# P:\Abakt\Source\abakt\Main.cpp:293
+#, c-format
+msgid "Could not write to file %s"
+msgstr "Impossibile scrivere nel file %s"
+
+# P:\Abakt\Source\abakt\Group.cpp:385
+#, c-format
+msgid "Group has been upgraded to %s.%s. Check the settings and save again."
+msgstr "Il gruppo è stato aggiornato a %s. %s. Controllare le impostazioni e salvare di nuovo."
+
+# P:\Abakt\Source\abakt\Group.cpp:556
+msgid "Clear list of Profiles?"
+msgstr "Svuotare la lista dei profili?"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:348
+#, c-format
+msgid "Enabled: %s"
+msgstr "Abilitato: %s"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:474
+#, c-format
+msgid "Source Root Directory does not exist: %s."
+msgstr "La cartella radice d'origine non esiste: %s."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:571
+#, c-format
+msgid "Directory does not exist: %s"
+msgstr "La cartella non esiste: %s"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:577
+msgid "Removed from Profile."
+msgstr "Rimosso dal profilo."
+
+# P:\Abakt\Source\abakt\FinalizeFrame.cpp:159
+# P:\Abakt\Source\abakt\History.cpp:65
+msgid "File not found."
+msgstr "File non trovato."
+
+# P:\Abakt\Source\abakt\FinalizeFrame.cpp:162
+# P:\Abakt\Source\abakt\History.cpp:68
+#, c-format
+msgid "Age: %d day(s). Archive Mode: %s."
+msgstr "Età: %d giorni. Tipo di backup: %s."
+
+# P:\Abakt\Source\abakt\Main.cpp:244
+msgid "Save modified Profile?"
+msgstr "Salvare il profilo modificato?"
+
+# P:\Abakt\Source\abakt\Main.cpp:277
+#, c-format
+msgid "Saving Profile %s..."
+msgstr "Salvataggio profilo %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:294
+#, c-format
+msgid "Please try '%s'."
+msgstr "Prego provare '%s'."
+
+# P:\Abakt\Source\abakt\Main.cpp:294
+msgid "Save Profile As..."
+msgstr "Salva profilo come..."
+
+# P:\Abakt\Source\abakt\Main.cpp:335
+#, c-format
+msgid "Opening Profile %s..."
+msgstr "Apertura profilo %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:341
+#, c-format
+msgid "(Created with Abakt %s.%s)..."
+msgstr "(Creato con Abakt %s.%s)..."
+
+# P:\Abakt\Source\abakt\Main.cpp:346
+#, c-format
+msgid "Profile has been upgraded to Abakt %s.%s."
+msgstr "Il profilo è stato aggiornato ad Abakt %s.%s."
+
+# P:\Abakt\Source\abakt\Main.cpp:348
+msgid "Please check all settings, then save again using 'Save Profile As...'."
+msgstr "Prego verificare tutte le impostazioni quindi salvare nuovamente, usando 'Salva profilo come...'."
+
+# P:\Abakt\Source\abakt\Main.cpp:345
+#, c-format
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+# P:\Abakt\Source\abakt\Main.cpp:407
+#, c-format
+msgid "Executing Action. Using Profile %s..."
+msgstr "Azione in esecuzione. Uso del profilo %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:421
+msgid "There were warnings."
+msgstr "Ci sono stati avvisi."
+
+# P:\Abakt\Source\abakt\Main.cpp:441
+msgid "New Profile"
+msgstr "Crea nuovo profilo"
+
+# P:\Abakt\Source\abakt\Main.cpp:450
+#, c-format
+msgid "(Using %s)..."
+msgstr "(Uso di %s)..."
+
+# P:\Abakt\Source\abakt\Main.cpp:484
+msgid "Current Profile has been modified."
+msgstr "Il profilo attuale è stato modificato."
+
+# P:\Abakt\Source\abakt\Main.cpp:485
+msgid "Changes made to this Profile will be lost if Group Actions are performed."
+msgstr "Le modifiche fatte a questo profilo saranno perse, se sarà eseguita un'Azione sul gruppo."
+
+# P:\Abakt\Source\abakt\Main.cpp:666
+#, c-format
+msgid "Reading preferences from %s..."
+msgstr "Lettura preferenze da %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:761
+msgid "Abakt Profile"
+msgstr "Profilo Abakt"
+
+# P:\Abakt\Source\abakt\Main.cpp:762
+msgid "Abakt Group"
+msgstr "Gruppo Abakt"
+
+# P:\Abakt\Source\abakt\Main.cpp:763
+msgid "Abakt History"
+msgstr "Registro eventi Abakt"
+
+# P:\Abakt\Source\abakt\Main.cpp:764
+msgid "Abakt Template"
+msgstr "Modello Abakt"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:162
+msgid "You need to restart Abakt for language changes to take effect."
+msgstr "Perchè il cambiamento di lingua abbia effetto, riavviare Abakt."
+
+# P:\Abakt\Source\abakt\Preferences.cpp:190
+msgid "Select Default Data Directory"
+msgstr "Selezionare la cartella per le impostazioni di default"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:202
+msgid "The new default Data directories are:"
+msgstr "Le nuove cartelle per le impostazioni di default sono:"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:219
+# P:\Abakt\Source\abakt\Preferences.cpp:235
+# P:\Abakt\Source\abakt\Preferences.cpp:250
+msgid "Select"
+msgstr "Scegli"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:187
+msgid "Abort Restore Operation?"
+msgstr "Annullare l'operazione di recupero?"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:223
+#, c-format
+msgid "Opening Zip Archive: %s..."
+msgstr "Apertura dell'archivio Zip: %s..."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:298
+#, c-format
+msgid "Date Created: %s - Size: %s (%s B)"
+msgstr "Data di creazione: %s - Dimensione: %s (%s B)"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:308
+#, c-format
+msgid ""
+"Zip Archive does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"L'archivio Zip non esiste:\n"
+"\n"
+"%s"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:316
+#, c-format
+msgid ""
+"Destination Directory does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"La cartella di destinazione non esiste:\n"
+"\n"
+"%s"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:363
+msgid "Detected Split/Spanned Zip Archive."
+msgstr "Rilevamento archivio Zip Diviso/Distribuito."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:434
+#, c-format
+msgid "Files/Directories in Zip Archive: %d"
+msgstr "File/Cartelle nell'archivio Zip: %d"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:435
+#, c-format
+msgid "Files/Directories Acted On: %d"
+msgstr "File/Cartelle processate: %d"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:404
+msgid "Restore Operation Aborted"
+msgstr "Operazione di recupero interrotta"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:406
+msgid "Restore Operation Finished"
+msgstr "Operazione di recupero conclusa"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:490
+#, c-format
+msgid "Files/Directories to Process: %d. Total Size: %s (%s B)"
+msgstr "File/Cartelle da processare: %d. Dimensione totale: %s (%s B)"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:561
+#, c-format
+msgid "Extracting File [%d/%d]: %s --> %s..."
+msgstr "Estrazione file [%d/%d]: %s --> %s..."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:650
+msgid "[Overwrite]..."
+msgstr "[Sovrascrittura]..."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:665
+#, c-format
+msgid "Skipped Existing File %s...Ok."
+msgstr "File esistente ignorato %s... OK."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:608
+#, c-format
+msgid "Creating Empty Directory %s...Ok."
+msgstr "Creazione cartella vuota %s...OK."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:711
+#, c-format
+msgid "Please insert disk %d of %d in drive %s."
+msgstr "Prego inserire il disco %d di %d nell'unità %s."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:104
+msgid "Add Source Directory"
+msgstr "Aggiungere cartella d'origine"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:110
+#, c-format
+msgid "Adding Source Directory %s..."
+msgstr "Aggiunta cartella d'origine %s..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:160
+msgid "Remove Root Source Directory from Profile?"
+msgstr "Rimuovere la cartella radice d'origine dal profilo?"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:412
+#, c-format
+msgid "Removing non-existing directory from Profile: %s..."
+msgstr "Rimozione cartella inesistente dal profilo: %s..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:420
+#, c-format
+msgid "Directory does not exist: %s."
+msgstr "La cartella non esiste: %s."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:513
+#, c-format
+msgid "Scanning directory tree: %s..."
+msgstr "Analisi albero cartella: %s..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:672
+#, c-format
+msgid "(New FilterSet based on file %s)"
+msgstr "(Nuova Regola filtro basato sul file %s)"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:677
+msgid "Could not retrieve file properties."
+msgstr "Impossibile trovare le proprietà del file."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:828
+#, c-format
+msgid "Included Files: %d/%d. Size: %s (%s Bytes)"
+msgstr "File inclusi: %d/%d. Dimensione: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:169
+msgid "Template has been modified."
+msgstr "Il modello è stato modificato."
+
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:170
+msgid "Save Template?"
+msgstr "Salvare il modello?"
+
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:601
+msgid "Replace the current Profile's Configuration settings with the values of the selected (checked) settings in this Template."
+msgstr "Sostituisci le impostazioni di configurazione del profilo attuale con i valori selezionati di questo modello."
+
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:603
+msgid "Merge the current Profile's FilterSets with all FilterSets in this Template."
+msgstr "Unisci le Regole filtro del profilo attuale, con tutte le Regole di questo modello."
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:42
+msgid "English"
+msgstr "Inglese"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:43
+msgid "Danish"
+msgstr "Danese"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:44
+msgid "Dutch"
+msgstr "Olandese"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:45
+msgid "French"
+msgstr "Francese"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:46
+msgid "German"
+msgstr "Tedesco"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:47
+msgid "Hungarian"
+msgstr "Ungherese"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:48
+msgid "Italian"
+msgstr "ITALIANO"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:49
+msgid "Polish"
+msgstr "Polacco"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:50
+msgid "Portuguese"
+msgstr "Portoghese"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:50
+msgid "Russian"
+msgstr "Russo"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:50
+msgid "Spanish"
+msgstr "Spagnolo"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:51
+msgid "Swedish"
+msgstr "Svedese"
+

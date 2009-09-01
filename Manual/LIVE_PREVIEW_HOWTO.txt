@@ -1,0 +1,19 @@
+
+You can easily create a live preview of "[language]\abakt_manual.xml" in your browser.
+The advantage is that you don't have to run AurigaDoc every time you change abakt_manual.xml.
+
+Instructions:
+
+- Copy the contents of directory "res" to the directory of your language (for example, to "en").
+- Open "[language]\abakt_manual.xml" in your browser (for example, "en\abakt_manual.xml").
+
+ 
+How it works:
+
+Be sure that the second line in abakt_manual.xml is this:
+<?xml-stylesheet type="text/xsl" href="../xml2html.xsl"?>
+The stylesheet (.xsl file) is from AurigaDoc.
+
+The browser automatically translates the xml file using the instructions in the xsl file.
+Tested with Firefox.
+ 

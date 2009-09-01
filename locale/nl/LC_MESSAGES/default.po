@@ -1,0 +1,4475 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Abakt [nl]\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-01 18:36+0200\n"
+"PO-Revision-Date: 2007-04-01 18:39+0100\n"
+"Last-Translator: Erik Dienske <abakt@xs4all.nl>\n"
+"Language-Team: Erik Dienske <abakt@xs4all.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-Basepath: P:\\Abakt\\Source\\abakt\\\n"
+
+#. f_About..Caption
+#: abakt/About.dfm:7
+msgid "About"
+msgstr "Informatie"
+
+#. f_About..Font.Name
+#. f_About..Panel1..pnl_MakeDonation..Font.Name
+#. f_About..Panel3..lbl_ZipBuilder..Font.Name
+#. f_About..Panel3..lbl_ZipBuilderLink..Font.Name
+#. f_About..Panel4..Label10..Font.Name
+#. f_About..Panel4..lbl_User..Font.Name
+#. f_About..Panel5..Label9..Font.Name
+#. f_About..Panel5..Label12..Font.Name
+#. f_About..Panel5..lbl_Language..Font.Name
+#. f_About..Panel7..pnl_Email..Font.Name
+#. f_About..Panel7..pnl_Internet..Font.Name
+#. f_About..Panel7..pnl_License..Font.Name
+#. f_About..Panel8..lbl_AppName..Font.Name
+#. f_Action..Font.Name
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Font.Name
+#. f_Action..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Font.Name
+#. f_Action..gbx_Progress..Panel3..lbl_FilePerc..Font.Name
+#. f_Action..Panel2..pnl_ElapsedTime..Font.Name
+#. f_Action..Panel2..pnl_GroupElapsedTime..Font.Name
+#. f_Action..Panel2..pnl_GroupCount..Font.Name
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..lbl_ZipInfo_SplitCustomSize..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..lbl_ZipInfo_Compression..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..lbl_7zInfo_Template..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_Overwrite..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseRecycleBin..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_PathInformation..Font.Name
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Font.Name
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Font.Name
+#. f_FileSizeEditor..Font.Name
+#. f_FileSizeEditor..Label1..Font.Name
+#. f_FilterPreview..Font.Name
+#. f_FilterPreview..pnl_Descr..Label15..Font.Name
+#. f_FilterPreview..gbx_FileLists..pnl_Included..lbl_IncludedFilesInfo..Font.Name
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..lbl_ExcludedFilesInfo..Font.Name
+#. f_FilterSetEditor..Font.Name
+#. f_FilterSetEditor..gbx_Conditions..Label2..Font.Name
+#. FrameFilters..pnl_Descr_Filters..Label4..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..Panel1..lbl_TestArchiveInfo..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..Panel10..lbl_RemoveEmptyDirsInfo..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..pnl_Descr_Finalize..Label9..Font.Name
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..lbl_FileList_Enabled_Info..Font.Name
+#. f_Group..Font.Name
+#. f_Group..PageControl..tab_Profiles..pnl_Descr_Profiles..Label1..Font.Name
+#. f_Group..PageControl..tab_CustomFilterSets..pnl_Descr_CustomFilterSets..Label3..Font.Name
+#. f_Group..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label2..Font.Name
+#. f_History..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MinBackups..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxBackups..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxDays..Font.Name
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistoryInfo..Font.Name
+#. f_Main..Font.Name
+#. f_Prefs..PageControl..tab_Startup..Label4..Font.Name
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Font.Name
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label14..Font.Name
+#. f_Prefs..PageControl..tab_Backup..Label7..Font.Name
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..bt_DefDestDir..Font.Name
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..lbl_Get7Zip..Font.Name
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label3..Font.Name
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label10..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label9..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label5..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label1..Font.Name
+#. f_RestoreBackup..Font.Name
+#. f_RestoreBackup..pnl_Top..lbl_ArchiveDetails..Font.Name
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..bt_DestDir..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..lbl_ProgressInfo..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Font.Name
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..lbl_FilePerc..Font.Name
+#. FrameSource..pnl_Descr_Source..Label15..Font.Name
+#. f_TemplateEditor..Font.Name
+#. f_TemplateEditor..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label15..Font.Name
+#: abakt/About.dfm:14
+#: abakt/About.dfm:134
+#: abakt/About.dfm:160
+#: abakt/About.dfm:175
+#: abakt/About.dfm:202
+#: abakt/About.dfm:217
+#: abakt/About.dfm:232
+#: abakt/About.dfm:381
+#: abakt/About.dfm:402
+#: abakt/About.dfm:423
+#: abakt/About.dfm:449
+#: abakt/Action.dfm:13
+#: abakt/Action.dfm:136
+#: abakt/Action.dfm:180
+#: abakt/Action.dfm:224
+#: abakt/Action.dfm:330
+#: abakt/Action.dfm:347
+#: abakt/Action.dfm:364
+#: abakt/ActionTypeFrame.dfm:36
+#: abakt/ActionTypeFrame.dfm:58
+#: abakt/ActionTypeFrame.dfm:71
+#: abakt/ActionTypeFrame.dfm:113
+#: abakt/ActionTypeFrame.dfm:146
+#: abakt/ActionTypeFrame.dfm:159
+#: abakt/ActionTypeFrame.dfm:172
+#: abakt/ActionTypeFrame.dfm:185
+#: abakt/ActionTypeFrame.dfm:198
+#: abakt/ActionTypeFrame.dfm:211
+#: abakt/ActionTypeFrame.dfm:224
+#: abakt/ActionTypeSettingsFrame.dfm:52
+#: abakt/ActionTypeSettingsFrame.dfm:67
+#: abakt/ActionTypeSettingsFrame.dfm:80
+#: abakt/ActionTypeSettingsFrame.dfm:95
+#: abakt/ActionTypeSettingsFrame.dfm:175
+#: abakt/ActionTypeSettingsFrame.dfm:219
+#: abakt/ActionTypeSettingsFrame.dfm:297
+#: abakt/ActionTypeSettingsFrame.dfm:357
+#: abakt/ActionTypeSettingsFrame.dfm:405
+#: abakt/ActionTypeSettingsFrame.dfm:435
+#: abakt/ActionTypeSettingsFrame.dfm:485
+#: abakt/ActionTypeSettingsFrame.dfm:576
+#: abakt/ActionTypeSettingsFrame.dfm:596
+#: abakt/ActionTypeSettingsFrame.dfm:609
+#: abakt/ActionTypeSettingsFrame.dfm:629
+#: abakt/ActionTypeSettingsFrame.dfm:642
+#: abakt/ActionTypeSettingsFrame.dfm:657
+#: abakt/ActionTypeSettingsFrame.dfm:717
+#: abakt/ActionTypeSettingsFrame.dfm:745
+#: abakt/ActionTypeSettingsFrame.dfm:771
+#: abakt/ActionTypeSettingsFrame.dfm:784
+#: abakt/ActionTypeSettingsFrame.dfm:807
+#: abakt/ActionTypeSettingsFrame.dfm:878
+#: abakt/ConfigEditFrame.dfm:17
+#: abakt/ConfigEditFrame.dfm:30
+#: abakt/ConfigEditFrame.dfm:69
+#: abakt/ConfigEditFrame.dfm:95
+#: abakt/DestinationFrame.dfm:52
+#: abakt/DestinationFrame.dfm:65
+#: abakt/DestinationFrame.dfm:146
+#: abakt/FileSizeEditor.dfm:13
+#: abakt/FileSizeEditor.dfm:61
+#: abakt/FilterPreview.dfm:13
+#: abakt/FilterPreview.dfm:77
+#: abakt/FilterPreview.dfm:213
+#: abakt/FilterPreview.dfm:250
+#: abakt/FilterSetEditor.dfm:15
+#: abakt/FilterSetEditor.dfm:147
+#: abakt/FiltersFrame.dfm:27
+#: abakt/FinalizeFrame.dfm:38
+#: abakt/FinalizeFrame.dfm:74
+#: abakt/FinalizeFrame.dfm:132
+#: abakt/FinalizeFrame.dfm:157
+#: abakt/Group.dfm:13
+#: abakt/Group.dfm:60
+#: abakt/Group.dfm:220
+#: abakt/Group.dfm:267
+#: abakt/History.dfm:13
+#: abakt/History.dfm:110
+#: abakt/History.dfm:124
+#: abakt/History.dfm:138
+#: abakt/History.dfm:154
+#: abakt/Main.dfm:14
+#: abakt/Preferences.dfm:49
+#: abakt/Preferences.dfm:135
+#: abakt/Preferences.dfm:164
+#: abakt/Preferences.dfm:304
+#: abakt/Preferences.dfm:353
+#: abakt/Preferences.dfm:423
+#: abakt/Preferences.dfm:489
+#: abakt/Preferences.dfm:508
+#: abakt/Preferences.dfm:637
+#: abakt/Preferences.dfm:656
+#: abakt/Preferences.dfm:675
+#: abakt/RestoreBackup.dfm:13
+#: abakt/RestoreBackup.dfm:57
+#: abakt/RestoreBackup.dfm:167
+#: abakt/RestoreBackup.dfm:284
+#: abakt/RestoreBackup.dfm:326
+#: abakt/RestoreBackup.dfm:371
+#: abakt/SourceFrame.dfm:274
+#: abakt/TemplateEditor.dfm:13
+#: abakt/TemplateEditor.dfm:81
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. f_About..Panel1..Label11..Caption
+#: abakt/About.dfm:44
+msgid "&Support Abakt by making a small donation:"
+msgstr "Onder&steun Abakt door een kleine donatie te maken:"
+
+#. f_About..Panel1..pnl_MakeDonation..Caption
+#: abakt/About.dfm:55
+msgid "Visit the website to read more."
+msgstr "Bezoek de website voor meer informatie."
+
+#. f_About..Panel2..bt_Close..Caption
+#. f_Action..Panel1..bt_Close..Caption
+#. f_FilterPreview..Panel1..bt_Close..Caption
+#. f_Group..MainMenu..mu_File..mi_Close..Caption
+#. f_RestoreBackup..ActionList..act_Close..Caption
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileClose..Caption
+#: abakt/About.dfm:86
+#: abakt/Group.dfm:521
+#: abakt/RestoreBackup.dfm:428
+#: abakt/TemplateEditor.dfm:301
+msgid "&Close"
+msgstr "Slui&ten"
+
+#. f_About..Panel3..lbl_ZipBuilder..Caption
+#: abakt/About.dfm:112
+msgid "Abakt uses ZipBuilder %s."
+msgstr "Abakt gebruikt ZipBuilder %s."
+
+#. f_About..Panel3..lbl_ZipBuilderLink..Caption
+#: abakt/About.dfm:130
+msgid "See http://www.drehoeksw.net/"
+msgstr "Zie http://www.drehoeksw.net/"
+
+#. f_About..Panel4..Label10..Caption
+#. f_About..Panel4..lbl_User..Caption
+#: abakt/About.dfm:156
+msgid "User"
+msgstr "Gebruiker"
+
+#. f_About..Panel5..Label9..Caption
+#. f_About..Panel5..lbl_Language..Caption
+#: abakt/About.dfm:198
+msgid "Language"
+msgstr "Taal"
+
+#. f_About..Panel5..Label12..Caption
+#. f_About..Panel5..ed_Translator..Text
+#: abakt/About.dfm:213
+msgid "Translator"
+msgstr "Vertaler"
+
+#. f_About..Panel6..lbl_Released..Caption
+#. f_About..Panel6..Label6..Caption
+#. FrameFilterSetList..lv......Caption
+#: abakt/About.dfm:270
+msgid "Date"
+msgstr "Datum"
+
+#. f_About..Panel6..lbl_Version..Caption
+#. f_About..Panel6..Label5..Caption
+#: abakt/About.dfm:278
+msgid "Version"
+msgstr "Versie"
+
+#. f_About..Panel6..Label8..Caption
+#. f_About..Panel6..lbl_EccVersion..Caption
+#: abakt/About.dfm:302
+msgid "Using ecc"
+msgstr "Versie ecc"
+
+#. f_About..Panel7..lbl_Author..Caption
+#: abakt/About.dfm:331
+msgid "Author"
+msgstr "Auteur"
+
+#. f_About..Panel7..Label2..Caption
+#: abakt/About.dfm:339
+msgid "&License"
+msgstr "&Licentie"
+
+#. f_About..Panel7..Label3..Caption
+#: abakt/About.dfm:347
+msgid "&E-mail"
+msgstr "&E-mail"
+
+#. f_About..Panel7..Label4..Caption
+#: abakt/About.dfm:356
+msgid "&Internet"
+msgstr "&Internet"
+
+#. f_About..Panel7..Label7..Caption
+#: abakt/About.dfm:365
+msgid "Erik Dienske"
+msgstr "Erik Dienske"
+
+#. f_About..Panel7..pnl_Email..Caption
+#: abakt/About.dfm:377
+msgid "abakt@xs4all.nl"
+msgstr "abakt@xs4all.nl"
+
+#. f_About..Panel7..pnl_Internet..Caption
+#: abakt/About.dfm:398
+msgid "http://www.xs4all.nl/~edienske/abakt/"
+msgstr "http://www.xs4all.nl/~edienske/abakt/"
+
+#. f_About..Panel7..pnl_License..Caption
+#: abakt/About.dfm:419
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#. f_About..Panel8..lbl_AppName..Caption
+#: abakt/About.dfm:445
+msgid "Abakt - A Backup Tool"
+msgstr "Abakt - Een Backup Programma"
+
+#. f_About..Panel8..Label1..Caption
+#: abakt/About.dfm:460
+msgid "Copyright (C) 2003-2006 - Erik Dienske"
+msgstr "Copyright (C) 2003-2006 - Erik Dienske"
+
+#. f_Action..Caption
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Caption
+#: abakt/Action.dfm:6
+msgid "Action"
+msgstr "Actie"
+
+#. f_Action..Panel1..bt_SaveLog..Caption
+#. f_RestoreBackup..ActionList..act_SaveLog..Caption
+#: abakt/Action.dfm:53
+msgid "&Save Log"
+msgstr "Log Op&slaan"
+
+#. f_Action..gbx_Log..Caption
+#: abakt/Action.dfm:64
+msgid "&Log"
+msgstr "&Log"
+
+#. f_Action..gbx_Progress..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Caption
+#: abakt/Action.dfm:86
+msgid "Progress"
+msgstr "Voortgang"
+
+#. f_Action..gbx_Progress..lbl_ProgressInfo..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..lbl_ProgressInfo..Caption
+#: abakt/Action.dfm:96
+msgid "lbl_ProgressInfo"
+msgstr "lbl_ProgressInfo"
+
+#. f_Action..gbx_Progress..bt_Abort..Caption
+#. f_FilterPreview..gbx_BuildFileLists..bt_Abort..Caption
+#. f_RestoreBackup..ActionList..act_Abort..Caption
+#: abakt/Action.dfm:104
+#: abakt/RestoreBackup.dfm:424
+msgid "&Abort"
+msgstr "Afbreken"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..Label5..Caption
+#. f_Action..Panel2..Label3..Caption
+#: abakt/Action.dfm:123
+msgid "Group"
+msgstr "Groep"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Caption
+#. f_Action..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Caption
+#. f_Action..gbx_Progress..Panel3..lbl_FilePerc..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..lbl_ProfilePerc..Caption
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..lbl_FilePerc..Caption
+#: abakt/Action.dfm:132
+#: abakt/RestoreBackup.dfm:322
+#: abakt/RestoreBackup.dfm:367
+msgid "100%"
+msgstr "100%"
+
+#. f_Action..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#. f_Action..Panel2..Label1..Caption
+#: abakt/Action.dfm:167
+msgid "Profile"
+msgstr "Profiel"
+
+#. f_Action..gbx_Progress..Panel3..lbl_File..Caption
+#. f_Group..ActionList..act_FileNew..Category
+#. f_Group..ActionList..act_FileOpen..Category
+#. f_Group..ActionList..act_FileSave..Category
+#. f_Group..ActionList..act_FileSaveAs..Category
+#. f_Main..ActionList..act_FileNew..Category
+#. f_Main..ActionList..act_FileOpen..Category
+#. f_Main..ActionList..act_FileSave..Category
+#. f_Main..ActionList..act_FileSaveAs..Category
+#. f_Main..ActionList..act_FileClose..Category
+#. f_Main..ActionList..act_StatusSaveAs..Category
+#. f_Main..ActionList..act_Exit..Category
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..Panel2..Label1..Caption
+#: abakt/Action.dfm:211
+#: abakt/Group.dfm:591
+#: abakt/Group.dfm:605
+#: abakt/Main.dfm:694
+#: abakt/Main.dfm:717
+#: abakt/Main.dfm:723
+#: abakt/Main.dfm:729
+#: abakt/Main.dfm:753
+#: abakt/Main.dfm:789
+#: abakt/Main.dfm:795
+#: abakt/RestoreBackup.dfm:358
+msgid "File"
+msgstr "Bestand"
+
+#. f_Action..Panel2..Label2..Caption
+#: abakt/Action.dfm:264
+msgid "Destination"
+msgstr "Doel"
+
+#. f_Action..Panel2..ed_ProfilePath..Text
+#: abakt/Action.dfm:286
+msgid "ed_ProfilePath"
+msgstr "ed_ProfilePath"
+
+#. f_Action..Panel2..ed_Destination..Text
+#: abakt/Action.dfm:301
+msgid "ed_Destination"
+msgstr "ed_Destination"
+
+#. f_Action..Panel2..ed_Group..Text
+#: abakt/Action.dfm:316
+msgid "ed_Group"
+msgstr "ed_Group"
+
+#. f_Action..Panel2..pnl_ElapsedTime..Caption
+#. f_Action..Panel2..pnl_GroupElapsedTime..Caption
+#: abakt/Action.dfm:326
+msgid "9:59:59"
+msgstr "9:59:59"
+
+#. f_Action..Panel2..pnl_GroupCount..Caption
+#: abakt/Action.dfm:360
+msgid "100/100"
+msgstr "100/100"
+
+#. f_Action..sdlg_Log..DefaultExt
+#. f_Main..sdlg_Status..DefaultExt
+#. f_RestoreBackup..sdlg_Log..DefaultExt
+#: abakt/Action.dfm:371
+msgid "log"
+msgstr "log"
+
+#. f_Action..sdlg_Log..Filter
+#. f_RestoreBackup..sdlg_Log..Filter
+#: abakt/Action.dfm:372
+msgid "Log File (*.log)|*.log|Any File (*.*)|*.*"
+msgstr "Log bestand (*.log)|*.log|Alle bestanden (*.*)|*.*"
+
+#. f_Action..sdlg_Log..Title
+#. f_RestoreBackup..sdlg_Log..Title
+#: abakt/Action.dfm:374
+msgid "Save log file"
+msgstr "Logbestand opslaan"
+
+#. f_Action..ZipBuilder..SFXCaption
+#. f_RestoreBackup..ZipBuilder..SFXCaption
+#: abakt/Action.dfm:389
+msgid "Self-extracting Archive"
+msgstr "Zelf-extraherend Archief"
+
+#. f_Action..ZipBuilder..SFXLanguage
+#. f_RestoreBackup..ZipBuilder..SFXLanguage
+#: abakt/Action.dfm:390
+msgid "US"
+msgstr "US"
+
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Caption
+#: abakt/ActionTypeFrame.dfm:32
+msgid "Select the Action Type and specify the Archive Mode."
+msgstr "Kies een Actie Type en een Archiveer Modus."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Caption
+#: abakt/ActionTypeFrame.dfm:47
+msgid "Action Type"
+msgstr "Actie Type"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Caption
+#: abakt/ActionTypeFrame.dfm:54
+msgid "Create Archive"
+msgstr "Maak Archief"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Caption
+#: abakt/ActionTypeFrame.dfm:67
+msgid "File Operation"
+msgstr "Bestand Operatie"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Copy..Caption
+#: abakt/ActionTypeFrame.dfm:80
+msgid "&Copy"
+msgstr "&Kopieer"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_Zip..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..Caption
+#: abakt/ActionTypeFrame.dfm:89
+msgid "&Zip"
+msgstr "&Zip"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_7Zip..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Caption
+#: abakt/ActionTypeFrame.dfm:100
+msgid "&7-Zip"
+msgstr "&7-Zip"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Caption
+#: abakt/ActionTypeFrame.dfm:109
+msgid "&Delete"
+msgstr "Verwij&der"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Move..Caption
+#: abakt/ActionTypeFrame.dfm:124
+msgid "&Move"
+msgstr "&Verplaats"
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Caption
+#: abakt/ActionTypeFrame.dfm:135
+msgid "&Archive Mode"
+msgstr "&Archiveer Modus"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Caption
+#: abakt/ActionTypeFrame.dfm:142
+msgid "Use all selected files (ignoring A). Don't modify A."
+msgstr "Gebruik alle geselecteerde bestanden (negeer A). A niet wijzigen."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Caption
+#: abakt/ActionTypeFrame.dfm:155
+msgid "Use all selected files (ignoring A). Clear A after Action."
+msgstr "Gebruik alle geselecteerde bestanden (negeer A). Wis A na Actie."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Caption
+#: abakt/ActionTypeFrame.dfm:168
+msgid "Use A-files only. Don't modify A."
+msgstr "Gebruik alleen A-bestanden. A niet wijzigen."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Caption
+#: abakt/ActionTypeFrame.dfm:181
+msgid "Use A-files only. Clear A after Action."
+msgstr "Gebruik alleen A bestanden. Wis A na Actie."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Caption
+#: abakt/ActionTypeFrame.dfm:194
+msgid "Use non A-files only. Don't modify A."
+msgstr "Gebruik alleen niet A-bestanden. A niet wijzigen."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..lbl_ZipInfo_SplitCustomSize..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..lbl_ZipInfo_Compression..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..lbl_7zInfo_Template..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_Overwrite..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseRecycleBin..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_PathInformation..Caption
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Caption
+#. FrameFinalize..ScrollBox_Finalize..Panel1..lbl_TestArchiveInfo..Caption
+#. FrameFinalize..ScrollBox_Finalize..Panel10..lbl_RemoveEmptyDirsInfo..Caption
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..lbl_FileList_Enabled_Info..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MinBackups..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxBackups..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistInfo_MaxDays..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..lbl_HistoryInfo..Caption
+#. f_RestoreBackup..pnl_Top..lbl_ArchiveDetails..Caption
+#: abakt/ActionTypeFrame.dfm:207
+#: abakt/ActionTypeSettingsFrame.dfm:353
+#: abakt/ActionTypeSettingsFrame.dfm:401
+#: abakt/ActionTypeSettingsFrame.dfm:481
+#: abakt/ActionTypeSettingsFrame.dfm:605
+#: abakt/ActionTypeSettingsFrame.dfm:653
+#: abakt/ActionTypeSettingsFrame.dfm:767
+#: abakt/ActionTypeSettingsFrame.dfm:780
+#: abakt/ActionTypeSettingsFrame.dfm:803
+#: abakt/ConfigEditFrame.dfm:65
+#: abakt/DestinationFrame.dfm:61
+#: abakt/FinalizeFrame.dfm:34
+#: abakt/FinalizeFrame.dfm:70
+#: abakt/FinalizeFrame.dfm:153
+#: abakt/History.dfm:106
+#: abakt/History.dfm:120
+#: abakt/History.dfm:134
+#: abakt/History.dfm:150
+#: abakt/RestoreBackup.dfm:53
+msgid "AUTO_TRANSLATED"
+msgstr "AUTO_TRANSLATED"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Caption
+#: abakt/ActionTypeFrame.dfm:220
+msgid "How to deal with the Archive attribute (A)?"
+msgstr "Hoe om te gaan met het Archief attribuut (A)?"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Default..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..bt_7z_Default..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..bt_DefaultTempDir..Caption
+#: abakt/ActionTypeFrame.dfm:233
+#: abakt/Preferences.dfm:398
+msgid "Default"
+msgstr "Standaard"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Full..Caption
+#: abakt/ActionTypeFrame.dfm:244
+msgid "Full"
+msgstr "Volledig"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Differential..Caption
+#: abakt/ActionTypeFrame.dfm:253
+msgid "Differential"
+msgstr "Verschil"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Incremental..Caption
+#: abakt/ActionTypeFrame.dfm:262
+msgid "Incremental"
+msgstr "Oplopend"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Inverse..Caption
+#: abakt/ActionTypeFrame.dfm:271
+msgid "Inverse"
+msgstr "Omgekeerd"
+
+#. FrameActionType..ScrollBox_ActionType..Panel2..cb_IncludeEmptySourceDirectories..Caption
+#: abakt/ActionTypeFrame.dfm:294
+msgid "&Include Empty Source Directories"
+msgstr "&Inclusief Lege Bron Mappen"
+
+# P:\Abakt\Source\abakt\Action.cpp:325
+# P:\Abakt\Source\abakt\Action.cpp:329
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:41
+msgid "&Method"
+msgstr "&Methode"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:48
+msgid "Existing backup with the same filename will be replaced."
+msgstr "Reeds bestaande backup met dezelfde bestandsnaam wordt vervangen."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:63
+msgid "Add new files and update files already present in existing backup with the same filename."
+msgstr "Nieuwe bestanden toevoegen aan bestaand archief, en bestaande bestanden bijwerken."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:76
+msgid "Never overwrite existing backup with the same filename."
+msgstr "Reeds bestaande backup met dezelfde bestandsnaam niet vervangen."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:91
+msgid "Update files already present, don't add new files to existing backup with the same filename."
+msgstr "Bestaande bestanden bijwerken, geen nieuwe bestanden toevoegen aan bestaand archief."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodReplace..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:104
+msgid "Replace"
+msgstr "Vervang"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodUpdate..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:113
+msgid "Update"
+msgstr "Bijwerken"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodNew..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:122
+msgid "New"
+msgstr "Nieuw"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodFreshen..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:133
+msgid "Freshen"
+msgstr "Ververs"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label11..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:155
+msgid "Vo&lume Size"
+msgstr "Vo&lume Grootte"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label12..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:163
+msgid "Custom &Size (B)"
+msgstr "Aangepa&ste Grootte (B)"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..cb_Zip_Split..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:184
+msgid "Spl&it Archive"
+msgstr "Spl&its Archief"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Caption
+#. f_Prefs..PageControl..tab_Application..GroupBox2..bt_DefDataDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..bt_DefDestDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..bt_TempDir..Caption
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..bt_7ZipExe..Caption
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..bt_DestDir..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:215
+#: abakt/Preferences.dfm:349
+#: abakt/Preferences.dfm:388
+#: abakt/Preferences.dfm:434
+#: abakt/RestoreBackup.dfm:163
+msgid "..."
+msgstr "..."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..Label6..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:243
+msgid "Template"
+msgstr "Sjabloon"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:217
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..cb_Zip_AddComment..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:252
+msgid "Add Comment"
+msgstr "Commentaar Toevoegen"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:297
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..ed_Zip_CommentTemplate..Text
+#: abakt/ActionTypeSettingsFrame.dfm:265
+msgid "'Created with Abakt $V on 'yyyy'-'mm'-'dd'@'hh.nn"
+msgstr "'Gemaakt met Abakt $V op 'yyyy'-'mm'-'dd'@'hh.nn"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..bt_Zip_CommentPreview..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label29..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label32..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:274
+#: abakt/ActionTypeSettingsFrame.dfm:473
+#: abakt/DestinationFrame.dfm:40
+msgid "Preview"
+msgstr "Voorvertoning"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:293
+msgid "Copy the selected files to a Zip archive."
+msgstr "Kopieer de geselecteerde bestanden naar een Zip archief."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..Label26..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:316
+msgid "Pass&word"
+msgstr "&Wachtwoord"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..ed_Zip_Password..PasswordChar
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Password..PasswordChar
+#: abakt/ActionTypeSettingsFrame.dfm:326
+#: abakt/ActionTypeSettingsFrame.dfm:682
+msgid "*"
+msgstr "*"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..Label1..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:345
+msgid "&Compression"
+msgstr "&Compressie"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..Label8..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_File_PathInformation..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:414
+#: abakt/ActionTypeSettingsFrame.dfm:793
+msgid "&Path Information"
+msgstr "&Pad Informatie"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:455
+msgid "Command Line"
+msgstr "Opdrachtregel"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label22..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label29..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:465
+msgid "Te&mplate"
+msgstr "Sjabloon"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..ed_7z_Template..Text
+#: abakt/ActionTypeSettingsFrame.dfm:496
+msgid "$C $T $N -mx=5 $P $W $L"
+msgstr "$C $T $N -mx=5 $P $W $L"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:531
+msgid "Variables"
+msgstr "Variabelen"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label18..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:541
+msgid "$T - &Archive Type"
+msgstr "$T - &Archiefsoort"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label19..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:549
+msgid "$P - &Password"
+msgstr "$P - Wachtwoord"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label5..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:557
+msgid "$C - &Command"
+msgstr "$C - Opdracht"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label27..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:565
+msgid "$N - Archive Name"
+msgstr "$N - Archief Naam"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:572
+msgid "Destination.Directory + Destination.Name"
+msgstr "Destination.Directory + Destination.Name"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label30..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:585
+msgid "$W - Working Directory"
+msgstr "$W - Tijdelijke Map"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:592
+msgid "-w<Preferences.TemporaryDirectory>"
+msgstr "-w<Preferences.TemporaryDirectory>"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label32..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:618
+msgid "$L - Listfile"
+msgstr "$L - Bestandenlijst"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:625
+msgid "@<Destination.Directory + Destination.Name>~.txt"
+msgstr "@<Destination.Directory + Destination.Name>~.txt"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:638
+msgid "Required. Instructs 7-Zip which files to use."
+msgstr "Verplicht. Maakt 7-Zip duidelijk welke bestanden gebruikt moeten worden."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#: abakt/ActionTypeSettingsFrame.dfm:672
+msgid "7z"
+msgstr "7z"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#. f_History..odlg_HistoryFiles..DefaultExt
+#. f_RestoreBackup..odlg_Backup..DefaultExt
+#: abakt/ActionTypeSettingsFrame.dfm:673
+#: abakt/RestoreBackup.dfm:457
+msgid "zip"
+msgstr "zip"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..cmbx_7z_ArchiveType....Items.Strings
+#: abakt/ActionTypeSettingsFrame.dfm:674
+msgid "tar"
+msgstr "tar"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Command..Text
+#: abakt/ActionTypeSettingsFrame.dfm:693
+msgid "a"
+msgstr "a"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24....Caption
+#: abakt/ActionTypeSettingsFrame.dfm:713
+msgid "Use 7-Zip to create a backup.  You should set the path to 7-Zip on the Preferences window first."
+msgstr "Gebruik 7-Zip om een backup te maken. Wel eerst aangegeven waar de 7-Zip toepassing zich bevindt (Voorkeuren)."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:725
+msgid "File &Operation"
+msgstr "Bestand &Operatie"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:741
+msgid "Settings for the File Operations Copy, Move or Delete."
+msgstr "Instellingen van Bestand Operaties Kopieer, Verplaats of Verwijder."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_Overwrite..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:819
+msgid "O&verwrite Existing Files"
+msgstr "O&verschrijf bestaande bestanden"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseRecycleBin..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:831
+msgid "Use &Recycle Bin If Possible"
+msgstr "Gebruik P&rullenbak als mogelijk"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_OverwriteReadOnly..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:843
+msgid "&Also Overwrite Existing Read Only Files"
+msgstr "Tevens bestaande '&Alleen Lezen' bestanden overschrijven"
+
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Caption
+#: abakt/ActionTypeSettingsFrame.dfm:874
+msgid "Specify the settings for the selected Action Type."
+msgstr "Specificeer de instellingen van het gekozen Actie Type."
+
+#. FrameCheckListBox..tbar..tb_Add..Caption
+#. FrameFilterSetList..tbar..tb_Add..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileAdd..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryAdd..Caption
+#: abakt/CheckListBoxFrame.dfm:26
+#: abakt/Group.dfm:87
+#: abakt/SourceFrame.dfm:220
+msgid "&Add"
+msgstr "Toe&voegen"
+
+#. FrameCheckListBox..tbar..tb_Remove..Caption
+#. FrameFilterSetList..tbar..tb_Remove..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileRemove..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryRemove..Caption
+#: abakt/CheckListBoxFrame.dfm:33
+#: abakt/Group.dfm:95
+#: abakt/SourceFrame.dfm:229
+msgid "&Remove"
+msgstr "Verwijde&ren"
+
+#. FrameCheckListBox..tbar..tb_Edit..Caption
+#. FrameFilterSetList..tbar..tb_Edit..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileEdit..Caption
+#: abakt/CheckListBoxFrame.dfm:40
+#: abakt/Group.dfm:103
+msgid "E&dit"
+msgstr "Bewer&ken"
+
+#. FrameCheckListBox..tbar..ToolButton4..Caption
+#. FrameFilterSetList..tbar..ToolButton4..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton4..Caption
+#: abakt/CheckListBoxFrame.dfm:47
+#: abakt/Group.dfm:111
+msgid "ToolButton4"
+msgstr "ToolButton4"
+
+#. FrameCheckListBox..tbar..tb_All..Caption
+#. FrameConfigEdit..Panel1..tbar..tb_CheckAll..Caption
+#. FrameFilterSetList..tbar..tb_CheckAll..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileAll..Caption
+#: abakt/CheckListBoxFrame.dfm:55
+#: abakt/FilterSetListFrame.dfm:76
+#: abakt/Group.dfm:119
+msgid "A&ll"
+msgstr "A&lle"
+
+#. FrameCheckListBox..tbar..tb_None..Caption
+#. FrameConfigEdit..Panel1..tbar..tb_CheckNone..Caption
+#. FrameFilterSetList..tbar..tb_CheckNone..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileNone..Caption
+#: abakt/CheckListBoxFrame.dfm:62
+#: abakt/FilterSetListFrame.dfm:87
+#: abakt/Group.dfm:127
+msgid "&None"
+msgstr "Gee&n"
+
+#. FrameCheckListBox..tbar..ToolButton7..Caption
+#. FrameFilterSetList..tbar..ToolButton7..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton7..Caption
+#: abakt/CheckListBoxFrame.dfm:69
+#: abakt/Group.dfm:135
+msgid "ToolButton7"
+msgstr "ToolButton7"
+
+#. FrameCheckListBox..tbar..tb_Up..Hint
+#: abakt/CheckListBoxFrame.dfm:76
+msgid "Ctrl+Up"
+msgstr "Ctrl+Up"
+
+#. FrameCheckListBox..tbar..tb_Up..Caption
+#. FrameFilterSetList..tbar..tb_MoveUp..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileUp..Hint
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileUp..Caption
+#: abakt/CheckListBoxFrame.dfm:78
+#: abakt/Group.dfm:143
+#: abakt/Group.dfm:145
+msgid "Up"
+msgstr "Op"
+
+#. FrameCheckListBox..tbar..tb_Down..Hint
+#: abakt/CheckListBoxFrame.dfm:86
+msgid "Ctrl+Down"
+msgstr "Ctrl+Down"
+
+#. FrameCheckListBox..tbar..tb_Down..Caption
+#. FrameFilterSetList..tbar..tb_MoveDown..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileDown..Hint
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileDown..Caption
+#: abakt/CheckListBoxFrame.dfm:88
+#: abakt/Group.dfm:152
+#: abakt/Group.dfm:154
+msgid "Down"
+msgstr "Neer"
+
+#. FrameCheckListBox..tbar..tb_Sort..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileSort..Caption
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterIcons..tb_FileSort..Caption
+#: abakt/CheckListBoxFrame.dfm:97
+#: abakt/SourceFrame.dfm:123
+msgid "Sort"
+msgstr "Sorteer"
+
+#. FrameCheckListBox..tbar..ToolButton12..Caption
+#. FrameFilterSetList..tbar..ToolButton12..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..ToolButton12..Caption
+#: abakt/CheckListBoxFrame.dfm:104
+#: abakt/Group.dfm:170
+msgid "ToolButton12"
+msgstr "ToolButton12"
+
+#. FrameCheckListBox..tbar..tb_Clear..Caption
+#. FrameFilterSetList..tbar..tb_Clear..Caption
+#. f_Group..PageControl..tab_Profiles..tbar_Profiles..tb_ProfileClear..Caption
+#: abakt/CheckListBoxFrame.dfm:112
+#: abakt/Group.dfm:178
+msgid "Clear"
+msgstr "Wis"
+
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Caption
+#: abakt/ConfigEditFrame.dfm:26
+msgid "lbl_ItemCaption"
+msgstr "lbl_ItemCaption"
+
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Caption
+#: abakt/ConfigEditFrame.dfm:91
+msgid "Internal Name=Value"
+msgstr "Interne Naam=Waarde"
+
+#. FrameConfigEdit..Panel1..Caption
+#: abakt/ConfigEditFrame.dfm:120
+msgid "Panel1"
+msgstr "Panel1"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/ConfigEditFrame.dfm:163
+#: abakt/FilterPreview.dfm:115
+#: abakt/FilterPreview.dfm:160
+#: abakt/FilterSetListFrame.dfm:149
+#: abakt/RestoreBackup.dfm:191
+#: abakt/SourceFrame.dfm:35
+msgid "Name"
+msgstr "Naam"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#: abakt/ConfigEditFrame.dfm:167
+msgid "Value"
+msgstr "Waarde"
+
+#. FrameConfigEdit..Panel1..lv......Caption
+#: abakt/ConfigEditFrame.dfm:171
+msgid "Type"
+msgstr "Type"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Caption
+#: abakt/DestinationFrame.dfm:48
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cb_AppendExtension..Caption
+#: abakt/DestinationFrame.dfm:102
+msgid "Append Exten&sion"
+msgstr "Exten&sie Toevoegen"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:119
+msgid "Choose..."
+msgstr "Kies..."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:120
+msgid "<Name>"
+msgstr "<Naam>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:121
+msgid "<Name>-MyText"
+msgstr "<Naam>-MijnTekst"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:122
+msgid "<Name>-BAK-<Date>"
+msgstr "<Naam>-BAK-<Datum>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:123
+msgid "<Name>-<Date>-<ArchiveMode>"
+msgstr "<Naam>-<Datum>-<ArchiveerModus>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:124
+msgid "<Name>-<Date@Time>"
+msgstr "<Naam>-<Datum@Tijdstip>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: abakt/DestinationFrame.dfm:125
+msgid "Backup of Profile <Name>, made on <Day, Date>"
+msgstr "Backup van Profiel <Name>, gemaakt op <Dag, Datum>"
+
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Caption
+#: abakt/DestinationFrame.dfm:142
+msgid "Specify the Destination directory and (file)name."
+msgstr "Geef Doel map en (bestands)naam."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..Caption
+#: abakt/DestinationFrame.dfm:157
+msgid "Directory"
+msgstr "Map"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..bt_BrowseDir..Caption
+#. f_Prefs..PageControl..tab_Startup..bt_SelectCustomInitialProfile..Caption
+#: abakt/DestinationFrame.dfm:167
+msgid "&Browse"
+msgstr "&Blader"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..cb_AutoCreateDir..Caption
+#: abakt/DestinationFrame.dfm:188
+msgid "Automatically &Create Directory"
+msgstr "Automatis&ch Map Maken"
+
+#. f_FileSizeEditor..Caption
+#: abakt/FileSizeEditor.dfm:6
+msgid "Enter File Size"
+msgstr "Geef Bestandsgrootte"
+
+#. f_FileSizeEditor..lbl_B..Caption
+#: abakt/FileSizeEditor.dfm:31
+msgid "&Bytes"
+msgstr "&Bytes"
+
+#. f_FileSizeEditor..lbl_kB..Caption
+#: abakt/FileSizeEditor.dfm:39
+msgid "&kB (rounded)"
+msgstr "&kB (afgerond)"
+
+#. f_FileSizeEditor..lbl_MB..Caption
+#: abakt/FileSizeEditor.dfm:47
+msgid "&MB (rounded)"
+msgstr "&MB (afgerond)"
+
+#. f_FileSizeEditor..Label1..Caption
+#: abakt/FileSizeEditor.dfm:57
+msgid "Use Up/Down keys to modify values."
+msgstr "Gebruik Op/Neer toetsen om te wijzigen."
+
+#. f_FileSizeEditor..Panel1..bt_Ok..Caption
+#. f_FilterSetEditor..pnl_Bottom..bt_Ok..Caption
+#. f_History..Panel1..bt_Ok..Caption
+#. f_Prefs..pnl_Bottom..bt_Ok..Caption
+#: abakt/FileSizeEditor.dfm:114
+#: abakt/History.dfm:39
+#: abakt/Preferences.dfm:762
+msgid "OK"
+msgstr "OK"
+
+#. f_FileSizeEditor..Panel1..bt_Cancel..Caption
+#. f_FilterSetEditor..pnl_Bottom..bt_Cancel..Caption
+#. f_Prefs..pnl_Bottom..bt_Cancel..Caption
+#: abakt/FileSizeEditor.dfm:126
+#: abakt/Preferences.dfm:775
+msgid "Cancel"
+msgstr "Annuleer"
+
+#. f_FilterPreview..Caption
+#: abakt/FilterPreview.dfm:6
+msgid "Filter Preview"
+msgstr "Filter Voorvertoning"
+
+#. f_FilterPreview..Panel1..bt_SaveActiveList..Caption
+#: abakt/FilterPreview.dfm:52
+msgid "&Save list of selected files"
+msgstr "Op&slaan lijst met geselecteerde bestanden"
+
+#. f_FilterPreview..pnl_Descr..Label15....Caption
+#: abakt/FilterPreview.dfm:73
+msgid "Show the files that will be included and excluded, according to the current FilterSets. "
+msgstr "Geef de bestanden weer die worden in-/uitgesloten volgens de huidige FilterSet instellingen."
+
+#. f_FilterPreview..gbx_FileLists..Caption
+#: abakt/FilterPreview.dfm:89
+msgid "FileLists"
+msgstr "Bestandenlijsten"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..Hint
+#: abakt/FilterPreview.dfm:96
+msgid "Tip: Right-click mouse button for more features."
+msgstr "Tip: Klik rechter muisknop voor meer mogelijkheden."
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..Caption
+#: abakt/FilterPreview.dfm:105
+msgid "&Included"
+msgstr "Ingesloten"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:121
+#: abakt/FilterSetListFrame.dfm:157
+#: abakt/RestoreBackup.dfm:202
+#: abakt/SourceFrame.dfm:41
+msgid "Size"
+msgstr "Grootte"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameFilterSetList..lv......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:126
+#: abakt/FilterSetListFrame.dfm:166
+#: abakt/RestoreBackup.dfm:207
+#: abakt/SourceFrame.dfm:46
+msgid "Attributes"
+msgstr "Attributen"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:131
+#: abakt/RestoreBackup.dfm:212
+#: abakt/SourceFrame.dfm:52
+msgid "Modified"
+msgstr "Gewijzigd"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..lv_ExcludeList......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterPreview.dfm:136
+#: abakt/SourceFrame.dfm:61
+msgid "Filter"
+msgstr "Filter"
+
+#. f_FilterPreview..gbx_FileLists..PageControl..tab_ExcludedFiles..Caption
+#: abakt/FilterPreview.dfm:151
+msgid "&Excluded"
+msgstr "Uitgesloten"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Included..lbl_IncludedFilesInfo..Caption
+#: abakt/FilterPreview.dfm:209
+msgid "lbl_IncludedFilesInfo"
+msgstr "lbl_IncludedFilesInfo"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Included..Label2..Caption
+#: abakt/FilterPreview.dfm:223
+msgid "Included Files:"
+msgstr "Ingesloten Bestanden:"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..Label4..Caption
+#: abakt/FilterPreview.dfm:239
+msgid "Excluded Files:"
+msgstr "Uitgesloten Bestanden:"
+
+#. f_FilterPreview..gbx_FileLists..pnl_Excluded..lbl_ExcludedFilesInfo..Caption
+#: abakt/FilterPreview.dfm:246
+msgid "lbl_ExcludedFilesInfo"
+msgstr "lbl_ExcludedFilesInfo"
+
+# P:\Abakt\Source\abakt\Action.cpp:1355
+# P:\Abakt\Source\abakt\Action.cpp:1381
+#. f_FilterPreview..gbx_BuildFileLists..Caption
+#: abakt/FilterPreview.dfm:263
+msgid "Build FileLists"
+msgstr "Opbouwen Bestandenlijst"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:135
+#. f_FilterPreview..gbx_BuildFileLists..bt_Build..Caption
+#: abakt/FilterPreview.dfm:273
+msgid "&Build"
+msgstr "Op&bouwen"
+
+# P:\Abakt\Source\abakt\Action.cpp:440
+#. f_FilterPreview..gbx_BuildFileLists..cb_ScanFullTree..Caption
+#: abakt/FilterPreview.dfm:284
+msgid "Scan exluded directories"
+msgstr "Uitgesloten mappen scannen."
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_StripDrive..Caption
+#: abakt/FilterPreview.dfm:292
+msgid "Strip &drive"
+msgstr "Schijf weglaten"
+
+#. f_FilterPreview..gbx_BuildFileLists..cb_AddQuotes..Caption
+#: abakt/FilterPreview.dfm:301
+msgid "&Quotes"
+msgstr "Aanhalingstekens"
+
+#. f_FilterPreview..sdlg_FileList..DefaultExt
+#: abakt/FilterPreview.dfm:317
+msgid "txt"
+msgstr "txt"
+
+#. f_FilterPreview..sdlg_FileList..Filter
+#: abakt/FilterPreview.dfm:318
+msgid "Text File (*.txt)|*.txt|Any File (*.*)|*.*"
+msgstr "Tekst bestand (*.txt)|*.txt|Alle bestanden (*.*)|*.*"
+
+#. f_FilterPreview..sdlg_FileList..Title
+#: abakt/FilterPreview.dfm:320
+msgid "Save File List"
+msgstr "Opslaan Bestandslijst"
+
+#. f_FilterPreview..pop_Files..pmi_ClearFileList..Caption
+#: abakt/FilterPreview.dfm:328
+msgid "&Clear List"
+msgstr "&Wis Lijst"
+
+#. f_FilterPreview..pop_Files..pmi_SelectAllFiles..Caption
+#. f_RestoreBackup..ActionList..act_SelectAllFiles..Caption
+#: abakt/FilterPreview.dfm:332
+msgid "Select &All"
+msgstr "Selecteer &Alles"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:81
+#. f_FilterSetEditor..Caption
+#: abakt/FilterSetEditor.dfm:8
+msgid "Edit FilterSet"
+msgstr "Bewerk FilterSet"
+
+#. f_FilterSetEditor..pnl_Properties..lbl_Name..Caption
+#: abakt/FilterSetEditor.dfm:43
+msgid "&Name"
+msgstr "&Naam"
+
+#. f_FilterSetEditor..pnl_Properties..lbl_Action..Caption
+#. f_Prefs..PageControl..tab_Backup..Caption
+#: abakt/FilterSetEditor.dfm:51
+msgid "A&ction"
+msgstr "A&ctie"
+
+# P:\Abakt\Source\abakt\About.cpp:52
+#. f_FilterSetEditor..pnl_Properties..cb_Enabled..Caption
+#: abakt/FilterSetEditor.dfm:68
+msgid "&Enabled"
+msgstr "&Ingeschakeld"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_PathMask..Caption
+#: abakt/FilterSetEditor.dfm:103
+msgid "&Path (Mask)"
+msgstr "&Pad (Masker)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Size..Caption
+#: abakt/FilterSetEditor.dfm:111
+msgid "&Size (Bytes)"
+msgstr "&Grootte (Bytes)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Age..Caption
+#: abakt/FilterSetEditor.dfm:119
+msgid "&Age (Days)"
+msgstr "&Leeftijd (Dagen)"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:152
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:155
+#. f_FilterSetEditor..gbx_Conditions..lbl_Date..Caption
+#: abakt/FilterSetEditor.dfm:127
+msgid "&Date (yyyy-mm-dd)"
+msgstr "&Datum (yyyy-mm-dd)"
+
+#. f_FilterSetEditor..gbx_Conditions..lbl_Attributes..Caption
+#: abakt/FilterSetEditor.dfm:135
+msgid "A&ttributes"
+msgstr "A&ttributen"
+
+#. f_FilterSetEditor..gbx_Conditions..Label2..Caption
+#: abakt/FilterSetEditor.dfm:143
+msgid "File Property Conditions:"
+msgstr "Bestandseigenschappen Voorwaarden:"
+
+#. f_FilterSetEditor..pnl_Bottom..bt_Reset..Caption
+#: abakt/FilterSetEditor.dfm:233
+msgid "&Reset"
+msgstr "He&rstel"
+
+#. f_FilterSetEditor..pnl_Bottom..bt_Help..Caption
+#. f_Group..MainMenu..mu_Help..Caption
+#. f_Main..MainMenu..mu_Help..Caption
+#: abakt/FilterSetEditor.dfm:242
+msgid "&Help"
+msgstr "&Help"
+
+#. FrameFilterSetList..tbar..tb_Add..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryAdd..Hint
+#: abakt/FilterSetListFrame.dfm:25
+msgid "[Insert]"
+msgstr "[Insert]"
+
+#. FrameFilterSetList..tbar..tb_Remove..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoryRemove..Hint
+#: abakt/FilterSetListFrame.dfm:36
+msgid "[Delete]"
+msgstr "[Delete]"
+
+#. FrameFilterSetList..tbar..tb_Edit..Hint
+#: abakt/FilterSetListFrame.dfm:47
+msgid "[F2]"
+msgstr "[F2]"
+
+#. FrameFilterSetList..tbar..tb_Duplicate..Caption
+#: abakt/FilterSetListFrame.dfm:59
+msgid "Dupli&cate"
+msgstr "Dupli&ceer"
+
+#. FrameFilterSetList..tbar..tb_CheckAll..Hint
+#: abakt/FilterSetListFrame.dfm:74
+msgid "[Ctrl+Shift+A]"
+msgstr "[Ctrl+Shift+A]"
+
+#. FrameFilterSetList..tbar..tb_CheckNone..Hint
+#: abakt/FilterSetListFrame.dfm:85
+msgid "[Ctrl+Shift+N]"
+msgstr "[Ctrl+Shift+N]"
+
+#. FrameFilterSetList..tbar..tb_MoveUp..Hint
+#: abakt/FilterSetListFrame.dfm:104
+msgid "[Ctrl+Up]"
+msgstr "[Ctrl+Up]"
+
+#. FrameFilterSetList..tbar..tb_MoveDown..Hint
+#: abakt/FilterSetListFrame.dfm:115
+msgid "[Ctrl+Down]"
+msgstr "[Ctrl+Down]"
+
+#. FrameFilterSetList..lv......Caption
+#: abakt/FilterSetListFrame.dfm:153
+msgid "Path Mask"
+msgstr "Pad Masker"
+
+#. FrameFilterSetList..lv......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: abakt/FilterSetListFrame.dfm:163
+msgid "Age"
+msgstr "Leeftijd"
+
+#. FrameFilters..pnl_Descr_Filters..Label4....Caption
+#: abakt/FiltersFrame.dfm:23
+msgid "Filters will be tested against files in -selected- Source directories only."
+msgstr "Filters worden alleen toegepast op bestanden in -geselecteerde- Bron Mappen."
+
+#. FrameFilters..gbx_FilterSetList..Caption
+#: abakt/FiltersFrame.dfm:38
+msgid "F&ilterSet List"
+msgstr "F&ilterSet Lijst"
+
+#. FrameFinalize..ScrollBox_Finalize..Panel1..cb_TestArchive..Caption
+#: abakt/FinalizeFrame.dfm:48
+msgid "Te&st Archive"
+msgstr "Te&st Archief"
+
+# P:\Abakt\Source\abakt\Action.cpp:1588
+#. FrameFinalize..ScrollBox_Finalize..Panel10..cb_RemoveEmptyDirs..Caption
+#: abakt/FinalizeFrame.dfm:84
+msgid "Re&move Emptied Source Directories"
+msgstr "Verwijderen Lege Bron &Mappen"
+
+# P:\Abakt\Source\abakt\Action.cpp:1481
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..Caption
+#: abakt/FinalizeFrame.dfm:95
+msgid "H&istory"
+msgstr "Gesch&iedenis"
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..lbl_HistoryEnabled..Caption
+#: abakt/FinalizeFrame.dfm:102
+msgid "lbl_HistoryEnabled"
+msgstr "lbl_HistoryEnabled"
+
+# P:\Abakt\Source\abakt\Action.cpp:1481
+#. FrameFinalize..ScrollBox_Finalize..gbx_History..bt_History..Caption
+#: abakt/FinalizeFrame.dfm:109
+msgid "Manage History"
+msgstr "Beheer Geschiedenis"
+
+#. FrameFinalize..ScrollBox_Finalize..pnl_Descr_Finalize..Label9..Caption
+#: abakt/FinalizeFrame.dfm:128
+msgid "Things to do when an Action has finished without errors."
+msgstr "Dingen om te doen als een Actie zonder fouten werd uitgevoerd."
+
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..Caption
+#: abakt/FinalizeFrame.dfm:143
+msgid "File&List"
+msgstr "Bestanden&lijst"
+
+# P:\Abakt\Source\abakt\About.cpp:52
+#. FrameFinalize..ScrollBox_Finalize..gbx_FileList..cb_FileList_Enabled..Caption
+#: abakt/FinalizeFrame.dfm:167
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#. f_Group..Caption
+#: abakt/Group.dfm:6
+msgid "Group of Profiles"
+msgstr "Groep met Profielen"
+
+#. f_Group..PageControl..tab_Profiles..pnl_Descr_Profiles..Label1..Caption
+#: abakt/Group.dfm:56
+msgid "Select the Profiles to be executed in the order displayed below."
+msgstr "Kies de Profielen om uit te voeren in de onderstaande volgorde."
+
+#. f_Group..PageControl..tab_CustomFilterSets..pnl_Descr_CustomFilterSets..Label3....Caption
+#: abakt/Group.dfm:216
+msgid "FilterSets that will be added to the FilterSet list in every executed Profile. They can also be used to adjust existing FilterSets."
+msgstr "FilterSets die worden toegevoegd aan de FilterSet lijst in elk uitgevoerd Profiel. Deze kunnen ook gebruikt worden om bestaande FilterSets aan te passen."
+
+#. f_Group..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label2....Caption
+#: abakt/Group.dfm:263
+msgid "Select and modify the configuration settings to adjust in every executed Profile."
+msgstr "Selecteer en bewerk de configuratie instellingen om in elk uitgevoerd Profiel aan te passen."
+
+#. f_Group..pnl_ToolBars..Panel4..ToolBar1..Caption
+#. f_Main..pnl_Toolbars..pnl_FileToolBar..tbar_File..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_FileToolBar..tbar_File..Caption
+#: abakt/Group.dfm:350
+msgid "tbar_File"
+msgstr "tbar_File"
+
+#. f_Group..pnl_ToolBars..Panel4..ToolBar1..ToolButton5..Caption
+#. f_Group..pnl_ToolBars..pnl_TabsToolbar..ToolBar2..ToolButton1..Caption
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..ToolButton3..Caption
+#. f_Main..pnl_Toolbars..pnl_FileToolBar..tbar_File..ToolButton1..Caption
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..ToolButton3..Caption
+#. FrameSource..gbx_Dirs..tbr_Directories..ToolButton1..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_FileToolBar..tbar_File..ToolButton1..Caption
+#: abakt/Group.dfm:379
+#: abakt/Main.dfm:406
+#: abakt/SourceFrame.dfm:162
+#: abakt/SourceFrame.dfm:237
+#: abakt/TemplateEditor.dfm:202
+msgid "ToolButton1"
+msgstr "ToolButton1"
+
+#. f_Group..pnl_ToolBars..pnl_TabsToolbar..ToolBar2..Caption
+#. f_Main..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..Caption
+#: abakt/Group.dfm:402
+msgid "tbar_ProfileTabs"
+msgstr "tbar_ProfileTabs"
+
+#. f_Group..pnl_ToolBars..pnl_ExecuteButton..tbar_ExecuteButton..ToolButton3..Caption
+#. f_Main..pnl_Toolbars..pnl_ExecuteButton..tbar_ExecuteButton..ToolButton4..Caption
+#: abakt/Group.dfm:481
+msgid "ToolButton3"
+msgstr "ToolButton3"
+
+#. f_Group..MainMenu..mu_File..Caption
+#. f_Main..MainMenu..mu_File..Caption
+#. f_TemplateEditor..MainMenu..mu_File..Caption
+#: abakt/Group.dfm:493
+msgid "&File"
+msgstr "&Bestand"
+
+#. f_Group..MainMenu..mu_File..N3..Caption
+#. f_Group..MainMenu..mu_File..N1..Caption
+#. f_Group..MainMenu..mu_File..N4..Caption
+#. f_Main..MainMenu..mu_File..N3..Caption
+#. f_Main..MainMenu..mu_File..N8..Caption
+#. f_Main..MainMenu..mu_File..N9..Caption
+#. f_Main..MainMenu..mu_File..N2..Caption
+#. f_Main..MainMenu..mu_Edit..N10..Caption
+#. f_Main..MainMenu..mu_View..N14..Caption
+#. f_Main..MainMenu..mu_View..N12..Caption
+#. f_Main..MainMenu..mu_Tools..N13..Caption
+#. f_Main..MainMenu..mu_Tools..N6..Caption
+#. f_Main..MainMenu..mu_Tools..N4..Caption
+#. f_Main..MainMenu..mu_Help..N1..Caption
+#. f_Main..MainMenu..mu_Help..N5..Caption
+#. f_Main..MainMenu..mu_Help..N7..Caption
+#. FrameSource..pop_Dirs..N2..Caption
+#. FrameSource..pop_Dirs..N1..Caption
+#. FrameSource..pop_FilterSet..N3..Caption
+#. FrameSource..pop_FilterSet..N4..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N1..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N3..Caption
+#. f_TemplateEditor..MainMenu..mu_File..N2..Caption
+#: abakt/Group.dfm:501
+#: abakt/Main.dfm:540
+#: abakt/Main.dfm:549
+#: abakt/Main.dfm:555
+#: abakt/Main.dfm:563
+#: abakt/Main.dfm:596
+#: abakt/Main.dfm:609
+#: abakt/Main.dfm:627
+#: abakt/Main.dfm:642
+#: abakt/Main.dfm:648
+#: abakt/Main.dfm:654
+#: abakt/Main.dfm:670
+#: abakt/Main.dfm:676
+#: abakt/Main.dfm:683
+#: abakt/SourceFrame.dfm:332
+#: abakt/SourceFrame.dfm:341
+#: abakt/SourceFrame.dfm:390
+#: abakt/SourceFrame.dfm:397
+#: abakt/TemplateEditor.dfm:277
+#: abakt/TemplateEditor.dfm:290
+#: abakt/TemplateEditor.dfm:298
+msgid "-"
+msgstr "-"
+
+#. f_Group..MainMenu..mu_File..mi_RecentFiles..Caption
+#. f_Main..MainMenu..mu_File..mi_RecentFiles..Caption
+#. f_TemplateEditor..MainMenu..mu_File..mi_RecentFiles..Caption
+#: abakt/Group.dfm:513
+msgid "&Recent Files"
+msgstr "&Recente Bestanden"
+
+#. f_Group..MainMenu..mu_Edit..Caption
+#. f_Main..MainMenu..mu_Edit..Caption
+#: abakt/Group.dfm:527
+msgid "&Edit"
+msgstr "B&ewerk"
+
+#. f_Group..MainMenu..mu_View..Caption
+#. f_Main..MainMenu..mu_View..Caption
+#. f_TemplateEditor..MainMenu..mu_View..Caption
+#: abakt/Group.dfm:539
+msgid "&View"
+msgstr "Bee&ld"
+
+#. f_Group..MainMenu..mu_Tools..Caption
+#. f_Main..MainMenu..mu_Tools..Caption
+#. f_TemplateEditor..MainMenu..mu_Tools..Caption
+#: abakt/Group.dfm:545
+msgid "&Tools"
+msgstr "Ex&tra"
+
+#. f_Group..ActionList..act_EditProfiles..Category
+#. f_Group..ActionList..act_EditCustomFilterSets..Category
+#. f_Group..ActionList..act_EditCustomConfiguration..Category
+#. f_Main..ActionList..act_EditSource..Category
+#. f_Main..ActionList..act_EditFilters..Category
+#. f_Main..ActionList..act_EditAction..Category
+#. f_Main..ActionList..act_EditActionType..Category
+#. f_Main..ActionList..act_EditActionTypeSettings..Category
+#. f_Main..ActionList..act_EditDestination..Category
+#. f_Main..ActionList..act_EditFinalize..Category
+#. f_Main..ActionList..act_EditHistory..Category
+#. f_Main..ActionList..act_Preferences..Category
+#: abakt/Group.dfm:561
+#: abakt/Main.dfm:700
+#: abakt/Main.dfm:706
+#: abakt/Main.dfm:712
+#: abakt/Main.dfm:783
+#: abakt/Main.dfm:800
+#: abakt/Main.dfm:806
+#: abakt/Main.dfm:812
+#: abakt/Main.dfm:829
+#: abakt/Main.dfm:835
+msgid "Edit"
+msgstr "Bewerk"
+
+#. f_Group..ActionList..act_EditProfiles..Caption
+#: abakt/Group.dfm:562
+msgid "Profiles"
+msgstr "Profielen"
+
+#. f_Group..ActionList..act_EditCustomFilterSets..Caption
+#. f_TemplateEditor..ActionList..act_ViewPageCustomFilterSets..Caption
+#: abakt/Group.dfm:568
+msgid "Custom FilterSets"
+msgstr "Aangepaste FilterSets"
+
+#. f_Group..ActionList..act_EditCustomConfiguration..Caption
+#. f_TemplateEditor..ActionList..act_ViewPageCustomConfiguration..Caption
+#: abakt/Group.dfm:574
+msgid "Custom Configuration"
+msgstr "Aangepaste Configuratie"
+
+#. f_Group..ActionList..act_FileNew..Caption
+#: abakt/Group.dfm:580
+msgid "&New Group"
+msgstr "&Niewe Groep"
+
+#. f_Group..ActionList..act_FileOpen..Caption
+#: abakt/Group.dfm:586
+msgid "&Open Group"
+msgstr "&Open Groep"
+
+#. f_Group..ActionList..act_FileSave..Caption
+#: abakt/Group.dfm:592
+msgid "&Save Group"
+msgstr "Groep Op&slaan"
+
+#. f_Group..ActionList..act_ViewActionLog..Category
+#. f_Main..ActionList..act_ViewActionLog..Category
+#. f_Main..ActionList..act_ClearStatus..Category
+#. f_TemplateEditor..ActionList..act_ViewPageCustomFilterSets..Category
+#. f_TemplateEditor..ActionList..act_ViewPageCustomConfiguration..Category
+#: abakt/Group.dfm:597
+#: abakt/TemplateEditor.dfm:348
+#: abakt/TemplateEditor.dfm:354
+msgid "View"
+msgstr "Beeld"
+
+#. f_Group..ActionList..act_ViewActionLog..Caption
+#. f_Main..ActionList..act_ViewActionLog..Caption
+#: abakt/Group.dfm:598
+msgid "Action &Log"
+msgstr "Actie &Log"
+
+#. f_Group..ActionList..act_FileSaveAs..Caption
+#: abakt/Group.dfm:606
+msgid "Save Group &As..."
+msgstr "Groep Opslaan &Als..."
+
+#. f_Group..ActionList..act_ExecuteGroup..Category
+#. f_Main..ActionList..act_ExecuteProfile..Category
+#. f_Main..ActionList..act_Group..Category
+#. f_Main..ActionList..act_FilterPreview..Category
+#. f_Main..ActionList..act_TemplateEditor..Category
+#. f_Main..ActionList..act_RestoreZipArchive..Category
+#: abakt/Group.dfm:611
+#: abakt/Main.dfm:747
+#: abakt/Main.dfm:759
+#: abakt/Main.dfm:777
+msgid "Tools"
+msgstr "Extra"
+
+#. f_Group..ActionList..act_ExecuteGroup..Caption
+#: abakt/Group.dfm:612
+msgid "E&xecute Group"
+msgstr "Groep &Uitvoeren"
+
+#. f_Group..ActionList..act_ExecuteGroup....SecondaryShortCuts.Strings
+#: abakt/Group.dfm:615
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#. f_Group..ActionList..act_Manual..Category
+#. f_Main..ActionList..act_Manual..Category
+#. f_Main..ActionList..act_About..Category
+#. f_Main..ActionList..act_ToggleDescriptionBoxes..Category
+#. f_Prefs..pnl_Bottom..bt_Help..Caption
+#: abakt/Group.dfm:619
+#: abakt/Main.dfm:841
+#: abakt/Preferences.dfm:752
+msgid "Help"
+msgstr "Help"
+
+#. f_Group..ActionList..act_Manual..Caption
+#. f_Main..ActionList..act_Manual..Caption
+#: abakt/Group.dfm:620
+msgid "&Manual"
+msgstr "Handleiding"
+
+#. f_Group..odlg_Group..DefaultExt
+#. f_Group..sdlg_Group..DefaultExt
+#: abakt/Group.dfm:626
+msgid "abg"
+msgstr "abg"
+
+#. f_Group..odlg_Group..Filter
+#. f_Group..sdlg_Group..Filter
+#: abakt/Group.dfm:627
+msgid "Abakt Group (*.abg)|*.abg|All files (*.*)|*.*"
+msgstr "Abakt Groep (*.abg)|*.abg|Alle bestanden (*.*)|*.*"
+
+#. f_Group..odlg_Group..Title
+#: abakt/Group.dfm:629
+msgid "Open Group"
+msgstr "Groep Openen"
+
+#. f_Group..sdlg_Group..Title
+#: abakt/Group.dfm:637
+msgid "Save Group"
+msgstr "Groep Opslaan"
+
+#. f_Group..odlg_Profiles..DefaultExt
+#. f_Main..sdlg_Profile..DefaultExt
+#. f_Main..odlg_Profile..DefaultExt
+#. f_Prefs..odlg_InitialProfile..DefaultExt
+#: abakt/Group.dfm:642
+#: abakt/Preferences.dfm:791
+msgid "abp"
+msgstr "abp"
+
+#. f_Group..odlg_Profiles..Filter
+#. f_Main..sdlg_Profile..Filter
+#. f_Main..odlg_Profile..Filter
+#. f_Prefs..odlg_InitialProfile..Filter
+#: abakt/Group.dfm:643
+#: abakt/Preferences.dfm:792
+msgid "Abakt Profile (*.abp)|*.abp|All files (*.*)|*.*"
+msgstr "Abakt Profiel (*.abp)|*.abp|Alle bestanden (*.*)|*.*"
+
+#. f_Group..odlg_Profiles..Title
+#: abakt/Group.dfm:645
+msgid "Choose a Profile to add to the Group"
+msgstr "Kies een Profiel om aan de Groep toe te voegen"
+
+# P:\Abakt\Source\abakt\Action.cpp:1481
+#. f_History..Caption
+#: abakt/History.dfm:6
+msgid "History"
+msgstr "Geschiedenis"
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+#. f_History..PageControl..tab_ArchiveCatalogue..Caption
+#: abakt/History.dfm:55
+msgid "&Archive Catalogue"
+msgstr "&Archief Catalogus"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Caption
+#: abakt/History.dfm:72
+msgid "Settings"
+msgstr "Instellingen"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label3..Caption
+#: abakt/History.dfm:82
+msgid "&Remove backups older than (days)"
+msgstr "Ve&rwijder backups ouder dan (dagen)"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label4..Caption
+#: abakt/History.dfm:90
+msgid "&Keep a minimum of backups"
+msgstr "Behoudt een minimum aan bac&kups"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..Label5..Caption
+#: abakt/History.dfm:98
+msgid "Keep a &maximum of backups"
+msgstr "Behoudt een &maximum aan backups"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..cb_UseRecycleBin..Caption
+#: abakt/History.dfm:234
+msgid "&Use Recycle Bin if possible"
+msgstr "Gebr&uik Prullenbak als mogelijk"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..gbx_History..cb_MaintainHistory..Caption
+#: abakt/History.dfm:243
+msgid "Ena&bled"
+msgstr "Ingeschakeld"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..Caption
+#: abakt/History.dfm:257
+msgid "pnl_ToolBar"
+msgstr "pnl_ToolBar"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_ShowFileList..Caption
+#: abakt/History.dfm:277
+msgid "Show &List of Files"
+msgstr "T&oon Lijst met Bestanden"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_AddFiles..Caption
+#: abakt/History.dfm:292
+msgid "Add F&iles to List..."
+msgstr "Bestanden aan L&ijst toevoegen..."
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..ToolButton5..Caption
+#. f_Main..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..ToolButton2..Caption
+#. f_TemplateEditor..pnl_Toolbars..pnl_TabsToolbar..tbar_ProfileTabs..ToolButton2..Caption
+#: abakt/History.dfm:299
+msgid "ToolButton2"
+msgstr "ToolButton2"
+
+#. f_History..PageControl..tab_ArchiveCatalogue..pnl_ToolBar..tbar_ArchiveCatalogue..tb_ApplySettings..Caption
+#: abakt/History.dfm:307
+msgid "Apply Settings &Now"
+msgstr "I&nstellingen Toepassen"
+
+#. f_History..odlg_HistoryFiles..Filter
+#: abakt/History.dfm:316
+msgid "Backups (*.zip;*.7z)|*.zip;*.7z|All Files (*.*)|*.*"
+msgstr "Archieven (*.zip;*.7z)|*.zip;*.7z|Alle bestanden (*.*)|*.*"
+
+#. f_History..odlg_HistoryFiles..Title
+#: abakt/History.dfm:318
+msgid "Add Backup Files to History"
+msgstr "Backup bestandsnamen toevoegen aan Geschiedenis"
+
+#. f_Main..Caption
+#: abakt/Main.dfm:6
+msgid "Abakt"
+msgstr "Abakt"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionType..Caption
+#: abakt/Main.dfm:145
+msgid "F8 - Action Type"
+msgstr "F8 - Actie Type"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionTypeSettings..Caption
+#: abakt/Main.dfm:209
+msgid "F9 - Action Type Settings"
+msgstr "F9 - Actie Type Instellingen"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_Destination..Caption
+#: abakt/Main.dfm:250
+msgid "F10 - Destination"
+msgstr "F10 - Doel"
+
+#. f_Main..gbx_Status..Caption
+#: abakt/Main.dfm:334
+msgid "Status"
+msgstr "Status"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshDirectoryList..Caption
+#: abakt/Main.dfm:612
+msgid "&Refresh Directory List"
+msgstr "Ve&rvers Maplijst"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshFileList..Caption
+#: abakt/Main.dfm:617
+msgid "R&efresh File List"
+msgstr "V&ervers Bestandslijst"
+
+#. f_Main..MainMenu..mu_View..mi_Source_ScanTreeBelowDir..Caption
+#: abakt/Main.dfm:622
+msgid "Sca&n Tree Below Directory"
+msgstr "Alle o&nderliggende mappen scannen"
+
+#. f_Main..MainMenu..mu_Help..mi_SelectManual..Caption
+#: abakt/Main.dfm:666
+msgid "&Select Manual..."
+msgstr "Kie&s Handleiding..."
+
+#. f_Main..MainMenu..mu_Help..mi_AbaktWebsite..Caption
+#: abakt/Main.dfm:679
+msgid "Abakt &Homepage"
+msgstr "Abakt &Homepage"
+
+#. f_Main..ActionList..act_FileNew..Caption
+#: abakt/Main.dfm:695
+msgid "&New Profile"
+msgstr "&Nieuw Profiel"
+
+#. f_Main..ActionList..act_EditSource..Caption
+#: abakt/Main.dfm:701
+msgid "&1 - Source"
+msgstr "&1 - Bron"
+
+#. f_Main..ActionList..act_EditFilters..Caption
+#: abakt/Main.dfm:707
+msgid "&2 - Filters"
+msgstr "&2 - Filters"
+
+#. f_Main..ActionList..act_EditAction..Caption
+#: abakt/Main.dfm:713
+msgid "&3 - Action"
+msgstr "&3 - Actie"
+
+#. f_Main..ActionList..act_FileOpen..Caption
+#: abakt/Main.dfm:718
+msgid "&Open Profile..."
+msgstr "&Open Profiel..."
+
+#. f_Main..ActionList..act_FileSave..Caption
+#: abakt/Main.dfm:724
+msgid "&Save Profile"
+msgstr "Profiel Op&slaan"
+
+#. f_Main..ActionList..act_FileSaveAs..Caption
+#: abakt/Main.dfm:730
+msgid "Save Profile &As..."
+msgstr "Profiel Opslaan &Als..."
+
+#. f_Main..ActionList..act_ExecuteProfile..Caption
+#: abakt/Main.dfm:736
+msgid "E&xecute Profile"
+msgstr "Profiel &Uitvoeren"
+
+#. f_Main..ActionList..act_Group..Caption
+#: abakt/Main.dfm:742
+msgid "&Group of Profiles..."
+msgstr "Groep met Profielen"
+
+#. f_Main..ActionList..act_FilterPreview..Caption
+#: abakt/Main.dfm:748
+msgid "&Filter Preview..."
+msgstr "&Filter Voorvertoning..."
+
+#. f_Main..ActionList..act_FileClose..Caption
+#: abakt/Main.dfm:754
+msgid "&Close Profile"
+msgstr "Sl&uit Profiel"
+
+#. f_Main..ActionList..act_TemplateEditor..Caption
+#: abakt/Main.dfm:760
+msgid "&Template Editor..."
+msgstr "&Sjabloon Editor..."
+
+#. f_Main..ActionList..act_About..Caption
+#: abakt/Main.dfm:772
+msgid "&About"
+msgstr "Inform&atie"
+
+#. f_Main..ActionList..act_RestoreZipArchive..Caption
+#: abakt/Main.dfm:778
+msgid "&Restore Zip Archive..."
+msgstr "&Herstel Zip Archief..."
+
+#. f_Main..ActionList..act_EditActionType..Caption
+#: abakt/Main.dfm:784
+msgid "3&a - Action Type"
+msgstr "3&a - Actie Type"
+
+#. f_Main..ActionList..act_StatusSaveAs..Caption
+#: abakt/Main.dfm:790
+msgid "Save S&tatus As..."
+msgstr "S&tatus Opslaan Als..."
+
+#. f_Main..ActionList..act_Exit..Caption
+#: abakt/Main.dfm:796
+msgid "E&xit"
+msgstr "Afsluiten"
+
+#. f_Main..ActionList..act_EditActionTypeSettings..Caption
+#: abakt/Main.dfm:801
+msgid "3&b - Action Type Settings"
+msgstr "3&b - Actie Type Instellingen"
+
+#. f_Main..ActionList..act_EditDestination..Caption
+#: abakt/Main.dfm:807
+msgid "3&c - Destination"
+msgstr "3&c - Doel"
+
+#. f_Main..ActionList..act_EditFinalize..Caption
+#: abakt/Main.dfm:813
+msgid "&4 - Finalize"
+msgstr "&4 - Beëindig"
+
+#. f_Main..ActionList..act_ClearStatus..Caption
+#: abakt/Main.dfm:825
+msgid "Clear &Status Window"
+msgstr "Wis &Status Scherm"
+
+# P:\Abakt\Source\abakt\Action.cpp:1481
+#. f_Main..ActionList..act_EditHistory..Caption
+#: abakt/Main.dfm:830
+msgid "4a - &History..."
+msgstr "4a - &Geschiedenis..."
+
+#. f_Main..ActionList..act_Preferences..Caption
+#: abakt/Main.dfm:836
+msgid "&Preferences..."
+msgstr "&Voorkeuren..."
+
+#. f_Main..ActionList..act_ToggleDescriptionBoxes..Caption
+#: abakt/Main.dfm:842
+msgid "Show &Description Boxes"
+msgstr "Toon &Beschrijvingskaders"
+
+#. f_Main..sdlg_Profile..Title
+#: abakt/Main.dfm:852
+msgid "Save Profile"
+msgstr "Profiel Opslaan"
+
+#. f_Main..odlg_Profile..Title
+#: abakt/Main.dfm:860
+msgid "Open Profile"
+msgstr "Open Profiel"
+
+#. f_Main..sdlg_Status....Filter
+#: abakt/Main.dfm:868
+msgid "Log files (*.log)|*.log|Text files (*.txt)|*.txt|All files (*.*)|*.*"
+msgstr "Log bestanden (*.log)|*.log|Tekst bestanden (*.txt)|*.txt|Alle bestanden (*.*)|*.*"
+
+#. f_Main..sdlg_Status..Title
+#: abakt/Main.dfm:870
+msgid "Save Status As..."
+msgstr "Status Opslaan Als..."
+
+#. f_Main..odlg_Manual..DefaultExt
+#: abakt/Main.dfm:885
+msgid "chm"
+msgstr "chm"
+
+#. f_Main..odlg_Manual..Filter
+#: abakt/Main.dfm:886
+msgid "Compiled HTML Help (*.chm)|*.chm|All files (*.*)|*.*"
+msgstr "Compiled HTML Help (*.chm)|*.chm|All files (*.*)|*.*"
+
+#. f_Main..odlg_Manual..Title
+#: abakt/Main.dfm:889
+msgid "Select Manual"
+msgstr "Kies Handleidng"
+
+#. f_Prefs..Caption
+#: abakt/Preferences.dfm:7
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#. f_Prefs..PageControl..tab_Startup..Caption
+#: abakt/Preferences.dfm:32
+msgid "On &Startup"
+msgstr "Bij Op&starten"
+
+#. f_Prefs..PageControl..tab_Startup..Label4....Caption
+#: abakt/Preferences.dfm:45
+msgid "Applies to '.abp', '.abg', '.abt' and '.abh' files. Will be performed once, at the next startup."
+msgstr "Geldt voor '.abp', '.abg', '.abt' en '.abh' bestanden. Wordt uitgevoerd als het Abakt opnieuw wordt uitgevoerd."
+
+#. f_Prefs..PageControl..tab_Startup..cb_CreateFileAssociations..Caption
+#: abakt/Preferences.dfm:60
+msgid "&Restore File Associations at Next Startup"
+msgstr "He&rstel Bestandkoppelingen de volgende keer dat Abakt wordt uitgevoerd."
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType..Caption
+#: abakt/Preferences.dfm:71
+msgid "Use This Profile"
+msgstr "Gebruik dit Profiel"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:74
+msgid "&New"
+msgstr "&Nieuw"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:75
+msgid "&Previously Opened/Saved"
+msgstr "Laatst Geo&pend/Bewaard"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: abakt/Preferences.dfm:76
+msgid "C&ustom"
+msgstr "Aangepast"
+
+#. f_Prefs..PageControl..tab_Application..Caption
+#: abakt/Preferences.dfm:100
+msgid "&Application"
+msgstr "&Applicatie"
+
+#. f_Prefs..PageControl..tab_Application..cb_ShowDescriptionBoxes..Caption
+#: abakt/Preferences.dfm:110
+msgid "Show Description &Boxes"
+msgstr "Toon &Beschrijvingskaders"
+
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Caption
+#: abakt/Preferences.dfm:131
+msgid "This is a Description Box."
+msgstr "Dit is een Beschrijvingskader"
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Caption
+#: abakt/Preferences.dfm:148
+msgid "Lang&uage"
+msgstr "&Taal"
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label14..Caption
+#: abakt/Preferences.dfm:160
+msgid "Requires application restart."
+msgstr "Vereist dat de applicatie opnieuw wordt opgestart."
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..Caption
+#: abakt/Preferences.dfm:187
+msgid "Preferences File"
+msgstr "Voorkeuren Bestand"
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..ed_PrefsFile..Text
+#: abakt/Preferences.dfm:205
+msgid "ed_PrefsFile"
+msgstr "ed_PrefsFile"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Caption
+#: abakt/Preferences.dfm:214
+msgid "Recent Files Menu"
+msgstr "Recente Bestanden Menu"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Label2..Caption
+#: abakt/Preferences.dfm:221
+msgid "Numbe&r of Listed Files"
+msgstr "Aantal wee&r te geven bestanden"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..cb_RecentFilesShowPath..Caption
+#: abakt/Preferences.dfm:230
+msgid "Show &Path Information"
+msgstr "Toon volledig &Pad"
+
+#. f_Prefs..PageControl..tab_Application..GroupBox2..Caption
+#: abakt/Preferences.dfm:260
+msgid "&Data Directory"
+msgstr "&Data Map"
+
+#. f_Prefs..PageControl..tab_Backup..Label7..Caption
+#: abakt/Preferences.dfm:300
+msgid "Not used when Abakt is started with command line parameters."
+msgstr "Wordt niet gebruikt als Abakt met oprachtregel parameters is opgestart."
+
+#. f_Prefs..PageControl..tab_Backup..cb_ActFile_ConfirmDelete..Caption
+#: abakt/Preferences.dfm:316
+msgid "&Confirm 'File Operation | Delete'"
+msgstr "Bevestig 'Bestand Operatie | Verwijder'"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_DefaultDestDir..Caption
+#: abakt/Preferences.dfm:327
+msgid "Default &Destination Directory"
+msgstr "Standaard &Doel Map"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_TemporaryDirectory..Caption
+#: abakt/Preferences.dfm:366
+msgid "&Temporary Directory"
+msgstr "&Tijdelijke Map"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..Caption
+#: abakt/Preferences.dfm:409
+msgid "&7-Zip Executable"
+msgstr "&7-Zip Programma"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..lbl_Get7Zip..Caption
+#: abakt/Preferences.dfm:419
+msgid "Get 7-Zip from http://sourceforge.net/projects/sevenzip/"
+msgstr "Download 7-Zip: http://sourceforge.net/projects/sevenzip/"
+
+#. f_Prefs..PageControl..tab_Backup..gbx_7ZipExe..cb_OEMlistfile7Zip..Caption
+#: abakt/Preferences.dfm:454
+msgid "Convert filenames in @listfile to OEM"
+msgstr "Converteer de bestandsnamen in de @listfile naar OEM"
+
+#. f_Prefs..PageControl..tab_Logging..Caption
+#: abakt/Preferences.dfm:462
+msgid "&Logging"
+msgstr "&Log"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label3..Caption
+#: abakt/Preferences.dfm:485
+msgid "For every file: show IF and WHY it is included or excluded."
+msgstr "Voor elk bestand: laat zien WAAROM en OF het in-/uitgesloten is."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..Label10....Caption
+#: abakt/Preferences.dfm:504
+msgid "Show detailed progress for every file. If unchecked, only the failures are reported."
+msgstr "Gedetailleerde voortgang voor elk bestand tonen. Als uitgeschakeld worden alleen de fouten gemeld."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_LogBuildingFileLists..Caption
+#: abakt/Preferences.dfm:520
+msgid "Detailed &Building File Lists"
+msgstr "Gedetailleerde 'Op&bouwen BestandenLijst'"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_LogFullAction..Caption
+#: abakt/Preferences.dfm:529
+msgid "Detailed &Progress"
+msgstr "Gedetailleerde V&oortgang"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..bt_ActionLogDir..Caption
+#: abakt/Preferences.dfm:539
+msgid "&Directory"
+msgstr "&Map"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Action..cb_AutoSaveActionLog..Caption
+#: abakt/Preferences.dfm:560
+msgid "Save Log &to \"<ProfileName>.log\""
+msgstr "Log opslaan als \"<ProfielNaam>.log\"."
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..Caption
+#: abakt/Preferences.dfm:572
+msgid "Application"
+msgstr "Applicatie"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..Label8..Caption
+#: abakt/Preferences.dfm:582
+msgid "Maximum Size (kB):"
+msgstr "Maximum Grootte (kB):"
+
+#. f_Prefs..PageControl..tab_Logging..gbx_Logging_Application..cb_SaveAppStatus..Caption
+#: abakt/Preferences.dfm:590
+msgid "Save Status &Messages"
+msgstr "Stat&us Berichten Opslaan"
+
+#. f_Prefs..PageControl..tab_Advanced..Caption
+#: abakt/Preferences.dfm:619
+msgid "Ad&vanced"
+msgstr "Gea&vanceerd"
+
+#. f_Prefs..PageControl..tab_Advanced..Label9....Caption
+#: abakt/Preferences.dfm:633
+msgid "Make sure that only 100% successful backups are made. Applies to Zip Actions only."
+msgstr "Zorgt dat alleen 100% succesvolle backups worden gemaakt. Geldt alleen voor Zip Acties."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:292
+#. f_Prefs..PageControl..tab_Advanced..Label5....Caption
+#: abakt/Preferences.dfm:652
+msgid "Applies to Zip Method 'Replace'. Always disabled for removable drives."
+msgstr "Geldt voor Zip Methode 'Vervang'. Altijd uitgeschakeld voor verwijderbare stations."
+
+# P:\Abakt\Source\abakt\Action.cpp:717
+#. f_Prefs..PageControl..tab_Advanced..Label1....Caption
+#: abakt/Preferences.dfm:671
+msgid "Instructs ZipBuilder to work on a temporary copy of existing zip archive."
+msgstr "Instrueert ZipBuilder om met een tijdelijke kopie van een bestaand zip archief te werken."
+
+#. f_Prefs..PageControl..tab_Advanced..cb_RemoveNonExistingSourceDirs..Caption
+#: abakt/Preferences.dfm:687
+msgid "&Remove Non-Existing Source Directories from Profile"
+msgstr "Ve&rwijder niet-bestaande Bron Mappen uit het Profiel"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_UseNewUIOnBFD..Caption
+#: abakt/Preferences.dfm:698
+msgid "Use New UI BrowseFor&Folder"
+msgstr "Gebruik nieuwe interface voor 'BrowseFor&Folder'"
+
+# P:\Abakt\Source\abakt\Action.cpp:1240
+#. f_Prefs..PageControl..tab_Advanced..cb_CreateTempZipCopy..Caption
+#: abakt/Preferences.dfm:709
+msgid "Create &Temporary Copy if Zip Archive Exists"
+msgstr "Maak een &Tijdelijke Kopie als het Zip Archief reeds bestaat"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_TreatWarningsAsErrors..Caption
+#: abakt/Preferences.dfm:720
+msgid "Treat &Warnings as Errors"
+msgstr "Behandel &Waarschuwingen als Fouten"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:339
+#. f_Prefs..PageControl..tab_Advanced..cb_UseZipBuilderAddSafe..Caption
+#: abakt/Preferences.dfm:729
+msgid "&Perform Safe ZipBuilder Operations"
+msgstr "Veilige Zi&pBuilder bewerkingen uitvoeren"
+
+#. f_Prefs..odlg_7ZipExe..DefaultExt
+#: abakt/Preferences.dfm:782
+msgid "exe"
+msgstr "exe"
+
+#. f_Prefs..odlg_7ZipExe..FileName
+#: abakt/Preferences.dfm:783
+msgid "7z.exe"
+msgstr "7z.exe"
+
+#. f_Prefs..odlg_7ZipExe..Filter
+#: abakt/Preferences.dfm:784
+msgid "Application (*.exe)|*.exe|Any File (*.*)|*.*"
+msgstr "Toepassing (*.exe)|*.exe|Alle bestanden (*.*)|*.*"
+
+#. f_Prefs..odlg_7ZipExe..Title
+#: abakt/Preferences.dfm:786
+msgid "7-Zip Commandline Executable"
+msgstr "7-Zip Opdrachtregel Toepassing"
+
+#. f_RestoreBackup..Caption
+#: abakt/RestoreBackup.dfm:6
+msgid "Restore Zip Archive"
+msgstr "Herstel Zip Archief"
+
+#. f_RestoreBackup..pnl_Top..lbl_Password..Caption
+#: abakt/RestoreBackup.dfm:77
+msgid "&Password:"
+msgstr "Wachtwoord:"
+
+#. f_RestoreBackup..pnl_Top..cb_Overwrite..Caption
+#: abakt/RestoreBackup.dfm:86
+msgid "O&verwrite Existing Files and Directories"
+msgstr "Bestaande Bestanden en Mappen O&verschrijven"
+
+#. f_RestoreBackup..pnl_Top..bt_ZipArchive..Caption
+#: abakt/RestoreBackup.dfm:102
+msgid "&Zip Archive"
+msgstr "&Zip Archief"
+
+#. f_RestoreBackup..pnl_Top..bt_ListFiles..Caption
+#: abakt/RestoreBackup.dfm:120
+msgid "&Open"
+msgstr "&Open"
+
+#. f_RestoreBackup..pnl_Top..cmbx_ZipArchiveFilename..Text
+#: abakt/RestoreBackup.dfm:132
+msgid "cmbx_ZipArchiveFilename"
+msgstr "cmbx_ZipArchiveFilename"
+
+#. f_RestoreBackup..pnl_Top..gbx_DestDir..Caption
+#: abakt/RestoreBackup.dfm:141
+msgid "&Destination Directory"
+msgstr "&Doel Map"
+
+#. f_RestoreBackup..gbx_ZipFiles..Caption
+#. FrameSource..gbx_Files..Caption
+#: abakt/RestoreBackup.dfm:181
+msgid "Fi&les"
+msgstr "Bestanden"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:196
+msgid "Path"
+msgstr "Pad"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:218
+msgid "Rate (%)"
+msgstr "Ratio (%)"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: abakt/RestoreBackup.dfm:222
+msgid "Compressed"
+msgstr "Gecomprimeerd"
+
+#. f_RestoreBackup..pnl_Bottom..gbx_Log..Caption
+#: abakt/RestoreBackup.dfm:249
+msgid "Log"
+msgstr "Log"
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#: abakt/RestoreBackup.dfm:313
+msgid "Archive"
+msgstr "Archief"
+
+#. f_RestoreBackup..ActionList..act_RestoreFiles..Caption
+#: abakt/RestoreBackup.dfm:438
+msgid "&Restore Selected Files"
+msgstr "He&rstel Geselecteerde Bestanden"
+
+#. f_RestoreBackup..odlg_Backup..Filter
+#: abakt/RestoreBackup.dfm:458
+msgid "Zip Files (*.zip)|*.zip|Any File (*.*)|*.*"
+msgstr "Zip bestanden (*.zip)|*.zip|Alle bestanden (*.*)|*.*"
+
+#. f_RestoreBackup..odlg_Backup..Title
+#: abakt/RestoreBackup.dfm:460
+msgid "Select an Archive to Restore"
+msgstr "Kies te herstellen archief"
+
+#. FrameSource..gbx_Files..pnl_FilesSummary..lbl_FilesSummary..Caption
+#: abakt/SourceFrame.dfm:88
+msgid "lbl_FilesSummary"
+msgstr "lbl_FilesSummary"
+
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..tb_FilterSetFunctions..Hint
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoriesMoreFunctions..Hint
+#: abakt/SourceFrame.dfm:149
+msgid "[Right Mousebutton]"
+msgstr "[Rechter Muisknop]"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:81
+#. FrameSource..gbx_Files..pnl_FileToolBars..tbr_FilterSets..tb_FilterSetFunctions..Caption
+#: abakt/SourceFrame.dfm:152
+msgid "Filter&Set"
+msgstr "Filter&Set"
+
+#. FrameSource..gbx_Dirs..Caption
+#: abakt/SourceFrame.dfm:174
+msgid "&Directories"
+msgstr "Mappen"
+
+#. FrameSource..gbx_Dirs..tbr_Directories..tb_DirectoriesMoreFunctions..Caption
+#: abakt/SourceFrame.dfm:246
+msgid "&More"
+msgstr "&Meer"
+
+#. FrameSource..pnl_Descr_Source..Label15....Caption
+#: abakt/SourceFrame.dfm:270
+msgid "Select the directories to include. Unselected directories are always excluded."
+msgstr "Kies de mappen om in te sluiten. Niet-geselecteerde mappen worden altijd uitgesloten."
+
+#. FrameSource..ActionList..act_RefreshDirList..Caption
+#: abakt/SourceFrame.dfm:283
+msgid "Refresh &Directory List"
+msgstr "Ververs &Maplijst"
+
+#. FrameSource..ActionList..act_RefreshFileList..Caption
+#: abakt/SourceFrame.dfm:288
+msgid "Refresh &File List"
+msgstr "Ververs &Bestandslijst"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Category
+#. FrameSource..ActionList..act_UnSelectAllChildren..Category
+#. FrameSource..ActionList..act_CollapseAllChildren..Category
+#. FrameSource..ActionList..act_ExpandAllChildren..Category
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Category
+#: abakt/SourceFrame.dfm:293
+#: abakt/SourceFrame.dfm:305
+#: abakt/SourceFrame.dfm:310
+#: abakt/SourceFrame.dfm:315
+msgid "Popup_Dirs"
+msgstr "Popup_Dirs"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Caption
+#: abakt/SourceFrame.dfm:294
+msgid "&Select + All Children"
+msgstr "&Selecteer + Alle Kinderen"
+
+#. FrameSource..ActionList..act_UnSelectAllChildren..Caption
+#: abakt/SourceFrame.dfm:300
+msgid "&UnSelect + All Children"
+msgstr "&Deselecteer + Alle Kinderen"
+
+#. FrameSource..ActionList..act_CollapseAllChildren..Caption
+#: abakt/SourceFrame.dfm:306
+msgid "&Collapse + All Children"
+msgstr "&Inklappen + Alle Kinderen"
+
+#. FrameSource..ActionList..act_ExpandAllChildren..Caption
+#: abakt/SourceFrame.dfm:311
+msgid "&Expand + All Children"
+msgstr "&Uitklappen + Alle Kinderen"
+
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Caption
+#: abakt/SourceFrame.dfm:316
+msgid "Scan &Tree Below Directory"
+msgstr "Alle onderliggende mappen &scannen"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..Caption
+#: abakt/SourceFrame.dfm:353
+msgid "&Exclude"
+msgstr "Uitsluit&en"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_ThisFile..Caption
+#: abakt/SourceFrame.dfm:356
+msgid "This &File"
+msgstr "Dit &Bestand"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeAllDirs..Caption
+#: abakt/SourceFrame.dfm:360
+msgid "Filetype In All &Directories"
+msgstr "Bestan&dstype in alle mappen"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeThisDir..Caption
+#: abakt/SourceFrame.dfm:364
+msgid "Filetype In &This Directory Only"
+msgstr "Bestands&type in deze map"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_FiletypeDirAndSubdirs..Caption
+#: abakt/SourceFrame.dfm:368
+msgid "Filetype In This Directory And &Below"
+msgstr "&Bestandstype in deze- en onderliggende mappen"
+
+#. FrameSource..pop_FilterSet..pmi_Exclude..pmi_AllFilesThisDir..Caption
+#: abakt/SourceFrame.dfm:372
+msgid "&All Files In This Dir"
+msgstr "&Alle bestanden in deze map"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:683
+#. FrameSource..pop_FilterSet..pmi_Include..Caption
+#: abakt/SourceFrame.dfm:377
+msgid "&Include (Always)"
+msgstr "&Insluiten (Altijd)"
+
+#. FrameSource..pop_FilterSet..pmi_NoCompression..Caption
+#: abakt/SourceFrame.dfm:381
+msgid "No &Compression"
+msgstr "Geen &Compressie"
+
+#. FrameSource..pop_FilterSet..pmi_AlwaysShowEditor..Caption
+#: abakt/SourceFrame.dfm:385
+msgid "&Always Show Editor"
+msgstr "&Atijd Editor gebruiken"
+
+#. FrameSource..pop_FilterSet..pmi_NewFilterSetBasedOnFile..Caption
+#: abakt/SourceFrame.dfm:393
+msgid "&New FilterSet"
+msgstr "&Nieuw FilterSet"
+
+#. FrameSource..pop_FilterSet..pmi_EditActiveFilterSet..Caption
+#: abakt/SourceFrame.dfm:400
+msgid "E&dit Active FilterSet"
+msgstr "&Bewerk actieve FilterSet"
+
+#. FrameSource..pop_FileSort..pmi_None..Caption
+#: abakt/SourceFrame.dfm:410
+msgid "None"
+msgstr "Geen"
+
+#. FrameSource..pop_FileSort..pmi_Excluded..Caption
+#: abakt/SourceFrame.dfm:414
+msgid "Excluded"
+msgstr "Uitgesloten"
+
+#. FrameSource..pop_FileSort..pmi_Included..Caption
+#: abakt/SourceFrame.dfm:419
+msgid "Included"
+msgstr "Ingesloten"
+
+#. FrameSource..pop_FileSort..pmi_NotCompressed..Caption
+#: abakt/SourceFrame.dfm:424
+msgid "Not Compressed"
+msgstr "Niet Gecomprimeerd"
+
+#. f_TemplateEditor..Caption
+#: abakt/TemplateEditor.dfm:6
+msgid "Template Editor"
+msgstr "Sjabloon Bewerken"
+
+#. f_TemplateEditor..PageControl..tab_CustomConfiguration..pnl_Descr_CustomConfiguration..Label15....Caption
+#: abakt/TemplateEditor.dfm:77
+msgid "Only the selected (checked) settings will be written to the template."
+msgstr "Alleen de geselecteerde (aangevinkte) instellingen worden in het Sjabloon opgeslagen."
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileNew..Caption
+#: abakt/TemplateEditor.dfm:267
+msgid "&New Template"
+msgstr "&Nieuw Sjabloon"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileOpen..Caption
+#: abakt/TemplateEditor.dfm:272
+msgid "&Open Template"
+msgstr "&Open Sjabloon"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileSave..Caption
+#: abakt/TemplateEditor.dfm:280
+msgid "&Save Template"
+msgstr "Sjabloon Op&slaan"
+
+#. f_TemplateEditor..MainMenu..mu_File..mi_FileSaveAs..Caption
+#: abakt/TemplateEditor.dfm:285
+msgid "Save Template &As..."
+msgstr "Sjabloon Opslaan &Als..."
+
+# P:\Abakt\Source\abakt\Group.cpp:154
+# P:\Abakt\Source\abakt\Group.cpp:282
+# P:\Abakt\Source\abakt\Group.cpp:328
+#. f_TemplateEditor..MainMenu..mu_Tools..mi_ToolsPopulateWithCurrentProfile..Caption
+#: abakt/TemplateEditor.dfm:318
+msgid "Current Profile --> This Template"
+msgstr "Huidig Profiel --> Dit Sjablooon"
+
+#. f_TemplateEditor..MainMenu..mu_Tools..mi_ToolsApplyToCurrentProfile..Caption
+#: abakt/TemplateEditor.dfm:322
+msgid "This Template --> Current Profile"
+msgstr "Dit Sjablooon --> Huidig Profiel"
+
+#. f_TemplateEditor..odlg_Template..DefaultExt
+#. f_TemplateEditor..sdlg_Template..DefaultExt
+#: abakt/TemplateEditor.dfm:328
+msgid "abt"
+msgstr "abt"
+
+#. f_TemplateEditor..odlg_Template....Filter
+#: abakt/TemplateEditor.dfm:331
+msgid "Abakt Template (*.abt)|*.abt|Import Abakt Profile or Group (*.abp;*.abg)|*.abp;*.abg|All files (*.*)|*.*"
+msgstr "Abakt Sjabloon (*.abt)|*.abt|Importeer Abakt Profiel of Groep (*.abp;*.abg)|*.abp;*.abg|Alle bestanden (*.*)|*.*"
+
+#. f_TemplateEditor..odlg_Template..Title
+#: abakt/TemplateEditor.dfm:333
+msgid "Open/Import Template"
+msgstr "Open/Importeer Sjabloon"
+
+#. f_TemplateEditor..sdlg_Template..Filter
+#: abakt/TemplateEditor.dfm:339
+msgid "Abakt Template (*.abt)|*.abt|All files (*.*)|*.*"
+msgstr "Abakt Sjabloon (*.abt)|*.abt|Alle bestanden (*.*)|*.*"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:135
+msgid "Build"
+msgstr "Bouw"
+
+msgid "Destination Directory can not be empty."
+msgstr "Doel Map is onbekend."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid "Destination Directory does not exist: %s"
+msgstr "Doel Map bestaat niet: %s"
+
+#, c-format
+msgid "Creating Destination Directory %s..."
+msgstr "Maken Doel Map %s..."
+
+msgid "Failed."
+msgstr "Mislukt."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:103
+# P:\Abakt\Source\abakt\SourceFrame.cpp:390
+# P:\Abakt\Source\abakt\SourceFrame.cpp:395
+# P:\Abakt\Source\abakt\SourceFrame.cpp:508
+# P:\Abakt\Source\abakt\SourceFrame.cpp:970
+# P:\Abakt\Source\abakt\SourceFrame.cpp:980
+msgid "Ok."
+msgstr "Ok."
+
+# P:\Abakt\Source\abakt\Action.cpp:1349
+msgid "Destination Directory will not be automatically created."
+msgstr "Doel Map wordt niet automatisch gemaakt."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid "Action Log Directory does not exist: %s"
+msgstr "Actie Log Map bestaat niet: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:312
+msgid "Logging to file is disabled for the current Action."
+msgstr "Gedurende de rest van deze Actie wordt er geen informatie in het logbestand opgeslagen."
+
+# P:\Abakt\Source\abakt\Main.cpp:393
+#, c-format
+msgid "[ Starting Action %s ]"
+msgstr "[ Start Actie %s ]"
+
+# P:\Abakt\Source\abakt\Action.cpp:381
+#, c-format
+msgid "Abakt Version: %s"
+msgstr "Abakt Versie: %s"
+
+#, c-format
+msgid "Profile: %s"
+msgstr "Profiel: %s"
+
+#, c-format
+msgid "Log File: %s"
+msgstr "Log Bestand: %s"
+
+# P:\Abakt\Source\abakt\About.cpp:54
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+msgid "Archive Mode"
+msgstr "Archiveer Modus"
+
+# P:\Abakt\Source\abakt\Action.cpp:325
+# P:\Abakt\Source\abakt\Action.cpp:329
+msgid "Method"
+msgstr "Methode"
+
+msgid "Path Information"
+msgstr "Pad Informatie"
+
+# P:\Abakt\Source\abakt\Action.cpp:1371
+#, c-format
+msgid "Elapsed Time (Profile): %s"
+msgstr "Verstreken Tijd (Profiel): %s"
+
+# P:\Abakt\Source\abakt\Main.cpp:401
+#, c-format
+msgid "Finished Action %s"
+msgstr "Actie Voltooid %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:600
+msgid "ZipBuilder automatically renamed the last part of the Split Archive to '*.zip'."
+msgstr "ZipBuilder heeft het laatste deel van het Gesplitst Archief automatisch hernoemd naar '*.zip'."
+
+# P:\Abakt\Source\abakt\Action.cpp:624
+msgid "Zip Archive Details:"
+msgstr "Zip Archief Details:"
+
+# P:\Abakt\Source\abakt\Action.cpp:627
+#, c-format
+msgid "Files in Zip Archive: %d"
+msgstr "Aantal bestanden in Zip Archief: %d"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:319
+#, c-format
+msgid "Files Acted On: %d"
+msgstr "Operatie uitgevoerd op %d bestanden"
+
+# P:\Abakt\Source\abakt\Action.cpp:627
+#, c-format
+msgid "Split Zip Archive Parts: %d"
+msgstr "Aantal delen Gesplitst Zip Archief: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:641
+#, c-format
+msgid "Compressed Size: %s (%s B) of %s (%s B) = %i%% of original size."
+msgstr "Gecomprimeerde Grootte: %s (%s B) van %s (%s B) = %i%% van oorspronkelijke grootte."
+
+# P:\Abakt\Source\abakt\Action.cpp:372
+msgid "The following files or directories could not be archived:"
+msgstr "De volgende bestanden of mappen konden niet gearchiveerd worden:"
+
+msgid "FileList:"
+msgstr "Bestandenlijst:"
+
+#, c-format
+msgid "Saving FileList to: %s"
+msgstr "Opslaan bestandenlijst als: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:440
+msgid "No Source directories."
+msgstr "Geen Bron-mappen."
+
+#, c-format
+msgid "Compression Level: %d"
+msgstr "Compressie Niveau: %d"
+
+#, c-format
+msgid "Using Password: %s"
+msgstr "Gebruikt Wachtwoord: %s"
+
+msgid "No"
+msgstr "Nee"
+
+# P:\Abakt\Source\abakt\Action.cpp:463
+msgid "Yes"
+msgstr "Ja"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:339
+msgid "Perform Safe ZipBuilder Operations"
+msgstr "Veilige ZipBuilder bewerkingen uitvoeren"
+
+#, c-format
+msgid "Destination Drive: %s"
+msgstr "Doel Station: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:430
+#, c-format
+msgid "Removable: %s"
+msgstr "Verwijderbaar: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:435
+msgid "Type: CD/DVD"
+msgstr "Type: CD/DVD"
+
+# P:\Abakt\Source\abakt\Action.cpp:480
+#, c-format
+msgid "Free Space: %s (%s Bytes)"
+msgstr "Beschikbare ruimte: %s (%s Bytes)"
+
+#, c-format
+msgid "Temporary Directory: %s"
+msgstr "Tijdelijke Map: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:624
+msgid "Zip Archive's Destination is empty."
+msgstr "Zip Archief's Doel is leeg."
+
+# %s= 'is' or 'is not'
+#, c-format
+msgid "Destination Zip Archive exists. New name: %s"
+msgstr "Doel Zip Archief bestaad reeds. Nieuwe naam: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:760
+#, c-format
+msgid "You chose to Freshen a non-existing Zip Archive: %s."
+msgstr "Je wilt een niet-bestaand Zip Archief verversen: %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:800
+msgid "A new Zip Archive will be created."
+msgstr "Een nieuw Zip Archief wordt gemaakt."
+
+msgid "Action failed."
+msgstr "Actie is mislukt."
+
+msgid "You can not add more than 65535 files to a Zip archive."
+msgstr "Er kunnen maximaal 65535 bestanden in een Zip archief worden bewaard."
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+#, c-format
+msgid "Could not open file: %s"
+msgstr "Kon bestand niet openen: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:699
+msgid "No existing Zip Archive found. Creating new archive."
+msgstr "Geen bestaand Zip Archief gevonden. Een nieuw archief wordt gemaakt."
+
+msgid "Creating New Zip Archive:"
+msgstr "Nieuw Zip Archief Maken:"
+
+# P:\Abakt\Source\abakt\Action.cpp:712
+msgid "Replacing Existing Zip Archive:"
+msgstr "Vervangen Bestaand Zip Archief:"
+
+# P:\Abakt\Source\abakt\Action.cpp:748
+msgid "Creating a temporary copy on a removable drive is always disabled."
+msgstr "Een tijdelijke kopie kan nooit worden gemaakt op een verwijderbare schijf."
+
+# P:\Abakt\Source\abakt\Action.cpp:717
+#, c-format
+msgid "Creating temporary copy of existing Zip Archive: %s..."
+msgstr "Tijdelijke kopie maken van bestaand Zip Archief: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:722
+msgid "Adding files to existing Zip Archive instead."
+msgstr "Bestanden worden aan reeds bestaand Zip Archief toegevoegd."
+
+# P:\Abakt\Source\abakt\Action.cpp:728
+msgid "Adding files. Please wait."
+msgstr "Bestanden toevoegen. Even geduld."
+
+# P:\Abakt\Source\abakt\Action.cpp:1240
+#, c-format
+msgid "Deleting temporary copy of Zip Archive: %s..."
+msgstr "Verwijderen tijdelijke kopie Zip Archief: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:752
+msgid "Updating Existing Zip Archive:"
+msgstr "Bijwerken Bestaand Zip Archief:"
+
+#, c-format
+msgid "Testing Zip Archive %s:"
+msgstr "Testen Zip Archief %s:"
+
+# P:\Abakt\Source\abakt\About.cpp:54
+msgid "Disabled."
+msgstr "Uitgeschakeld."
+
+# P:\Abakt\Source\abakt\Action.cpp:873
+#, c-format
+msgid "All %d files tested Ok."
+msgstr "Testen alle %d bestanden Ok."
+
+# P:\Abakt\Source\abakt\Action.cpp:876
+#, c-format
+msgid "Error: %d files tested BAD, or skipped!"
+msgstr "Error: %d bestanden zijn corrupt of overgeslagen."
+
+msgid "Detecting Empty Directories:"
+msgstr "Lege Mappen Detecteren:"
+
+# P:\Abakt\Source\abakt\Action.cpp:923
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:528
+msgid "Disabled if 'Path Information' is 'None'."
+msgstr "Uitgeschakeld als 'Pad Informatie' is 'Geen'."
+
+# P:\Abakt\Source\abakt\AfterActionFrame.cpp:181
+msgid "None found."
+msgstr "Geen gevonden."
+
+# P:\Abakt\Source\abakt\Action.cpp:927
+#, c-format
+msgid "Empty directories to include: %d"
+msgstr "In te sluiten lege mappen: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:627
+msgid "Split Zip Archive: Enabled"
+msgstr "Gesplitst Zip Archief: Ingeschakeld"
+
+# P:\Abakt\Source\abakt\Action.cpp:1000
+msgid "Type: Spanning (using removable disks)"
+msgstr "Type: Spanning (verwijderbare media)"
+
+# P:\Abakt\Source\abakt\Action.cpp:804
+msgid "You should label every disk."
+msgstr "Geef elke schijf een naam."
+
+# P:\Abakt\Source\abakt\Action.cpp:1005
+msgid "Type: Splitting (using a fixed drive)."
+msgstr "Type: Splitting (harddisks)."
+
+# P:\Abakt\Source\abakt\Action.cpp:1006
+msgid "Files will be named '*.z01', '*.z02', etc., and finally '*.zip'."
+msgstr "Bestanden worden '*.z01', '*.z02', etc., en als laatste '*.zip' genaamd."
+
+# P:\Abakt\Source\abakt\Action.cpp:1008
+#, c-format
+msgid "Each part will have a maximum size of %s (%s Bytes)"
+msgstr "Elk deel krijgt een maximum groote van %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1039
+#, c-format
+msgid "Deleting unfinished Zip Archive %s..."
+msgstr "Verwijderen onafgerond Zip Archief %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Deleting %s..."
+msgstr "Verwijderen %s..."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid "File does not exist: %s"
+msgstr "Bestand bestaat niet: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1371
+#, c-format
+msgid "Elapsed Time (Group): %s"
+msgstr "Verstreken Tijd (Groep): %s"
+
+msgid "Action not completed"
+msgstr "Actie niet voltooid"
+
+# P:\Abakt\Source\abakt\Action.cpp:1232
+msgid "Action aborted by user."
+msgstr "Actie afgebroken door gebruiker."
+
+# P:\Abakt\Source\abakt\Action.cpp:1233
+msgid "An error occured."
+msgstr "Er trad een fout op."
+
+# P:\Abakt\Source\abakt\Action.cpp:1240
+#, c-format
+msgid "Restoring temporary copy %s..."
+msgstr "Herstellen tijdelijke kopie %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1244
+msgid "You should manually restore the temporary copy."
+msgstr "U dient de tijdelijke kopie handmatig te herstellen."
+
+#, c-format
+msgid "Destination: %s"
+msgstr "Doel: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1355
+# P:\Abakt\Source\abakt\Action.cpp:1381
+msgid "Building File Lists"
+msgstr "Opbouwen Bestandenlijst"
+
+# P:\Abakt\Source\abakt\Action.cpp:1106
+#, c-format
+msgid "Saving List of Files to Include to %s."
+msgstr "Schrijven lijst van ingesloten bestanden naar %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1106
+#, c-format
+msgid "Saving List of Files to Exclude to %s."
+msgstr "Schrijven lijst van uitgesloten bestanden naar %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1383
+#, c-format
+msgid "Included Files: %d. Total Size: %s (%s Bytes)"
+msgstr "Ingesloten bestanden: %d. Totale Grootte: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1390
+#, c-format
+msgid "Excluded Files: %d. Total Size: %s (%s Bytes)"
+msgstr "Uitgesloten bestanden: %d. Totale Grootte: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1371
+#, c-format
+msgid "Elapsed Time: %s"
+msgstr "Verstreken Tijd: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1304
+msgid "Nothing to do! No files selected."
+msgstr "Niks te doen! Geen bestanden geselecteerd."
+
+# P:\Abakt\Source\abakt\Action.cpp:1424
+#, c-format
+msgid "Files: %d (%s) - File: %s"
+msgstr "Bestanden: %d (%s) - Bestand: %s"
+
+#, c-format
+msgid "+ Included %s: %s"
+msgstr "+ Ingesloten %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1446
+#, c-format
+msgid "- Excluded %s: %s"
+msgstr "- Uitgesloten %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1467
+msgid "Clearing Archive Attributes..."
+msgstr "Archief attributen wissen..."
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+#, c-format
+msgid "Could not read attributes of file: %s"
+msgstr "Kon attributen niet lezen: %s"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+#, c-format
+msgid "Could not clear Archive attribute of file: %s"
+msgstr "Kon Archief attribuut niet wissen: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1527
+msgid "Nothing done."
+msgstr "Niets gewijzigd."
+
+# P:\Abakt\Source\abakt\Action.cpp:1588
+msgid "Removing Emptied Source Directories:"
+msgstr "Verwijderen Lege Bron Mappen:"
+
+# P:\Abakt\Source\abakt\Action.cpp:1628
+#, c-format
+msgid "Successfully deleted: %s"
+msgstr "Succesvol verwijderd: %s"
+
+msgid "Abort Action?"
+msgstr "Actie Afbreken?"
+
+msgid "Aborting Action"
+msgstr "Actie wordt afgebroken."
+
+msgid "Please wait"
+msgstr "Even geduld"
+
+# P:\Abakt\Source\abakt\Action.cpp:1591
+#, c-format
+msgid "Aborting - (%d/%d) - Please wait..."
+msgstr "Afbreken - (%d/%d) - Een moment..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "File [%d/%d]: %s..."
+msgstr "Bestand [%d/%d]: %s..."
+
+msgid "Treat Warnings As Errors"
+msgstr "Behandel Waarschuwingen als Fouten"
+
+# P:\Abakt\Source\abakt\Action.cpp:1617
+msgid "option is enabled: Action failed with Exit Code: ERROR."
+msgstr "optie is ingeschakeld: Actie is mislukt (Exit Code: ERROR)."
+
+# P:\Abakt\Source\abakt\Action.cpp:1390
+#, c-format
+msgid "Files to Process: %d. Total Size: %s (%s B)."
+msgstr "Te verwerken bestanden: %d. Totale grootte: %s (%s B)."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Testing File [%d/%d]: %s..."
+msgstr "Testen Bestand [%d/%d]: %s..."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:407
+#, c-format
+msgid "File [%d/%d]: %s --> %s..."
+msgstr "Bestand [%d/%d]: %s --> %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:937
+# P:\Abakt\Source\abakt\Action.cpp:938
+# P:\Abakt\Source\abakt\Action.cpp:948
+msgid "Adding"
+msgstr "Toevoegen"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Empty Directory [%d/%d]: %s..."
+msgstr "Lege Map  [%d/%d]: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1782
+msgid "File Size Changed While Zipping"
+msgstr "Bestandsgrootte is veranderd tijdens het zippen."
+
+# P:\Abakt\Source\abakt\Action.cpp:968
+# P:\Abakt\Source\abakt\Action.cpp:969
+# P:\Abakt\Source\abakt\Action.cpp:978
+msgid "Updating"
+msgstr "Bijwerken"
+
+# P:\Abakt\Source\abakt\Action.cpp:1800
+msgid "Keeping"
+msgstr "Behoud"
+
+msgid "Copying"
+msgstr "Kopieëren"
+
+# P:\Abakt\Source\abakt\Action.cpp:1807
+msgid "(for testing)"
+msgstr "(om te testen)"
+
+#, c-format
+msgid "File: %s"
+msgstr "Bestand: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1904
+#, c-format
+msgid "ZipBuilder Message [Code=%d]: %s"
+msgstr "ZipBuilder Bericht [Code=%d]: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:773
+#, c-format
+msgid "Writing Zip Comment: %s..."
+msgstr "Schrijven Zip Commentaar: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1942
+msgid "Detecting Duplicate Filenames Inside Archive:"
+msgstr "Detecteren Bestaande Bestandsnamen In Archief:"
+
+# P:\Abakt\Source\abakt\Action.cpp:1959
+#, c-format
+msgid "Filename %s exists! - File %s will not be included in archive"
+msgstr "Bestandsnaam %s bestaat al! - Bestand %s wordt niet gearchiveerd"
+
+msgid "Done."
+msgstr "Klaar."
+
+# P:\Abakt\Source\abakt\Action.cpp:1106
+#, c-format
+msgid "Copying Files to Zip Archive Part %d - (%s):"
+msgstr "Kopiëren bestanden naar Zip Archief deel %d - (%s):"
+
+msgid "Destination disk does not have enough free space."
+msgstr "Doelschijf heeft onvoldoende vrije ruimte."
+
+msgid "Destination disk is not empty."
+msgstr "Doelschijf is niet leeg."
+
+# P:\Abakt\Source\abakt\Action.cpp:2082
+msgid "Use this disk anyway?"
+msgstr "Deze schijf gebruiken?"
+
+# P:\Abakt\Source\abakt\Action.cpp:2083
+msgid "You can insert another disk now, then press Retry."
+msgstr "U kunt nu een andere schijf plaatsen, kies daarna 'Opnieuw'."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:443
+msgid "Insert a (formatted) disk in the drive."
+msgstr "Plaats een (geformatteerde) schijf in het station."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:443
+#, c-format
+msgid "Insert a (formatted) disk in drive %s."
+msgstr "Plaats een (geformatteerde) schijf in station %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1060
+#, c-format
+msgid "Label this disk '%d'."
+msgstr "Geef de schijf een label: '%d'."
+
+# P:\Abakt\Source\abakt\Action.cpp:1106
+#, c-format
+msgid "Saving Zip Archive part %d to drive %s."
+msgstr "Schrijven Zip Archief deel %d naar station %s."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:137
+msgid "Copying Files:"
+msgstr "Bestanden Kopiëren:"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:394
+msgid "Moving Files:"
+msgstr "Bestanden Verplaatsen:"
+
+msgid "Files."
+msgstr "Bestanden."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:394
+msgid "Using Recycle Bin if possible."
+msgstr "Prullenbak gebruiken als mogelijk."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:157
+#, c-format
+msgid "Method: Delete %s"
+msgstr "Methode: Verwijder %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Deleting %s"
+msgstr "Verwijderen %s"
+
+#, c-format
+msgid "Destination Directory: %s"
+msgstr "Doel Map: %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:185
+msgid "Existing files will be overwritten."
+msgstr "Bestaande bestanden worden overschreven."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:229
+msgid "Confirming Action Type Delete is disabled when performing an AutoExecute backup using the command line."
+msgstr "Bevestigen van Actie Type 'Verwijder' is uitgeschakeld als Abakt via de opdrachtregel is gestart met optie 'AutoExecute'."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:237
+msgid "You chose to Delete files."
+msgstr "Je hebt gekozen voor Actie Type Verwijder."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:239
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:598
+msgid "Are you sure?"
+msgstr "Zeker weten?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:339
+msgid "Performing File-By-File Operation."
+msgstr "Uitvoeren Bestand-Voor-Bestand Operatie."
+
+msgid "Aborted."
+msgstr "Afgebroken."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:398
+#, c-format
+msgid "Copying [%d/%d]: %s --> %s"
+msgstr "Kopiëren [%d/%d]: %s --> %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:407
+#, c-format
+msgid "Moving [%d/%d]: %s --> %s"
+msgstr "Verplaatsen [%d/%d]: %s --> %s"
+
+msgid "Destination file exists."
+msgstr "Doel bestand bestaat."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Deleting [%d/%d]: %s"
+msgstr "Verwijderen [%d/%d]: %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:442
+msgid "Is destination file Read-Only/Hidden?"
+msgstr "Is het doelbestand 'Alleen Lezen' of 'Verborgen'?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:443
+msgid "Is source or destination file in use by another application?"
+msgstr "Wordt bron- of doelbestand gebruikt door een ander programma?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:447
+#, c-format
+msgid "Operation performed successfully on %d/%d files."
+msgstr "Operatie successvol uitgevoerd op %d/%d bestanden."
+
+msgid "Empty Directories:"
+msgstr "Lege Mappen:"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Creating Empty Directory [%d/%d]: '%s'..."
+msgstr "Lege Map  Maken [%d/%d]: '%s'..."
+
+msgid "Exists."
+msgstr "Bestaat."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Deleting Empty Directory [%d/%d]: '%s'..."
+msgstr "Verwijderen Lege Map  [%d/%d]: '%s'..."
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+msgid "Could not clear R attribute"
+msgstr "Kon attribuut R niet wissen"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+msgid "Could not re-set R attribute"
+msgstr "Kon attribuut R niet herstellen"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:520
+msgid "Could not delete existing destination file: "
+msgstr "Kon bestaand doelbestand niet verwijderen:"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+#, c-format
+msgid "Could not create directory: %s"
+msgstr "Kon Map niet maken: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:56
+msgid "Could not find 7-Zip executable."
+msgstr "Kan de 7-Zip toepassing niet vinden."
+
+# %s= 'is' or 'is not'
+msgid "Destination archive has no name."
+msgstr "Doel archief heeft geen naam."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:117
+msgid "Calling 7-Zip with command line:"
+msgstr "Aanroepen 7-Zip met opdrachtregel:"
+
+msgid "Note:"
+msgstr "Let op:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:105
+msgid "7-Zip requires the source files to be on one drive."
+msgstr "7-Zip vereist dat alle bestanden zich op hetzelfde station bevinden."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:106
+msgid "The 7-Zip executable will be called for every drive."
+msgstr "De 7-Zip toepassing wordt aangeroepen voor elk station."
+
+# P:\Abakt\Source\abakt\Action.cpp:624
+msgid "7-Zip Archive Details:"
+msgstr "7-Zip Archief Details:"
+
+# P:\Abakt\Source\abakt\Action.cpp:634
+#, c-format
+msgid "Compressed Size: %s (%s Bytes)"
+msgstr "Gecomprimeerde Grootte: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+#, c-format
+msgid "Could not find temporary filelist: %s"
+msgstr "Tijdelijke bestandenlijst bestaat niet: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:187
+#, c-format
+msgid "Calling 7-Zip executable for drive: %s"
+msgstr "7-Zip toepassing aanroepen met station: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:189
+#, c-format
+msgid "Using temporary filelist (%s): %s"
+msgstr "Gebruik tijdelijke bestandenlijst (%s): %s"
+
+msgid "Terminating 7-Zip process..."
+msgstr "Beëindigen 7-Zip proces..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "File %d/%d [%s]"
+msgstr "Bestand %d/%d [%s]"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:264
+msgid "COMMAND:"
+msgstr "COMMAND:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:393
+msgid "Reading Output"
+msgstr "Uitvoer wordt gelezen"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:450
+msgid "Finished Reading Output"
+msgstr "Lezen van uitvoer is klaar"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+#, c-format
+msgid "Could not delete temporary filelist file: %s"
+msgstr "Kon tijdelijk bestand met bestandenlijst niet verwijderen: %s"
+
+msgid "Browse"
+msgstr "Blader"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:95
+msgid "Choose directory:"
+msgstr "Kies map:"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:73
+msgid "true"
+msgstr "ja"
+
+msgid "false"
+msgstr "nee"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:80
+msgid "Confirm"
+msgstr "Bevestig"
+
+# P:\Abakt\Source\abakt\Action.cpp:463
+msgid "&Yes"
+msgstr "&Ja"
+
+msgid "&No"
+msgstr "&Nee"
+
+msgid "&Retry"
+msgstr "Opnieuw"
+
+msgid "&Ignore"
+msgstr "Negeer"
+
+msgid "Ignore"
+msgstr "Negeer"
+
+msgid "Exclude"
+msgstr "Uitsluiten"
+
+msgid "OnlyInclude"
+msgstr "AlleenInsluiten"
+
+msgid "Zip"
+msgstr "Zip"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:96
+msgid "SevenZip"
+msgstr "SevenZip"
+
+msgid "Relative"
+msgstr "Relatief"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:301
+msgid "Always"
+msgstr "Altijd"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:290
+msgid "Automatic"
+msgstr "Automatisch"
+
+msgid "Custom..."
+msgstr "Aangepast..."
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:264
+msgid "1.44 MB (3.5\" floppy disk)"
+msgstr "1.44 MB (3.5\" floppy schijf)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:265
+msgid "94.6 MB (100 MB IOMEGA disk)"
+msgstr "94.6 MB (100 MB IOMEGA schijf)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:266
+msgid "200 MB (MO disk)"
+msgstr "200 MB (MO schijf)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:271
+msgid "250 MB (MO disk)"
+msgstr "250 MB (MO schijf)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:270
+msgid "600 MB (MO disk)"
+msgstr "600 MB (MO schijf)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:271
+msgid "650 MB (74 min. CD)"
+msgstr "650 MB (74 min. CD)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:272
+msgid "700 MB (80 min. CD)"
+msgstr "700 MB (80 min. CD)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:265
+msgid "750 MB (750 MB IOMEGA disk)"
+msgstr "750 MB (750 MB IOMEGA schijf)"
+
+msgid "Copy"
+msgstr "Kopieer"
+
+msgid "Move"
+msgstr "Verplaats"
+
+msgid "Delete"
+msgstr "Verwijder"
+
+msgid "File Properties Filter"
+msgstr "Bestandseigenschappen Filter"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:81
+msgid "H Filter Method"
+msgstr "H Filter Methode"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:93
+msgid "H = Hidden"
+msgstr "H = Verborgen"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:86
+msgid "R Filter Method"
+msgstr "R Filter Methode"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:99
+msgid "R = Read Only"
+msgstr "R = Alleen schrijven"
+
+msgid "S Filter Method"
+msgstr "S Filter Methode"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:105
+msgid "S = System"
+msgstr "S = Systeembestand"
+
+msgid "Exclude files smaller than N Bytes"
+msgstr "Bestanden kleiner dan N Bytes uitsluiten"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:123
+msgid "Ignored if 0."
+msgstr "Genegeerd als 0."
+
+msgid "Exclude files greater than N Bytes"
+msgstr "Bestanden groter dan N Bytes uitsluiten"
+
+msgid "Exclude files modified between Date1 and Date2"
+msgstr "Uitsluiten bestanden gewijzigd tussen Datum1 en Datum2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:151
+msgid "File modification date 1"
+msgstr "Datum bestand gewijzigd 1"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:152
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:155
+msgid "Format: 'yyyy-mm-dd'."
+msgstr "Vorm: 'yyyy-mm-dd'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:154
+msgid "File modification date 2"
+msgstr "Datum bestand gewijzigd 2"
+
+msgid "Only Include files with an age between Age1 and Age2 days."
+msgstr "Alleen bestanden insluiten gewijzigd tussen Leeftijd1 en Leeftijd2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:189
+msgid "File age 1"
+msgstr "Bestandsleeftijd 1"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:191
+msgid "Should be less than or equal to Age2."
+msgstr "Dient kleiner of gelijk te zijn aan Leeftijd2."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:192
+msgid "File age 2"
+msgstr "Bestandsleeftijd 2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:194
+msgid "Should be greater than or equal to Age2."
+msgstr "Dient groter of gelijk te zijn aan Leeftijd2."
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+msgid "Archive Method"
+msgstr "Archief Methode"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:216
+msgid "Choosing Update or Freshen possibly has no effect on a dynamic Archive Filename (date/time)."
+msgstr "'Bijwerken' of 'Verversen' heeft mogelijk geen effect op dynamische archiefnamen (datum/tijd)."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:228
+msgid "The path information to store for every file."
+msgstr "De Map informatie die wordt opgeslagen voor elk bestand."
+
+msgid "Compression Level"
+msgstr "Compressie Niveau"
+
+msgid "0 (None) - 6 (Normal) - 9 (Max.)"
+msgstr "0 (Geen) - 6 (Normaal) - 9 (Max.)"
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:200
+msgid "Spaces are allowed."
+msgstr "Spaties zijn toegestaan."
+
+msgid "Split Archive"
+msgstr "Gesplitst Archief"
+
+msgid "Split - Volume Size Preset"
+msgstr "Gesplitst Archief - Voorgeprogammeerde Instelling"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:252
+msgid "Choose a predefined setting or define a custom value."
+msgstr "Kies een voorgeprogammeerde instelling of een aangepaste waarde."
+
+msgid "Split - Custom Volume Size"
+msgstr "Gesplitst Archief - Aangepaste Grootte"
+
+msgid "Range: 64 kB - 2048 MB"
+msgstr "Bereik: 64 kB - 2048 MB"
+
+msgid "Does not apply to split Zip archives."
+msgstr "Geldt niet voor een gesplitst Zip archief."
+
+msgid "Comment Template"
+msgstr "Commentaar Sjabloon"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:373
+msgid "See the manual for more information."
+msgstr "Raadpleeg de handleiding voor meer informatie."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:297
+msgid "'Abakt $V ['dd'-'mm'-'yyyy'@'hh.nn']'"
+msgstr "'Abakt $V 'yyyy'-'mm'-'dd'@'hh.nn"
+
+msgid "7-Zip"
+msgstr "7-Zip"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:281
+msgid "Command Line Template"
+msgstr "Opdracht Regel Sjabloon"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:282
+msgid "Refer to Abakt's and 7-Zip's manuals for more information."
+msgstr "Raadpleeg de handleidingen van Abakt en 7-Zip voor meer informatie."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:285
+msgid "Command"
+msgstr "Command"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:287
+msgid "a=Add; u=Update"
+msgstr "a=Toevoegen; u=Bijwerken"
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+msgid "Archive Type"
+msgstr "Archief Type"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:334
+msgid "The type of the archive to create ('7z', 'zip' etc.), also sets the extension (do not enter leading dot '.')."
+msgstr "Het type archief ('7z', 'zip' etc.) bepaald ook de extensie (de punt '.' niet invoeren)."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:200
+msgid "Spaces are not allowed."
+msgstr "Spaties zijn niet toegestaan."
+
+msgid "Overwrite Existing Files"
+msgstr "Overschrijf bestaande bestanden"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:288
+msgid "Applies to Methods 'Copy/Move'."
+msgstr "Geldt voor Methodes 'Kopieer/Verplaats'."
+
+msgid "Also Overwrite Existing Read Only Files"
+msgstr "Tevens bestaande 'Alleen Lezen' bestanden overschrijven"
+
+msgid "Use Recycle Bin"
+msgstr "Gebruik Prullenbak"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:292
+msgid "Applies to Method 'Delete'."
+msgstr "Geldt voor Methode 'Verwijder'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:392
+msgid "The destination path information used when copying/moving a file."
+msgstr "De Doel pad informatie die gebruikt wordt bij het kopiëren/verplaatsen."
+
+msgid "The Archive attribute will not be modified when using Action Types 'Move' or 'Delete'."
+msgstr "Het Archief attribuut wordt niet gewijzigd bij Actie Types 'Verplaats' of 'Verwijder'."
+
+# P:\Abakt\Source\abakt\Action.cpp:1588
+msgid "Remove Emptied Source Directories"
+msgstr "Verwijderen Leeggemaakte Bron Mappen"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:444
+msgid "Remove Source directories that were emptied as a result of File Operation actions."
+msgstr "Verwijder Bron Mappen die geleegd zijn als gevolg van Bestand Operaties."
+
+msgid "Test Archive After Action"
+msgstr "Test Archief na Actie"
+
+msgid "Applies to Zip Archives only."
+msgstr "Geldt alleen voor Zip Archieven."
+
+msgid "Include Empty Source Directories"
+msgstr "Inclusief Lege Bron Mappen"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:452
+msgid "Perform the chosen Action on Empty Source Directories as well as on files."
+msgstr "Voer de gekozen Actie uit op Lege Bron Mappen zowel als op bestanden."
+
+msgid "Destination Directory"
+msgstr "Doel Map"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+msgid "Automatically Create Directory"
+msgstr "Automatisch Map Maken"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:363
+msgid "If enabled, the directory will be created on Action execution."
+msgstr "Ingeschakeld: de map wordt automatisch gemaakt als de Actie wordt uitgevoerd."
+
+msgid "Name Template"
+msgstr "Naam Sjabloon"
+
+msgid "Append Extension"
+msgstr "Extensie Toevoegen"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:377
+msgid "If disabled, the default extension ('.zip', '.7z', etc.) will not be appended."
+msgstr "Uitgeschakeld: de standaard extensie ('.zip', '.7z', etc.) wordt niet toegevoegd."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:431
+msgid "'$N'"
+msgstr "'$N'"
+
+msgid "Finalize"
+msgstr "Beëindig"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:405
+msgid "Maintain a list of successful backups"
+msgstr "Houd een lijst met succesvolle backups bij"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:444
+msgid "If disabled, the History will not be maintained, and no '*.abh' files will be created or updated."
+msgstr "Als uitgeschakeld wordt de geschiedenis niet bijgehouden, en worden geen '*.abh' bestanden gemaakt of bijgewerkt."
+
+msgid "Remove backups older than N days"
+msgstr "Verwijder backups ouder dan N dagen"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:352
+msgid "Always keep a minimum of N backups"
+msgstr "Behoud minimaal N backups"
+
+msgid "Keep a maximum of N backups"
+msgstr "Behoud maximaal N backups"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:394
+msgid "Move deleted backups to Recycle Bin if possible"
+msgstr "Plaats verwijderde backups in de Prullenbak als mogelijk"
+
+msgid "FileList"
+msgstr "Bestandenlijst"
+
+msgid "Add FileList to Destination"
+msgstr "Voeg bestandenlijst aan toe aan doel"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:568
+msgid "If enabled, a text file containing the files successfully operated on will be written to the destination directory."
+msgstr "Als ingeschakeld, de succesvol behandelde bestanden worden opgeslagen in een tekstbestand in de Doel map."
+
+# P:\Abakt\Source\abakt\Core\AbaktFileList.cpp:164
+#, c-format
+msgid "Error [%d] opening directory %s: %s"
+msgstr "Fout [%d] tijdens openen map %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1028
+#, c-format
+msgid "Error [%d] in file %s: %s"
+msgstr "Fout [%d] in bestand %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1028
+msgid "Error reading file properties."
+msgstr "Fout bij lezen eigenschappen bestand."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+msgid "Directory Not Selected"
+msgstr "Map niet geselecteerd."
+
+msgid "Use A-files only."
+msgstr "Alleen A-bestanden gebruiken."
+
+msgid "Use non A-files only."
+msgstr "Alleen niet A-bestanden gebruiken."
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:233
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:311
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:332
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:375
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:396
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:461
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:478
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:507
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:519
+msgid "Syntax error:"
+msgstr "Syntax fout:"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:200
+msgid "characters / \" < > are not allowed"
+msgstr "tekens / \" < > zijn niet toegestaan"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:311
+#, c-format
+msgid "value '%s' is not a valid number"
+msgstr "waarde '%s' is geen geldig getal"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:332
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:396
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:461
+#, c-format
+msgid "operator '%s' not recognised"
+msgstr "operator '%s' niet herkend"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:375
+#, c-format
+msgid "value '%s' is not a valid date"
+msgstr "waarde '%s' is geen geldige datum"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:478
+#, c-format
+msgid "expression '%s' too short"
+msgstr "expressie '%s' te kort"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:507
+#, c-format
+msgid "no operator in expression '%s'"
+msgstr "geen operator in expressie '%s'"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:519
+#, c-format
+msgid "no value in expression '%s'"
+msgstr "geen waarde in expressie '%s'"
+
+msgid "Condition"
+msgstr "Voorwaarde"
+
+msgid "(New FilterSet)"
+msgstr "(Nieuwe FilterVerzameling)"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+msgid "Could not create Temporary Directory:"
+msgstr "Kon Tijdelijke Map niet maken:"
+
+# P:\Abakt\Source\abakt\Core\AbaktGroup.cpp:54
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:57
+msgid "Untitled"
+msgstr "Naamloos"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:61
+msgid "No History file. You have to save the Profile first."
+msgstr "Geen Geschiedenis bestand. Je moet eerst het Profiel opslaan."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:89
+#, c-format
+msgid "Reading History file %s."
+msgstr "Lezen Geschiedenis %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:89
+msgid "Writing updated History file..."
+msgstr "Opslaan bijgewerkte Geschiedenis..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:141
+#, c-format
+msgid "History file does not exist: %s."
+msgstr "Geschiedenis bestand bestaat niet: %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:89
+#, c-format
+msgid "Error while parsing History file: %s."
+msgstr "Fout tijdens lezen Geschiedenis bestand: %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:258
+#, c-format
+msgid "Removing non-existent Backup path from History filelist: %s..."
+msgstr "Niet-bestaande Backup verwijderen uit Geschiedenis: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:276
+msgid "Files on removable disks are not recorded."
+msgstr "Bestanden op verwijderbare schijven worden niet opgeslagen."
+
+# P:\Abakt\Source\abakt\Action.cpp:937
+# P:\Abakt\Source\abakt\Action.cpp:938
+# P:\Abakt\Source\abakt\Action.cpp:948
+#, c-format
+msgid "Adding to History: %s..."
+msgstr "Toevoegen aan Geschiedenis: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:309
+#, c-format
+msgid "MinBackups (%d) is greater than MaxBackups (%d)."
+msgstr "MinBackups (%d) is groter dan MaxBackups (%d)."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:312
+#, c-format
+msgid "MaxBackups is set to %d."
+msgstr "MaxBackups is %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:319
+#, c-format
+msgid "Files listed in History: %d."
+msgstr "Aantal backups in Geschiedenis: %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:329
+#, c-format
+msgid "Could not determine age of %s."
+msgstr "Kon de leeftijd van %s niet bepalen."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:341
+#, c-format
+msgid "Backups marked for removal by Age (Older than %d day(s)): %d."
+msgstr "Te verwijderen backups wegens leeftijd (Ouder dan %d dag(en): %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:352
+#, c-format
+msgid "Keeping a minimum of %d backups."
+msgstr "Behoud een minimum van %d backups."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:352
+#, c-format
+msgid "Keeping a maximum of %d backups."
+msgstr "Behoud een maximum van %d backups."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:369
+msgid "No backups will be removed."
+msgstr "Er worden geen backups verwijderd."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:374
+#, c-format
+msgid "Removing %d backup(s):"
+msgstr "Verwijderen %d backup(s):"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:394
+#, c-format
+msgid "Moving to Recycle Bin: %s..."
+msgstr "Naar de prullenbak: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Permanently deleting %s..."
+msgstr "Permanent verwijderen %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:434
+#, c-format
+msgid "and %d associated .Z## file(s)..."
+msgstr "en %d geassocieerd(e) .Z## bestand(en)..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:439
+msgid "Could not remove all associated .Z## files."
+msgstr "Kon niet alle geassocieerde .Z## bestanden verwijderen."
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:710
+#, c-format
+msgid "Imported Size Filter: %s"
+msgstr "Geïmporteerd Grootte Filter: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:710
+#, c-format
+msgid "Imported Date Filter: %s"
+msgstr "Geïmporteerd Datum Filter: %s"
+
+#, c-format
+msgid "Imported Age Filter: %s"
+msgstr "Geïmporteerd Leeftijd Filter: %s"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+#, c-format
+msgid "Imported Attribute Filter: %s"
+msgstr "Geïmporteerd Attributen Filter: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:710
+#, c-format
+msgid "Imported Path Mask: %s"
+msgstr "Geïmporteerd Pad Masker: %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:72
+msgid "No command line arguments used. See the Manual for an overview."
+msgstr "Geen opdrachtregel parameters gebruikt. Zie de handleiding voor een overzicht van te gebruiken parameters."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:144
+msgid "Idle"
+msgstr "Idle"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:147
+msgid "High"
+msgstr "Hoog"
+
+msgid "RealTime"
+msgstr "RealTime"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:155
+msgid "Normal"
+msgstr "Normaal"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:161
+#, c-format
+msgid "Application priority level has been set to: %s (%s)."
+msgstr "Applicatie 'priority' niveau is: %s (%s)."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:127
+msgid "No filename provided"
+msgstr "Geen bestandsnaam opgegeven"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:142
+msgid "Error"
+msgstr "Fout"
+
+#, c-format
+msgid "Using Profile %s"
+msgstr "Gebruik Profiel: %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:180
+#, c-format
+msgid "[-T] Adjusting Profile using Template %s."
+msgstr "[-T] Aanpassen Profiel met Sjabloon %s."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:198
+#, c-format
+msgid "[-o] Adjusting Destination's Name with: %s"
+msgstr "[-o] Aanpassen doelnaam met: %s"
+
+msgid "[-b] Executing Action"
+msgstr "[-b] Actie uitvoeren"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:231
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:232
+#, c-format
+msgid "ExitCode = %i"
+msgstr "AfsluitCode = %i"
+
+#, c-format
+msgid "Executing Group %s"
+msgstr "Uitvoeren Groep %s"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+#, c-format
+msgid "Could not open Group %s"
+msgstr "Kon Groep niet openen: %s"
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:259
+msgid "[-o] Adjusting Destination's FormatText can only be used when opening single Profiles."
+msgstr "[-o] Aanpassen van Doel.FormatText is alleen mogelijk bij het openen van één Profiel."
+
+#, c-format
+msgid "Using Group %s"
+msgstr "Gebruik Groep: %s"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:48
+msgid "'$N-MyText'"
+msgstr "'$N-MijnText'"
+
+msgid "'Backup of Profile $N made on 'dddd', 'dd'-'mmm'-'yyyy"
+msgstr "'Backup van Profiel $N gemaakt op 'dddd', 'dd'-'mmm'-'yyyy"
+
+msgid "Choose Destination Directory:"
+msgstr "Kies Doel Map"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid ""
+"Failed to save your settings to:\n"
+"%s."
+msgstr ""
+"Kon instellingen niet schrijven naar:\n"
+"%s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1383
+#, c-format
+msgid "%d - Total Size: %s (%s Bytes)"
+msgstr "%d - Totale Grootte: %s (%s Bytes)"
+
+msgid "Operation Aborted"
+msgstr "Actie Afgebroken"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:683
+msgid "Include (Always)"
+msgstr "Insluiten (Altijd)"
+
+msgid "No Compression"
+msgstr "Geen Compressie"
+
+msgid "Copy of"
+msgstr "Kopie van"
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:350
+msgid "Remove all FilterSets?"
+msgstr "Alle FilterSets wissen?"
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:351
+msgid "This can not be undone."
+msgstr "Dit kan niet ongedaan gemaakt worden."
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:156
+msgid "Hours"
+msgstr "Uren"
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:157
+msgid "Minutes"
+msgstr "Minuten"
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:158
+msgid "Seconds"
+msgstr "Seconden"
+
+# P:\Abakt\Source\abakt\Group.cpp:154
+# P:\Abakt\Source\abakt\Group.cpp:282
+# P:\Abakt\Source\abakt\Group.cpp:328
+msgid "Group has been modified."
+msgstr "Groep is gewijzigd."
+
+msgid "Save Group?"
+msgstr "Groep Opslaan?"
+
+# P:\Abakt\Source\abakt\Group.cpp:154
+# P:\Abakt\Source\abakt\Group.cpp:282
+# P:\Abakt\Source\abakt\Group.cpp:328
+#, c-format
+msgid "Active Profile %s has been modified."
+msgstr "Huidige Profiel %s is gewijzigd."
+
+msgid "Save Profile?"
+msgstr "Profiel Opslaan?"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:177
+#, c-format
+msgid "Could not write to file %s"
+msgstr "Schrijven naar bestand mislukt %s"
+
+# P:\Abakt\Source\abakt\Group.cpp:385
+#, c-format
+msgid "Group has been upgraded to %s.%s. Check the settings and save again."
+msgstr "Groep is bijgewerkt voor %s.%s. Controleer de instellingen en sla opnieuw op."
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:350
+msgid "Clear list of Profiles?"
+msgstr "Lijst met Profielen wissen?"
+
+# P:\Abakt\Source\abakt\About.cpp:52
+#, c-format
+msgid "Enabled: %s"
+msgstr "Ingeschakeld: %s"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid "Source Root Directory does not exist: %s."
+msgstr "Bron Map bestaat niet: %s."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid "Directory does not exist: %s"
+msgstr "Map bestaat niet: %s"
+
+msgid "Removed from Profile."
+msgstr "Verwijderd uit Profiel."
+
+# P:\Abakt\Source\abakt\AfterActionFrame.cpp:181
+msgid "File not found."
+msgstr "Bestand niet gevonden."
+
+# P:\Abakt\Source\abakt\AfterActionFrame.cpp:183
+#, c-format
+msgid "Age: %d day(s). Archive Mode: %s."
+msgstr "Leeftijd: %d dag(en). Archief Modus: %s."
+
+# P:\Abakt\Source\abakt\Main.cpp:237
+msgid "Save modified Profile?"
+msgstr "Gewijzigd Profiel opslaan?"
+
+#, c-format
+msgid "Saving Profile %s..."
+msgstr "Opslaan Profiel %s..."
+
+#, c-format
+msgid "Please try '%s'."
+msgstr "Probeer a.u.b. '%s'."
+
+msgid "Save Profile As..."
+msgstr "Profiel Opslaan Als..."
+
+#, c-format
+msgid "Opening Profile %s..."
+msgstr "Openen Profiel %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:341
+#, c-format
+msgid "(Created with Abakt %s.%s)..."
+msgstr "(Gemaakt met Abakt %s.%s)..."
+
+# P:\Abakt\Source\abakt\Group.cpp:154
+# P:\Abakt\Source\abakt\Group.cpp:282
+# P:\Abakt\Source\abakt\Group.cpp:328
+#, c-format
+msgid "Profile has been upgraded to Abakt %s.%s."
+msgstr "Profiel is opgewaardeerd naar Abakt %s.%s."
+
+# P:\Abakt\Source\abakt\Group.cpp:314
+msgid "Please check all settings, then save again using 'Save Profile As...'."
+msgstr "Controleer alle instellingen. Sla daarna opnieuw op met 'Bewaar Profiel Als...'."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:142
+#, c-format
+msgid "Error: %s"
+msgstr "Fout: %s"
+
+# P:\Abakt\Source\abakt\Main.cpp:393
+#, c-format
+msgid "Executing Action. Using Profile %s..."
+msgstr "Actie wordt uitgevoerd. Met Profiel %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:421
+msgid "There were warnings."
+msgstr "Er zijn waarschuwingen."
+
+msgid "New Profile"
+msgstr "Nieuw Profiel"
+
+# P:\Abakt\Source\abakt\Action.cpp:968
+# P:\Abakt\Source\abakt\Action.cpp:969
+# P:\Abakt\Source\abakt\Action.cpp:978
+#, c-format
+msgid "(Using %s)..."
+msgstr "(Gebruik %s)..."
+
+# P:\Abakt\Source\abakt\Group.cpp:154
+# P:\Abakt\Source\abakt\Group.cpp:282
+# P:\Abakt\Source\abakt\Group.cpp:328
+msgid "Current Profile has been modified."
+msgstr "Het huidige Profiel is gewijzigd."
+
+# P:\Abakt\Source\abakt\Main.cpp:421
+msgid "Changes made to this Profile will be lost if Group Actions are performed."
+msgstr "Wijzigingen in dit Profiel gaan verloren als een Groep Actie wordt uitgevoerd."
+
+# P:\Abakt\Source\abakt\Main.cpp:628
+#, c-format
+msgid "Reading preferences from %s..."
+msgstr "Voorkeuren lezen uit: %s..."
+
+msgid "Abakt Profile"
+msgstr "Abakt Profiel"
+
+msgid "Abakt Group"
+msgstr "Abakt Groep"
+
+# P:\Abakt\Source\abakt\Action.cpp:1481
+msgid "Abakt History"
+msgstr "Abakt Geschiedenis"
+
+msgid "Abakt Template"
+msgstr "Abakt Sjabloon"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:162
+msgid "You need to restart Abakt for language changes to take effect."
+msgstr "Abakt moet opnieuw worden opgestart om de nieuwe taalinstelling toe te passen."
+
+# P:\Abakt\Source\abakt\Preferences.cpp:186
+msgid "Select Default Data Directory"
+msgstr "Kies Standaard Data Map"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:197
+msgid "The new default Data directories are:"
+msgstr "De nieuwe standaard Data mappen zijn:"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:224
+# P:\Abakt\Source\abakt\Preferences.cpp:240
+# P:\Abakt\Source\abakt\Preferences.cpp:255
+msgid "Select"
+msgstr "Selecteer"
+
+msgid "Abort Restore Operation?"
+msgstr "Herstel Operatie Afbreken?"
+
+#, c-format
+msgid "Opening Zip Archive: %s..."
+msgstr "Openen Zip Archief: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:634
+#, c-format
+msgid "Date Created: %s - Size: %s (%s B)"
+msgstr "Datum: %s - Grootte: %s (%s B)"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid ""
+"Zip Archive does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"Zip Archief bestaat niet:\n"
+"\n"
+"%s"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid ""
+"Destination Directory does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"Doel Map bestaat niet:\n"
+"\n"
+"%s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1039
+msgid "Detected Split/Spanned Zip Archive."
+msgstr "Gesplitst/Spanned Zip Archief gedetecteerd."
+
+# P:\Abakt\Source\abakt\Action.cpp:627
+#, c-format
+msgid "Files/Directories in Zip Archive: %d"
+msgstr "Aantal bestanden/mappen in Zip Archief: %d"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:319
+#, c-format
+msgid "Files/Directories Acted On: %d"
+msgstr "Operatie uitgevoerd op %d bestanden/mappen"
+
+msgid "Restore Operation Aborted"
+msgstr "Herstel Operatie Afgebroken"
+
+msgid "Restore Operation Finished"
+msgstr "Herstel Operatie Voltooid"
+
+# P:\Abakt\Source\abakt\Action.cpp:1390
+#, c-format
+msgid "Files/Directories to Process: %d. Total Size: %s (%s B)"
+msgstr "Te verwerken bestanden/mappen: %d. Totale grootte: %s (%s B)"
+
+# P:\Abakt\Source\abakt\Action.cpp:968
+# P:\Abakt\Source\abakt\Action.cpp:969
+# P:\Abakt\Source\abakt\Action.cpp:978
+#, c-format
+msgid "Extracting File [%d/%d]: %s --> %s..."
+msgstr "Uitpakken Bestand [%d/%d]: %s --> %s..."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:650
+msgid "[Overwrite]..."
+msgstr "[Overschrijf]..."
+
+#, c-format
+msgid "Skipped Existing File %s...Ok."
+msgstr "Overslaan Bestaand Bestand %s...Ok."
+
+#, c-format
+msgid "Creating Empty Directory %s...Ok."
+msgstr "Maken Lege Map %s...Ok."
+
+#, c-format
+msgid "Copying file %s...Ok."
+msgstr "Kopiëren bestand %s...Ok."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:484
+#, c-format
+msgid "Please insert disk %d of %d in drive %s."
+msgstr "Plaats schijf %d van %d in station %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:937
+# P:\Abakt\Source\abakt\Action.cpp:938
+# P:\Abakt\Source\abakt\Action.cpp:948
+msgid "Add Source Directory"
+msgstr "Bron Map toevoegen"
+
+# P:\Abakt\Source\abakt\Action.cpp:937
+# P:\Abakt\Source\abakt\Action.cpp:938
+# P:\Abakt\Source\abakt\Action.cpp:948
+#, c-format
+msgid "Adding Source Directory %s..."
+msgstr "Bron Map toevoegen: %s..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:147
+msgid "Remove Root Source Directory from Profile?"
+msgstr "Verwijder Bron Map uit Profiel?"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:258
+#, c-format
+msgid "Removing non-existing directory from Profile: %s..."
+msgstr "Niet-bestaande map verwijderen uit Profiel: %s..."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:561
+#, c-format
+msgid "Directory does not exist: %s."
+msgstr "Map bestaat niet: %s."
+
+#, c-format
+msgid "Scanning directory tree: %s..."
+msgstr "Scanning mappen vanaf: %s..."
+
+#, c-format
+msgid "(New FilterSet based on file %s)"
+msgstr "(Nieuwe FilterSet gebaseerd op bestand %s)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1028
+msgid "Could not retrieve file properties."
+msgstr "Kon bestandseigenschappen niet lezen."
+
+# P:\Abakt\Source\abakt\Action.cpp:634
+#, c-format
+msgid "Included Files: %d/%d. Size: %s (%s Bytes)"
+msgstr "Ingesloten bestanden: %d/%d. Grootte: %s (%s Bytes)"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:901
+#, c-format
+msgid "Finding all subdirectories of '%s'..."
+msgstr "Zoeken onderliggende mappen van '%s'..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:913
+msgid "Now fully expanding..."
+msgstr "Bezig met uitvouwen..."
+
+# P:\Abakt\Source\abakt\Group.cpp:154
+# P:\Abakt\Source\abakt\Group.cpp:282
+# P:\Abakt\Source\abakt\Group.cpp:328
+msgid "Template has been modified."
+msgstr "Sjabloon is gewijzigd."
+
+msgid "Save Template?"
+msgstr "Sjabloon opslaan?"
+
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:601
+msgid "Replace the current Profile's Configuration settings with the values of the selected (checked) settings in this Template."
+msgstr "Vervang de Configuratie Instellingen van het huidige Profiel door de geselecteerde (aangevinkte) instellingen in dit Sjabloon."
+
+# P:\Abakt\Source\abakt\TemplateEditor.cpp:603
+msgid "Merge the current Profile's FilterSets with all FilterSets in this Template."
+msgstr "Voeg de FilterSets van het huidige Profiel samen met de FilterSets van dit Sjabloon."
+
+msgid "English"
+msgstr "Engels"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:43
+msgid "Danish"
+msgstr "Deens"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:44
+msgid "Dutch"
+msgstr "Nederlands"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:45
+msgid "Esperanto"
+msgstr "Esperanto"
+
+msgid "French"
+msgstr "Frans"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:46
+msgid "German"
+msgstr "Duits"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:47
+msgid "Hungarian"
+msgstr "Hongaars"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:48
+msgid "Italian"
+msgstr "Italiaans"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:49
+msgid "Polish"
+msgstr "Pools"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:50
+msgid "Portuguese"
+msgstr "Portugees"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:50
+msgid "Russian"
+msgstr "Russisch"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:43
+msgid "Spanish"
+msgstr "Spaans"
+
+# P:\Abakt\Source\abakt\TRANSLATE.cpp:50
+msgid "Swedish"
+msgstr "Zweeds"
+
+#~ msgid "Use Windows function &SHFileOperation"
+#~ msgstr "Gebruik Windows functie &SHFileOperation"
+#~ msgid "Re&move Empty Directories"
+#~ msgstr "Verwijder Lege &Mappen"
+#~ msgid "Applies to Zip Actions only."
+#~ msgstr "Geldt alleen voor Actie Type 'Zip'."
+

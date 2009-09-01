@@ -1,0 +1,3966 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Abakt\n"
+"POT-Creation-Date: 2005-03-16 13:31+0100\n"
+"PO-Revision-Date: 2006-03-04 16:32+0100\n"
+"Last-Translator: Uhrinyi Dániel <daniel.uhrinyi@freemail.hu>\n"
+"Language-Team: Erik Dienske <abakt@xs4all.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: P:\\Abakt\\Source\\abakt\n"
+"X-Poedit-Language: English\n"
+
+#. f_About..Caption
+#: About.dfm:8
+msgid "About"
+msgstr "Névjegy"
+
+#. f_About..Font.Name
+#. f_About..Label10..Font.Name
+#. f_About..lbl_Translator..Font.Name
+#. f_About..Panel1..pnl_MakeDonation..Font.Name
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Font.Name
+#. f_Action..Panel2..pnl_GroupElapsedTime..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Font.Name
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_Command..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24..Font.Name
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..lbl_FileInfo_UseSHFileOperation..Font.Name
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Font.Name
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Font.Name
+#. f_FilterPreview..pnl_Descr..Label15..Font.Name
+#. FrameFilters..PageControl..tab_Include..pnl_Descr_Include..Label6..Font.Name
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..lbl_AttrR_Info..Font.Name
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..gbx_FileSizes..bt_ExcludeSmaller..Font.Name
+#. FrameFinalize..gbx_History..lbl_HistInfo_MinBackups..Font.Name
+#. FrameFinalize..pnl_Descr_History..Label9..Font.Name
+#. f_Group..PageControl..tab_Override..pnl_Descr_Override..Label2..Font.Name
+#. f_Prefs..Font.Name
+#. f_Prefs..PageControl..tab_Backup..Label6..Font.Name
+#. f_Prefs..PageControl..tab_Logging..Label10..Font.Name
+#. f_Prefs..PageControl..tab_Advanced..Label1..Font.Name
+#. f_RestoreBackup..Font.Name
+#. FrameSource..gbx_Files..pnl_FilterIcons..tb_FilterIcons..Font.Name
+#: About.dfm:16
+#: About.dfm:228
+#: About.dfm:242
+#: About.dfm:264
+#: About.dfm:278
+#: About.dfm:311
+#: About.dfm:331
+#: About.dfm:350
+#: About.dfm:392
+#: About.dfm:412
+#: Action.dfm:13
+#: Action.dfm:99
+#: Action.dfm:141
+#: Action.dfm:185
+#: Action.dfm:229
+#: Action.dfm:335
+#: Action.dfm:352
+#: Action.dfm:369
+#: ActionTypeFrame.dfm:33
+#: ActionTypeFrame.dfm:55
+#: ActionTypeFrame.dfm:68
+#: ActionTypeFrame.dfm:110
+#: ActionTypeFrame.dfm:146
+#: ActionTypeFrame.dfm:159
+#: ActionTypeFrame.dfm:172
+#: ActionTypeFrame.dfm:185
+#: ActionTypeFrame.dfm:198
+#: ActionTypeFrame.dfm:212
+#: ActionTypeFrame.dfm:225
+#: ActionTypeSettingsFrame.dfm:51
+#: ActionTypeSettingsFrame.dfm:66
+#: ActionTypeSettingsFrame.dfm:79
+#: ActionTypeSettingsFrame.dfm:94
+#: ActionTypeSettingsFrame.dfm:171
+#: ActionTypeSettingsFrame.dfm:184
+#: ActionTypeSettingsFrame.dfm:227
+#: ActionTypeSettingsFrame.dfm:305
+#: ActionTypeSettingsFrame.dfm:365
+#: ActionTypeSettingsFrame.dfm:413
+#: ActionTypeSettingsFrame.dfm:454
+#: ActionTypeSettingsFrame.dfm:484
+#: ActionTypeSettingsFrame.dfm:533
+#: ActionTypeSettingsFrame.dfm:621
+#: ActionTypeSettingsFrame.dfm:641
+#: ActionTypeSettingsFrame.dfm:654
+#: ActionTypeSettingsFrame.dfm:674
+#: ActionTypeSettingsFrame.dfm:687
+#: ActionTypeSettingsFrame.dfm:700
+#: ActionTypeSettingsFrame.dfm:755
+#: ActionTypeSettingsFrame.dfm:783
+#: ActionTypeSettingsFrame.dfm:809
+#: ActionTypeSettingsFrame.dfm:822
+#: ActionTypeSettingsFrame.dfm:837
+#: ActionTypeSettingsFrame.dfm:876
+#: ActionTypeSettingsFrame.dfm:903
+#: ConfigEditFrame.dfm:89
+#: ConfigEditFrame.dfm:102
+#: ConfigEditFrame.dfm:141
+#: ConfigEditFrame.dfm:167
+#: DestinationFrame.dfm:51
+#: DestinationFrame.dfm:64
+#: DestinationFrame.dfm:142
+#: DestinationFrame.dfm:167
+#: FilterPreview.dfm:13
+#: FilterPreview.dfm:134
+#: FilterPreview.dfm:178
+#: FilterPreview.dfm:260
+#: FiltersFrame.dfm:181
+#: FiltersFrame.dfm:347
+#: FiltersFrame.dfm:385
+#: FiltersFrame.dfm:400
+#: FiltersFrame.dfm:457
+#: FiltersFrame.dfm:470
+#: FiltersFrame.dfm:483
+#: FiltersFrame.dfm:712
+#: FiltersFrame.dfm:726
+#: FiltersFrame.dfm:765
+#: FiltersFrame.dfm:780
+#: FiltersFrame.dfm:962
+#: FiltersFrame.dfm:989
+#: FinalizeFrame.dfm:49
+#: FinalizeFrame.dfm:62
+#: FinalizeFrame.dfm:75
+#: FinalizeFrame.dfm:88
+#: FinalizeFrame.dfm:254
+#: FinalizeFrame.dfm:277
+#: Group.dfm:13
+#: Group.dfm:174
+#: Group.dfm:205
+#: InputFileSize.dfm:14
+#: InputFileSize.dfm:61
+#: Main.dfm:13
+#: Preferences.dfm:15
+#: Preferences.dfm:64
+#: Preferences.dfm:169
+#: Preferences.dfm:192
+#: Preferences.dfm:298
+#: Preferences.dfm:311
+#: Preferences.dfm:399
+#: Preferences.dfm:432
+#: Preferences.dfm:447
+#: Preferences.dfm:463
+#: Preferences.dfm:479
+#: Preferences.dfm:606
+#: Preferences.dfm:620
+#: Preferences.dfm:646
+#: Preferences.dfm:662
+#: Preferences.dfm:678
+#: RestoreBackup.dfm:13
+#: RestoreBackup.dfm:262
+#: SourceFrame.dfm:86
+#: SourceFrame.dfm:111
+#: SourceFrame.dfm:131
+#: SourceFrame.dfm:257
+#: TransportFilters.dfm:13
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. f_About..lbl_AppName..Caption
+#: About.dfm:33
+msgid "Abakt - A Backup Tool"
+msgstr "Abakt - Egy archiváló segédeszköz"
+
+#. f_About..lbl_Released..Caption
+#: About.dfm:47
+msgid "Date"
+msgstr "Dátum"
+
+#. f_About..lbl_Author..Caption
+#: About.dfm:55
+msgid "Author"
+msgstr "Szerző"
+
+#. f_About..lbl_Version..Caption
+#: About.dfm:63
+msgid "Version"
+msgstr "Verziószám"
+
+#. f_About..Label1..Caption
+#: About.dfm:73
+msgid "Copyright (C) 2003-2005 - Erik Dienske"
+msgstr "Copyright (C) 2003-2005 - Erik Dienske"
+
+#. f_About..Label2..Caption
+#: About.dfm:80
+msgid "&License"
+msgstr "&Licensz"
+
+#. f_About..Label3..Caption
+#: About.dfm:88
+msgid "&E-mail"
+msgstr "&Email"
+
+#. f_About..Label4..Caption
+#: About.dfm:97
+msgid "&Internet"
+msgstr "&Internet"
+
+#. f_About..Label7..Caption
+#: About.dfm:122
+msgid "Erik Dienske"
+msgstr "Erik Dienske"
+
+#. f_About..lbl_ZipForge..Caption
+#: About.dfm:140
+msgid "Abakt uses ZipForge % (C) ComponentAce."
+msgstr "Az Abakt a ZipForge % (C) ComponentAce-t használja."
+
+#. f_About..lbl_User..Caption
+#: About.dfm:179
+msgid "User"
+msgstr "Felhasználó"
+
+#. f_About..Label8..Caption
+#: About.dfm:206
+msgid "Using ecc"
+msgstr "Használt ecc"
+
+#. f_About..Label9..Caption
+#: About.dfm:224
+msgid "Translations"
+msgstr "Fordítás"
+
+#. f_About..Label12..Caption
+#: About.dfm:260
+msgid "Translator"
+msgstr "Fordító"
+
+#. f_About..bt_Close..Caption
+#. f_RestoreBackup..ActionList..act_Close..Caption
+#: About.dfm:290
+#: RestoreBackup.dfm:318
+#: TransportFilters.dfm:107
+msgid "&Close"
+msgstr "&Bezárás"
+
+#. f_About..pnl_Email....Cursor
+#: About.dfm:303
+msgid "Please mention the version of Abakt you are using when you contact me. Thanks."
+msgstr "Kérem, írja meg melyik verziót használja, ha kapcsolatba lép velem. Köszönöm."
+
+#. f_About..pnl_Email..Caption
+#: About.dfm:307
+msgid "abakt@xs4all.nl"
+msgstr "abakt@xs4all.nl"
+
+#. f_About..pnl_Internet..Caption
+#: About.dfm:327
+msgid "http://www.xs4all.nl/~edienske/"
+msgstr "http://www.xs4all.nl/~edienske/"
+
+#. f_About..pnl_License..Caption
+#: About.dfm:346
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#. f_About..Panel1..Label11..Caption
+#: About.dfm:377
+msgid "&Support the development of Abakt:"
+msgstr "&Támogassa az Abakt fejlesztését:"
+
+#. f_About..Panel1..pnl_MakeDonation..Caption
+#: About.dfm:388
+msgid "Read how you can make a donation."
+msgstr "Olvassa el hogyan tehet felajánlást."
+
+#. f_About..lbl_ZipForgeLink..Caption
+#: About.dfm:408
+msgid "See http://www.componentace.com"
+msgstr "Látogassa meg a http://www.componentace.com oldalt"
+
+#. f_Action..Caption
+#: Action.dfm:6
+msgid "Action"
+msgstr "Feladat"
+
+#. f_Action..Panel1..bt_SaveLog..Caption
+#: Action.dfm:52
+msgid "&Save Log"
+msgstr "&Napló mentése"
+
+#. f_Action..gbx_Log..Caption
+#: Action.dfm:63
+msgid "&Log"
+msgstr "&Napló"
+
+#. f_Action..gbx_Progress..Caption
+#: Action.dfm:85
+msgid "Progress"
+msgstr "Folyamat"
+
+#. f_Action..gbx_Progress..lbl_ProgressInfo..Caption
+#: Action.dfm:95
+msgid "lbl_ProgressInfo"
+msgstr "lbl_ProgressInfo"
+
+#. f_Action..gbx_Progress..bt_Abort..Caption
+#: Action.dfm:109
+msgid "&Abort"
+msgstr "&Megszakítás"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..Label5..Caption
+#: Action.dfm:128
+msgid "Group"
+msgstr "Csoport"
+
+#. f_Action..gbx_Progress..pnl_GroupProgress..lbl_GroupPerc..Caption
+#: Action.dfm:137
+msgid "100%"
+msgstr "100%"
+
+#. f_Action..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#: Action.dfm:172
+msgid "Profile"
+msgstr "Profil"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:104
+#. f_Action..gbx_Progress..Panel3..lbl_File..Caption
+#. f_Group..ActionList..act_SaveGroupAs..Category
+#. f_Main..ActionList..act_SaveProfileAs..Category
+#: Action.dfm:216
+#: Main.dfm:526
+#: Main.dfm:532
+#: Main.dfm:538
+#: Main.dfm:544
+#: Main.dfm:569
+#: Main.dfm:611
+#: Main.dfm:617
+msgid "File"
+msgstr "Fájl"
+
+#. f_Action..Panel2..Label2..Caption
+#: Action.dfm:269
+msgid "Destination"
+msgstr "Cél"
+
+#. f_Action..Panel2..ed_ProfilePath..Text
+#: Action.dfm:291
+msgid "ed_ProfilePath"
+msgstr "ed_ProfilePath"
+
+#. f_Action..Panel2..ed_Destination..Text
+#: Action.dfm:306
+msgid "ed_Destination"
+msgstr "ed_Destination"
+
+#. f_Action..Panel2..ed_Group..Text
+#: Action.dfm:321
+msgid "ed_Group"
+msgstr "ed_Group"
+
+#. f_Action..Panel2..pnl_ElapsedTime..Caption
+#: Action.dfm:331
+msgid "9:59:59"
+msgstr "9:59:59"
+
+#. f_Action..Panel2..pnl_GroupCount..Caption
+#: Action.dfm:365
+msgid "100/100"
+msgstr "100/100"
+
+#. f_Action..sdlg_Log..DefaultExt
+#: Action.dfm:376
+msgid "log"
+msgstr "log"
+
+#. f_Action..sdlg_Log..Filter
+#: Action.dfm:377
+msgid "Log File (*.log)|*.log|Any File (*.*)|*.*"
+msgstr "Naplófájl (*.log)|*.log|Bármely fájl (*.*)|*.*"
+
+#. f_Action..sdlg_Log..Title
+#: Action.dfm:379
+msgid "Save log file"
+msgstr "Naplófájl mentése"
+
+#. f_Action..ZipForge..CurrentVersion
+#: Action.dfm:387
+msgid "2.60 "
+msgstr "2.60 "
+
+#. FrameActionType..ScrollBox_ActionType..pnl_Descr_ActionType..Label15..Caption
+#: ActionTypeFrame.dfm:29
+msgid "Select the Action Type and specify the Archive Mode."
+msgstr "Válassza ki a feladat típusát és az archiválás módját."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:365
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Caption
+#: ActionTypeFrame.dfm:44
+msgid "Action Type"
+msgstr "Feladat típus"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label1..Caption
+#: ActionTypeFrame.dfm:51
+msgid "Create Archive"
+msgstr "Archív létrehozása"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..Label2..Caption
+#: ActionTypeFrame.dfm:64
+msgid "File Operation"
+msgstr "Fájl művelet"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Copy..Caption
+#: ActionTypeFrame.dfm:77
+msgid "&Copy"
+msgstr "&Másolás"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_Zip..Caption
+#: ActionTypeFrame.dfm:86
+msgid "&Zip"
+msgstr "&Zip"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_7Zip..Caption
+#: ActionTypeFrame.dfm:97
+msgid "&7-Zip"
+msgstr "&7-Zip"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Delete..Caption
+#: ActionTypeFrame.dfm:106
+msgid "&Delete"
+msgstr "&Törlés"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ActionType..rb_File_Move..Caption
+#: ActionTypeFrame.dfm:121
+msgid "&Move"
+msgstr "&Áthelyezés"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Caption
+#: ActionTypeFrame.dfm:132
+msgid "&Archive Mode"
+msgstr "&Tömörítés módja"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label16..Caption
+#: ActionTypeFrame.dfm:142
+msgid "Use all selected files (ignoring A). Don't modify A."
+msgstr "Használja az összes kijelölt fájlt (kivéve az A-t). Az A-t ne változtassa meg."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label29..Caption
+#: ActionTypeFrame.dfm:155
+msgid "Use all selected files (ignoring A). Clear A after Action."
+msgstr "Használja az összes kijelölt fájlt (kivéve az A-t). A feladat végrehajtása után törölje az A-t."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label32..Caption
+#: ActionTypeFrame.dfm:168
+msgid "Use A-files only. Don't modify A."
+msgstr "Csak az A-fájlokat használja. Ne módosítsa az A-t."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label33..Caption
+#: ActionTypeFrame.dfm:181
+msgid "Use A-files only. Clear A after Action."
+msgstr "Csak az A-fájlokat használja. A feladat végrehajtása után törölje az A-t."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label34..Caption
+#: ActionTypeFrame.dfm:194
+msgid "Use non-A files only. Don't modify A."
+msgstr "Csak a nem-A-fájlokat használja. Ne módosítsa az A-t."
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..lbl_ArchiveModeInfo..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..lbl_ZipInfo_StorePath..Caption
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..lbl_7zInfo_ArchiveType..Caption
+#. FrameDestination..ScrollBox_Dest..gbx_Name..lbl_AppendExtension..Caption
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..lbl_AttrS_Info..Caption
+#. FrameFinalize..gbx_History..lbl_HistInfo_Maintain..Caption
+#: ActionTypeFrame.dfm:208
+#: ActionTypeSettingsFrame.dfm:180
+#: ActionTypeSettingsFrame.dfm:361
+#: ActionTypeSettingsFrame.dfm:409
+#: ActionTypeSettingsFrame.dfm:450
+#: ActionTypeSettingsFrame.dfm:529
+#: ActionTypeSettingsFrame.dfm:650
+#: ActionTypeSettingsFrame.dfm:696
+#: ActionTypeSettingsFrame.dfm:805
+#: ActionTypeSettingsFrame.dfm:818
+#: ActionTypeSettingsFrame.dfm:833
+#: DestinationFrame.dfm:60
+#: DestinationFrame.dfm:163
+#: FiltersFrame.dfm:453
+#: FiltersFrame.dfm:466
+#: FiltersFrame.dfm:479
+#: FinalizeFrame.dfm:45
+#: FinalizeFrame.dfm:58
+#: FinalizeFrame.dfm:71
+#: FinalizeFrame.dfm:84
+#: FinalizeFrame.dfm:273
+msgid "AUTO_TRANSLATED"
+msgstr "AUTO_TRANSLATED"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..Label3..Caption
+#: ActionTypeFrame.dfm:221
+msgid "How to deal with the Archive attribute (A)?"
+msgstr "Mit kezdjen az archívum attribútumával (A)?"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:142
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Default..Caption
+#: ActionTypeFrame.dfm:234
+#: Preferences.dfm:363
+msgid "Default"
+msgstr "Alapértelmezett"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:227
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Full..Caption
+#: ActionTypeFrame.dfm:245
+msgid "Full"
+msgstr "Teljes"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Differential..Caption
+#: ActionTypeFrame.dfm:254
+msgid "Differential"
+msgstr "Különbözeti"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Incremental..Caption
+#: ActionTypeFrame.dfm:263
+msgid "Incremental"
+msgstr "Inkrementális"
+
+#. FrameActionType..ScrollBox_ActionType..gbx_ArchiveMode..rb_AMode_Inverse..Caption
+#: ActionTypeFrame.dfm:272
+msgid "Inverse"
+msgstr "Fordított"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Caption
+#: ActionTypeSettingsFrame.dfm:40
+msgid "&Method"
+msgstr "&Módszer"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label10..Caption
+#: ActionTypeSettingsFrame.dfm:47
+msgid "Existing backup with the same filename will be replaced."
+msgstr "A már létező, azonos fájlnévvel rendelkező mentés felülírásra kerül."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label9....Height
+#: ActionTypeSettingsFrame.dfm:62
+msgid "Add new files and update files already present in existing backup with the same filename."
+msgstr "Új fájlok hozzáadása és a meglévők frissítése ugyanazzal a fájlnévvel a már létező biztonsági mentésben."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label3..Caption
+#: ActionTypeSettingsFrame.dfm:75
+msgid "Never overwrite existing backup with the same filename."
+msgstr "Sose írjon felül már meglévő biztonsági mentést ugyanazzal a fájlnévvel."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..Label4....Height
+#: ActionTypeSettingsFrame.dfm:90
+msgid "Update files already present, don't add new files to existing backup with the same filename."
+msgstr "Frissítse azokat a fájlokat, amelyek a biztonsági mentés részei, de ne adjon hozzá új fájlt a már meglévő mentéshez ugyanazzal a fájlnévvel."
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:186
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodReplace..Caption
+#: ActionTypeSettingsFrame.dfm:103
+msgid "Replace"
+msgstr "Felülírás"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:187
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodUpdate..Caption
+#: ActionTypeSettingsFrame.dfm:112
+msgid "Update"
+msgstr "Frissítés"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:185
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodNew..Caption
+#: ActionTypeSettingsFrame.dfm:121
+msgid "New"
+msgstr "Új"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:188
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..gbx_Zip_Method..rb_Zip_MethodFreshen..Caption
+#: ActionTypeSettingsFrame.dfm:132
+msgid "Freshen"
+msgstr "Frissítés"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label11..Caption
+#: ActionTypeSettingsFrame.dfm:151
+msgid "Vo&lume Size"
+msgstr "Kötet méret"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..Label12..Caption
+#: ActionTypeSettingsFrame.dfm:159
+msgid "Custom &Size (B)"
+msgstr "Tetszőleges &méret"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..cb_Zip_Split..Caption
+#: ActionTypeSettingsFrame.dfm:193
+msgid "Spl&it Archive"
+msgstr "Archívum fel&darabolása"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Split..bt_actZip_SplitCustomSize..Caption
+#: ActionTypeSettingsFrame.dfm:223
+msgid "..."
+msgstr "..."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..Label6..Caption
+#: ActionTypeSettingsFrame.dfm:251
+msgid "Template"
+msgstr "Sablon"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:275
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..cb_Zip_AddComment..Caption
+#: ActionTypeSettingsFrame.dfm:260
+msgid "Add Comment"
+msgstr "Megjegyzés hozzáadása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:297
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..ed_Zip_CommentTemplate..Text
+#: ActionTypeSettingsFrame.dfm:273
+msgid "'Created with Abakt $V on 'yyyy'-'mm'-'dd'@'hh.nn"
+msgstr "'Abakt $V-tal készült. Dátum: 'yyyy'-'mm'-'dd'@'hh.nn"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip_Comment..bt_Zip_CommentPreview..Caption
+#: ActionTypeSettingsFrame.dfm:282
+#: DestinationFrame.dfm:39
+msgid "Preview"
+msgstr "Előnézet"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Descr_actZip..Label15..Caption
+#: ActionTypeSettingsFrame.dfm:301
+msgid "Copy the selected files to a Zip archive."
+msgstr "Másolja a kijelölt fájlokat Zip fájlba."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..Label26..Caption
+#: ActionTypeSettingsFrame.dfm:324
+msgid "Pass&word"
+msgstr "&Jelszó"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..Panel2..ed_Zip_Password..PasswordChar
+#: ActionTypeSettingsFrame.dfm:334
+msgid "*"
+msgstr "*"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Compression..Label1..Caption
+#: ActionTypeSettingsFrame.dfm:353
+msgid "&Compression"
+msgstr "&Tömörítés"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_StorePath..Label8..Caption
+#: ActionTypeSettingsFrame.dfm:422
+msgid "&Path Information"
+msgstr "&Útvonal információ"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_Zip..ScrollBox_ActZip..pnl_Zip64..lbl_Zip64Mode..Caption
+#: ActionTypeSettingsFrame.dfm:463
+msgid "Zip&64 Mode"
+msgstr "Zip&64 mód"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Caption
+#: ActionTypeSettingsFrame.dfm:503
+msgid "Command Line"
+msgstr "Parancssor"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..Label22..Caption
+#: ActionTypeSettingsFrame.dfm:513
+msgid "Te&mplate"
+msgstr "&Sablon"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_CommandLine..ed_7z_Template..Text
+#: ActionTypeSettingsFrame.dfm:544
+msgid "$C $T $N -mx=5 $P $W $L"
+msgstr "$C $T $N -mx=5 $P $W $L"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Caption
+#: ActionTypeSettingsFrame.dfm:579
+msgid "Variables"
+msgstr "Változók"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label18..Caption
+#: ActionTypeSettingsFrame.dfm:586
+msgid "$T - &Archive Type"
+msgstr "$T - &Archívum típusa"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label19..Caption
+#: ActionTypeSettingsFrame.dfm:594
+msgid "$P - &Password"
+msgstr "$P - &Jelszó"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label5..Caption
+#: ActionTypeSettingsFrame.dfm:602
+msgid "$C - &Command"
+msgstr "$C - &Parancs"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label27..Caption
+#: ActionTypeSettingsFrame.dfm:610
+msgid "$N - Archive Name"
+msgstr "$N - Archívum neve"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label28..Caption
+#: ActionTypeSettingsFrame.dfm:617
+msgid "Destination.Directory + Destination.Name"
+msgstr "Cél.könyvtár + Cél.Név"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label30..Caption
+#: ActionTypeSettingsFrame.dfm:630
+msgid "$W - Working Directory"
+msgstr "$W - Munkakönyvtár"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label31..Caption
+#: ActionTypeSettingsFrame.dfm:637
+msgid "-w<Preferences.TemporaryDirectory>"
+msgstr "-w<Beállítások.Ideiglenes Könyvtár>"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label32..Caption
+#: ActionTypeSettingsFrame.dfm:663
+msgid "$L - Listfile"
+msgstr "$L - Fájllista"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label34..Caption
+#: ActionTypeSettingsFrame.dfm:670
+msgid "@<Destination.Directory + Destination.Name>~.txt"
+msgstr "@<Cél.Könyvtár + Cél.Név>~.txt"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..Label2..Caption
+#: ActionTypeSettingsFrame.dfm:683
+msgid "Required. Instructs 7-Zip which files to use."
+msgstr "Szükséges. A 7-Zip-et utasítja, hogy melyik fájlt használja."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..gbx_7z_Variables..ed_7z_Command..Text
+#: ActionTypeSettingsFrame.dfm:731
+msgid "a"
+msgstr "a"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_7Zip..ScrollBox_7Zip..pnl_Descr_act7Zip..Label24....Height
+#: ActionTypeSettingsFrame.dfm:751
+msgid "Use 7-Zip to create a backup.  You should set the path to 7-Zip on the Preferences window first."
+msgstr "Használja a 7-Zip-et a biztonsági mentés létrehozásához. Először be kell állítania a 7-Zip elérési útját a Beállítások ablakon."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Caption
+#: ActionTypeSettingsFrame.dfm:763
+msgid "File &Operation"
+msgstr "Fájl &művelet"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..pnl_Descr_actFile..Label7..Caption
+#: ActionTypeSettingsFrame.dfm:779
+msgid "Settings for the File Operations Copy, Move or Delete."
+msgstr "A fájl műveletek beállítása Másolás, Áthelyezés vagy Törlés."
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_Overwrite..Caption
+#: ActionTypeSettingsFrame.dfm:848
+msgid "O&verwrite Existing Files"
+msgstr "Létező fájlok &felülírása"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseRecycleBin..Caption
+#: ActionTypeSettingsFrame.dfm:860
+msgid "Use &Recycle Bin If Possible"
+msgstr "&Lomtár használata ha lehetséges"
+
+#. FrameActionTypeSettings..pgc_ActionTypes..tab_File..Panel4..cb_File_UseSHFileOperation..Caption
+#: ActionTypeSettingsFrame.dfm:872
+msgid "Use Windows function &SHFileOperation"
+msgstr "Windows feladat használata &SHfájl művelet"
+
+#. FrameActionTypeSettings..pnl_Descr_ActSets..Label14..Caption
+#: ActionTypeSettingsFrame.dfm:899
+msgid "Specify the settings for the selected Action Type."
+msgstr "Adja meg a feladat típusának beállításait."
+
+#. FrameConfigEdit..gbx_ConfigSets..Caption
+#: ConfigEditFrame.dfm:13
+msgid "Configuration Settings"
+msgstr "Beállítások módosítása"
+
+#. FrameConfigEdit..gbx_ConfigSets..lv_Config......Caption
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: ConfigEditFrame.dfm:24
+#: FilterPreview.dfm:273
+#: RestoreBackup.dfm:143
+#: SourceFrame.dfm:35
+msgid "Name"
+msgstr "Név"
+
+#. FrameConfigEdit..gbx_ConfigSets..lv_Config......Caption
+#: ConfigEditFrame.dfm:28
+msgid "Value"
+msgstr "Érték"
+
+#. FrameConfigEdit..gbx_ConfigSets..lv_Config......Caption
+#: ConfigEditFrame.dfm:32
+msgid "Type"
+msgstr "Típus"
+
+#. FrameConfigEdit..gbx_ConfigSets..tb_ConfigEdit..tb_CheckAll..Caption
+#. f_Group..actl_Profiles..act_ProfilesCheckAll..Caption
+#: ConfigEditFrame.dfm:65
+#: FiltersFrame.dfm:874
+#: Group.dfm:439
+msgid "A&ll"
+msgstr "&Mind"
+
+#. FrameConfigEdit..gbx_ConfigSets..tb_ConfigEdit..tb_CheckNone..Caption
+#. f_Group..actl_Profiles..act_ProfilesCheckNone..Caption
+#: ConfigEditFrame.dfm:73
+#: FiltersFrame.dfm:882
+#: Group.dfm:445
+#: TransportFilters.dfm:74
+msgid "&None"
+msgstr "&Egyik sem"
+
+#. FrameConfigEdit..gbx_ProfileProperty..lbl_ItemCaption..Caption
+#: ConfigEditFrame.dfm:98
+msgid "lbl_ItemCaption"
+msgstr "lbl_ItemCaption"
+
+#. FrameConfigEdit..gbx_ProfileProperty..Panel5..sbox_ObjectInfo..lbl_ObjectInfo..Caption
+#: ConfigEditFrame.dfm:137
+msgid "lbl_ObjectInfo"
+msgstr "lbl_ObjectInfo"
+
+#. FrameConfigEdit..gbx_ProfileProperty..Panel2..lbl_ItemListCaption..Caption
+#: ConfigEditFrame.dfm:163
+msgid "Internal Name=Value"
+msgstr "Belső név=Érték"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..Label34..Caption
+#: DestinationFrame.dfm:47
+msgid "Examples"
+msgstr "Példák"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cb_AppendExtension..Caption
+#: DestinationFrame.dfm:100
+msgid "Append Exten&sion"
+msgstr "Kiterjesztés &csatolása"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:115
+msgid "Choose..."
+msgstr "Kiválasztás..."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:116
+msgid "<Name>"
+msgstr "<Név>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:117
+msgid "<Name>-MyText"
+msgstr "<Név>-Szöveg"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:118
+msgid "<Name>-BAK-<Date>"
+msgstr "<Név>-BAK-<Dátum>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:119
+msgid "<Name>-<Date>-<ArchiveMode>"
+msgstr "<Név>-<Dátum>-<Archiválás módja>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:120
+msgid "<Name>-<Date@Time>"
+msgstr "<Név>-<Dátum@Idő>"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Name..cmbx_NameTemplateExamples....Items.Strings
+#: DestinationFrame.dfm:121
+msgid "Backup of Profile <Name>, made on <Day, Date>"
+msgstr "A <Name> profil biztonsági mentése, készült: <Nap, Dátum>"
+
+#. FrameDestination..ScrollBox_Dest..pnl_Descr_Destination..Label15..Caption
+#: DestinationFrame.dfm:138
+msgid "Specify the Destination directory and (file)name."
+msgstr "Adja meg a célkönyvtárat és a (fájl)nevet."
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..Caption
+#: DestinationFrame.dfm:153
+msgid "Directory"
+msgstr "Könyvtár"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..bt_BrowseDir..Caption
+#: DestinationFrame.dfm:176
+msgid "&Browse"
+msgstr "&Tallózás"
+
+#. FrameDestination..ScrollBox_Dest..gbx_Directory..cb_AutoCreateDir..Caption
+#: DestinationFrame.dfm:196
+msgid "Automatically &Create Directory"
+msgstr "Automatikus k&önyvtár létrehozás "
+
+#. f_FilterPreview..Caption
+#: FilterPreview.dfm:6
+msgid "Filter Preview"
+msgstr "Szűrő előnézet"
+
+#. f_FilterPreview..Panel1..bt_SaveActiveList..Caption
+#: FilterPreview.dfm:51
+msgid "&Save list of selected files"
+msgstr "A kiv&álasztott fájlok mentési listája"
+
+#. f_FilterPreview..pnl_Top..bt_Build..Caption
+#: FilterPreview.dfm:72
+msgid "&Build File Lists"
+msgstr "Fájl lista l&étrehozása"
+
+#. f_FilterPreview..pnl_Top..cb_ScanFullTree..Caption
+#: FilterPreview.dfm:83
+msgid "Scan exluded directories"
+msgstr "Kihagyott könyvtárak átvizsgálása"
+
+#. f_FilterPreview..pnl_Top..cb_StripDrive..Caption
+#: FilterPreview.dfm:91
+msgid "Strip &Drive"
+msgstr "Meghajtó &leválasztása"
+
+#. f_FilterPreview..pnl_Top..cb_AddQuotes..Caption
+#: FilterPreview.dfm:99
+msgid "&Quotes"
+msgstr "K&vóták"
+
+#. f_FilterPreview..pnl_Descr..Label15....Height
+#: FilterPreview.dfm:130
+msgid "Show the files that will be in-/excluded, according to the current Filter Settings. "
+msgstr "Mutassa azokat a fájlokat, amelyeket a jelenlegi fájl beállítások alapján felvételre vagy kizárásra kerülnek"
+
+#. f_FilterPreview..gbx_FileList..Caption
+#: FilterPreview.dfm:145
+msgid "File Lists"
+msgstr "Fájl lista"
+
+#. f_FilterPreview..gbx_FileList..PageControl..Hint
+#: FilterPreview.dfm:152
+msgid "Tip: Right-click mouse button for more features."
+msgstr "Ötlet: A jobb klikkes menüben további tulajdonságokat érhet el."
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..Caption
+#: FilterPreview.dfm:160
+msgid "&Included"
+msgstr "&Felvett"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..Panel2..lbl_IncludedFilesInfo..Caption
+#: FilterPreview.dfm:174
+msgid "lbl_IncludedFilesInfo"
+msgstr "lbl_IncludedFilesInfo"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..Panel2..Label2..Caption
+#: FilterPreview.dfm:187
+msgid "Included Files:"
+msgstr "Felvett fájlok:"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#: FilterPreview.dfm:204
+#: SourceFrame.dfm:41
+msgid "Size"
+msgstr "Méret"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#. FrameSource..gbx_Files..lv_Files......Caption
+#: FilterPreview.dfm:209
+#: RestoreBackup.dfm:159
+#: SourceFrame.dfm:46
+msgid "Attributes"
+msgstr "Attribútumok"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#: FilterPreview.dfm:214
+#: SourceFrame.dfm:51
+msgid "Modified"
+msgstr "Módosítva"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_IncludedFiles..lv_IncludeList......Caption
+#: FilterPreview.dfm:219
+msgid "Filter Information"
+msgstr "Szűrő információ"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_ExcludedFiles..Caption
+#: FilterPreview.dfm:234
+msgid "&Excluded"
+msgstr "&Kizárt"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_ExcludedFiles..Panel4..Label4..Caption
+#: FilterPreview.dfm:249
+msgid "Excluded Files:"
+msgstr "Kizárt fájlok:"
+
+#. f_FilterPreview..gbx_FileList..PageControl..tab_ExcludedFiles..Panel4..lbl_ExcludedFilesInfo..Caption
+#: FilterPreview.dfm:256
+msgid "lbl_ExcludedFilesInfo"
+msgstr "lbl_ExcludedFilesInfo"
+
+#. f_FilterPreview..ActionList..act_SelectAllFiles..Caption
+#: FilterPreview.dfm:314
+msgid "Select &All"
+msgstr "Minden ki&jelölése"
+
+#. f_FilterPreview..ActionList..act_ClearFileList..Caption
+#: FilterPreview.dfm:319
+msgid "&Clear List"
+msgstr "Li&sta törlése"
+
+#. f_FilterPreview..sdlg_FileList..DefaultExt
+#: FilterPreview.dfm:324
+msgid "txt"
+msgstr "txt"
+
+#. f_FilterPreview..sdlg_FileList..Filter
+#: FilterPreview.dfm:325
+msgid "Text File (*.txt)|*.txt|Any File (*.*)|*.*"
+msgstr "Text fájl (*.txt)|*.txt|Any File (*.*)|*.*"
+
+#. f_FilterPreview..sdlg_FileList..Title
+#: FilterPreview.dfm:327
+msgid "Save File List"
+msgstr "Fájl lista mentése"
+
+#. FrameFilters..PageControl..tab_Exclude..Caption
+#: FiltersFrame.dfm:17
+msgid "&Exclude"
+msgstr "&Kizárás"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..Caption
+#: FiltersFrame.dfm:24
+msgid "&Masks"
+msgstr "&Maszk"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..clb_Exclude....Items.Strings
+#: FiltersFrame.dfm:35
+msgid "*.bak"
+msgstr "*.bak"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..clb_Exclude....Items.Strings
+#: FiltersFrame.dfm:36
+msgid "*.tmp"
+msgstr "*.tmp"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..clb_Exclude....Items.Strings
+#: FiltersFrame.dfm:37
+msgid "thumbs.db"
+msgstr "thumbs.db"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton1..Caption
+#. FrameSource..gbx_Dirs..tb_Directories..bt_DirectoryAdd..Caption
+#: FiltersFrame.dfm:61
+#: Group.dfm:418
+#: SourceFrame.dfm:223
+msgid "&Add"
+msgstr "&Hozzáadás"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton2..Caption
+#. FrameSource..gbx_Dirs..tb_Directories..bt_DirectoryRemove..Caption
+#: FiltersFrame.dfm:69
+#: Group.dfm:425
+#: SourceFrame.dfm:231
+msgid "&Remove"
+msgstr "&Eltávolítás"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton3..Caption
+#: FiltersFrame.dfm:77
+#: Group.dfm:432
+msgid "E&dit"
+msgstr "&Szerkesztés"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton4..Caption
+#: FiltersFrame.dfm:85
+#: Group.dfm:99
+msgid "ToolButton4"
+msgstr "ToolButton4"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton7..Caption
+#: FiltersFrame.dfm:109
+#: Group.dfm:119
+msgid "ToolButton7"
+msgstr "ToolButton7"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton8..Hint
+#: FiltersFrame.dfm:116
+msgid "Ctrl+Up"
+msgstr "Ctrl+Fel"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton8..Caption
+#. f_Group..actl_Profiles..act_ProfileMoveUp..Hint
+#: FiltersFrame.dfm:118
+#: Group.dfm:451
+#: Group.dfm:452
+msgid "Up"
+msgstr "Fel"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton9..Hint
+#: FiltersFrame.dfm:127
+msgid "Ctrl+Down"
+msgstr "Ctrl+Le"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton9..Caption
+#. f_Group..actl_Profiles..act_ProfileMoveDown..Hint
+#: FiltersFrame.dfm:129
+#: Group.dfm:459
+#: Group.dfm:460
+msgid "Down"
+msgstr "Le"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton10..Caption
+#: FiltersFrame.dfm:139
+#: Group.dfm:467
+msgid "Sort"
+msgstr "Rendezés"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton12..Caption
+#: FiltersFrame.dfm:147
+#: Group.dfm:145
+msgid "ToolButton12"
+msgstr "ToolButton12"
+
+#. FrameFilters..PageControl..tab_Exclude..gbx_Exclude..tb_Exclude..ToolButton11..Caption
+#: FiltersFrame.dfm:155
+#: Group.dfm:473
+msgid "Clear"
+msgstr "Törlés"
+
+#. FrameFilters..PageControl..tab_Exclude..pnl_Descr_Exclude..Label1....Height
+#: FiltersFrame.dfm:177
+msgid "Exclude these files, even if they are in a selected Source Directory."
+msgstr "E fájlok kizárása, még akkor is, ha egy kiválasztott forráskönyvtárban vannak."
+
+#. FrameFilters..PageControl..tab_Include..Caption
+#: FiltersFrame.dfm:188
+msgid "&Include"
+msgstr "Fel&vétel"
+
+#. FrameFilters..PageControl..tab_Include..pnl_Descr_Include..Label6....Height
+#: FiltersFrame.dfm:343
+msgid "Force inclusion of these files, even if they are filtered out by Exclude Files."
+msgstr "E fájlok felvételének kényszerítése, még akkor is, ha a Kizárt fájlok között vannak."
+
+#. FrameFilters..PageControl..tab_FileProps..Caption
+#: FiltersFrame.dfm:354
+msgid "&Properties"
+msgstr "&Tulajdonságok"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_Descr_FileProps..Label13....Height
+#: FiltersFrame.dfm:381
+msgid "Apply these filters on files (not directories) previously selected."
+msgstr "Alkalmazza ezeket a szűrőket az előzőleg kiválasztott fájlokra (nem könyvtárakra)."
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_Descr_FileProps..Label19....Height
+#: FiltersFrame.dfm:396
+msgid "Filters will be applied in the order in which they are displayed."
+msgstr "A szűrők olyan sorrendben lesznek alkalmazva, ahogy azok itt fel vannak sorolva."
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..Label10..Caption
+#: FiltersFrame.dfm:432
+msgid "ONLY include files for which this attribute is set."
+msgstr "CSAk ezeket a fájlokat vegye fel"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..Label11..Caption
+#: FiltersFrame.dfm:439
+msgid "Exclude files for which this attribute is set."
+msgstr "Ezek fájlok kizárása"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..Label12..Caption
+#: FiltersFrame.dfm:446
+msgid "Ignore this attribute when selecting files (default)."
+msgstr "Attribútum figyelmenkívül hagyása (alapértelmezett)."
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..rg_Hidden..Caption
+#: FiltersFrame.dfm:492
+msgid " &H "
+msgstr " &H "
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..rg_Hidden....Items.Strings
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..rg_System....Items.Strings
+#. f_Group..MainMenu..mu_View..N2..Caption
+#. f_Main..MainMenu..mu_File..N2..Caption
+#. f_Main..MainMenu..mu_View..N12..Caption
+#. f_Main..MainMenu..mu_Help..N5..Caption
+#: FiltersFrame.dfm:494
+#: FiltersFrame.dfm:507
+#: FiltersFrame.dfm:508
+#: FiltersFrame.dfm:509
+#: FiltersFrame.dfm:520
+#: FiltersFrame.dfm:521
+#: FiltersFrame.dfm:522
+#: Group.dfm:284
+#: Group.dfm:293
+#: Group.dfm:301
+#: Group.dfm:318
+#: Main.dfm:368
+#: Main.dfm:377
+#: Main.dfm:383
+#: Main.dfm:391
+#: Main.dfm:407
+#: Main.dfm:440
+#: Main.dfm:446
+#: Main.dfm:464
+#: Main.dfm:476
+#: Main.dfm:482
+#: Main.dfm:488
+#: Main.dfm:500
+#: SourceFrame.dfm:340
+#: SourceFrame.dfm:349
+#: SourceFrame.dfm:376
+msgid "-"
+msgstr "-"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..rg_ReadOnly..Caption
+#: FiltersFrame.dfm:505
+msgid " &R "
+msgstr " &R "
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..GroupBox1..rg_System..Caption
+#: FiltersFrame.dfm:518
+msgid " &S "
+msgstr " &S "
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_DateSize..gbx_FileDates..Caption
+#: FiltersFrame.dfm:541
+msgid "Date &Modified"
+msgstr "Módos&ítás dátuma"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_DateSize..gbx_FileDates..Label8..Caption
+#: FiltersFrame.dfm:551
+msgid "and"
+msgstr "és"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_DateSize..gbx_FileDates..cb_ExcludeModified..Caption
+#: FiltersFrame.dfm:559
+msgid "Exclude files modified between"
+msgstr "Fájlok kizárása, amelyek ekkor lettek módosítva"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_DateSize..gbx_FileAge..Caption
+#: FiltersFrame.dfm:600
+msgid "&Age"
+msgstr "Kor"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_DateSize..gbx_FileAge..Label2..Caption
+#: FiltersFrame.dfm:610
+msgid "days ago."
+msgstr "napja."
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..pnl_DateSize..gbx_FileAge..cb_OnlyIncludeAge..Caption
+#: FiltersFrame.dfm:625
+msgid "Only Include files modified between"
+msgstr "Vegye fel azokat a fájlokat, amelyek ezek közt lettek módosítva"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..gbx_FileSizes..Caption
+#: FiltersFrame.dfm:685
+msgid "Si&ze"
+msgstr "M&éret"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..gbx_FileSizes..lbl_ExcludeSmaller..Caption
+#: FiltersFrame.dfm:692
+msgid "Exclu&de files smaller than (B)"
+msgstr "&Kizárás, ha kisebbek mint (B)"
+
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..gbx_FileSizes..lbl_ExcludeGreater..Caption
+#: FiltersFrame.dfm:700
+msgid "Exclude files &greater than (B)"
+msgstr "&Kizárás, ha nagyobbak mint (B)"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:118
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:122
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:455
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:459
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:463
+#. FrameFilters..PageControl..tab_FileProps..ScrollBox_Properties..gbx_FileSizes..Label7..Caption
+#: FiltersFrame.dfm:708
+msgid "Ignored if 0."
+msgstr "Ne vegye figyelembe, ha 0."
+
+#. FrameFilters..PageControl..tab_NoCompression..Caption
+#: FiltersFrame.dfm:790
+msgid "No &Compression"
+msgstr "N&incs tömörítés"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:809
+msgid "*.7z"
+msgstr "*.7z"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:810
+msgid "*.avi"
+msgstr "*.avi"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:811
+msgid "*.gif"
+msgstr "*.gif"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:812
+msgid "*.gz"
+msgstr "*.gz"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:813
+msgid "*.jpeg"
+msgstr "*.jpeg"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:814
+msgid "*.jpg"
+msgstr "*.jpg"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:815
+msgid "*.mp*"
+msgstr "*.mp*"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:816
+msgid "*.ogg"
+msgstr "*.ogg"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:817
+msgid "*.png"
+msgstr "*.png"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:818
+msgid "*.rar"
+msgstr "*.rar"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:819
+msgid "*.wma"
+msgstr "*.wma"
+
+#. FrameFilters..PageControl..tab_NoCompression..gbx_NoCompress..clb_NoCompress....Items.Strings
+#: FiltersFrame.dfm:820
+msgid "*.zip"
+msgstr "*.zip"
+
+#. FrameFilters..PageControl..tab_NoCompression..pnl_Descr_NoCompr..Label3....Height
+#: FiltersFrame.dfm:958
+msgid "Do not compress these files when using ActionType Zip (ZipForge)."
+msgstr "Ne tömörítse ezeket a fájlokat, ha az ActionType Zip (ZipForge) van használatban."
+
+#. FrameFilters..pnl_Descr_Filters..Label4....Height
+#: FiltersFrame.dfm:985
+msgid "Filters will be tested against files in selected Source directories only."
+msgstr "A szűrők csak azokan a fájlokon lesznek tesztelve, amelyek a kiválasztott forráskönyvtárban vannak."
+
+#. FrameFinalize..gbx_History..Caption
+#: FinalizeFrame.dfm:14
+msgid "History"
+msgstr "Előzmények"
+
+#. FrameFinalize..gbx_History..Label1..Caption
+#: FinalizeFrame.dfm:21
+msgid "&Remove backups older than (days)"
+msgstr "Mentések t&örlése, ha régebbiek mint (nap)"
+
+#. FrameFinalize..gbx_History..Label3..Caption
+#: FinalizeFrame.dfm:29
+msgid "&Keep a minimum of backups"
+msgstr "M&inimum ennyi mentés megtartása"
+
+#. FrameFinalize..gbx_History..Label4..Caption
+#: FinalizeFrame.dfm:37
+msgid "Keep a &maximum of backups"
+msgstr "Ma&ximum ennyi mentés megtartása"
+
+#. FrameFinalize..gbx_History..cb_UseRecycleBin..Caption
+#: FinalizeFrame.dfm:166
+msgid "&Use Recycle Bin if possible"
+msgstr "Használja a &Lomtárat, ha lehetséges"
+
+#. FrameFinalize..gbx_History..cb_MaintainHistory..Caption
+#: FinalizeFrame.dfm:175
+msgid "Ena&bled"
+msgstr "En&gedélyezve"
+
+#. FrameFinalize..gbx_History..tb_History..bt_Hist_ShowFiles..Caption
+#: FinalizeFrame.dfm:199
+msgid "Show &List of Files"
+msgstr "Fá&jl lista mutatása"
+
+#. FrameFinalize..gbx_History..tb_History..ToolButton1..Caption
+#: FinalizeFrame.dfm:206
+msgid "ToolButton1"
+msgstr "ToolButton1"
+
+#. FrameFinalize..gbx_History..tb_History..bt_Hist_AddFiles..Caption
+#: FinalizeFrame.dfm:214
+msgid "Add F&iles to List"
+msgstr "Fájlok hozzá&adása a listához"
+
+#. FrameFinalize..gbx_History..tb_History..ToolButton2..Caption
+#: FinalizeFrame.dfm:221
+msgid "ToolButton2"
+msgstr "ToolButton2"
+
+#. FrameFinalize..gbx_History..tb_History..bt_Hist_ApplyNow..Caption
+#: FinalizeFrame.dfm:229
+msgid "Apply Settings &Now"
+msgstr "Be&állítások alkalmazása most"
+
+#. FrameFinalize..pnl_Descr_History..Label9....Height
+#: FinalizeFrame.dfm:250
+msgid "The History keeps track of successfully completed backups. Use it to automatically delete backups."
+msgstr "Az Előzmények számon tartja a sikeresen befejezett biztonsági mentéseket. Használja a mentések automatikus törléséhez."
+
+#. FrameFinalize..Panel10..cb_RemoveEmptyDirs..Caption
+#: FinalizeFrame.dfm:286
+msgid "Re&move Empty Directories"
+msgstr "Ü&res könyvtárak eltávolítása"
+
+#. FrameFinalize..odlg_HistoryFiles..DefaultExt
+#: FinalizeFrame.dfm:292
+msgid "zip"
+msgstr "zip"
+
+#. FrameFinalize..odlg_HistoryFiles..Filter
+#: FinalizeFrame.dfm:293
+msgid "Backups (*.zip;*.7z)|*.zip;*.7z|All Files (*.*)|*.*"
+msgstr "Biztonsági mentések (*.zip;*.7z)|*.zip;*.7z|Minden fájl (*.*)|*.*"
+
+#. FrameFinalize..odlg_HistoryFiles..Title
+#: FinalizeFrame.dfm:295
+msgid "Add Backup Files to History"
+msgstr "Biztonsági mentés hozzáadása az Előzményekhez"
+
+#. f_Group..Caption
+#: Group.dfm:6
+msgid "Group of Profiles"
+msgstr "Profil csoport"
+
+#. f_Group..PageControl..tab_Profiles..Caption
+#: Group.dfm:41
+msgid "&1 - Profiles"
+msgstr "&1 - Profil"
+
+#. f_Group..PageControl..tab_Profiles..gbx_Profiles..Caption
+#: Group.dfm:50
+msgid "Profil&es"
+msgstr "Profil&es"
+
+#. f_Group..PageControl..tab_Profiles..gbx_Profiles..pnl_Descr_Profiles..Label1..Caption
+#: Group.dfm:170
+msgid "Select the Profiles to be executed in the order displayed below."
+msgstr "Válassza ki azokat a profilokat, amelyeket végre akar hajtani olyan sorrendben  mint alul."
+
+#. f_Group..PageControl..tab_Override..Caption
+#: Group.dfm:182
+msgid "&2 - Override"
+msgstr "&2 - Figyelmen kívül hagy"
+
+#. f_Group..PageControl..tab_Override..pnl_Descr_Override..Label2....Height
+#: Group.dfm:201
+msgid "Select the settings to override. Their values will be applied to every executed Profile."
+msgstr "Válassza ki azokat a beállításokat, amelyeket figyelmen kívül kíván hagyni. Értékeik az összes végrehajtott profilra érvénnyel lesznek."
+
+#. f_Group..pnl_ExecuteButton..bt_Execute..Caption
+#: Group.dfm:265
+msgid "E&xecute Group"
+msgstr "&Csoport végrehajtása"
+
+#. f_Group..MainMenu..mu_File..Caption
+#: Group.dfm:276
+msgid "&File"
+msgstr "&Fájl"
+
+#. f_Group..MainMenu..mu_File..mi_RecentFiles..Caption
+#: Group.dfm:296
+msgid "&Recent Files"
+msgstr "&Leutóbb használt fájlok"
+
+#. f_Group..MainMenu..mu_View..Caption
+#: Group.dfm:310
+msgid "&View"
+msgstr "&Nézet"
+
+#. f_Group..MainMenu..mu_Tools..Caption
+#: Group.dfm:325
+msgid "&Tools"
+msgstr "&Eszközök"
+
+#. f_Group..ActionList..act_NewGroup..Caption
+#: Group.dfm:336
+msgid "&New Group"
+msgstr "&Új csoport"
+
+#. f_Group..ActionList..act_OpenGroup..Caption
+#: Group.dfm:342
+msgid "&Open Group"
+msgstr "Csoport meg&nyitása"
+
+#. f_Group..ActionList..act_SaveGroup..Caption
+#: Group.dfm:348
+msgid "&Save Group"
+msgstr "Csoport &mentése"
+
+#. f_Group..ActionList..act_SaveGroupAs..Caption
+#: Group.dfm:354
+msgid "Save Group &As..."
+msgstr "Csoport menté&se másként..."
+
+#. f_Group..ActionList..act_ExecuteGroup..Category
+#. f_Main..ActionList..act_RestoreZipBackup..Category
+#: Group.dfm:359
+msgid "Tools"
+msgstr "Eszközök"
+
+#. f_Group..ActionList..act_ExecuteGroup....SecondaryShortCuts.Strings
+#: Group.dfm:364
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#. f_Group..ActionList..act_ShowPageProfiles..Category
+#. f_Main..ActionList..act_ShowPageFilters..Category
+#. f_Main..ActionList..act_ShowPageFinalize..Category
+#: Group.dfm:368
+#: Main.dfm:605
+#: Main.dfm:622
+#: Main.dfm:628
+#: Main.dfm:634
+#: Main.dfm:641
+#: Main.dfm:647
+msgid "View"
+msgstr "Nézet"
+
+#. f_Group..ActionList..act_ViewActionLog..Caption
+#: Group.dfm:381
+msgid "Action &Log"
+msgstr "Feladat &napló"
+
+#. f_Group..odlg_Group..DefaultExt
+#: Group.dfm:389
+msgid "abg"
+msgstr "abg"
+
+#. f_Group..odlg_Group..Filter
+#: Group.dfm:390
+msgid "Abakt Group (*.abg)|*.abg|All files (*.*)|*.*"
+msgstr "Abakt csoport (*.abg)|*.abg|Minden fájl (*.*)|*.*"
+
+#. f_Group..odlg_Group..Title
+#: Group.dfm:392
+msgid "Open Group"
+msgstr "Csoport megnyitása"
+
+#. f_Group..sdlg_Group..Title
+#: Group.dfm:400
+msgid "Save Group"
+msgstr "Csoport mentése"
+
+#. f_Group..odlg_Profiles..DefaultExt
+#: Group.dfm:405
+msgid "abp"
+msgstr "abp"
+
+#. f_Group..odlg_Profiles..Filter
+#: Group.dfm:406
+msgid "Abakt Profile (*.abp)|*.abp|All files (*.*)|*.*"
+msgstr "Abakt profil (*.abp)|*.abp|Minden fájl (*.*)|*.*"
+
+#. f_Group..odlg_Profiles..Title
+#: Group.dfm:408
+msgid "Choose a Profile to add to the Group"
+msgstr "Válasszon egy profilt, amit a csoporthoz kíván adni"
+
+#. f_Group..actl_Profiles..act_ProfileAdd..Category
+#. f_Group..actl_Profiles..act_ProfilesCheckNone..Category
+#. f_Group..actl_Profiles..act_ProfilesClear..Category
+#: Group.dfm:417
+#: Group.dfm:450
+#: Group.dfm:458
+#: Group.dfm:466
+#: Group.dfm:472
+msgid "Profiles"
+msgstr "Profilok"
+
+#. f_InputFileSize..Caption
+#: InputFileSize.dfm:5
+msgid "Enter File Size"
+msgstr "Adja meg a fájl méretét"
+
+#. f_InputFileSize..lbl_B..Caption
+#: InputFileSize.dfm:31
+msgid "&Bytes"
+msgstr "&Byte"
+
+#. f_InputFileSize..lbl_kB..Caption
+#: InputFileSize.dfm:39
+msgid "&kB (rounded)"
+msgstr "&kB (kerekített)"
+
+#. f_InputFileSize..lbl_MB..Caption
+#: InputFileSize.dfm:47
+msgid "&MB (rounded)"
+msgstr "&MB (kerekített)"
+
+#. f_InputFileSize..Label1..Caption
+#: InputFileSize.dfm:57
+msgid "Use Up/Down keys to modify values."
+msgstr "Használja a Fel/Le gombokat a módosításhoz."
+
+#. f_InputFileSize..bt_Ok..Caption
+#: InputFileSize.dfm:72
+msgid "OK"
+msgstr "OK"
+
+#. f_InputFileSize..bt_Cancel..Caption
+#: InputFileSize.dfm:84
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. f_Main..Caption
+#: Main.dfm:6
+msgid "Abakt"
+msgstr "Abakt"
+
+#. f_Main..PageControl..tab_Source..Caption
+#: Main.dfm:58
+msgid "&1 - Source"
+msgstr "&1 - Forrás"
+
+#. f_Main..PageControl..tab_Filters..Caption
+#: Main.dfm:108
+msgid "&2 - Filters"
+msgstr "&2 - Szűrők"
+
+#. f_Main..PageControl..tab_Action..Caption
+#: Main.dfm:153
+msgid "&3 - Action"
+msgstr "&3 - Feladat"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionType..Caption
+#: Main.dfm:166
+msgid "F8 - Action Type"
+msgstr "F8 - Feladat típus"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_ActionTypeSettings..Caption
+#: Main.dfm:194
+msgid "F9 - Action Type Settings"
+msgstr "F9 - Feladat típus beállítása"
+
+#. f_Main..PageControl..tab_Action..pgc_Action..tab_Destination..Caption
+#: Main.dfm:230
+msgid "F10 - Destination"
+msgstr "F10 - Cél"
+
+#. f_Main..PageControl..tab_Finalize..Caption
+#: Main.dfm:275
+msgid "&4 - Finalize"
+msgstr "&4 - Befejezés"
+
+#. f_Main..pnl_ExecuteButton..Caption
+#: Main.dfm:312
+msgid "pnl_ExecuteButton"
+msgstr "pnl_ExecuteButton"
+
+#. f_Main..pnl_ExecuteButton..bt_Execute..Caption
+#: Main.dfm:320
+msgid "E&xecute Action"
+msgstr "Végrehajtás"
+
+#. f_Main..gbx_Status..Caption
+#: Main.dfm:332
+msgid "Status"
+msgstr "Állapot"
+
+#. f_Main..MainMenu..mu_File..mi_RecentFiles..Caption
+#: Main.dfm:386
+msgid "Recent Files"
+msgstr "Legutóbb használt fájlok"
+
+#. f_Main..MainMenu..mu_Edit..Caption
+#: Main.dfm:398
+msgid "&Edit"
+msgstr "&Szerkesztés"
+
+#. f_Main..MainMenu..mu_Edit..mi_ClearAllFilters..Caption
+#: Main.dfm:403
+msgid "Clear All Filters"
+msgstr "Összes szűrő törlése"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshDirectoryList..Caption
+#: Main.dfm:449
+msgid "Refresh Directory List"
+msgstr "Könyvtárlista frissítése"
+
+#. f_Main..MainMenu..mu_View..mi_Source_RefreshFileList..Caption
+#: Main.dfm:454
+msgid "Refresh File List"
+msgstr "Fájllista frissítése"
+
+#. f_Main..MainMenu..mu_View..mi_Source_ScanTreeBelowDir..Caption
+#: Main.dfm:459
+msgid "Scan Tree Below Directory"
+msgstr "Könyvtár alatti fa vizsgálata"
+
+#. f_Main..MainMenu..mu_Help..Caption
+#: Main.dfm:495
+msgid "&Help"
+msgstr "&Súgó"
+
+#. f_Main..ActionList..act_NewProfile..Caption
+#: Main.dfm:527
+msgid "&New Profile"
+msgstr "&Új profil"
+
+#. f_Main..ActionList..act_OpenProfile..Caption
+#: Main.dfm:533
+msgid "&Open Profile"
+msgstr "Profil meg&nyitása"
+
+#. f_Main..ActionList..act_SaveProfile..Caption
+#: Main.dfm:539
+msgid "&Save Profile"
+msgstr "Profil &mentése"
+
+#. f_Main..ActionList..act_SaveProfileAs..Caption
+#: Main.dfm:545
+msgid "Save Profile &As..."
+msgstr "Profil menté&se másként..."
+
+#. f_Main..ActionList..act_ManageGroup..Caption
+#: Main.dfm:557
+msgid "Manage &Group of Profiles"
+msgstr "Profilcsoportok &kezelése"
+
+#. f_Main..ActionList..act_FilterPreview..Caption
+#: Main.dfm:564
+msgid "&Filter Preview"
+msgstr "Szűrő &előnézet"
+
+#. f_Main..ActionList..act_CloseProfile..Caption
+#: Main.dfm:570
+msgid "&Close Profile"
+msgstr "Profil be&zárása"
+
+# P:\Abakt\Source\abakt\Group.cpp:580
+#. f_Main..ActionList..act_TransportFilters..Category
+#: Main.dfm:575
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#. f_Main..ActionList..act_TransportFilters..Caption
+#: Main.dfm:576
+msgid "Import/Export Filters"
+msgstr "Szűrők importálása/exportálása"
+
+#. f_Main..ActionList..act_Help..Category
+#: Main.dfm:581
+msgid "Help"
+msgstr "Súgó"
+
+#. f_Main..ActionList..act_Help..Caption
+#: Main.dfm:582
+msgid "&Help (English)"
+msgstr "&Súgó (angol)"
+
+#. f_Main..ActionList..act_About..Caption
+#: Main.dfm:588
+msgid "&About"
+msgstr "&Névjegy"
+
+#. f_Main..ActionList..act_RestoreZipBackup..Caption
+#: Main.dfm:594
+msgid "&Restore Zip Archive"
+msgstr "&Zip archívum visszaállítása"
+
+#. f_Main..ActionList..act_Preferences..Caption
+#: Main.dfm:600
+msgid "&Preferences"
+msgstr "&Beállítások"
+
+#. f_Main..ActionList..act_ShowPageActionType..Caption
+#: Main.dfm:606
+msgid "3&a - Action Type"
+msgstr "3&a - Feladat típus"
+
+#. f_Main..ActionList..act_SaveStatusAs..Caption
+#: Main.dfm:612
+msgid "Save S&tatus As..."
+msgstr "&Állapot mentése másként..."
+
+#. f_Main..ActionList..act_Exit..Caption
+#: Main.dfm:618
+msgid "E&xit"
+msgstr "Ki&lépés"
+
+#. f_Main..ActionList..act_ShowPageActionTypeSettings..Caption
+#: Main.dfm:623
+msgid "3&b - Action Type Settings"
+msgstr "3&b - Feladat típus beállítás"
+
+#. f_Main..ActionList..act_ShowPageDestination..Caption
+#: Main.dfm:629
+msgid "3&c - Destination"
+msgstr "3&c - Cél"
+
+#. f_Main..ActionList..act_ClearStatus..Caption
+#: Main.dfm:648
+msgid "Clear &Status Window"
+msgstr "Állapot ablak törlése"
+
+#. f_Main..sdlg_Profile..Title
+#: Main.dfm:656
+msgid "Save Profile"
+msgstr "Profil mentése"
+
+#. f_Main..odlg_Profile..Title
+#: Main.dfm:664
+msgid "Open Profile"
+msgstr "Profil megnyitása"
+
+#. f_Main..sdlg_Status....DefaultExt
+#: Main.dfm:672
+msgid "Log files (*.log)|*.log|Text files (*.txt)|*.txt|All files (*.*)|*.*"
+msgstr "Naplófájl (*.log)|*.log|Text fájl (*.txt)|*.txt|Minden fájl (*.*)|*.*"
+
+#. f_Main..sdlg_Status..Title
+#: Main.dfm:674
+msgid "Save Status As..."
+msgstr "Állapot mentése másként..."
+
+#. f_Prefs..Caption
+#: Preferences.dfm:7
+msgid "Preferences"
+msgstr "Beállítások"
+
+#. f_Prefs..PageControl..tab_Startup..Caption
+#: Preferences.dfm:51
+msgid "On &Startup"
+msgstr "&Indításkor"
+
+#. f_Prefs..PageControl..tab_Startup..Label4..Caption
+#: Preferences.dfm:60
+msgid "Applies to '.abp', '.abg' and '.abh' files."
+msgstr "A '.abp', '.abg' és '.abh' fájlokra vonatkozik."
+
+#. f_Prefs..PageControl..tab_Startup..cb_CreateFileAssociations..Caption
+#: Preferences.dfm:73
+msgid "&Restore File Associations"
+msgstr "Fájl hozzárendelések visszaállítása"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType..Caption
+#: Preferences.dfm:84
+msgid "Use This Profile"
+msgstr "Jelenlegi profil használata"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: Preferences.dfm:87
+msgid "&New"
+msgstr "&Új"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: Preferences.dfm:88
+msgid "&Previously Opened/Saved"
+msgstr "Leg&utóbb megnyitott/mentett"
+
+#. f_Prefs..PageControl..tab_Startup..rb_InitialProfileType....Items.Strings
+#: Preferences.dfm:89
+msgid "C&ustom"
+msgstr "&Egyéb"
+
+#. f_Prefs..PageControl..tab_Startup..ed_CustomInitialProfile..Text
+#: Preferences.dfm:110
+msgid "ed_CustomInitialProfile"
+msgstr "ed_CustomInitialProfile"
+
+#. f_Prefs..PageControl..tab_Application..Caption
+#: Preferences.dfm:114
+msgid "&Application"
+msgstr "&Alkalmazás"
+
+#. f_Prefs..PageControl..tab_Application..ed_DefDataDir..Text
+#: Preferences.dfm:128
+msgid "ed_DefDataDir"
+msgstr "ed_DefDataDir"
+
+#. f_Prefs..PageControl..tab_Application..bt_DefDataDir..Caption
+#: Preferences.dfm:135
+msgid "&Data Directory"
+msgstr "&Adat könyvtár"
+
+#. f_Prefs..PageControl..tab_Application..cb_ShowDescriptionBoxes..Caption
+#: Preferences.dfm:144
+msgid "Show Description &Boxes"
+msgstr "Leírás box mutatása"
+
+#. f_Prefs..PageControl..tab_Application..Panel8..Label13..Caption
+#: Preferences.dfm:165
+msgid "This is a Description Box."
+msgstr "Ez egy Leírás box."
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Caption
+#: Preferences.dfm:181
+msgid "Lang&uage"
+msgstr "N&yelv"
+
+#. f_Prefs..PageControl..tab_Application..gbx_Language..Label15..Caption
+#: Preferences.dfm:188
+msgid "Changes take effect when Abakt has been restarted."
+msgstr "A változások életbelépéséhez az Abaktot újra kell indítani."
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..Caption
+#: Preferences.dfm:212
+msgid "Preferences File"
+msgstr "Beállítások fájl"
+
+#. f_Prefs..PageControl..tab_Application..GroupBox1..ed_PrefsFile..Text
+#: Preferences.dfm:230
+msgid "ed_PrefsFile"
+msgstr "ed_PrefsFile"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..Label2..Caption
+#: Preferences.dfm:249
+msgid "Numbe&r of visible items"
+msgstr "L&átható elemek száma"
+
+#. f_Prefs..PageControl..tab_Application..gbx_RecentFiles..cb_RecentFilesShowPath..Caption
+#: Preferences.dfm:258
+msgid "Show &Path Information"
+msgstr "El&érési út mutatása"
+
+#. f_Prefs..PageControl..tab_Backup..Caption
+#: Preferences.dfm:284
+msgid "A&ction"
+msgstr "&Feladat"
+
+#. f_Prefs..PageControl..tab_Backup..Label6..Caption
+#: Preferences.dfm:294
+msgid "Get 7-Zip from:"
+msgstr "A 7-Zip beszerzése:"
+
+#. f_Prefs..PageControl..tab_Backup..Label7..Caption
+#: Preferences.dfm:307
+msgid "Not used when Abakt is started with command line parameters."
+msgstr "Nincs használatban, amikor az Abakt parancssori paraméterekkel indul."
+
+#. f_Prefs..PageControl..tab_Backup..ed_DefDestDir..Text
+#: Preferences.dfm:325
+msgid "ed_DefDestDir"
+msgstr "ed_DefDestDir"
+
+#. f_Prefs..PageControl..tab_Backup..bt_DefDestDir..Caption
+#: Preferences.dfm:332
+msgid "Default &Destination Directory"
+msgstr "Ala&pértelmezett célkönyvtár"
+
+#. f_Prefs..PageControl..tab_Backup..bt_TempDir..Caption
+#: Preferences.dfm:341
+msgid "&Temporary Directory"
+msgstr "&Ideiglenes könyvtár"
+
+#. f_Prefs..PageControl..tab_Backup..ed_TempDir..Text
+#: Preferences.dfm:355
+msgid "ed_TempDir"
+msgstr "ed_TempDir"
+
+#. f_Prefs..PageControl..tab_Backup..bt_7ZipExe..Caption
+#: Preferences.dfm:372
+msgid "&7-Zip Executable"
+msgstr "&7-Zip alkalmazás"
+
+#. f_Prefs..PageControl..tab_Backup..ed_ExePath7Zip..Text
+#: Preferences.dfm:385
+msgid "ed_ExePath7Zip"
+msgstr "ed_ExePath7Zip"
+
+#. f_Prefs..PageControl..tab_Backup..pnl_7ZipInternet..Caption
+#: Preferences.dfm:395
+msgid "http://sourceforge.net/projects/sevenzip/"
+msgstr "http://sourceforge.net/projects/sevenzip/"
+
+#. f_Prefs..PageControl..tab_Backup..cb_ActFile_ConfirmDelete..Caption
+#: Preferences.dfm:411
+msgid "&Confirm 'File Operation | Delete'"
+msgstr "&Megerősítés 'Fájlművelet | Törlés'"
+
+#. f_Prefs..PageControl..tab_Logging..Caption
+#: Preferences.dfm:418
+msgid "&Logging"
+msgstr "&Naplózás"
+
+#. f_Prefs..PageControl..tab_Logging..Label3..Caption
+#: Preferences.dfm:428
+msgid "For every file: show IF it is included or excluded."
+msgstr "Minden fájl: mutassa HA fel van véve vagy ki van zárva."
+
+#. f_Prefs..PageControl..tab_Logging..Label10....Height
+#: Preferences.dfm:443
+msgid "Show detailed file progress. If unchecked, only the failures are reported."
+msgstr "Részletes folyamat mutatása. Ha nincs bejelölve, csak a hibákat jelzi."
+
+#. f_Prefs..PageControl..tab_Logging..Label5....Height
+#: Preferences.dfm:459
+msgid "Show WHY a file is included or excluded. Also applies to window Source/Files."
+msgstr "Mutassa, hogy MIÉRT tartalmaz vagy zár ki egy fájlt. A Forrás/Fájlok ablakra is hatással van."
+
+#. f_Prefs..PageControl..tab_Logging..Label11....Height
+#: Preferences.dfm:475
+msgid "Specify the information that is shown on the Log panel while performing an Action:"
+msgstr "Adja meg, hogy milyen információ látszódjon a Napló panelen míg egy feladat fut:"
+
+#. f_Prefs..PageControl..tab_Logging..Label8..Caption
+#: Preferences.dfm:489
+msgid "Max Size (kB):"
+msgstr "Maximum méret (kB):"
+
+#. f_Prefs..PageControl..tab_Logging..cb_LogBuildingFileLists..Caption
+#: Preferences.dfm:498
+msgid "Detailed '&Building File Lists'"
+msgstr "Részletes 'Fájl&lista létrehozás'"
+
+#. f_Prefs..PageControl..tab_Logging..cb_LogFullAction..Caption
+#: Preferences.dfm:507
+msgid "Detailed File &Progress"
+msgstr "Részletes fájl &folyamat"
+
+#. f_Prefs..PageControl..tab_Logging..cb_LogExtraFilterInfo..Caption
+#: Preferences.dfm:516
+msgid "Detailed &Filter Information"
+msgstr "Részletes &szűrőinformáció"
+
+#. f_Prefs..PageControl..tab_Logging..bt_ActionLogDir..Caption
+#: Preferences.dfm:526
+msgid "Action Log &Directory"
+msgstr "Feladat napló &könyvtára"
+
+#. f_Prefs..PageControl..tab_Logging..ed_ActionLogDir..Text
+#: Preferences.dfm:540
+msgid "ed_ActionLogDir"
+msgstr "ed_ActionLogDir"
+
+#. f_Prefs..PageControl..tab_Logging..cb_AutoSaveActionLog..Caption
+#: Preferences.dfm:548
+msgid "Save Action Log &to \"<ProfileName>.log\"."
+msgstr "Feladat napló mentése ide: & \"<Profilnév>.log\"."
+
+#. f_Prefs..PageControl..tab_Logging..cb_LogStatusToFile..Caption
+#: Preferences.dfm:558
+msgid "Append Status to \"[AppDir]\\Abakt.log\""
+msgstr "Állapot csatolása a  \"[AppDir]\\Abakt.log\"-hoz"
+
+#. f_Prefs..PageControl..tab_Advanced..Caption
+#: Preferences.dfm:588
+msgid "Ad&vanced"
+msgstr "&Haladó"
+
+#. f_Prefs..PageControl..tab_Advanced..Label12....AutoSize
+#: Preferences.dfm:602
+msgid "Enable to remove non-existing Source Directories from a Profile when it is opened, and from the directory tree on page Source."
+msgstr "Engedélyezze, ha a profilból és a Forrás fülön lévő könyvtárfából el akarja távolítani a nem létező forráskönyvtárakat, amikor nyitva vannak."
+
+#. f_Prefs..PageControl..tab_Advanced..Label1..Caption
+#: Preferences.dfm:616
+msgid "Applies to Zip Method 'Replace'."
+msgstr "A Zip módszer 'Cserél'-re lesz hatással."
+
+#. f_Prefs..PageControl..tab_Advanced..cb_RemoveNonExistingSourceDirs..Caption
+#: Preferences.dfm:630
+msgid "&Remove Non-Existing Source Directories"
+msgstr "Nem létező forr&áskönyvtárak eltávolítása"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_UseNewUIOnBFD..Caption
+#: Preferences.dfm:641
+msgid "Use New UI BrowseFor&Folder"
+msgstr "Az új BrowseFor&Folder UI használata"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_IncludeEmptyDirs..Caption
+#: Preferences.dfm:658
+msgid "&Include Empty Directories"
+msgstr "&Üres könyvtárak felvétele"
+
+#. f_Prefs..PageControl..tab_Advanced..cb_CreateTempZipCopy..Caption
+#: Preferences.dfm:673
+msgid "Create &Temporary Copy if Zip Archive exists"
+msgstr "&Ideiglenes másolat készítése, ha a Zip archívum már létezik"
+
+#. f_Prefs..odlg_7ZipExe..DefaultExt
+#: Preferences.dfm:708
+msgid "exe"
+msgstr "exe"
+
+#. f_Prefs..odlg_7ZipExe..FileName
+#: Preferences.dfm:709
+msgid "7z.exe"
+msgstr "7z.exe"
+
+#. f_Prefs..odlg_7ZipExe..Filter
+#: Preferences.dfm:710
+msgid "Application (*.exe)|*.exe|Any File (*.*)|*.*"
+msgstr "Alkalmazás (*.exe)|*.exe|Bármely fájl (*.*)|*.*"
+
+#. f_Prefs..odlg_7ZipExe..Title
+#: Preferences.dfm:712
+msgid "7-Zip Commandline Executable"
+msgstr "7-Zip parancssori alkalmazás"
+
+#. f_RestoreBackup..Caption
+#: RestoreBackup.dfm:6
+msgid "Restore Zip Backup"
+msgstr "Zip biztonsági mentés visszaállítása"
+
+#. f_RestoreBackup..pnl_Top..lbl_Password..Caption
+#: RestoreBackup.dfm:53
+msgid "&Password:"
+msgstr "&Jelszó:"
+
+#. f_RestoreBackup..pnl_Top..bt_DestDir..Caption
+#: RestoreBackup.dfm:61
+msgid "D&estination Directory"
+msgstr "&Célkönyvtár"
+
+#. f_RestoreBackup..pnl_Top..cb_Overwrite..Caption
+#: RestoreBackup.dfm:84
+msgid "O&verwrite Existing Files and Directories"
+msgstr "Már létező fájlok és könyvtárak felül&írása"
+
+#. f_RestoreBackup..pnl_Top..bt_ZipArchive..Caption
+#: RestoreBackup.dfm:100
+msgid "&Zip Archive"
+msgstr "&Zip archívum"
+
+#. f_RestoreBackup..gbx_ZipFiles..Caption
+#: RestoreBackup.dfm:133
+msgid "Fi&les"
+msgstr "&Fájlok"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: RestoreBackup.dfm:148
+msgid "Path"
+msgstr "Útvonal"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: RestoreBackup.dfm:170
+msgid "Rate (%)"
+msgstr "Mérték (%)"
+
+#. f_RestoreBackup..gbx_ZipFiles..lv_Files......Caption
+#: RestoreBackup.dfm:174
+msgid "Compressed"
+msgstr "Tömörítve"
+
+#. f_RestoreBackup..pnl_Bottom..gbx_Progress..pnl_ProfileProgress..Label4..Caption
+#: RestoreBackup.dfm:249
+msgid "Restoring"
+msgstr "Visszaállítás"
+
+#. f_RestoreBackup..ActionList..act_RestoreFiles..Caption
+#: RestoreBackup.dfm:328
+msgid "&Restore Selected Files"
+msgstr "Kiválasztott fájlok &visszaállítása"
+
+#. f_RestoreBackup..odlg_Backup..Filter
+#: RestoreBackup.dfm:372
+msgid "Zip Files (*.zip)|*.zip|Any File (*.*)|*.*"
+msgstr "Zip fájlok (*.zip)|*.zip|Bármely fájl (*.*)|*.*"
+
+#. f_RestoreBackup..odlg_Backup..Title
+#: RestoreBackup.dfm:374
+msgid "Select an Archive to Restore"
+msgstr "Válasszon ki egy archívumot a visszaállításhoz"
+
+#. FrameSource..gbx_Files..pnl_FilesSummary..lbl_FilesSummary..Caption
+#: SourceFrame.dfm:82
+msgid "lbl_FilesSummary"
+msgstr "lbl_FilesSummary"
+
+#. FrameSource..gbx_Files..pnl_FilterIcons..Label1..Caption
+#: SourceFrame.dfm:107
+msgid "  (Sort on Filter)"
+msgstr "  (Szűrő szerinti rendezés)"
+
+#. FrameSource..gbx_Files..pnl_FilterIcons..tb_FilterIcons..tbt_Excluded..Caption
+#: SourceFrame.dfm:143
+msgid "Excluded"
+msgstr "Kizárt"
+
+#. FrameSource..gbx_Files..pnl_FilterIcons..tb_FilterIcons..tbt_Included..Caption
+#: SourceFrame.dfm:153
+msgid "Included"
+msgstr "Felvett"
+
+#. FrameSource..gbx_Files..pnl_FilterIcons..tb_FilterIcons..tbt_NoCompress..Caption
+#: SourceFrame.dfm:163
+msgid "Not Compressed"
+msgstr "Nem tömörített"
+
+#. FrameSource..gbx_Dirs..Caption
+#: SourceFrame.dfm:178
+msgid "&Directories"
+msgstr "&Könyvtárak"
+
+#. FrameSource..pnl_Descr_Source..Label15....Height
+#: SourceFrame.dfm:253
+msgid "Select the directories you wish to include.  TIP: Click the right mousebutton for more functions."
+msgstr "Válassza  ki azokat a könyvtárakat, amelyeket fel kíván venni. Ötlet: Kattintson a jobb gombbal további funkciók eléréséhez."
+
+#. FrameSource..ActionList..act_RefreshDirList..Caption
+#: SourceFrame.dfm:266
+msgid "Refresh &Directory List"
+msgstr "&Könyvtárlista frissítése"
+
+#. FrameSource..ActionList..act_RefreshFileList..Caption
+#: SourceFrame.dfm:271
+msgid "Refresh &File List"
+msgstr "&Fájllista frissítése"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Category
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Category
+#: SourceFrame.dfm:276
+#: SourceFrame.dfm:293
+#: SourceFrame.dfm:313
+msgid "Popup_Dirs"
+msgstr "Popup_Dirs"
+
+#. FrameSource..ActionList..act_SelectAllChildren..Caption
+#: SourceFrame.dfm:277
+msgid "&Select + All Children"
+msgstr "&Kijelölés + Összes gyerek"
+
+#. FrameSource..ActionList..act_UnSelectAllChildren..Caption
+#: SourceFrame.dfm:283
+msgid "&UnSelect + All Children"
+msgstr "Kijelöle&tlen + Összes gyerek"
+
+#. FrameSource..ActionList..act_CollapseAllChildren..Caption
+#: SourceFrame.dfm:289
+msgid "&Collapse + All Children"
+msgstr "&Összecsuk + Összes gyerek"
+
+#. FrameSource..ActionList..act_ExpandAllChildren..Caption
+#: SourceFrame.dfm:294
+msgid "&Expand + All Children"
+msgstr "Kiny&it + Összes gyerek"
+
+#. FrameSource..ActionList..act_AddToExcludeFilter..Category
+#. FrameSource..ActionList..act_ConfirmNewMask..Category
+#: SourceFrame.dfm:298
+#: SourceFrame.dfm:319
+#: SourceFrame.dfm:324
+msgid "Popup_Files"
+msgstr "Popup_Files"
+
+#. FrameSource..ActionList..act_AddToExcludeFilter..Caption
+#: SourceFrame.dfm:299
+msgid "&Exclude Filter"
+msgstr "&Kizárt fájlok szűrője"
+
+#. FrameSource..ActionList..act_AddToIncludeFilter..Caption
+#: SourceFrame.dfm:304
+msgid "&Include Filter"
+msgstr "&Felvett fájlok szűrője"
+
+#. FrameSource..ActionList..act_AddToNoCompressFilter..Caption
+#: SourceFrame.dfm:309
+msgid "N&oCompression Filter"
+msgstr "&Tömörítés nélküli szűrő"
+
+#. FrameSource..ActionList..act_ScanTreeBelowDir..Caption
+#: SourceFrame.dfm:314
+msgid "Scan &Tree Below Directory"
+msgstr "A könyvtár alatti fa vizsgálata"
+
+#. FrameSource..ActionList..act_AddToInverseExcludeFilter..Caption
+#: SourceFrame.dfm:320
+msgid "I&nclude Filter and Exclude All Others"
+msgstr "&Felvett fájlok szűrője és a többi kizárása"
+
+#. FrameSource..ActionList..act_ConfirmNewMask..Caption
+#: SourceFrame.dfm:325
+msgid "&Confirm New Mask Before Acception"
+msgstr "Új maszk meg&erősítése elfogadás előtt"
+
+#. FrameSource..pop_Files..pmi_AddFile..Caption
+#: SourceFrame.dfm:360
+msgid "Add &File To"
+msgstr "Fájl hozzá&adása ehhez"
+
+#. FrameSource..pop_Files..pmi_AddFiletypeThisDir..Caption
+#: SourceFrame.dfm:364
+msgid "Add Filetype For This &Dir Only To"
+msgstr "Fájltípus hozzáadása csak &ehhez a könyvtárhoz"
+
+#. FrameSource..pop_Files..pmi_AddFiletypeThisDirAndBelow..Caption
+#: SourceFrame.dfm:368
+msgid "Add Filetype For This Dir And &Below To"
+msgstr "Fájltípus hozzáadása e&hhez a könyvtárhoz és az alatta lévőkhöz"
+
+#. FrameSource..pop_Files..pmi_AddFiletype..Caption
+#: SourceFrame.dfm:372
+msgid "Add Filetype For &All Dirs To"
+msgstr "Fájltípus hozzáadása az összes könyvtárhoz"
+
+#. f_TransportFilters..GroupBox1..Caption
+#: TransportFilters.dfm:28
+msgid "Select Filters to Im/Export"
+msgstr "Szűrők kiválasztása importáláshoz/exportáláshoz"
+
+#. f_TransportFilters..GroupBox1..cb_Exclude..Caption
+#: TransportFilters.dfm:35
+msgid "E&xclude"
+msgstr "&Kizárás"
+
+#. f_TransportFilters..GroupBox1..cb_NoCompress..Caption
+#: TransportFilters.dfm:45
+msgid "N&o Compression"
+msgstr "&Tömörítés nélkül"
+
+#. f_TransportFilters..GroupBox1..cb_Include..Caption
+#: TransportFilters.dfm:55
+msgid "Incl&ude"
+msgstr "&Felvétel"
+
+#. f_TransportFilters..GroupBox1..bt_All..Caption
+#: TransportFilters.dfm:65
+msgid "&All"
+msgstr "&Mind"
+
+#. f_TransportFilters..GroupBox1..cb_FileProps..Caption
+#: TransportFilters.dfm:83
+msgid "File &Properties"
+msgstr "Fájl &tulajdonságok"
+
+#. f_TransportFilters..Panel1..bt_Import..Caption
+#: TransportFilters.dfm:116
+msgid "&Import"
+msgstr "&Importálás"
+
+#. f_TransportFilters..Panel1..bt_Export..Caption
+#: TransportFilters.dfm:125
+msgid "&Export"
+msgstr "&Exportálás"
+
+#. f_TransportFilters..GroupBox2..Caption
+#: TransportFilters.dfm:136
+msgid "Log"
+msgstr "Napló"
+
+#. f_TransportFilters..sdlg_Filter..DefaultExt
+#: TransportFilters.dfm:150
+msgid "abf"
+msgstr "abf"
+
+#. f_TransportFilters..sdlg_Filter..Filter
+#: TransportFilters.dfm:151
+msgid "Abakt Filter (*.abf)|*.abf|All files (*.*)|*.*"
+msgstr "Abakt szűrő (*.abf)|*.abf|Minden fájl (*.*)|*.*"
+
+#. f_TransportFilters..sdlg_Filter..Title
+#: TransportFilters.dfm:153
+msgid "Export Filter"
+msgstr "Szűrő exportálása"
+
+#. f_TransportFilters..odlg_Filter....DefaultExt
+#: TransportFilters.dfm:161
+msgid "Abakt Filter or Profile (*.abf;*.abp)|*.abf;*.abp|Abakt Filter (*.abf)|*.abf|Abakt Profile (*.abp)|*.abp|All files (*.*)|*.*"
+msgstr "Abakt szűrő vagy profil (*.abf;*.abp)|*.abf;*.abp|Abakt szűrő (*.abf)|*.abf|Abakt profil (*.abp)|*.abp|Minden fájl (*.*)|*.*"
+
+#. f_TransportFilters..odlg_Filter..Title
+#: TransportFilters.dfm:162
+msgid "Import Filter"
+msgstr "Szűrő importálása"
+
+# P:\Abakt\Source\abakt\About.cpp:70
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+# P:\Abakt\Source\abakt\About.cpp:72
+# P:\Abakt\Source\abakt\Action.cpp:1507
+msgid "Disabled"
+msgstr "Tiltva"
+
+# P:\Abakt\Source\abakt\Action.cpp:313
+#, c-format
+msgid "Action Log Directory does not exist: %s"
+msgstr "Feladat napló könyvtára nem létezik: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:312
+msgid "Logging to file is disabled for the current Action."
+msgstr "Naplózás nincs engedélyezve a jelenlegi folyamathoz."
+
+# P:\Abakt\Source\abakt\Action.cpp:326
+#, c-format
+msgid "[ Starting Action %s ]"
+msgstr "[ Feladat kezdés %s ]"
+
+# P:\Abakt\Source\abakt\Action.cpp:327
+# P:\Abakt\Source\abakt\Action.cpp:1142
+#, c-format
+msgid "Profile: %s"
+msgstr "Profil: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:330
+#, c-format
+msgid "Saving Log to %s"
+msgstr "Napló mentése %s-be"
+
+# P:\Abakt\Source\abakt\Action.cpp:347
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:370
+msgid "Archive Mode"
+msgstr "Archív mód"
+
+# P:\Abakt\Source\abakt\Action.cpp:337
+# P:\Abakt\Source\abakt\Action.cpp:344
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:323
+msgid "Method"
+msgstr "Módszer"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:222
+msgid "Store Path"
+msgstr "Útvonal mentése"
+
+# P:\Abakt\Source\abakt\Action.cpp:396
+#, c-format
+msgid "Elapsed Time (Profile): %s"
+msgstr "Eltelt idő (profil): %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:363
+#, c-format
+msgid " -- Action Finished (%s) --"
+msgstr "-- Feladat befejezve (%s) --"
+
+# P:\Abakt\Source\abakt\Action.cpp:372
+msgid "The following files/directories had errors:"
+msgstr "A következő fájlokban/könyvtárakban van hiba:"
+
+# P:\Abakt\Source\abakt\Action.cpp:456
+msgid "No Source directories."
+msgstr "Nincs forráskönyvtár."
+
+# P:\Abakt\Source\abakt\Action.cpp:436
+#, c-format
+msgid "Zip64 Mode: %s"
+msgstr "Zip64 mód: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:632
+#, c-format
+msgid "Compression Level: %d"
+msgstr "Tömörítés mértéke: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:427
+#, c-format
+msgid "Destination Drive (%s):"
+msgstr "Cél meghajtó: (%s):"
+
+# P:\Abakt\Source\abakt\Action.cpp:430
+#, c-format
+msgid "- Removable: %s"
+msgstr "- Cserélhető: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:463
+msgid "Yes"
+msgstr "Igen"
+
+# P:\Abakt\Source\abakt\Action.cpp:463
+msgid "No"
+msgstr "Nem"
+
+# P:\Abakt\Source\abakt\Action.cpp:435
+msgid "- Type: CD/DVD"
+msgstr "- Típus: CD/DVD"
+
+# P:\Abakt\Source\abakt\Action.cpp:440
+# P:\Abakt\Source\abakt\Action.cpp:447
+#, c-format
+msgid "- Free Space: %s (%s Bytes)"
+msgstr "- Szabad terület: %s (%s byte)"
+
+# P:\Abakt\Source\abakt\Action.cpp:445
+#, c-format
+msgid "Temporary Directory (%s):"
+msgstr "Ideiglenes könyvtár (%s):"
+
+# P:\Abakt\Source\abakt\Action.cpp:476
+msgid "It is not possible to Update or Freshen a Split Zip Archive."
+msgstr "Darabolt Zip archívumot nem lehet frissíteni."
+
+# P:\Abakt\Source\abakt\Action.cpp:469
+msgid "Destination Zip Archive has no name."
+msgstr "A cél Zip archívumnak nincs neve."
+
+# P:\Abakt\Source\abakt\Action.cpp:489
+#, c-format
+msgid "Destination Zip Archive exists. New name: %s"
+msgstr "A cél Zip archívum létezik. Új név: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:491
+#, c-format
+msgid "You chose to Freshen a non-existing Zip Archive: %s."
+msgstr "Egy nem létező Zip archívum frissítését választotta: %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:493
+msgid "A new Zip Archive will be created."
+msgstr "Egy új Zip archívum fog készülni."
+
+# P:\Abakt\Source\abakt\Action.cpp:500
+msgid "Zip Archive will be encrypted using a password."
+msgstr "A Zip archívum jelszóval védett lesz."
+
+# P:\Abakt\Source\abakt\Action.cpp:512
+msgid "Action failed."
+msgstr "A feladat nincs teljesítve."
+
+# P:\Abakt\Source\abakt\Action.cpp:600
+msgid "ZipForge automatically renamed the last part of the Split Archive to '*.zip'."
+msgstr "A ZipForge automatikusan '*.zip'-re változtatta a darabolt archívum utolsó részét."
+
+# P:\Abakt\Source\abakt\Action.cpp:627
+msgid "Zip Archive Details:"
+msgstr "Zip archívum részletei:"
+
+# P:\Abakt\Source\abakt\Action.cpp:630
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:231
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:319
+#, c-format
+msgid "Files in Zip Archive: %d"
+msgstr "A Zip archívum fájlja: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:631
+#, c-format
+msgid "Files Added/Updated/Freshened: %d"
+msgstr "Hozzáadott/Frissített fájlok: %d"
+
+# P:\Abakt\Source\abakt\Action.cpp:634
+#, c-format
+msgid "Zip Archive consists of %d parts."
+msgstr "A Zip archívum %d részt tartalmaz."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:320
+#, c-format
+msgid "Compressed Size: %s (%s Bytes)"
+msgstr "Tömörített méret: %s (%s byte)"
+
+# P:\Abakt\Source\abakt\Action.cpp:647
+#, c-format
+msgid "Compressed Size: %s (%s Bytes) in %d file(s)"
+msgstr "Tömörített méret: %s (%s byte) %d fájlban"
+
+# P:\Abakt\Source\abakt\Action.cpp:630
+msgid "ZipForge will try to add more than 65536 files, possibly resulting in a corrupt Zip Archive."
+msgstr "A zipForge megpróbál több mint 65536 fájlt hozzáadni, de valószínűleg hibás Zip fájlt fog eredményezni."
+
+# P:\Abakt\Source\abakt\Action.cpp:690
+# P:\Abakt\Source\abakt\Action.cpp:1463
+# P:\Abakt\Source\abakt\Action.cpp:1580
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:256
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:343
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:172
+#, c-format
+msgid "Could not open file: %s"
+msgstr "A fájlt nem lehetett megnyitni: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:655
+msgid "No existing Zip Archive found, creating new archive."
+msgstr "Nem található létező Zip archívum, új készítése."
+
+# P:\Abakt\Source\abakt\Action.cpp:711
+msgid "Creating New Zip Archive:"
+msgstr "Új Zip archívum készítése:"
+
+# P:\Abakt\Source\abakt\Action.cpp:719
+msgid "Replacing Existing Zip Archive:"
+msgstr "Meglévő Zip archívum lecserélése:"
+
+# P:\Abakt\Source\abakt\Action.cpp:675
+#, c-format
+msgid "Creating temporary copy of existing Zip Archive: %s..."
+msgstr "A létező Zip archívumról ideiglenes másolat készítése: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:728
+# P:\Abakt\Source\abakt\Action.cpp:747
+# P:\Abakt\Source\abakt\Action.cpp:951
+# P:\Abakt\Source\abakt\Action.cpp:953
+# P:\Abakt\Source\abakt\Action.cpp:980
+# P:\Abakt\Source\abakt\Action.cpp:982
+# P:\Abakt\Source\abakt\Action.cpp:1047
+# P:\Abakt\Source\abakt\Action.cpp:1066
+# P:\Abakt\Source\abakt\Action.cpp:1238
+# P:\Abakt\Source\abakt\Action.cpp:1280
+# P:\Abakt\Source\abakt\Action.cpp:1307
+# P:\Abakt\Source\abakt\Action.cpp:1338
+# P:\Abakt\Source\abakt\Action.cpp:1398
+# P:\Abakt\Source\abakt\Action.cpp:1579
+# P:\Abakt\Source\abakt\Action.cpp:1601
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:324
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:438
+# P:\Abakt\Source\abakt\Main.cpp:289
+# P:\Abakt\Source\abakt\Main.cpp:340
+# P:\Abakt\Source\abakt\Main.cpp:690
+# P:\Abakt\Source\abakt\Main.cpp:698
+# P:\Abakt\Source\abakt\Main.cpp:705
+# P:\Abakt\Source\abakt\Main.cpp:712
+# P:\Abakt\Source\abakt\Main.cpp:719
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:368
+# P:\Abakt\Source\abakt\SourceFrame.cpp:102
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:114
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:292
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:405
+msgid "Failed."
+msgstr "Nincs teljesítve."
+
+# P:\Abakt\Source\abakt\Action.cpp:680
+msgid "Adding files to existing Zip Archive instead."
+msgstr "Inkább a létező Zip archívumhoz fájlok hozzáadása."
+
+# P:\Abakt\Source\abakt\Action.cpp:734
+# P:\Abakt\Source\abakt\Action.cpp:750
+# P:\Abakt\Source\abakt\Action.cpp:959
+# P:\Abakt\Source\abakt\Action.cpp:988
+# P:\Abakt\Source\abakt\Action.cpp:1045
+# P:\Abakt\Source\abakt\Action.cpp:1064
+# P:\Abakt\Source\abakt\Action.cpp:1243
+# P:\Abakt\Source\abakt\Action.cpp:1342
+# P:\Abakt\Source\abakt\Action.cpp:1498
+# P:\Abakt\Source\abakt\Action.cpp:1621
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:330
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:432
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:586
+# P:\Abakt\Source\abakt\Main.cpp:284
+# P:\Abakt\Source\abakt\Main.cpp:336
+# P:\Abakt\Source\abakt\Main.cpp:652
+# P:\Abakt\Source\abakt\Main.cpp:688
+# P:\Abakt\Source\abakt\Main.cpp:696
+# P:\Abakt\Source\abakt\Main.cpp:703
+# P:\Abakt\Source\abakt\Main.cpp:710
+# P:\Abakt\Source\abakt\Main.cpp:717
+# P:\Abakt\Source\abakt\Main.cpp:740
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:230
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:376
+# P:\Abakt\Source\abakt\SourceFrame.cpp:100
+# P:\Abakt\Source\abakt\SourceFrame.cpp:394
+# P:\Abakt\Source\abakt\SourceFrame.cpp:498
+# P:\Abakt\Source\abakt\SourceFrame.cpp:961
+# P:\Abakt\Source\abakt\SourceFrame.cpp:971
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:117
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:261
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:295
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:436
+msgid "Ok."
+msgstr "OK."
+
+# P:\Abakt\Source\abakt\Action.cpp:735
+msgid "Adding files. Please wait."
+msgstr "Fájlok hozzáadása. Kérem várjon."
+
+# P:\Abakt\Source\abakt\Action.cpp:697
+#, c-format
+msgid "Deleting temporary copy of Zip Archive: %s..."
+msgstr "Az ideiglenes zip archívum törlése: %s..."
+
+# P:\Abakt\Source\abakt\Action.cpp:759
+msgid "Updating Existing Zip Archive:"
+msgstr "Létező Zip archívum frissítése:"
+
+# P:\Abakt\Source\abakt\Action.cpp:767
+msgid "Freshening Existing Zip Archive:"
+msgstr "Létező Zip archívum frissítése:"
+
+# P:\Abakt\Source\abakt\Action.cpp:773
+#, c-format
+msgid "Writing Zip Comment: %s"
+msgstr "Megjegyzés írása: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:778
+msgid "Can not write a Comment to a split Zip Archive."
+msgstr "Darabolt Zip archívumhoz nem lehet megjegyzést adni."
+
+# P:\Abakt\Source\abakt\Action.cpp:793
+msgid "It is not possible add empty directories to a Split Zip Archive."
+msgstr "Darabolt Zip archívumhoz nem lehet üres mappát hozzáadni."
+
+# P:\Abakt\Source\abakt\Action.cpp:791
+msgid "Including Empty Directories: "
+msgstr "Üres mappák felvétele:"
+
+# P:\Abakt\Source\abakt\Action.cpp:1619
+msgid "None found."
+msgstr "Egy sem található."
+
+# P:\Abakt\Source\abakt\Action.cpp:805
+msgid "Zip Archive will be saved in parts."
+msgstr "A Zip archívum darabokban lesz elmentve."
+
+# P:\Abakt\Source\abakt\Action.cpp:809
+msgid "Spanning"
+msgstr "Spanning"
+
+# P:\Abakt\Source\abakt\Action.cpp:810
+msgid "Using a removable drive. You should label every disk."
+msgstr "Cserélhető lemezek használata. Minden lemezt címkéznie kell."
+
+# P:\Abakt\Source\abakt\Action.cpp:815
+msgid "Splitting"
+msgstr "Darabolás"
+
+# P:\Abakt\Source\abakt\Action.cpp:816
+msgid "Using a fixed drive. The archive will be stored as multiple files."
+msgstr "Fix meghajtó használata. Az archívum összetett fájlként lesz elmentve."
+
+# P:\Abakt\Source\abakt\Action.cpp:866
+#, c-format
+msgid "ZipForge is checking file [%d] (%s%%): %s"
+msgstr "A ZipForge a [%d] (%s%%) fájlt ellenőrzi: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:863
+msgid "The destination disk is full."
+msgstr "A céllemez tele van."
+
+# P:\Abakt\Source\abakt\Action.cpp:864
+msgid "Please insert a new (formatted) disk."
+msgstr "Kérem helyezzen be egy új (formázott) lemezt."
+
+# P:\Abakt\Source\abakt\Action.cpp:865
+msgid "If you want to format a disk, press OK now."
+msgstr "Ha egy lemezt szeretne megformázni, nyomja meg az OK gombot most."
+
+# P:\Abakt\Source\abakt\Action.cpp:866
+msgid "You can format the disk when Abakt asks for a new disk."
+msgstr "A lemezt akkor is leformázhatja, amikor az Abakt új lemezt kér."
+
+# P:\Abakt\Source\abakt\Action.cpp:943
+# P:\Abakt\Source\abakt\Action.cpp:944
+# P:\Abakt\Source\abakt\Action.cpp:953
+#, c-format
+msgid "Adding %s..."
+msgstr "%s hozzáadása..."
+
+# P:\Abakt\Source\abakt\Action.cpp:972
+# P:\Abakt\Source\abakt\Action.cpp:973
+# P:\Abakt\Source\abakt\Action.cpp:982
+#, c-format
+msgid "Updating %s..."
+msgstr "%s frissítése..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1010
+#, c-format
+msgid "ZipForge Failure [%d] in File %s: %s."
+msgstr "ZipForge hiba [%d] a %s fájlban: %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1042
+#, c-format
+msgid "Deleting unfinished Zip Archive %s..."
+msgstr "%s befejezetlen Zip archívum törlése..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1062
+#, c-format
+msgid "Deleting %s..."
+msgstr "%s törlése..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1057
+#, c-format
+msgid "Please insert a new (formatted) disk in drive %s."
+msgstr "Kérem helyezzen be egy új (formázott) lemezt a %s meghajtóba."
+
+# P:\Abakt\Source\abakt\Action.cpp:1060
+#, c-format
+msgid "Label this disk '%d'."
+msgstr "Címkézze meg a '%d' lemezt."
+
+# P:\Abakt\Source\abakt\Action.cpp:1109
+#, c-format
+msgid "Saving Zip Archive part %d to %s."
+msgstr "Zip archívum %d részének mentése az %s-re."
+
+# P:\Abakt\Source\abakt\Action.cpp:1148
+#, c-format
+msgid "File does not exist: %s."
+msgstr "A fájl nem létezik: %s."
+
+# P:\Abakt\Source\abakt\Action.cpp:1170
+#, c-format
+msgid "Elapsed Time (Group): %s"
+msgstr "Eltelt idő (csoport): %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1226
+msgid "Action not completed"
+msgstr "A feladat nem került végrehajtásra."
+
+# P:\Abakt\Source\abakt\Action.cpp:1227
+msgid "Aborted by user."
+msgstr "Felhasználó által megszakítva."
+
+# P:\Abakt\Source\abakt\Action.cpp:1228
+msgid "An error occured."
+msgstr "Hiba történt."
+
+# P:\Abakt\Source\abakt\Action.cpp:1235
+#, c-format
+msgid "Restoring temporary copy %s..."
+msgstr "%s ideiglenes másolatának helyreállítása..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1239
+msgid "You should manually restore the temporary copy."
+msgstr "Kézzel kell helyreállítania az ideiglenes másolatot."
+
+# P:\Abakt\Source\abakt\Action.cpp:1272
+#, c-format
+msgid "Destination: %s"
+msgstr "Cél: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1327
+msgid "Destination Directory can not be empty."
+msgstr "A célkönyvtár nem lehet üres."
+
+# P:\Abakt\Source\abakt\Action.cpp:1332
+#, c-format
+msgid "Destination Directory does not exist: %s"
+msgstr "Célkönyvtár nem létezik: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1335
+#, c-format
+msgid "Creating Destination Directory %s..."
+msgstr "%s célkönyvtár létrehozása..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1347
+msgid "- And will not be automatically created."
+msgstr "- És nem készül el automatikusan."
+
+# P:\Abakt\Source\abakt\Action.cpp:1367
+# P:\Abakt\Source\abakt\Action.cpp:1398
+msgid "Building File Lists"
+msgstr "Fájllista készítése"
+
+# P:\Abakt\Source\abakt\Action.cpp:1368
+#, c-format
+msgid "Saving List of Files to Include to %s."
+msgstr "Fájllista mentése, amelyet felvesz az %s-be."
+
+# P:\Abakt\Source\abakt\Action.cpp:1370
+#, c-format
+msgid "Saving List of Files to Exclude to %s."
+msgstr "Fájllista mentése, amelyet kizáraz %s-ből."
+
+# P:\Abakt\Source\abakt\Action.cpp:1379
+#, c-format
+msgid "Included Files: %d. Total Size: %s (%s Bytes)"
+msgstr "Felvett fájlok: %d. Teljes méret: %s (%s byte)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1383
+#, c-format
+msgid "Excluded Files: %d. Total Size: %s (%s Bytes)"
+msgstr "Kizárt fájlok: %d. Teljes méret: %s (%s byte)"
+
+# P:\Abakt\Source\abakt\Action.cpp:1387
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:289
+#, c-format
+msgid "Elapsed Time: %s"
+msgstr "Eltelt idő: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1392
+msgid "No files selected. Review the Filter and Archive Mode settings."
+msgstr "Nincs kijelölt fájl. Nézze át a Szűrő és Archív mód beállításait."
+
+# P:\Abakt\Source\abakt\Action.cpp:1414
+#, c-format
+msgid "Files: %d (%s) - File: %s"
+msgstr "Fájl:%d (%s) - Fájl: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1434
+#, c-format
+msgid "+ Included %s: %s"
+msgstr "+ Felvett %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1437
+#, c-format
+msgid "- Excluded %s: %s"
+msgstr "- Kizárt %s: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1453
+msgid "Clearing Archive Attributes..."
+msgstr "Archívum attribútumainak törlése..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1482
+#, c-format
+msgid "Could not read attributes of file: %s"
+msgstr "A fájl attribútumait nem lehet olvasni: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1491
+#, c-format
+msgid "Could not clear Archive attribute of file: %s"
+msgstr "A fájl attribútumait nem lehet törölni: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:1513
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:413
+msgid "Nothing done."
+msgstr "Nem sem történt."
+
+# P:\Abakt\Source\abakt\Action.cpp:1574
+msgid "Removing Empty Source Directories..."
+msgstr "Üres forráskönyvtárak eltávolítása..."
+
+# P:\Abakt\Source\abakt\Action.cpp:1614
+#, c-format
+msgid "Successfully deleted: %s"
+msgstr "Sikeresen törölve: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:395
+msgid "Abort Action?"
+msgstr "Megszakítja a feladatot?"
+
+# P:\Abakt\Source\abakt\Action.cpp:1704
+msgid "The current volume must be written to disk before the Action can be aborted."
+msgstr "A jelenlegi kötetet lemezre kell írni mielőtt a feladatot leállna."
+
+# P:\Abakt\Source\abakt\Action.cpp:408
+msgid "Action Aborted"
+msgstr "Feladat megszakítva"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:393
+msgid "Please wait"
+msgstr "Kérem várjon"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:135
+msgid "Copying Included Files..."
+msgstr "Felvett fájlok másolása..."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:142
+msgid "Moving Included Files..."
+msgstr "Felvett fájlok áthelyezése..."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:149
+msgid "Files."
+msgstr "Fájlok."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:153
+msgid "Using Recycle Bin if possible."
+msgstr "Használja a Lomtárat, ha lehetséges."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:155
+#, c-format
+msgid "Method: Delete %s"
+msgstr "Módszer: %s törlése"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:156
+#, c-format
+msgid "Deleting %s"
+msgstr "%s törlése"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:178
+#, c-format
+msgid "Destination Directory: %s."
+msgstr "Célkönyvtár: %s."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:183
+msgid "Existing files will be overwritten."
+msgstr "A létező fájlok felül lesznek írva."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:228
+msgid "Confirming Action Type Delete is disabled when performing an AutoExecute backup using the commandline."
+msgstr "Feladat típus törlés megerősítése nincs engedélyezve, amikor egy parancssorból indított AutoExecute biztonsági mentés hajtódna végre."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:235
+msgid "You chose to Delete files."
+msgstr "Fájlok törlését választotta."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:236
+msgid "Are you sure you want to do this?"
+msgstr "Biztos, hogy ezt akarja tenni?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:251
+msgid "Using Windows function SHFileOperation."
+msgstr "Windows funkció SHFájlművelet használata."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:293
+#, c-format
+msgid "Performing SHFileOperation (%d/%d) on %s"
+msgstr "SHFájlművelet végrehajtása (%d%d) %s-en"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:319
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:377
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:454
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:475
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:494
+msgid "Aborted."
+msgstr "Megszakítva."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:338
+msgid "Performing File-By-File Operation."
+msgstr "Fájlról-fájlra művelet végrehajtása."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:396
+#, c-format
+msgid "Copying (%d/%d): %s to %s"
+msgstr "(%d/%d) másolása: %s-t %s-be"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:405
+#, c-format
+msgid "Moving (%d/%d): %s to %s"
+msgstr "(%d/%d) áthelyezése: %s-ből %s-be"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:413
+msgid "Destination file exists."
+msgstr "Célfájl létezik."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:421
+#, c-format
+msgid "Deleting (%d/%d): %s"
+msgstr "(%d/%d) törlése: %s"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:442
+msgid "Is destination file Read-Only/Hidden?"
+msgstr "A célfájl Csak olvasható/Rejtett?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:443
+msgid "Is source or destination file in use by another application?"
+msgstr "A forrás- vagy célkönyvtárat használja egy másik program?"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:445
+#, c-format
+msgid "Operation performed successfully on %d/%d files."
+msgstr "Művelet sikeresen végrehajtva a %d/%d fájlon."
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:518
+msgid "Could not delete existing destination file: "
+msgstr "A létező célfájlt nem lehetett törölni:"
+
+# P:\Abakt\Source\abakt\ActionFileOperation.cpp:561
+#, c-format
+msgid "Could not create directory: %s"
+msgstr "Nem lehetett létrehozni a könyvtárat: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:110
+msgid "Cannot find 7-Zip commandline executable."
+msgstr "A 7-Zip parancssori alkalmazás nem található."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:111
+#, c-format
+msgid "File does not exist: %s"
+msgstr "A fájl nem létezik: %s"
+
+# P:\Abakt\Source\abakt\Action.cpp:528
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:126
+msgid "Destination archive has no name."
+msgstr "A célarchívumnak nincs neve."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:117
+msgid "Calling 7-Zip with command line:"
+msgstr "7-Zip hívása parancssorral:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:154
+msgid "Note:"
+msgstr "Jegyzet:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:155
+msgid "7-Zip requires the source files to be on one drive."
+msgstr "A 7-Zip megköveteli, hogy a forrásfájlok egy meghajtón legyenek."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:156
+msgid "The 7-Zip executable will be called for every drive."
+msgstr "A 7-Zip alkalmazást hívja meg minden meghajtó esetében."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:232
+#, c-format
+msgid "Could not find temporary filelist: %s"
+msgstr "Az ideiglenes fájllista nem található: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:244
+#, c-format
+msgid "Calling 7-Zip executable for drive: %s"
+msgstr "7-Zip alkalmazás hívása a következő meghajtóhoz: %s"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:246
+#, c-format
+msgid "Using temporary filelist: %s"
+msgstr "Ideiglenes fájllista használata: %s"
+
+msgid "Busy..."
+msgstr "Dolgozik..."
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:264
+msgid "COMMAND:"
+msgstr "PARANCS:"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:393
+msgid "Reading Output"
+msgstr "Kimenet olvasása"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:450
+msgid "Finished Reading Output"
+msgstr "Kimenet olvasása befejeződött"
+
+# P:\Abakt\Source\abakt\ActionSevenZip.cpp:400
+#, c-format
+msgid "Could not delete temporary filelist file: %s"
+msgstr "Az ideiglenes fájllista állományt nem lehetett törölni: %s"
+
+# P:\Abakt\Source\abakt\Group.cpp:691
+msgid "Browse"
+msgstr "Tallóz"
+
+# P:\Abakt\Source\abakt\Group.cpp:721
+msgid "Choose directory:"
+msgstr "Könyvtár választása:"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:47
+msgid "'$N-MyText'"
+msgstr "'$N-Szöveg'"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:55
+msgid "'Backup of Profile $N made on 'dddd', 'dd'-'mmm'-'yyyy"
+msgstr "A(z) $N profil biztonsági mentése ekkor készült: 'dddd', 'dd'-'mmm'-'yyyy"
+
+# P:\Abakt\Source\abakt\DestinationFrame.cpp:73
+msgid "Choose Destination Directory:"
+msgstr "Célkönyvtár választása:"
+
+# P:\Abakt\Source\abakt\FilterPreview.cpp:138
+# P:\Abakt\Source\abakt\Group.cpp:121
+# P:\Abakt\Source\abakt\Main.cpp:106
+# P:\Abakt\Source\abakt\Preferences.cpp:161
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:121
+# P:\Abakt\Source\abakt\TransportFilters.cpp:80
+#, c-format
+msgid ""
+"Failed to save your settings to:\n"
+"%s."
+msgstr ""
+"A beállítások nem lettek elmentve ide:\n"
+"%s."
+
+# P:\Abakt\Source\abakt\FilterPreview.cpp:351
+# P:\Abakt\Source\abakt\FilterPreview.cpp:355
+#, c-format
+msgid "%d - Total Size: %s (%s Bytes)"
+msgstr "%d - Teljes méret: %s (%s byte)"
+
+# P:\Abakt\Source\abakt\FilterPreview.cpp:370
+# P:\Abakt\Source\abakt\FilterPreview.cpp:372
+msgid "Operation Aborted"
+msgstr "Művelet megszakítva"
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:92
+msgid "Add Mask"
+msgstr "Maszk hozzáadása"
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:93
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:135
+msgid "Enter a mask using wildcards '*', '?' or '|' (see Help)."
+msgstr "Írjon be egy maszkot joker karakterek használatával '*', '?' vagy '|' (lásd Súgó)."
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:134
+msgid "Edit Mask"
+msgstr "Maszk szerkesztése"
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:168
+msgid "Clear all Masks?"
+msgstr "Törli az összes maszkot?"
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:169
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:321
+msgid "This can not be undone."
+msgstr "Ezt a műveletet nem lehet visszaállítani."
+
+# P:\Abakt\Source\abakt\FiltersFrame.cpp:319
+msgid "Clear All Filters?"
+msgstr "Törli az összes szűrőt?"
+
+# P:\Abakt\Source\abakt\AfterActionFrame.cpp:139
+msgid "File not found."
+msgstr "A fájl nem található."
+
+# P:\Abakt\Source\abakt\AfterActionFrame.cpp:141
+#, c-format
+msgid "Age: %d day(s)."
+msgstr "Kor: %d nap."
+
+# P:\Abakt\Source\abakt\AfterActionFrame.cpp:143
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:319
+#, c-format
+msgid "Files listed in History: %d."
+msgstr "Az Előzményekben felsorolt fájlok: %d."
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:156
+msgid "Hours"
+msgstr "Óra"
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:157
+msgid "Minutes"
+msgstr "Perc"
+
+# P:\Abakt\Source\abakt\GlobalFuncs.cpp:158
+msgid "Seconds"
+msgstr "Másodperc"
+
+# P:\Abakt\Source\abakt\Group.cpp:152
+# P:\Abakt\Source\abakt\Group.cpp:284
+# P:\Abakt\Source\abakt\Group.cpp:335
+msgid "Group has been modified."
+msgstr "A csoport módosítva lett."
+
+# P:\Abakt\Source\abakt\Group.cpp:153
+# P:\Abakt\Source\abakt\Group.cpp:285
+# P:\Abakt\Source\abakt\Group.cpp:336
+msgid "Save Group?"
+msgstr "Menti a csoportot?"
+
+# P:\Abakt\Source\abakt\Group.cpp:199
+#, c-format
+msgid "Active Profile %s has been modified."
+msgstr "Az aktív profil %s módosítva lett."
+
+# P:\Abakt\Source\abakt\Group.cpp:200
+msgid "Save Profile?"
+msgstr "Menti a profilt?"
+
+# P:\Abakt\Source\abakt\Group.cpp:242
+#, c-format
+msgid "Could not write to file %s"
+msgstr "A %s fájlba nem lehetett írni."
+
+# P:\Abakt\Source\abakt\Group.cpp:318
+#, c-format
+msgid "Group %s has been upgraded to version %s."
+msgstr "A %s csoport %s verzióra lett frissítve."
+
+# P:\Abakt\Source\abakt\Group.cpp:321
+msgid "Please check your settings and save the upgraded Group."
+msgstr "Kérem ellenőrizze a beállításait és mentse a frissített csoportot."
+
+# P:\Abakt\Source\abakt\Group.cpp:950
+msgid "Clear list of Profiles?"
+msgstr "Törli a profilok listáját?"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:527
+#, c-format
+msgid "Profile was saved with an older release: Abakt %s.%s."
+msgstr "A profil egy korábbi verzióval lett elmentve: Abakt %s.%s."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:529
+msgid "Check the settings for this Profile and save again."
+msgstr "Ellenőrizze a profil beállításait és mentsen újra."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:537
+#, c-format
+msgid "Source Root Directory does not exist: %s."
+msgstr "A forrás gyökérkönyvtár nem létezik: %s."
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:576
+#, c-format
+msgid "Directory does not exist: %s"
+msgstr "A könyvtár nem létezik:%s"
+
+# P:\Abakt\Source\abakt\Gui_X_Profile.cpp:582
+msgid "Removed from Profile."
+msgstr "A profilból eltávolítva."
+
+# P:\Abakt\Source\abakt\Core\AbaktGroup.cpp:53
+# P:\Abakt\Source\abakt\Core\AbaktProfile.cpp:57
+msgid "Untitled"
+msgstr "Névtelen"
+
+# P:\Abakt\Source\abakt\Main.cpp:241
+msgid "Save modified Profile?"
+msgstr "Menti a módosított profilt?"
+
+# P:\Abakt\Source\abakt\Main.cpp:274
+#, c-format
+msgid "Saving Profile %s..."
+msgstr "%s profil mentése..."
+
+# P:\Abakt\Source\abakt\Main.cpp:291
+#, c-format
+msgid "Please try '%s'."
+msgstr "Kérem próbálja meg ezt: '%s'."
+
+msgid "Save Profile As..."
+msgstr "Profil mentése másként..."
+
+# P:\Abakt\Source\abakt\Main.cpp:331
+#, c-format
+msgid "Opening Profile %s..."
+msgstr "%s profil megnyitása..."
+
+# P:\Abakt\Source\abakt\Main.cpp:388
+#, c-format
+msgid "Executing Action. Using Profile %s..."
+msgstr "Feladat végrehajtása. %s profil használatával..."
+
+# P:\Abakt\Source\abakt\Main.cpp:398
+msgid "- Finished Action."
+msgstr "- A feladat befejeződött."
+
+msgid "New Profile"
+msgstr "Új profil"
+
+# P:\Abakt\Source\abakt\Main.cpp:420
+msgid "Current Profile has been modified."
+msgstr "A jelenlegi profil megváltozott."
+
+# P:\Abakt\Source\abakt\Main.cpp:421
+msgid "Changes made to this Profile will be lost if Group Actions are performed."
+msgstr "A profilon végzett módosítások elvesznek, ha a csoport feladatot végrehajtja."
+
+# P:\Abakt\Source\abakt\Main.cpp:617
+#, c-format
+msgid "Loading preferences from %s..."
+msgstr "Beállítások betöltése innen: %s..."
+
+# P:\Abakt\Source\abakt\Main.cpp:684
+# P:\Abakt\Source\abakt\Main.cpp:692
+#, c-format
+msgid "Copying %s to %s..."
+msgstr "%s másolása ide: %s"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:153
+msgid "Language changes take effect when Abakt is restarted."
+msgstr "A nyelvi változások életbelépéséhez az Abaktnak újra kell indulnia."
+
+# P:\Abakt\Source\abakt\Preferences.cpp:181
+msgid "Select Default Data Directory"
+msgstr "Válassza ki az alapértelmezett adatkönyvtárat"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:192
+msgid "The new default Data directories are"
+msgstr "Az új alapértelmezett adatkönyvtárak a következők:"
+
+# P:\Abakt\Source\abakt\Preferences.cpp:208
+# P:\Abakt\Source\abakt\Preferences.cpp:224
+# P:\Abakt\Source\abakt\Preferences.cpp:239
+msgid "Select"
+msgstr "Kiválaszt"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:179
+#, c-format
+msgid "Opening Zip Archive: %s..."
+msgstr "Zip archívum megnyitása: %s..."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:257
+#, c-format
+msgid ""
+"Zip Archive does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"A Zip archívum nem létezik:\n"
+"\n"
+"%s"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:265
+#, c-format
+msgid ""
+"Destination Directory does not exist:\n"
+"\n"
+"%s"
+msgstr ""
+"A célkönyvtár nem létezik:\n"
+"\n"
+"%s"
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:363
+#, c-format
+msgid "Extracting: %s..."
+msgstr "Kicsomagolás: %s..."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:444
+#, c-format
+msgid "Please insert the first disk in drive %s."
+msgstr "Kérem helyezze be az első lemezt a(z) %s meghajtóba."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:465
+#, c-format
+msgid "Please insert the last disk in drive %s."
+msgstr "Kérem helyezze be az utolsó lemezt a(z) %s meghajtóba."
+
+# P:\Abakt\Source\abakt\RestoreBackup.cpp:485
+#, c-format
+msgid "Please insert disk %d in drive %s."
+msgstr "Kérem helyezze be a(z) %d lemezt a %s meghajtóba."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:91
+msgid "Add Source Directory"
+msgstr "Forráskönyvtár hozzáadása"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:97
+#, c-format
+msgid "Adding Source Directory %s..."
+msgstr "%s forráskönyvtár hozzáadása..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:150
+msgid "Remove Root Source Directory from the list?"
+msgstr "Eltávolítja a gyökér forráskönyvtárat a listából?"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:391
+#, c-format
+msgid "Removing non-existing directory from Profile: %s..."
+msgstr "Nem létező könyvtár eltávolítása a profilból: %s..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:400
+#, c-format
+msgid "Directory does not exist: %s."
+msgstr "A könyvtár nem létezik: %s."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:491
+#, c-format
+msgid "Scanning directory tree: %s..."
+msgstr "Könyvtárfa vizsgálata: %s..."
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:616
+msgid "Do you accept this mask?"
+msgstr "Elfogadja ezt a maszkot?"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:654
+msgid "Edit New Exclude Mask"
+msgstr "Új kizárás maszk szerkesztése"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:675
+msgid "Edit New Include Mask"
+msgstr "Új felvétel maszk szerkesztése"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:696
+msgid "Edit New No Compression Mask"
+msgstr "Új tömörítés nélküli maszk szerkesztése"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:714
+msgid "Edit New Inverse Exclude Mask"
+msgstr "Új fordított kizárási maszk szerkesztése"
+
+# P:\Abakt\Source\abakt\SourceFrame.cpp:833
+#, c-format
+msgid "Included Files: %d/%d. Size: %s (%s Bytes)"
+msgstr "Felvett fájlok: %d/%d. Méret: %s (%s byte)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:73
+msgid "true"
+msgstr "igaz"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:74
+msgid "false"
+msgstr "hamis"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:80
+msgid "Confirm"
+msgstr "Megerősítés"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:75
+msgid "&Yes"
+msgstr "&Igen"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:76
+msgid "&No"
+msgstr "&Nem"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:60
+msgid "Ignore"
+msgstr "Elvet"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:61
+msgid "Exclude"
+msgstr "Kizár"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:62
+msgid "OnlyInclude"
+msgstr "Csak felvesz"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:101
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:229
+msgid "None"
+msgstr "Nincs"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:102
+msgid "Zip"
+msgstr "Zip"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:103
+msgid "SevenZip"
+msgstr "SevenZip"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:228
+msgid "Relative"
+msgstr "Relatív"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:301
+msgid "Always"
+msgstr "Mindig"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:290
+msgid "Automatic"
+msgstr "Automatikus"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:267
+msgid "Custom..."
+msgstr "Egyéb..."
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:268
+msgid "1.44 MB (3.5\" floppy disk)"
+msgstr "1.44 MB (3.5\" hajlékony lemez)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:269
+msgid "94.6 MB (100 MB IOMEGA disk)"
+msgstr "94.6 MB (100 MB IOMEGA lemez)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:270
+msgid "200 MB (MO disk)"
+msgstr "200 MB (MO lemez)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:271
+msgid "250 MB (MO disk)"
+msgstr "250 MB (MO lemez)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:272
+msgid "600 MB (MO disk)"
+msgstr "600 MB (MO lemez)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:273
+msgid "650 MB (74 min. CD)"
+msgstr "650 MB (74 perces CD)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:274
+msgid "700 MB (80 min. CD)"
+msgstr "700 MB (80 perces CD)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:363
+msgid "750 MB (750 MB IOMEGA disk)"
+msgstr "750 MB (750 MB IOMEGA lemez)"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:314
+msgid "Copy"
+msgstr "Másol"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:315
+msgid "Move"
+msgstr "Áthelyez"
+
+# P:\Abakt\Source\abakt\Core\AbaktClasses.cpp:316
+msgid "Delete"
+msgstr "Töröl"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:85
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:124
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:155
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:191
+msgid "File Properties Filter"
+msgstr "Fájl tulajdonság szűrő"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:80
+msgid "H Filter Method"
+msgstr "H szűrő mód"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:93
+msgid "H = Hidden"
+msgstr "H = Rejtett"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:85
+msgid "R Filter Method"
+msgstr "R szűrő mód"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:99
+msgid "R = Read Only"
+msgstr "R = Csak olvasható"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:90
+msgid "S Filter Method"
+msgstr "S szűrő mód"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:105
+msgid "S = System"
+msgstr "S = Rendszer"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:129
+msgid "Exclude files smaller than N Bytes"
+msgstr "N bytenál kisebb fájlok kizárása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:133
+msgid "Exclude files greater than N Bytes"
+msgstr "N bytenál nagyobb fájlok kizárása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:147
+msgid "Exclude files modified between Date1 and Date2"
+msgstr "Zárja ki a fájlokat, amelyek Dátum1 és Dátum2 között módosultak"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:150
+msgid "File modification date 1"
+msgstr "Fájl módosulás dátum 1"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:151
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:154
+msgid "Format: 'yyyy-mm-dd'."
+msgstr "Formátum: 'yyyy-mm-dd'."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:153
+msgid "File modification date 2"
+msgstr "Fájl módosulás dátum 2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:193
+msgid "Age"
+msgstr "kor"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:181
+msgid "Only Include files with an age between Age1 and Age2 days."
+msgstr "Csak azokat a fájlokat vegye fel, amelyek kora Kor1 és Kor2 nap közé esik."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:184
+msgid "File age 1"
+msgstr "Fájl kor 1"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:185
+msgid "Should be less than or equal to Age2."
+msgstr "Kevesebb vagy egyenlő, mint Kor2."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:187
+msgid "File age 2"
+msgstr "Fájl kor 2"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:188
+msgid "Should be greater than or equal to Age2."
+msgstr "Nagyobb vagy egyenlő, mint Kor 2."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:214
+msgid "Archive Method"
+msgstr "Archiválási módszer"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:222
+msgid "Choosing Update or Freshen possibly has no effect on a dynamic Archive Filename (date/time)."
+msgstr "A frissítés választása valószínűleg nincs hatással a dinamikus Archívum fájlnévre (dátum/idő)."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:240
+msgid "Path Information"
+msgstr "Útvonal információ"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:228
+msgid "The path information to store for every file."
+msgstr "Az útvonal információ mentésre kerül minden fájl esetében."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:228
+msgid "Compression Level"
+msgstr "Tömörítési szint"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:229
+msgid "0 (None) - 6 (Normal) - 9 (Max.)"
+msgstr "0 (Nincs) - 6 (Normál) - 9 (Maximum)"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:261
+msgid "Zip64 Mode"
+msgstr "Zip64 mód"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:262
+msgid "Zip64 allows Zip archives to be greater than 4 GB."
+msgstr "A Zip64 lehetővé teszi, hogy a Zip archívum nagyobb legyen, mint 4GB."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:232
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:295
+msgid "Password"
+msgstr "Jelszó"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:233
+msgid "Spaces are allowed."
+msgstr "Szóköz megengedett."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:236
+msgid "Split Archive"
+msgstr "Archívum darabolása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:264
+msgid "It is not possible to Update or Freshen a Split Archive."
+msgstr "Darabolt archívumot nem lehet frissíteni."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:265
+msgid "Split - Volume Size Preset"
+msgstr "Darabolt - Előre beállított kötet méretek"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:252
+msgid "Choose a predefined setting or define a custom value."
+msgstr "Válasszon egy előre meghatározott beállítást vagy határozzon meg egy saját értéket."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:271
+msgid "Split - Custom Volume Size"
+msgstr "Darabolt - Saját kötet méret"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:247
+msgid "Range: 64 kB - 2048 MB"
+msgstr "Tartomány: 64 kB - 2048 MB"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:278
+msgid "Does not apply to split Zip archives."
+msgstr "Nem vonatkozik a darabolt Zip archívumokra."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:278
+msgid "Comment Template"
+msgstr "Megjegyzés sablon "
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:417
+msgid "See the manual for more information."
+msgstr "Több információ a kézikönyvben."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:312
+msgid "7-Zip"
+msgstr "7-Zip"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:281
+msgid "Command Line Template"
+msgstr "Parancssori sablon"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:282
+msgid "Refer to Abakt's and 7-Zip's manuals for more information."
+msgstr "További információért olvassa el az Abakt és a 7-Zip kézikönyvét."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:286
+msgid "Command"
+msgstr "Parancs"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:287
+msgid "a=Add; u=Update"
+msgstr "a=Hozzáadás; u=Frissítés"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:290
+msgid "Archive Type"
+msgstr "Archívum típus"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:296
+msgid "Spaces are not allowed."
+msgstr "A Szóköz használata nem megengedett."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:328
+msgid "Overwrite Existing Files"
+msgstr "Létező fájlok felülírása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:329
+msgid "Applies to Methods 'Copy/Move'."
+msgstr "A 'Másolás/Áthelyezés' módszerre lesz hatással."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:368
+msgid "Use Recycle Bin"
+msgstr "Lomtár használata"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:333
+msgid "Applies to Method 'Delete'."
+msgstr "A 'Törlés' módszerre lesz hatással."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:336
+msgid "Use Windows function SHFileOperation"
+msgstr "Az Windows funció SHFájlművelet használata"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:336
+msgid "Applies to Methods 'Copy/Move/Delete'."
+msgstr "A 'Másolás/Áthelyezés/Törlés' módszerre lesz hatással."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:337
+msgid "Provides less feedback, but is sometimes faster. Do not use with many files (thousands)."
+msgstr "Kevesebb visszajelzést ad, de néha gyorsabb is. Ne használja sok fájllal (több ezer) való munka esetén."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:371
+msgid "The Archive attribute will not be modified when using Action Types 'Move' or 'Delete'."
+msgstr "Az archívum attribútuma nem változik meg, amikor az 'Áthelyezés' vagy 'Törlés' feladat típust alkalmazza."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:376
+msgid "Remove Empty Directories"
+msgstr "Üres könyvtárak eltávolítása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:377
+msgid "Applies to File Operations 'Move' and 'Delete'."
+msgstr "Az 'Áthelyezés' és 'Törlés' fájlműveletekre vonatkozik."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:402
+msgid "Destination Directory"
+msgstr "Célkönyvtár"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:405
+msgid "Automatically Create Directory"
+msgstr "Könyvtár automatikus készítése"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:406
+msgid "If enabled, the directory will be created on Action execution."
+msgstr "Ha engedélyezve van, a könyvtár a feladat végrehajtásakor jön létre."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:416
+msgid "Name Template"
+msgstr "Név sablon"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:420
+msgid "Append Extension"
+msgstr "Kiterjesztés csatolása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:421
+msgid "If disabled, the default extension ('.zip', '.7z', etc.) will not be appended."
+msgstr "Ha nincs engedélyezve, az alapértelmezett kiterjesztés ('.zip', '.7zip', stb.) nem lesz csatolva."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:434
+msgid "'$N'"
+msgstr "'$N'"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:482
+msgid "Finalize"
+msgstr "Befejezés"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:489
+msgid "Maintain a list of successful backups"
+msgstr "Sikeres biztonsági mentések listájának kezelése"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:451
+msgid "If disabled, the History will not be maintained, and no '*.abh' files will be created or updated."
+msgstr "Ha nincs engedélyezve, az Előzmények nem lesz kezelve, és egy '*.abh' fájl sem lesz létrehozva vagy frissítve."
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:493
+msgid "Remove backups older than N days"
+msgstr "N napnál régebbi mentések eltávolítása"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:497
+msgid "Always keep a minimum of N backups"
+msgstr "Mindig tartson meg minimum N számú mentést"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:501
+msgid "Keep a maximum of N backups"
+msgstr "Tartson meg maximum N számú mentést"
+
+# P:\Abakt\Source\abakt\Core\AbaktConfigSets.cpp:507
+msgid "Move deleted backups to Recycle Bin if possible"
+msgstr "Törölt mentések Lomtárba helyezése, ha lehetséges"
+
+# P:\Abakt\Source\abakt\Core\AbaktFileList.cpp:174
+#, c-format
+msgid "Error [%d] opening directory %s: %s"
+msgstr "Hiba [%d] a(z) %s könyvtár megnyitásakor: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktFileList.cpp:233
+#, c-format
+msgid "Error [%d] in file %s: %s"
+msgstr "Hiba [%d] a(z) %s fájlban: %s"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:66
+msgid "Directory Not Selected"
+msgstr "Nincs könyvtár kiválasztva"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:76
+msgid "Error reading file properties."
+msgstr "Hiba történt a fájl tulajdonságainak megnyitásakor."
+
+msgid "Include Filter"
+msgstr "Felvett fájlok szűrője"
+
+msgid "Exclude Filter"
+msgstr "Kizárt fájlok szűrője"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:124
+#, c-format
+msgid "Attribute Filter (%s)"
+msgstr "Attribúrum szűrő (%s)"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:130
+msgid "Size Filter"
+msgstr "Méret szűrő"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:136
+msgid "Date Filter"
+msgstr "Dátum szűrő"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:142
+#, c-format
+msgid "Age Filter (%s)"
+msgstr "Kor szűrő (%s)"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:291
+#, c-format
+msgid "File Age (%d) between %d-%d days"
+msgstr "Kor szűrő (%d) %d-%d napok közt"
+
+# P:\Abakt\Source\abakt\Core\AbaktFilter.cpp:296
+#, c-format
+msgid "File Age (%d) outside %d-%d days"
+msgstr "Kor szűrő (%d) %d-%d napokon kívül"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:135
+msgid "Build"
+msgstr "Build"
+
+# P:\Abakt\Source\abakt\Core\AbaktGlobals.cpp:168
+msgid "Could not create Temporary Directory:"
+msgstr "Ideiglenes könyvtár létrehozása sikertelen:"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:58
+msgid "No History file. You have to save the Profile first."
+msgstr "Nincs Előzmények fájl. Először el kell menteni a profilt."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:63
+#, c-format
+msgid "Reading History file %s."
+msgstr "%s Előzmények fájl olvasása."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:86
+msgid "Writing updated History file..."
+msgstr "Frissített Előzmények fájl írása..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:138
+#, c-format
+msgid "History file does not exist: %s."
+msgstr "Előzmények fájl nem létezik: %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:144
+#, c-format
+msgid "Error while parsing History file: %s."
+msgstr "Hiba történt az Előzmények fájl elemzése közben: %s."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:256
+#, c-format
+msgid "Removing non-existent Backup path from History filelist: %s..."
+msgstr "Nem létező mentés útvonalak eltávolítása az Előzmények fájllistából: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:276
+msgid "Files on removable disks are not recorded."
+msgstr "A cserélhető lemezeken lévő fájlok nem lesznek regisztrálva."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:280
+#, c-format
+msgid "Adding to History: %s..."
+msgstr "Hozzáadás az Előzményekhez: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:309
+#, c-format
+msgid "MinBackups (%d) is greater than MaxBackups (%d)."
+msgstr "A MinMentések (%d) nagyobbak, mint a MaxMentések (%d)."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:313
+#, c-format
+msgid "MaxBackups is set to %d."
+msgstr "A MaxMentés %d-re állítva."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:329
+#, c-format
+msgid "Could not determine age of %s."
+msgstr "A(z) %s korát nem lehetett megállapítani."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:340
+#, c-format
+msgid "Backups marked for removal by Age (Older than %d day(s)): %d."
+msgstr "A mentések eltávolításra lettek kijelölve a koruk szerint (Régebbi, mint %d nap): %d."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:352
+#, c-format
+msgid "Keeping a minimum of %d backups."
+msgstr "Minimum %d mentés megtartása."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:363
+#, c-format
+msgid "Keeping a maximum of %d backups."
+msgstr "Maximum %d mentés megtartása."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:371
+msgid "No backups will be removed."
+msgstr "Egy mentés sem lesz eltávolítva."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:375
+#, c-format
+msgid "Removing %d backup(s):"
+msgstr "%d mentés eltávolítása:"
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:394
+#, c-format
+msgid "Moving to Recycle Bin: %s..."
+msgstr "Lomtárba áthelyezés: %s..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:399
+#, c-format
+msgid "Permanently deleting %s..."
+msgstr "%s végleges törlése..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:432
+#, c-format
+msgid "and %d associated .Z## file(s)..."
+msgstr "és %d .Z## fájlhoz rendelése..."
+
+# P:\Abakt\Source\abakt\Core\AbaktHistory.cpp:434
+msgid "Could not remove all associated .Z## files."
+msgstr "Nem lehetett eltávolítani az összes .Z## fájlt."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:121
+#, c-format
+msgid "Command Line error: Could not open file %s."
+msgstr "Parancssori hiba: %s fájlt nem lehetett megnyitni."
+
+# P:\Abakt\Source\abakt\Core\CommandLine.cpp:138
+#, c-format
+msgid "Command Line execution: Using Profile %s."
+msgstr "Parancssori végrehajtás: %s profil használata."
+

@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="..\..\Abakt.exe"/>
+    <OBJFILES value="..\obj\AbaktClasses.obj ..\obj\AbaktConfigItems.obj 
+      ..\obj\AbaktConfigSets.obj ..\obj\AbaktFileList.obj ..\obj\AbaktFilter.obj 
+      ..\obj\AbaktFilterSet.obj ..\obj\AbaktGlobals.obj ..\obj\AbaktGroup.obj 
+      ..\obj\AbaktHistory.obj ..\obj\AbaktProfile.obj ..\obj\CommandLine.obj 
+      ..\obj\ExitCodes.obj ..\obj\FileProperties.obj ..\obj\Xml_IO.obj 
+      ..\obj\Abakt.obj ..\obj\Main.obj ..\obj\About.obj ..\obj\Action.obj 
+      ..\obj\ActionSevenZip.obj ..\obj\DataModule.obj ..\obj\SourceFrame.obj 
+      ..\obj\FiltersFrame.obj ..\obj\ActionTypeFrame.obj 
+      ..\obj\ActionTypeSettingsFrame.obj ..\obj\DestinationFrame.obj 
+      ..\obj\FinalizeFrame.obj ..\obj\ActionFileOperation.obj ..\obj\Group.obj 
+      ..\obj\ConfigEditFrame.obj ..\obj\FilterPreview.obj ..\obj\GlobalFuncs.obj 
+      ..\obj\Gui_X_Profile.obj ..\obj\Gui_X_Globals.obj ..\obj\Preferences.obj 
+      ..\obj\FileSizeEditor.obj ..\obj\TemplateEditor.obj 
+      ..\obj\RestoreBackup.obj ..\obj\FilterSetEditor.obj 
+      ..\obj\CheckListBoxFrame.obj ..\obj\FilterSetListFrame.obj 
+      ..\obj\TRANSLATE.obj ..\obj\History.obj ..\obj\RecentFiles.obj"/>
+    <RESFILES value="Abakt.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm About.dfm Action.dfm DataModule.dfm SourceFrame.dfm 
+      FiltersFrame.dfm ActionTypeFrame.dfm ActionTypeSettingsFrame.dfm 
+      DestinationFrame.dfm FinalizeFrame.dfm Group.dfm ConfigEditFrame.dfm 
+      FilterPreview.dfm Preferences.dfm FileSizeEditor.dfm TemplateEditor.dfm 
+      RestoreBackup.dfm FilterSetEditor.dfm CheckListBoxFrame.dfm 
+      FilterSetListFrame.dfm History.dfm"/>
+    <LIBFILES value="P:\ecc\ecc.lib ..\..\Lib\expat.lib"/>
+    <LIBRARIES value="ZBldr179C6.lib Ecc.lib bcbsmp.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib bcbsmp.lib Ecc.lib ZBldr179C6.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi ibsmp.bpi rxctl6.bpi"/>
+    <PATHCPP value=".;Core"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="NO_WIN32_LEAN_AND_MEAN;ABT_TRANSLATE;ABT_TEST"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Abakt.cpp"/>
+    <INCLUDEPATH value="Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;$(ProgramFiles)\DrehoekSW\ZipBuilder\Source"/>
+    <LIBPATH value="Core;..\..\Lib;$(ECC);$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ICore -I..\expat -I$(ECC)\Source -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(ProgramFiles)\DrehoekSW\ZipBuilder\Source -src_suffix cpp 
+      -DNO_WIN32_LEAN_AND_MEAN -DABT_TRANSLATE -DABT_TEST"/>
+    <CFLAG1 value="-O2 -H=..\obj\abakt.csm -Hc -Vx -Ve -X- -a8 -6 -b -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-N2..\obj -N0..\obj -$Y- -$R -$Q -$L- -$J -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-I..\obj -D&quot;&quot; -Hc:0x4000 -Sc:0x4000 -aa -Tpe -x"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Core\AbaktClasses.cpp" FORMNAME="" UNITNAME="AbaktClasses" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktConfigItems.cpp" FORMNAME="" UNITNAME="AbaktConfigItems" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktConfigSets.cpp" FORMNAME="" UNITNAME="AbaktConfigSets" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktFileList.cpp" FORMNAME="" UNITNAME="AbaktFileList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktFilter.cpp" FORMNAME="" UNITNAME="AbaktFilter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktFilterSet.cpp" FORMNAME="" UNITNAME="AbaktFilterSet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktGlobals.cpp" FORMNAME="" UNITNAME="AbaktGlobals" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktGroup.cpp" FORMNAME="" UNITNAME="AbaktGroup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktHistory.cpp" FORMNAME="" UNITNAME="AbaktHistory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\AbaktProfile.cpp" FORMNAME="" UNITNAME="AbaktProfile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\CommandLine.cpp" FORMNAME="" UNITNAME="CommandLine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\ExitCodes.cpp" FORMNAME="" UNITNAME="ExitCodes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\FileProperties.cpp" FORMNAME="" UNITNAME="FileProperties" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Core\Xml_IO.cpp" FORMNAME="" UNITNAME="Xml_IO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Abakt.res" FORMNAME="" UNITNAME="Abakt.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Abakt.cpp" FORMNAME="" UNITNAME="Abakt" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="f_Main" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="About.cpp" FORMNAME="f_About" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Action.cpp" FORMNAME="f_Action" UNITNAME="Action" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ActionSevenZip.cpp" FORMNAME="" UNITNAME="ActionSevenZip" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DataModule.cpp" FORMNAME="DM" UNITNAME="DataModule" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="SourceFrame.cpp" FORMNAME="FrameSource" UNITNAME="SourceFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="FiltersFrame.cpp" FORMNAME="FrameFilters" UNITNAME="FiltersFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="ActionTypeFrame.cpp" FORMNAME="FrameActionType" UNITNAME="ActionTypeFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="ActionTypeSettingsFrame.cpp" FORMNAME="FrameActionTypeSettings" UNITNAME="ActionTypeSettingsFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="DestinationFrame.cpp" FORMNAME="FrameDestination" UNITNAME="DestinationFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="FinalizeFrame.cpp" FORMNAME="FrameFinalize" UNITNAME="FinalizeFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="ActionFileOperation.cpp" FORMNAME="" UNITNAME="ActionFileOperation" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Group.cpp" FORMNAME="f_Group" UNITNAME="Group" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ConfigEditFrame.cpp" FORMNAME="FrameConfigEdit" UNITNAME="ConfigEditFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="FilterPreview.cpp" FORMNAME="f_FilterPreview" UNITNAME="FilterPreview" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GlobalFuncs.cpp" FORMNAME="" UNITNAME="GlobalFuncs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Gui_X_Profile.cpp" FORMNAME="" UNITNAME="Gui_X_Profile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Gui_X_Globals.cpp" FORMNAME="" UNITNAME="Gui_X_Globals" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Preferences.cpp" FORMNAME="f_Prefs" UNITNAME="Preferences" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FileSizeEditor.cpp" FORMNAME="f_FileSizeEditor" UNITNAME="FileSizeEditor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TemplateEditor.cpp" FORMNAME="f_TemplateEditor" UNITNAME="TemplateEditor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RestoreBackup.cpp" FORMNAME="f_RestoreBackup" UNITNAME="RestoreBackup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FilterSetEditor.cpp" FORMNAME="f_FilterSetEditor" UNITNAME="FilterSetEditor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CheckListBoxFrame.cpp" FORMNAME="FrameCheckListBox" UNITNAME="CheckListBoxFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="FilterSetListFrame.cpp" FORMNAME="FrameFilterSetList" UNITNAME="FilterSetListFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="TRANSLATE.cpp" FORMNAME="" UNITNAME="TRANSLATE" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="History.cpp" FORMNAME="f_History" UNITNAME="History" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RecentFiles.cpp" FORMNAME="" UNITNAME="RecentFiles" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="P:\ecc\ecc.lib" FORMNAME="" UNITNAME="ecc.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Lib\expat.lib" FORMNAME="" UNITNAME="expat.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=9
+Release=5
+Build=333
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2057
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Erik Dienske
+FileDescription=Abakt - A Backup Tool
+FileVersion=0.9.5.333
+InternalName=Abakt
+LegalCopyright=2003-2006 Erik Dienske
+LegalTrademarks=Abakt
+OriginalFilename=Abakt.exe
+ProductName=Abakt
+ProductVersion=1.0.0.0
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+C:\Program Files\Borland\CBuilder6\Bin\dcldb60.bpl=Borland Database Components
+c:\program files\borland\cbuilder6\Bin\dclbcbsmp60.bpl=Borland Sample Controls Design Time Package
+c:\program files\borland\cbuilder6\Bin\dclbde60.bpl=Borland BDE DB Components
+C:\Program Files\Borland\CBuilder6\Bin\dbx60.bpl=Borland SQL Explorer UI Package
+c:\program files\borland\cbuilder6\Bin\dclact60.bpl=Borland ActionBar Components
+c:\program files\borland\cbuilder6\Bin\dclnet60.bpl=Borland Internet Components
+c:\program files\borland\cbuilder6\Bin\DCLNMF60.bpl=NetMasters Fastnet Tools
+c:\program files\borland\cbuilder6\Bin\bcbie60.bpl=Borland C++Builder Internet Explorer 5 Components Package
+c:\program files\borland\cbuilder6\Bin\dclsmpedit60.bpl=Borland Editor Script Enhancements
+C:\Program Files\Borland\CBuilder6\Bin\dclmid60.bpl=Borland MyBase DataAccess Components
+c:\program files\borland\cbuilder6\Bin\dclwbm60.bpl=Borland InternetExpress Components
+c:\program files\borland\cbuilder6\Bin\dclmlwiz60.bpl=Borland Markup Language Wizards
+C:\Program Files\Borland\CBuilder6\Bin\dclcds60.bpl=Borland Base Cached ClientDataset Component
+c:\program files\borland\cbuilder6\Bin\dclbdecds60.bpl=Borland Local BDE ClientDataset Components
+c:\program files\borland\cbuilder6\Bin\idefilters60.bpl=IDE Filter for CPP32
+c:\program files\borland\cbuilder6\Bin\dcldbx60.bpl=Borland dbExpress Components
+c:\program files\borland\cbuilder6\Bin\bcb2kaxserver60.bpl=Borland C++Builder COM Server Components Sample Package
+c:\program files\borland\cbuilder6\Bin\DCLIB60.bpl=InterBase Data Access Components
+c:\program files\borland\cbuilder6\Bin\dclwebsnap60.bpl=Borland WebSnap Components
+c:\program files\borland\cbuilder6\Bin\dclindy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+c:\program files\borland\cbuilder6\Bin\dcldbxcds60.bpl=Borland Local DBX ClientDataset Components
+c:\program files\borland\cbuilder6\Bin\dclado60.bpl=Borland ADO DB Components
+c:\program files\borland\cbuilder6\Bin\dclqrt60.bpl=QuickReport Components
+c:\program files\borland\cbuilder6\Bin\dcltee60.bpl=TeeChart Components
+c:\program files\borland\cbuilder6\Bin\dcldss60.bpl=Borland Decision Cube Components
+c:\program files\borland\cbuilder6\Bin\dcltqr60.bpl=TeeChart for QuickReport Components
+c:\program files\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+C:\Program Files\Borland\CBuilder6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+c:\program files\borland\cbuilder6\Bin\dclmcn60.bpl=Borland DataSnap Connection Components
+c:\program files\borland\cbuilder6\Bin\applet60.bpl=Borland Control Panel Applet Package
+c:\program files\borland\cbuilder6\Bin\dclemacsedit60.bpl=Borland Editor Emacs Enhancements
+c:\program files\borland\cbuilder6\Bin\dclsoap60.bpl=Borland SOAP Components
+c:\program files\borland\cbuilder6\Bin\dclocx60.bpl=Borland Sample Imported ActiveX Controls
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files\borland\cbuilder6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+
+[HistoryLists\hlIncludePath]
+Count=30
+Item0=Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;$(ProgramFiles)\DrehoekSW\ZipBuilder\Source
+Item1=C:\Program Files\Borland\CBuilder6\Projects;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;$(ProgramFiles)\DrehoekSW\ZipBuilder\Source
+Item2=Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item3=Core;..\expat;$(ECC)\Source;P:\Abakt\ZipBuilder17831\VCL;$(BCB)\include;$(BCB)\include\vcl
+Item4=$(ProgramFiles)\DrehoekSW\ZipBuilder\Source;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item5=$(ProgramFiles)\DrehoekSW\ZipBuilder\Source;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;P:\Abakt\ZipBuilder
+Item6=Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;P:\Abakt\ZipBuilder;..\..\ZipBuilder
+Item7=Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\DrehoekSW\ZipBuilder\Source
+Item8=C:\Program Files\Borland\CBuilder6\Projects;..\..\zipbuilder17831\vcl;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item9=..\..\zipbuilder17831\vcl;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item10=Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;..\..\zipbuilder17831\vcl
+Item11=..\..\zipbuilder17831\vcl;C:\Program Files\Borland\CBuilder6\Projects;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item12=C:\Program Files\Borland\CBuilder6\Projects;Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item13=Core;..\expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item14=Core;..\aci_DLL;..\expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item15=..\aci_DLL;Core;..\expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item16=aci_DLL;Core;expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item17=D:\Program Files\Borland\CBuilder6\Projects;aci_DLL;Core;expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item18=D:\Program Files\Borland\CBuilder6\Projects;datatypes_DLL;Core;expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item19=datatypes_DLL;Core;expat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item20=datatypes_DLL;expat;xmlio_DLL;Core;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item21=datatypes_DLL;expat;Core;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item22=datatypes_DLL;libexpat;Core;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item23=DataTypesDLL;libexpat;Core;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item24=libDataTypes;libexpat;Core;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item25=Core;libexpat;Plugin;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item26=D:\Program Files\Borland\CBuilder6\Projects;Core;libexpat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item27=Core;libexpat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl
+Item28=Core;libexpat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;P:\ZipArchive---\ZipArchive_library\ZipArchive
+Item29=P:\Ecc\Source;Core;libexpat;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=30
+Item0=Core;..\..\Lib;$(ECC);$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\Borland\CBuilder6\Projects;Core;..\..\Lib;$(ECC);$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=Core;..\..\Lib;$(ECC);P:\Abakt\ZipBuilder17831\VCL;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=Core;..\..\Lib;$(ECC);P:\Abakt\ZipBuilder17831\VCL;$(BCB)\lib\obj;$(BCB)\lib
+Item4=Core;..\..\Lib;$(ECC);P:\Abakt\ZipBuilder17831\VCL;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=Core;..\..\Lib;$(ECC);$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=$(ProgramFiles)\DrehoekSW\ZipBuilder\Source;Core;..\..\Lib;$(ECC);$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item7=C:\Program Files\Borland\CBuilder6\Projects;..\..\zipbuilder17831\vcl;Core;..\..\Lib;$(ECC);$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..\..\zipbuilder17831\vcl;Core;..\..\Lib;$(ECC);$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item9=Core;..\..\Lib;$(ECC);$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\..\zipbuilder17831\vcl
+Item10=..\..\zipbuilder17831\vcl;C:\Program Files\Borland\CBuilder6\Projects;Core;..\..\Lib;$(ECC);C:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item11=C:\Program Files\Borland\CBuilder6\Projects;Core;..\..\Lib;$(ECC);C:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item12=Core;..\..\Lib;$(ECC);C:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item13=Core;..\..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item14=..\..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item15=Core;..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item16=..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item17=aci_DLL;..\Lib;Core;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item18=D:\Program Files\Borland\CBuilder6\Projects;aci_DLL;..\Lib;Core;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item19=datatypes_DLL;D:\Program Files\Borland\CBuilder6\Projects;..\Lib;Core;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item20=..\Lib;Core;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item21=xmlio_DLL;DataTypesDLL;Core;..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item22=DataTypesDLL;Core;..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item23=Plugin;Core;..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item24=D:\Program Files\Borland\CBuilder6\Projects;Core;..\Lib;$(ECC);D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item25=Core;..\Lib;D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(ECC)
+Item26=Core;..\Lib;D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item27=..\Lib;D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item28=D:\Program Files\Borland\CBuilder6\Projects;Core;..\Lib;D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item29=D:\Program Files\Borland\CBuilder6\Projects;Core;D:\Program Files\ComponentAce\ZipForge\Lib\C++ Builder 6;..\Lib;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=30
+Item0=NO_WIN32_LEAN_AND_MEAN;ABT_TRANSLATE;ABT_TEST
+Item1=NO_WIN32_LEAN_AND_MEAN;ABT_TRANSLATE
+Item2=NO_WIN32_LEAN_AND_MEAN;ABT_TRANSLATE;ABT_TEST;_DEBUG
+Item3=NO_WIN32_LEAN_AND_MEAN;ABT_TRANSLATE;_DEBUG
+Item4=NO_WIN32_LEAN_AND_MEAN;ABT_TEST;ABT_TRANSLATE
+Item5=NO_WIN32_LEAN_AND_MEAN;ABT_TEST;ABT_TRANSLATE;_DEBUG
+Item6=NO_WIN32_LEAN_AND_MEAN;_TEST;ABT_TRANSLATE
+Item7=NO_WIN32_LEAN_AND_MEAN;_TEST;ABT_TRANSLATE;_DEBUG
+Item8=NO_WIN32_LEAN_AND_MEAN;_TEST
+Item9=NO_WIN32_LEAN_AND_MEAN;_TEST;_DEBUG
+Item10=ABT_TRANSLATE=0;NO_WIN32_LEAN_AND_MEAN;_TEST
+Item11=ABT_TRANSLATE=1;NO_WIN32_LEAN_AND_MEAN;_TEST
+Item12=NO_WIN32_LEAN_AND_MEAN
+Item13=NO_WIN32_LEAN_AND_MEAN;_TEST;ABT_TRANSLATE=0
+Item14=NO_WIN32_LEAN_AND_MEAN;
+Item15=NO_WIN32_LEAN_AND_MEAN;_TEST;_UNICODE
+Item16=NO_WIN32_LEAN_AND_MEAN;_TEST=&quot;a'
+Item17=NO_WIN32_LEAN_AND_MEAN;_TEST=&quot;-beta1&quot;
+Item18=NO_WIN32_LEAN_AND_MEAN;_TEST=&quot;T01&quot;
+Item19=NO_WIN32_LEAN_AND_MEAN;_DEBUG
+Item20=NO_WIN32_LEAN_AND_MEAN;_TEST;NDEBUG;_MBCS;_AFXDLL;WIN32;_WINDOWS;ZLIB_DLL;PKZIP_BUG_WORKAROUND
+Item21=NO_WIN32_LEAN_AND_MEAN;;_DEBUG
+Item22=NO_WIN32_LEAN_AND_MEAN;_LEO
+Item23=NO_WIN32_LEAN_AND_MEAN;_LEO;_DEBUG
+Item24=_DEBUG
+Item25=NO_WIN32_LEAN_AND_MEAN;ZIP_HAS_DLL=1
+Item26=NO_WIN32_LEAN_AND_MEAN;ZIP_HAS_DLL=1;ZIP_BUILD_DLL=0
+Item27=NO_WIN32_LEAN_AND_MEAN;ZIP_HAS_DLL=0;ZIP_BUILD_DLL=1
+Item28=NO_WIN32_LEAN_AND_MEAN;ZIP_HAS_DLL=0
+Item29=NO_WIN32_LEAN_AND_MEAN;ZIP_HAS_DLL
+
+[HistoryLists\hlIntOutputDir]
+Count=5
+Item0=..\obj
+Item1=..\obj2
+Item2=..\..\obj
+Item3=P:\Abakt\obj
+Item4=P:\ErixBackup\obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=5
+Item0=..\..\
+Item1=P:\Abakt\
+Item2=P:\Abakt
+Item3=..\
+Item4=P:\ErixBackup
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
