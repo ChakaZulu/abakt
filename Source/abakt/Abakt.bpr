@@ -30,9 +30,9 @@
       FilterPreview.dfm Preferences.dfm FileSizeEditor.dfm TemplateEditor.dfm 
       RestoreBackup.dfm FilterSetEditor.dfm CheckListBoxFrame.dfm 
       FilterSetListFrame.dfm History.dfm"/>
-    <LIBFILES value="P:\ecc\ecc.lib ..\..\Lib\expat.lib"/>
-    <LIBRARIES value="ZBldr179C6.lib Ecc.lib bcbsmp.lib vclx.lib vcl.lib rtl.lib"/>
-    <SPARELIBS value="rtl.lib vcl.lib vclx.lib bcbsmp.lib Ecc.lib ZBldr179C6.lib"/>
+    <LIBFILES value="..\..\..\ecc\bin\ecc.lib ..\..\Lib\expat.lib"/>
+    <LIBRARIES value="ZBldr179C10.lib Ecc.lib bcbsmp.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib bcbsmp.lib Ecc.lib ZBldr179C10.lib"/>
     <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi ibsmp.bpi rxctl6.bpi"/>
     <PATHCPP value=".;Core"/>
     <PATHPAS value=".;"/>
@@ -44,8 +44,8 @@
     <USERDEFINES value="NO_WIN32_LEAN_AND_MEAN;ABT_TRANSLATE;ABT_TEST"/>
     <SYSDEFINES value="NO_STRICT"/>
     <MAINSOURCE value="Abakt.cpp"/>
-    <INCLUDEPATH value="Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;$(ProgramFiles)\DrehoekSW\ZipBuilder\Source"/>
-    <LIBPATH value="Core;..\..\Lib;$(ECC);$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <INCLUDEPATH value="Core;..\expat;$(ECC)\Source;$(BCB)\include;$(BCB)\include\vcl;..\..\..\ZipBuilder"/>
+    <LIBPATH value="Core;..\..\Lib;$(ECC);$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\..\..\ZipBuilder\CBuilder\bin"/>
     <WARNINGS value="-w-par -w-8027 -w-8026"/>
     <OTHERFILES value=""/>
   </MACROS>
@@ -111,7 +111,7 @@
       <FILE FILENAME="TRANSLATE.cpp" FORMNAME="" UNITNAME="TRANSLATE" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="History.cpp" FORMNAME="f_History" UNITNAME="History" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="RecentFiles.cpp" FORMNAME="" UNITNAME="RecentFiles" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="P:\ecc\ecc.lib" FORMNAME="" UNITNAME="ecc.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\ecc\bin\ecc.lib" FORMNAME="" UNITNAME="ecc.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="..\..\Lib\expat.lib" FORMNAME="" UNITNAME="expat.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
